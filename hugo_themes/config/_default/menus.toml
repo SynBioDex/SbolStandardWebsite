@@ -142,6 +142,11 @@
   parent = "community-id"
 
 [[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 55
+
+[[main]]
   name = "FAQ"
   url = "#faq"
   weight = 60
