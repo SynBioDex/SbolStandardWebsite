@@ -97,7 +97,7 @@
 
 [[main]]
   name = "Applications"
-  url = "#projects"
+  url = "/applications"
   weight = 30
 
 [[main]]
