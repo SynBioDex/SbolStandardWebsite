@@ -137,13 +137,13 @@
 
 [[main]]
   name = "SBOL Industrial Consortium"
-  url = "#dom-about"
+  url = "/sbol-industrial"
   weight = 25
   parent = "community-id"
 
 [[main]]
   name = "Contact"
-  url = "#contact"
+  url = "/contact"
   weight = 55
 
 [[main]]
