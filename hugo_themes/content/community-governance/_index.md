@@ -1,5 +1,5 @@
 ---
-title: The SBOL Community
+title: Governance
 
 # View.
 #   1 = List

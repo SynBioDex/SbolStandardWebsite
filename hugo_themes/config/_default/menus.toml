@@ -107,31 +107,31 @@
 
 [[main]]
   name = "Community"
-  url = "#community"
+  url = "/community"
   weight = 50
   identifier = "community-id"
 
 [[main]]
   name = "About"
-  url = "#dom-about"
+  url = "/community"
   weight = 5
   parent = "community-id"
 
 [[main]]
   name = "Meetings"
-  url = "#dom-about"
+  url = "/community-meetings"
   weight = 10
   parent = "community-id"
 
 [[main]]
   name = "Outreach"
-  url = "#dom-about"
+  url = "/community-outreach"
   weight = 15
   parent = "community-id"
 
 [[main]]
   name = "Governance"
-  url = "#dom-about"
+  url = "/community-governance"
   weight = 20
   parent = "community-id"
 

@@ -1,5 +1,5 @@
 ---
-title: The SBOL Community
+title: Outreach
 
 # View.
 #   1 = List

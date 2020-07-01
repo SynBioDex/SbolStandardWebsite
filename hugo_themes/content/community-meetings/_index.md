@@ -1,5 +1,5 @@
 ---
-title: The SBOL Community
+title: Meetings
 
 # View.
 #   1 = List
