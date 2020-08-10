@@ -31,5 +31,7 @@ The [sbol-announce](mailto:sbol-announce@googlegroups.com), [sbol-users](mailto:
 Please fill in the following form if you would like to **join the SBOL community** or **subscribe** to the sbol-dev, sbol-visual, sbol-users, or sbol-announce mailing list:
 
 
-
 {{< gdocs src="https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU/edit?usp=sharing" >}}
+
+
+If you are unable to view the form, try this [link](https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU).
