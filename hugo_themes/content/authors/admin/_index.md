@@ -1,6 +1,6 @@
 ---
 # Display name
-title: SBOL
+title: Synthetic Biology Open Language
 
 # Username (this should match the folder name)
 authors:
