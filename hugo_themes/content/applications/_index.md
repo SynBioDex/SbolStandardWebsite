@@ -16,6 +16,8 @@ header:
 
 If you are a synthetic biologist, you may not be aware that there are already many software tools available that support different aspects of the synthetic biology workflow, such as optimizing DNA assembly or simulating gene networks.  Each of the software tools listed here supports exchange of genetic designs in the SBOL file format (SBOL core) or supports display of genetic designs using standard SBOL Visual glyphs.
 
+{{< figure width="650px" library="true" src="SBOL_2_demo_workflow_chris.png" title="" lightbox="true" >}}
+
 
 ### Feature Your Application Here!
 
