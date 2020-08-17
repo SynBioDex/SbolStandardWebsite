@@ -21,6 +21,7 @@ The SBOL community works actively on the SBOL data model and visual standard, pa
 
 To join our growing community, contact the SBOL Editors at sbol-editors@googlegroups.com.
 
+### Members
 
 | Name                       | Affiliation                                               | Country         |
 |----------------------------|-----------------------------------------------------------|-----------------|
