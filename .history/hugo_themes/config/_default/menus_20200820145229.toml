@@ -63,7 +63,7 @@
   identifier = "visual-id"
 
 [[main]]
-  name = "About SBOL Visual"
+  name = "About"
   url = "/visual-about"
   weight = 5
   parent = "visual-id"
@@ -87,7 +87,7 @@
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Examples"
+  name = "Examples"
   url = "/visual-examples"
   weight = 25
   parent = "visual-id"
