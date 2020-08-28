@@ -60,35 +60,32 @@
   name = "Visual"
   url = "/visual"
   weight = 25
-  identifier = "visual-id"
+  identifier = "Visual"
 
 [[main]]
-  name = "About SBOL Visual"
-  url = "/visual-about"
-  weight = 5
-  parent = "visual-id"
-
-[[main]]
-  name = "SBOL Visual Specification"
-  url = "/visual-specification"
+  name = "Specification"
+  url = "sbol-visual-specification/"
   weight = 10
-  parent = "visual-id"
+  parent = ""
+
 
 [[main]]
   name = "Glyphs"
-  url = "/visual-glyphs"
+  url = "#dom-about"
   weight = 15
   parent = "visual-id"
 
-[[main]]
-  name = "Ontology"
-  url = "/visual-ontology"
-  weight = 20
-  parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Examples"
-  url = "/visual-examples"
+  name = "Ontology"
+  url = "#dom-about"
+  weight = 20
+  parent = "visual-id"  
+
+
+[[main]]
+  name = "Examples"
+  url = "#dom-about"
   weight = 25
   parent = "visual-id"
 

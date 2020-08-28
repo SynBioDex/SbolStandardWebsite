@@ -64,7 +64,7 @@
 
 [[main]]
   name = "About SBOL Visual"
-  url = "/visual-about"
+  url = "/visual"
   weight = 5
   parent = "visual-id"
 

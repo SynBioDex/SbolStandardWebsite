@@ -58,7 +58,7 @@
 
 [[main]]
   name = "Visual"
-  url = "/visual"
+  url = "/visual-about"
   weight = 25
   identifier = "visual-id"
 
