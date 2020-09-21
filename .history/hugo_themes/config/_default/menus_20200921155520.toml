@@ -46,7 +46,7 @@
 
 [[main]]
   name = "Validator"
-  url = "https://validator.sbolstandard.org/"
+  url = "#dom-about"
   weight = 30
   parent = "dom-id"
 
