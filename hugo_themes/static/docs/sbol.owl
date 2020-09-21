@@ -1,0 +1,4034 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sbols.org/v2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://sbols.org/v2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="sbol" IRI="http://sbols.org/v2#"/>
+    <Import>http://www.purl.org/ontolink/tawny</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sbol</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The OWL version of the SBOL data model</Literal>
+    </Annotation>
+    <Declaration>
+        <ObjectProperty IRI="#remote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#built"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Module"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MapsTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VariableComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GenericLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overrideRoles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000280"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDefinitionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#useRemote"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#displayId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Implementation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComponentInstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000704"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000167"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restriction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#roleIntegration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Component"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#local"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#useLocal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SequenceConstraint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#strategy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EngineeredGene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promoter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#framework"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NASequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refinement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000057"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verifyIdentical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#enumerate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#template"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000704"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#useRemote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#merge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oneOrMore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zeroOrOne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reverseComplement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oppositeOrientationAs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallMolecule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#variantDerivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mRNA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInteractionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoleIntegration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMILES"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Access"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#direction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isObjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#object"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000141"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#variant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000234"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Effector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sequenceAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#persistentIdentity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isModuleOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zeroOrMore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DNA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#variantCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#none"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CDS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#public"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#variable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#at"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000057"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#module"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#verifyIdentical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CombinatorialDerivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Range"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#useLocal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mapsTo"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#zeroOrGreater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionalComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RBS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModuleDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SBOLVocabulary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reverseComplement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000280"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSequenceOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#end"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SequenceAnnotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000167"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#start"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enumerate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sameOrientationAs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/so/SO:0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GenericTopLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#private"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#greaterThanZero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VariableOperator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#restriction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#private"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#variableComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#model"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000316"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#encoding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#refinement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zeroOrMore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attachment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#none"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mergeRoles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#differentFrom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terminator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identified"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#elements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComponentDefinition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sequenceConstraint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubjectOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#functionalComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProteinSequence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inout"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oneOrMore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#merge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zeroOrOne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://identifiers.org/chebi/CHEBI:35224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.opensmiles.org/opensmiles.html"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.chem.qmul.ac.uk/iupac/AminoAcid/"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Access"/>
+        <ObjectUnionOf>
+            <Class IRI="#private"/>
+            <Class IRI="#public"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CDS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000316"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+        <ObjectUnionOf>
+            <Class IRI="#enumerate"/>
+            <Class IRI="#sample"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Complex"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#type"/>
+                <Class IRI="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ComponentDefinition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Complex"/>
+            <Class IRI="#DNA"/>
+            <Class IRI="#Protein"/>
+            <Class IRI="#RNA"/>
+            <Class IRI="#SmallMolecule"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ComponentInstance"/>
+        <ObjectUnionOf>
+            <Class IRI="#Component"/>
+            <Class IRI="#FunctionalComponent"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DNA"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#type"/>
+                <Class IRI="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Direction"/>
+        <ObjectUnionOf>
+            <Class IRI="#in"/>
+            <Class IRI="#inout"/>
+            <Class IRI="#none"/>
+            <Class IRI="#out"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Effector"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/chebi/CHEBI:35224"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#EngineeredGene"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000280"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gene"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000704"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Location"/>
+        <ObjectUnionOf>
+            <Class IRI="#Cut"/>
+            <Class IRI="#GenericLocation"/>
+            <Class IRI="#Range"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Operator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000057"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Orientation"/>
+        <ObjectUnionOf>
+            <Class IRI="#inline"/>
+            <Class IRI="#reverseComplement"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Promoter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000167"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Protein"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#type"/>
+                <Class IRI="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RBS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000139"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RNA"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#type"/>
+                <Class IRI="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Refinement"/>
+        <ObjectUnionOf>
+            <Class IRI="#merge"/>
+            <Class IRI="#useLocal"/>
+            <Class IRI="#useRemote"/>
+            <Class IRI="#verifyIdentical"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Restriction"/>
+        <ObjectUnionOf>
+            <Class IRI="#differentFrom"/>
+            <Class IRI="#oppositeOrientationAs"/>
+            <Class IRI="#precedes"/>
+            <Class IRI="#sameOrientationAs"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#RoleIntegration"/>
+        <ObjectUnionOf>
+            <Class IRI="#mergeRoles"/>
+            <Class IRI="#overrideRoles"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SBOLVocabulary"/>
+        <ObjectUnionOf>
+            <Class IRI="#Access"/>
+            <Class IRI="#CombinatorialDerivationStrategy"/>
+            <Class IRI="#Direction"/>
+            <Class IRI="#Orientation"/>
+            <Class IRI="#Refinement"/>
+            <Class IRI="#Restriction"/>
+            <Class IRI="#RoleIntegration"/>
+            <Class IRI="#VariableOperator"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SmallMolecule"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#type"/>
+                <Class IRI="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Terminator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000141"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#VariableOperator"/>
+        <ObjectUnionOf>
+            <Class IRI="#one"/>
+            <Class IRI="#oneOrMore"/>
+            <Class IRI="#zeroOrMore"/>
+            <Class IRI="#zeroOrOne"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#mRNA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#role"/>
+            <Class IRI="http://identifiers.org/so/SO:0000234"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Access"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attachment"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CDS"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collection"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombinatorialDerivation"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombinatorialDerivation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#template"/>
+            <Class IRI="#ComponentDefinition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complex"/>
+        <Class IRI="#ComponentDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Component"/>
+        <Class IRI="#ComponentInstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComponentDefinition"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComponentInstance"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComponentInstance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#access"/>
+            <Class IRI="#Access"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComponentInstance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#definition"/>
+            <Class IRI="#ComponentDefinition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cut"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DNA"/>
+        <Class IRI="#ComponentDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direction"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Effector"/>
+        <Class IRI="#SmallMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EngineeredGene"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionalComponent"/>
+        <Class IRI="#ComponentInstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunctionalComponent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#direction"/>
+            <Class IRI="#Direction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gene"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GenericLocation"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GenericTopLevel"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Implementation"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interaction"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MapsTo"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MapsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#local"/>
+            <Class IRI="#ComponentInstance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MapsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refinement"/>
+            <Class IRI="#Refinement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MapsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#remote"/>
+            <Class IRI="#ComponentInstance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MapsTo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#remote"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#access"/>
+                <Class IRI="#public"/>
+            </ObjectSomeValuesFrom>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Model"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Module"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#definition"/>
+            <Class IRI="#ModuleDefinition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModuleDefinition"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NASequence"/>
+        <Class IRI="#Sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NASequence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encoding"/>
+            <Class IRI="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NASequence"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isSequenceOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#DNA"/>
+                <Class IRI="#RNA"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operator"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientation"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participation"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#participant"/>
+            <Class IRI="#FunctionalComponent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promoter"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein"/>
+        <Class IRI="#ComponentDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinSequence"/>
+        <Class IRI="#Sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinSequence"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encoding"/>
+            <Class IRI="http://www.chem.qmul.ac.uk/iupac/AminoAcid/"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProteinSequence"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isSequenceOf"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RBS"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNA"/>
+        <Class IRI="#ComponentDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Range"/>
+        <Class IRI="#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refinement"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restriction"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoleIntegration"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMILES"/>
+        <Class IRI="#Sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMILES"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#encoding"/>
+            <Class IRI="http://www.opensmiles.org/opensmiles.html"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMILES"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isSequenceOf"/>
+            <Class IRI="#SmallMolecule"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequence"/>
+        <Class IRI="#TopLevel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequence"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#elements"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SequenceAnnotation"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SequenceAnnotation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#location"/>
+            <Class IRI="#Location"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SequenceConstraint"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SequenceConstraint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#object"/>
+            <Class IRI="#Component"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SequenceConstraint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#restriction"/>
+            <Class IRI="#Restriction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SequenceConstraint"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#subject"/>
+            <Class IRI="#Component"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmallMolecule"/>
+        <Class IRI="#ComponentDefinition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terminator"/>
+        <Class IRI="#DNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopLevel"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableComponent"/>
+        <Class IRI="#Identified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableComponent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#operator"/>
+            <Class IRI="#VariableOperator"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableComponent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#variable"/>
+            <Class IRI="#Component"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VariableOperator"/>
+        <Class IRI="#SBOLVocabulary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#differentFrom"/>
+        <Class IRI="#Restriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enumerate"/>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#in"/>
+        <Class IRI="#Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inline"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inout"/>
+        <Class IRI="#Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mRNA"/>
+        <Class IRI="#RNA"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#merge"/>
+        <Class IRI="#Refinement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mergeRoles"/>
+        <Class IRI="#RoleIntegration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#none"/>
+        <Class IRI="#Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#one"/>
+        <Class IRI="#VariableOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oneOrMore"/>
+        <Class IRI="#VariableOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oppositeOrientationAs"/>
+        <Class IRI="#Restriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#out"/>
+        <Class IRI="#Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overrideRoles"/>
+        <Class IRI="#RoleIntegration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#precedes"/>
+        <Class IRI="#Restriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#private"/>
+        <Class IRI="#Access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#public"/>
+        <Class IRI="#Access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reverseComplement"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sameOrientationAs"/>
+        <Class IRI="#Restriction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sample"/>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#useLocal"/>
+        <Class IRI="#Refinement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#useRemote"/>
+        <Class IRI="#Refinement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verifyIdentical"/>
+        <Class IRI="#Refinement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zeroOrMore"/>
+        <Class IRI="#VariableOperator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zeroOrOne"/>
+        <Class IRI="#VariableOperator"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Access"/>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+        <Class IRI="#Direction"/>
+        <Class IRI="#Orientation"/>
+        <Class IRI="#Refinement"/>
+        <Class IRI="#Restriction"/>
+        <Class IRI="#RoleIntegration"/>
+        <Class IRI="#VariableOperator"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attachment"/>
+        <Class IRI="#Collection"/>
+        <Class IRI="#CombinatorialDerivation"/>
+        <Class IRI="#ComponentDefinition"/>
+        <Class IRI="#GenericTopLevel"/>
+        <Class IRI="#Implementation"/>
+        <Class IRI="#Model"/>
+        <Class IRI="#ModuleDefinition"/>
+        <Class IRI="#Sequence"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CDS"/>
+        <Class IRI="#EngineeredGene"/>
+        <Class IRI="#Gene"/>
+        <Class IRI="#Operator"/>
+        <Class IRI="#Promoter"/>
+        <Class IRI="#RBS"/>
+        <Class IRI="#Terminator"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Complex"/>
+        <Class IRI="#DNA"/>
+        <Class IRI="#Protein"/>
+        <Class IRI="#RNA"/>
+        <Class IRI="#SmallMolecule"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Component"/>
+        <Class IRI="#FunctionalComponent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cut"/>
+        <Class IRI="#GenericLocation"/>
+        <Class IRI="#Range"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NASequence"/>
+        <Class IRI="#ProteinSequence"/>
+        <Class IRI="#SMILES"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#differentFrom"/>
+        <Class IRI="#oppositeOrientationAs"/>
+        <Class IRI="#precedes"/>
+        <Class IRI="#sameOrientationAs"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#enumerate"/>
+        <Class IRI="#sample"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#in"/>
+        <Class IRI="#inout"/>
+        <Class IRI="#none"/>
+        <Class IRI="#out"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#inline"/>
+        <Class IRI="#reverseComplement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#merge"/>
+        <Class IRI="#useLocal"/>
+        <Class IRI="#useRemote"/>
+        <Class IRI="#verifyIdentical"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#mergeRoles"/>
+        <Class IRI="#overrideRoles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#one"/>
+        <Class IRI="#oneOrMore"/>
+        <Class IRI="#zeroOrMore"/>
+        <Class IRI="#zeroOrOne"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#private"/>
+        <Class IRI="#public"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000057"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000057"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000139"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000139"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000141"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000141"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000167"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000167"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000234"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000234"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000280"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000280"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000316"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://identifiers.org/so/SO:0000704"/>
+        <NamedIndividual IRI="http://identifiers.org/so/SO:0000704"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#enumerate"/>
+        <NamedIndividual IRI="#enumerate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#in"/>
+        <NamedIndividual IRI="#in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#inline"/>
+        <NamedIndividual IRI="#inline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#inout"/>
+        <NamedIndividual IRI="#inout"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#merge"/>
+        <NamedIndividual IRI="#merge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#none"/>
+        <NamedIndividual IRI="#none"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#one"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#oneOrMore"/>
+        <NamedIndividual IRI="#oneOrMore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#out"/>
+        <NamedIndividual IRI="#out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#private"/>
+        <NamedIndividual IRI="#private"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#public"/>
+        <NamedIndividual IRI="#public"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#reverseComplement"/>
+        <NamedIndividual IRI="#reverseComplement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sample"/>
+        <NamedIndividual IRI="#sample"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#useLocal"/>
+        <NamedIndividual IRI="#useLocal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#useRemote"/>
+        <NamedIndividual IRI="#useRemote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#verifyIdentical"/>
+        <NamedIndividual IRI="#verifyIdentical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zeroOrOne"/>
+        <NamedIndividual IRI="#zeroOrMore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#zeroOrOne"/>
+        <NamedIndividual IRI="#zeroOrOne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+        <NamedIndividual IRI="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#component"/>
+        <ObjectProperty IRI="#isComponentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#definition"/>
+        <ObjectProperty IRI="#isDefinitionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#interaction"/>
+        <ObjectProperty IRI="#isInteractionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <ObjectProperty IRI="#member"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isModuleOf"/>
+        <ObjectProperty IRI="#module"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isObjectOf"/>
+        <ObjectProperty IRI="#object"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSequenceOf"/>
+        <ObjectProperty IRI="#sequence"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <ObjectProperty IRI="#subject"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#access"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#built"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#definition"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#direction"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#encoding"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#format"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#framework"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isSequenceOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#language"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#local"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#object"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#operator"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#orientation"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#participant"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#persistentIdentity"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#refinement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#remote"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#restriction"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#roleIntegration"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#source"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#strategy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#subject"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#template"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#variable"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#access"/>
+        <Class IRI="#ComponentInstance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#built"/>
+        <Class IRI="#Implementation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#component"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <Class IRI="#SequenceAnnotation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definition"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentInstance"/>
+            <Class IRI="#Module"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#direction"/>
+        <Class IRI="#FunctionalComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#encoding"/>
+        <Class IRI="#Sequence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#format"/>
+        <Class IRI="#Attachment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#framework"/>
+        <Class IRI="#Model"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#functionalComponent"/>
+        <Class IRI="#ModuleDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interaction"/>
+        <Class IRI="#ModuleDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isObjectOf"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSequenceOf"/>
+        <Class IRI="#Sequence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#language"/>
+        <Class IRI="#Model"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#local"/>
+        <Class IRI="#MapsTo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#location"/>
+        <Class IRI="#SequenceAnnotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mapsTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentInstance"/>
+            <Class IRI="#Module"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#model"/>
+        <Class IRI="#ModuleDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#module"/>
+        <Class IRI="#ModuleDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#object"/>
+        <Class IRI="#SequenceConstraint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#operator"/>
+        <Class IRI="#VariableComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#orientation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participant"/>
+        <Class IRI="#Participation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participation"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#persistentIdentity"/>
+        <Class IRI="#Identified"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refinement"/>
+        <Class IRI="#MapsTo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#remote"/>
+        <Class IRI="#MapsTo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#restriction"/>
+        <Class IRI="#SequenceConstraint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#role"/>
+        <ObjectUnionOf>
+            <Class IRI="#Component"/>
+            <Class IRI="#ComponentDefinition"/>
+            <Class IRI="#ModuleDefinition"/>
+            <Class IRI="#Participation"/>
+            <Class IRI="#SequenceAnnotation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roleIntegration"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sequence"/>
+        <Class IRI="#ComponentDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sequenceAnnotation"/>
+        <Class IRI="#ComponentDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sequenceConstraint"/>
+        <Class IRI="#ComponentDefinition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#source"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attachment"/>
+            <Class IRI="#Model"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#strategy"/>
+        <Class IRI="#CombinatorialDerivation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subject"/>
+        <Class IRI="#SequenceConstraint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#template"/>
+        <Class IRI="#CombinatorialDerivation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <Class IRI="#Interaction"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#variable"/>
+        <Class IRI="#VariableComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#variableComponent"/>
+        <Class IRI="#CombinatorialDerivation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#variant"/>
+        <Class IRI="#VariableComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#variantCollection"/>
+        <Class IRI="#VariableComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#variantDerivation"/>
+        <Class IRI="#VariableComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#access"/>
+        <Class IRI="#Access"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#built"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <Class IRI="#ModuleDefinition"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#component"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definition"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <Class IRI="#ModuleDefinition"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#direction"/>
+        <Class IRI="#Direction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#functionalComponent"/>
+        <Class IRI="#FunctionalComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interaction"/>
+        <Class IRI="#Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComponentOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#ComponentDefinition"/>
+            <Class IRI="#SequenceAnnotation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isObjectOf"/>
+        <Class IRI="#SequenceConstraint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSequenceOf"/>
+        <Class IRI="#ComponentDefinition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubjectOf"/>
+        <Class IRI="#SequenceConstraint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#local"/>
+        <Class IRI="#ComponentInstance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#location"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mapsTo"/>
+        <Class IRI="#MapsTo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#member"/>
+        <Class IRI="#TopLevel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#model"/>
+        <Class IRI="#Model"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#module"/>
+        <Class IRI="#Module"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#object"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#operator"/>
+        <Class IRI="#VariableOperator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#orientation"/>
+        <Class IRI="#Orientation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participant"/>
+        <Class IRI="#FunctionalComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participation"/>
+        <Class IRI="#Participation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refinement"/>
+        <Class IRI="#Refinement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#remote"/>
+        <Class IRI="#ComponentInstance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#restriction"/>
+        <Class IRI="#Restriction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#roleIntegration"/>
+        <Class IRI="#RoleIntegration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sequence"/>
+        <Class IRI="#Sequence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sequenceAnnotation"/>
+        <Class IRI="#SequenceAnnotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sequenceConstraint"/>
+        <Class IRI="#SequenceConstraint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#strategy"/>
+        <Class IRI="#CombinatorialDerivationStrategy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subject"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#template"/>
+        <Class IRI="#ComponentDefinition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#variable"/>
+        <Class IRI="#Component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#variableComponent"/>
+        <Class IRI="#VariableComponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#variant"/>
+        <Class IRI="#ComponentDefinition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#variantCollection"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#variantDerivation"/>
+        <Class IRI="#CombinatorialDerivation"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#object"/>
+        <ObjectProperty IRI="#subject"/>
+    </DisjointObjectProperties>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#at"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#displayId"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#elements"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#end"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hash"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#size"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#start"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#version"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#at"/>
+        <Class IRI="#Cut"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#displayId"/>
+        <Class IRI="#Identified"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#elements"/>
+        <Class IRI="#Sequence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#end"/>
+        <Class IRI="#Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hash"/>
+        <Class IRI="#Attachment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <Class IRI="#Attachment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#start"/>
+        <Class IRI="#Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#version"/>
+        <Class IRI="#Identified"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#displayId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#elements"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hash"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Access</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Access</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Access</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing an access type using one of its subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Access</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Access</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Attachment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Attachment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Attachment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The purpose of the Attachment class is to serve as a general container for data files, especially experimental data files. It provides a means for linking files and metadata to SBOL designs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Attachment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Attachment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#CDS</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CDS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CDS</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CDS DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CDS</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CDS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Collection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Collection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Groups together a set of TopLevel objects that have something in common.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Collection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Collection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#CombinatorialDerivation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CombinatorialDerivation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CombinatorialDerivation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The purpose of the CombinatorialDerivation class is to specify combinatorial genetic designs without having to specify every possible design variant. For example, a CombinatorialDerivation can be used to specify a library of reporter gene variants that include different promoters and RBSs without having to specify a ComponentDefinition for every possible combination of promoter, RBS, and CDS in the library. ComponentDefinition objects that realize a CombinatorialDerivation can be derived in accordance with the class properties template, variableComponents, and strategy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CombinatorialDerivation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CombinatorialDerivation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#CombinatorialDerivationStrategy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CombinatorialDerivationStrategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CombinatorialDerivationStrategy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies strategy types for combinatorial derivations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CombinatorialDerivationStrategy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CombinatorialDerivationStrategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Complex</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Complex</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Complex component definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Complex</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Component class is used to compose ComponentDefinition objects into a structural hierarchy. For example,the ComponentDefinition of a gene could contain four Component objects: a promoter, RBS, CDS, and terminator. In turn, the ComponentDefinition of the promoter Component could contain Component objects defined as various operator sites.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#ComponentDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ComponentDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ComponentDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Can be used to represent biological design components such as DNA, RNA and small molecules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComponentDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ComponentDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#ComponentInstance</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ComponentInstance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ComponentInstance</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The ComponentInstance abstract class is inherited by SBOL classes that represent the usage or occurrence of a ComponentDefinition within a larger design (that is, another ComponentDefinition or ModuleDefinition).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComponentInstance</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ComponentInstance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Cut</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cut</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Cut class has been introduced to enable the specification of a region between two discrete positions. This specification is accomplished using the at property, which specifies a discrete position that that corresponds to the index of a character in the elements String of a Sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cut</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#DNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DNA component definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Direction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Direction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing a direction type using one of its subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Direction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Effector</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Effector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Effector</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Effector small molecule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Effector</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Effector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#EngineeredGene</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EngineeredGene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EngineeredGene</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EngineeredGene DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EngineeredGene</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EngineeredGene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#FunctionalComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FunctionalComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FunctionalComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A FunctionalComponent is an instance of a ComponentDefinition being used as part of a ModuleDefinition. The ModuleDefinition describes how the that describes how the FunctionalComponent interacts with others and summarizes their aggregate function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FunctionalComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FunctionalComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Gene</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gene</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gene</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#GenericLocation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GenericLocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GenericLocation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">While the Range and Cut classes are best suited to specifying regions on Sequence objects with IUPAC encodings, the GenericLocation class is included as a starting point for specifying regions on Sequence objects with different encoding properties and potentially nonlinear structure. This class can also be used to set the orientation of a SequenceAnnotation and any associated Component when their parent ComponentDefinition is a partial design that lacks a Sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GenericLocation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GenericLocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#GenericTopLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GenericTopLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GenericTopLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The GenericTopLevel class is used to represent top-level entities whose purpose is to contain a set of annotations that are independent of any other class of SBOL object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GenericTopLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GenericTopLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Identified</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Identified</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Identified</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents SBOL objects that can be identified uniquely using URIs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Identified</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Identified</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Implementation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Implementation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Implementation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An Implementation represents an instance of a synthetic biological construct, and describes the build phase of a design-built-test-learn workflow. Importantly, an Implementation can be associated with a laboratory sample that was already built, or that is to be built in the future. An Implementation can also represent virtual and simulated instances. An Implementation may be linked back to its original design (either a ModuleDefinition or ComponentDefinition) using the wasDerivedFroms property inherited from the Identified superclass. An Implementation may also link to a ModuleDefinition or ComponentDefinition that specifies its realized structure and/or function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Implementation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Implementation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Interaction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Interaction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Provides more detailed description of how the FunctionalComponent objects of a ModuleDefinition are intended to work together.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Interaction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Extended by the Range, Cut, and GenericLocation classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#MapsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MapsTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MapsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">When ComponentDefinition and ModuleDefinition objects are composed into structural and functional hierarchies using ComponentInstance and Module objects, it is often the case that some ComponentInstance objects are intended to represent the same entity in the overall design. The purpose of the MapsTo class is to make these identity relationships clear and explicit. For example, consider a ModuleDefinition for a genetic inverter that includes a FunctionalComponent for an abstract repressor protein. When this ModuleDefinition is instantiated within a “higher level” ModuleDefinition that includes a FunctionalComponent for a LacI protein, the MapsTo object can be used to indicate that the repressor protein in the first ModuleDefinition is LacI in the context of the composite design. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MapsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MapsTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Serves as a placeholder for an external computational model and provide additional meta-data to enable better reasoning about the contents of this model.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Module</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Module</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Module</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents the usage or occurrence of a ModuleDefinition within a larger design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Module</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Module</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#ModuleDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ModuleDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ModuleDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Represents a grouping of structural and functional entities in a biological design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ModuleDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ModuleDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#NASequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NASequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NASequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nucleic acid sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NASequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NASequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Operator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Operator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operator DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Orientation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Orientation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Provides values for the orientation of a Sequence entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Orientation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Participation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Participation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Each Participation represents how a particular FunctionalComponent behaves in its parent Interaction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Participation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Participation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Promoter</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Promoter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Promoter</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Promoter DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Promoter</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Promoter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Protein</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Protein</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protein component definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Protein</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#ProteinSequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProteinSequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProteinSequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Protein sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProteinSequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProteinSequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#RBS</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RBS</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RBS DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RBS</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#RNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RNA component definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Range</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Range</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Range object specifies a region via discrete, inclusive start and end positions that correspond to indices for characters in the elements String of a Sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Range</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Range</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Refinement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refinement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Refinement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing a refinement using one of its subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Refinement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refinement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Restriction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Restriction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies relative positions of sub components in a design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Restriction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#RoleIntegration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RoleIntegration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RoleIntegration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing a role integration using one of its subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RoleIntegration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RoleIntegration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#SBOLVocabulary</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SBOLVocabulary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SBOLVocabulary</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Not represented in SBOL directly. It is used to group SBOL specific terms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SBOLVocabulary</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SBOLVocabulary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#SMILES</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SMILES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SMILES</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SMILES sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SMILES</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SMILES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Sequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The purpose of the Sequence class is to represent the primary structure of a ComponentDefinition object and the manner in which it is encoded. This representation is accomplished by means of the elements property and encoding property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#SequenceAnnotation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SequenceAnnotation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SequenceAnnotation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The SequenceAnnotation class describes one or more regions of interest on the Sequence objects referred to by its parent ComponentDefinition. In addition, SequenceAnnotation objects can describe the substructure of their parent ComponentDefinition through association with the Component objects contained by this ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SequenceAnnotation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SequenceAnnotation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#SequenceConstraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SequenceConstraint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SequenceConstraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The SequenceConstraint class can be used to assert restrictions on the relative, sequence-based positions of pairs of Component objects contained by the same parent ComponentDefinition. The primary purpose of this class is to enable the specification of partially designed ComponentDefinition objects, for which the precise positions or orientations of their contained Component objects are not yet fully determined. Each SequenceConstraint includes the restriction, subject, and object properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SequenceConstraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SequenceConstraint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#SmallMolecule</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SmallMolecule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SmallMolecule</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SmallMolecule component definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SmallMolecule</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SmallMolecule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#Terminator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Terminator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Terminator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Terminator DNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terminator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Terminator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#TopLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TopLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TopLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Can be used to represent biological design components such as DNA, RNA and small molecules.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TopLevel</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TopLevel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#VariableComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VariableComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VariableComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The VariableComponent class can be used to specify a choice of ComponentDefinition objects for any new 35 Component derived from a template Component in the template ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VariableComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VariableComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#VariableOperator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VariableOperator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VariableOperator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the operator types for combinatorial derivations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VariableOperator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VariableOperator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#access</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">access</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#access</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The access property is a REQUIRED URI that indicates whether the ComponentInstance can be referred to remotely by a MapsTo on another ComponentInstance or Module contained by a different parent ComponentDefinition or ModuleDefinition (one that does not contain this ComponentInstance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#access</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">access</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#at</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#at</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">specifies a discrete position that that corresponds to the index of a character in the elements String of a Sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#at</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">at</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#built</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">built</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#built</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The built property is OPTIONAL and MAY contain a URI that MUST refer to a TopLevel object that is either a ComponentDefinition or ModuleDefinition. This ComponentDefinition or ModuleDefinition is intended to describe the actual physical structure and/or functional behavior of the Implementation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#built</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">built</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The components property is OPTIONAL and MAY specify a set of Component objects that are contained by the ComponentDefinition. The set of relations between Component and ComponentDefinition objects is strictly acyclic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#component</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#definition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#definition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The definition property is a REQUIRED URI that refers to the ComponentDefinition of the ComponentInstance. As described in the previous section, this ComponentDefinition effectively provides information about the types and roles of the ComponentInstance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#definition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#differentFrom</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">differentFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#differentFrom</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The definition property of the subject Component MUST NOT refer to the same ComponentDefinition as that of the object Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#differentFrom</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">differentFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#direction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#direction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Each FunctionalComponent MUST specify via the direction property whether it serves as an input, output, both, or neither for its parent ModuleDefinition object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#direction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">direction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#displayId</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">displayId</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#displayId</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The displayId property is an OPTIONAL identifier with a data type of String. This property is intended to be an intermediate between name and identity that is machine-readable, but more human-readable than the full URI of an identity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#displayId</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">displayId</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#elements</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">elements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#elements</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The elements property is a REQUIRED String of characters that represents the constituents of a biological or chemical molecule. For example, these characters could represent the nucleotide bases of a molecule of DNA, the amino acid residues of a protein, or the atoms and chemical bonds of a small molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#elements</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">elements</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#encoding</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">encoding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#encoding</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The encoding property is REQUIRED and has a data type of URI. This property MUST indicate how the elements property of a Sequence MUST be formed and interpreted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#encoding</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">encoding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#end</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#end</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the inclusive ending position of the Range.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#end</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">end</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#enumerate</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enumerate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#enumerate</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A user SHOULD derive all possible ComponentDefinition objects specified by the CombinatorialDerivation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#enumerate</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">enumerate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#format</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#format</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The format property is OPTIONAL and MAY contain a URI that specifies the format of the attached file. It is RECOMMENDED that this URI refer to a term from the EMBRACE Data and Methods (EDAM) ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#format</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#framework</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">framework</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#framework</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The framework property is REQUIRED and MUST contain a URI that specifies the framework in which the model is implemented. It is RECOMMENDED this URI refer to a term from the modeling framework branch of the SBO when possible.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#framework</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">framework</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#functionalComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functionalComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#functionalComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The property is OPTIONAL and MAY be used specify a set of FunctionalComponent objects contained by the ModuleDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#functionalComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">functionalComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#greaterThanZero</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">greaterThanZero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#greaterThanZero</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Greater than zero.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#greaterThanZero</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">greaterThanZero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#hash</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hash</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hash</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The hash property is OPTIONAL and MAY contain a SHA-1 hash of the file contents represented as a hexadecimal digest.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hash</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hash</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#in</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#in</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the FunctionalComponent is an input.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#in</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#inline</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#inline</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The region specified by this Location is on the elements of a Sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inline</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#inout</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#inout</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the FunctionalComponent is both an input and output.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inout</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inout</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#interaction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#interaction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The interaction property is OPTIONAL and MAY be used specify a set of Interaction objects within the ModuleDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#interaction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isComponentOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isComponentOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isComponentOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the component property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isComponentOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isComponentOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isDefinitionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isDefinitionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isDefinitionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the definition property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isDefinitionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isDefinitionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isInteractionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isInteractionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isInteractionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the interaction property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isInteractionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isInteractionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isMemberOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isMemberOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMemberOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the member property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMemberOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isMemberOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isModuleOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isModuleOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isModuleOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the module property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isModuleOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isModuleOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isObjectOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isObjectOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isObjectOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the object property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isObjectOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isObjectOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isSequenceOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSequenceOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSequenceOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the sequence property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isSequenceOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSequenceOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#isSubjectOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSubjectOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isSubjectOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inverse of the subject property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isSubjectOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSubjectOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#language</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#language</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The language property is REQUIRED and MUST contain a URI that specifies the language in which the model is implemented. It is RECOMMENDED that this URI refer to a term from the EMBRACE Data and Methods (EDAM) ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#language</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#local</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#local</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This REQUIRED property has a data type of URI and is used to refer to the ComponentInstance contained by the “higher level” ComponentDefinition or ModuleDefinition. This local ComponentInstance MUST be contained by the ComponentDefinition or ModuleDefinition that contains the ComponentInstance or Module that owns the MapsTo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#local</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The location property is REQUIRED to specify one or more Location objects that indicate which elements of a Sequence are described by the SequenceAnnotation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#mRNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mRNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mRNA RNA component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mRNA</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#mapsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapsTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mapsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The mapsTo property is OPTIONAL and MAY contain a MapsTo object that refers to and links together a ComponentInstance object (both Component objects and FunctionalComponent objects) within a larger design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mapsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mapsTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#member</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#member</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Contains a reference to a top level entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#member</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#merge</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">merge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#merge</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In the context of the ComponentDefinition or ModuleDefinition that contains the owner of the MapsTo, all references to the local ComponentInstance or the remote ComponentInstance MUST dereference to both objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#merge</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">merge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#mergeRoles</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mergeRoles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mergeRoles</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates to use the union of the two sets: both the set of zero or more roles given for this Component as well as the set of zero or more roles given for the included subComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mergeRoles</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mergeRoles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The model property is OPTIONAL and MAY be used to specify a set of URI references to Model objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#model</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#module</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">module</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#module</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The property is OPTIONAL and MAY be used specify a set of Module objects contained by the ModuleDefinition. Note that the set of relations between Module and ModuleDefinition objects is strictly acyclic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#module</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">module</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#none</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">none</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#none</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the FunctionalComponent is neither an input or output.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#none</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">none</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The object property is REQUIRED and MUST contain a URI that refers to a Component contained by the same parent ComponentDefinition that contains the SequenceConstraint. This Component MUST NOT be the same Component that the SequenceConstraint refers to via its subject property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#object</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#one</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#one</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Exactly one Component in the derived ComponentDefinition SHOULD have a wasDerivedFroms property that refers to the template Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#one</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#oneOrMore</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">oneOrMore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#oneOrMore</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">At least one Component in the derived ComponentDefinition SHOULD have a wasDerivedFroms property that refers to the template Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oneOrMore</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">oneOrMore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#operator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#operator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The operator property is REQUIRED and has a data type of URI. This property specifies how many Component objects SHOULD be derived from the template Component during the derivation of a new ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#operator</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">operator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#oppositeOrientationAs</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">oppositeOrientationAs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#oppositeOrientationAs</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The subject and object Component objects MUST have opposite orientations. If each one is associated with a SequenceAnnotation, then the orientation URIs of the Location objects of one SequenceAnnotation MUST NOT be among those of the other SequenceAnnotation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oppositeOrientationAs</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">oppositeOrientationAs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#orientation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#orientation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates the type of a component&apos;s orientation. All subclasses of Location share this property, which can be used to indicate how the region specified by the SequenceAnnotation and any associated double-stranded Component is oriented on the elements of a Sequence from their parent ComponentDefinition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#orientation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#out</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">out</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#out</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the FunctionalComponent is an output.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#out</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">out</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#overrideRoles</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overrideRoles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#overrideRoles</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that in the context of a Component, ignore any roles given for the included subComponentDefinition. Instead use only the set of zero or more roles given for this Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#overrideRoles</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">overrideRoles</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#participant</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#participant</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The participant property MUST specify precisely one FunctionalComponent object that plays the designated role in its parent Interaction object.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#participant</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#participation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">participation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#participation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The participation property is an OPTIONAL and MAY contain a Participation object, which identifies the roles that its referenced FunctionalComponent plays in the Interaction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#participation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">participation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#persistentIdentity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">persistentIdentity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#persistentIdentity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">It is used to refer to a set of SBOL objects that are different versions of each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#persistentIdentity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">persistentIdentity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#precedes</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precedes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#precedes</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The position of the subject Component MUST precede that of the object Component. If each one is associated with a SequenceAnnotation, then the SequenceAnnotation associated with the subject Component MUST specify a region that starts before the region specified by the SequenceAnnotation associated with the object Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#precedes</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precedes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#private</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">private</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#private</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that a ComponentInstance MUST NOT be referred to by remote MapsTo objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#private</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">private</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#public</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">public</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#public</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that a ComponentInstance MAY be referred to by remote MapsTo objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#public</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">public</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#refinement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">refinement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#refinement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The refinement property is REQUIRED and has a data type of URI. Each MapsTo object MUST specify the rela- 27 tionship between its local and remote ComponentInstance objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#refinement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">refinement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#remote</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">remote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#remote</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This REQUIRED property has a data type of URI and is used to refer to the ComponentInstance contained by the “lower level” ComponentDefinition or ModuleDefinition. This remote ComponentInstance MUST be contained by the ComponentDefinition or ModuleDefinition that is the definition of the ComponentInstance or Module that owns the MapsTo. Lastly, the access property of the remote ComponentInstance MUST be set to “public.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#remote</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">remote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#restriction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#restriction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The restriction property is REQUIRED and has a data type of URI. This property MUST indicate the type of structural restriction on the positions, orientations, or structural identities of the subject and object Component objects in relation to each other.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#restriction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">restriction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#reverseComplement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reverseComplement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#reverseComplement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The region specified by this Location is on the reverse-complement translation of the elements of a Sequence. The exact nature of this translation depends on the encoding of the Sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#reverseComplement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">reverseComplement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#role</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#role</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clarifies the potential function of an entity in a biochemical or physical context. When it is used for ComponentDefinitions, it MUST identify terms from ontologies that are consistent with the types property of the ComponentDefinition. For example, the roles property of a DNA or RNA ComponentDefinition could contain URIs identifying terms from the Sequence Ontology (SO).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#role</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#roleIntegration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">roleIntegration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#roleIntegration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A roleIntegration specifies the relationship between a Component instance’s own set of roles and the set of roles on the included sub-ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#roleIntegration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">roleIntegration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#sameOrientationAs</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sameOrientationAs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sameOrientationAs</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The subject and object Component objects MUST have the same orientation. If each one is associated with a SequenceAnnotation, then the orientation URIs of the Location objects of the first SequenceAnnotation MUST be among those of the second SequenceAnnotation, and vice versa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sameOrientationAs</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sameOrientationAs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#sample</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sample</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A user SHOULD derive a subset of all possible ComponentDefinition objects specified by CombinatorialDerivation. The manner in which this subset is chosen is for the user to decide.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sample</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sample</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#sequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The sequences property is OPTIONAL and MAY include a set of URIs that refer to Sequence objects. These objects define the primary structure of the ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sequence</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sequence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#sequenceAnnotation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sequenceAnnotation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sequenceAnnotation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The sequenceAnnotations property is OPTIONAL and MAY contain a set of SequenceAnnotation objects. Each SequenceAnnotation specifies and describes a potentially discontiguous region on the Sequence objects referred to by the ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sequenceAnnotation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sequenceAnnotation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#sequenceConstraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sequenceConstraint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sequenceConstraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The sequenceConstraints property is OPTIONAL and MAY contain a set of SequenceConstraint objects. These objects describe any restrictions on the relative, sequence-based positions and/or orientations of the Component objects contained by the ComponentDefinition. For example, the ComponentDefinition of a gene might specify that the position of its promoter Component precedes that of its CDS Component. This is particularly useful when a ComponentDefinition lacks a Sequence and therefore cannot specify the precise, sequence-based positions of its Component objects using SequenceAnnotation objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sequenceConstraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sequenceConstraint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#size</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#size</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The size property is OPTIONAL and MAY contain a long indicating the file size in bytes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#size</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#source</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#source</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The source property is REQUIRED and MUST contain a URI reference to the source file for a model.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#source</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#start</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">start</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#start</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the inclusive starting position of the Range.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#start</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">start</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#strategy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#strategy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates combinatorial derivation strategy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#strategy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#subject</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#subject</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The subject property is REQUIRED and MUST contain a URI that refers to a Component contained by the same parent ComponentDefinition that contains the SequenceConstraint.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#subject</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#template</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">template</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#template</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The template property is REQUIRED and MUST contain a URI that refers to a ComponentDefinition. This ComponentDefinition is expected to serve as a template for the derivation of new ComponentDefinition objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#template</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">template</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#type</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#type</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Specifies the category of biochemical or physical entity. For example DNA, protein, or small molecule that a ComponentDefinition object abstracts for the purpose of engineering design. For DNA or RNA entities, additional types fields are used to describe nucleic acid topology (circular / linear) and strandedness (double- or single-stranded).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#type</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#useLocal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">useLocal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#useLocal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">In the context of the ComponentDefinition or ModuleDefinition that contains the owner of the MapsTo, all references to the remote ComponentInstance MUST dereference to the local ComponentInstance instead.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#useLocal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">useLocal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#useRemote</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">useRemote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#useRemote</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that all references to the local ComponentInstance MUST dereference to the remote ComponentInstance instead.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#useRemote</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">useRemote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#variable</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#variable</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The variable property is REQUIRED and MUST contain a URI that refers to a template Component in the template ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#variable</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#variableComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variableComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#variableComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The variableComponent property is OPTIONAL and MAY contain a set of VariableComponent objects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#variableComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variableComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#variant</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#variant</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The variants property is OPTIONAL and MAY contain zero or more URIs that each refer to a ComponentDefinition. This property specifies individual ComponentDefinition objects to serve as options when deriving a new Component from the template Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#variant</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#variantCollection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variantCollection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#variantCollection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This property is OPTIONAL and MAY contain zero or more URIs that each refer to a Collection. The members property of each Collection referred to in this way MUST NOT be empty. This property enables the convenient specification of existing groups of ComponentDefinition objects to serve as options when deriving a new Component from the template Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#variantCollection</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variantCollection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#variantDerivation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variantDerivation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#variantDerivation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The variantDerivations property is OPTIONAL and MAY contain zero or more URIs that each refer to a CombinatorialDerivation. This property enables the convenient specification of ComponentDefinition objects derived in accordance with another CombinatorialDerivation to serve as options when deriving a new Component from the template Component. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#variantDerivation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">variantDerivation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#verifyIdentical</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">verifyIdentical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#verifyIdentical</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indicates that the definition properties of the local and remote ComponentInstance objects MUST refer to the same ComponentDefinition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#verifyIdentical</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">verifyIdentical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#version</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">version</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#version</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The version property is OPTIONAL and has a data type of String. This property can be used to compare two SBOL objects with the same persistentIdentity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#version</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">version</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#zeroOrGreater</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zeroOrGreater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#zeroOrGreater</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Zero or greater.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zeroOrGreater</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zeroOrGreater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#zeroOrMore</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zeroOrMore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#zeroOrMore</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Any number of Component objects in the derived ComponentDefinition MAY have wasDerivedFroms properties that refer to the template Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zeroOrMore</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zeroOrMore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.purl.org/ontolink/tawny#name"/>
+        <IRI>#zeroOrOne</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zeroOrOne</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#zeroOrOne</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">No more than one Component in the derived ComponentDefinition SHOULD have a wasDerivedFroms property that refers to the template Component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#zeroOrOne</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zeroOrOne</Literal>
+    </AnnotationAssertion>
+    <DatatypeDefinition>
+        <Datatype IRI="#greaterThanZero"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DatatypeDefinition>
+    <DatatypeDefinition>
+        <Datatype IRI="#zeroOrGreater"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
+    </DatatypeDefinition>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
