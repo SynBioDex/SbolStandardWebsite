@@ -1,0 +1,18 @@
+---
+title: Libraries
+
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+#   4 = Citation
+view: 2
+
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: ""
+---
+
+
+SBOL data is built off of the latest specification release and is available in C/C++, Java, JavaScript, Python, and F#. You can support the SBOL data model in your software tool by following the build instructions that are provided. A variety of software tools have reported that their tool support importing and exporting of the SBOL data model. Take a look at the latest software tools that support SBOL. Contact the library developers for further questions.
