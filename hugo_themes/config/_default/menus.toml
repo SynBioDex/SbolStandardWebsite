@@ -28,7 +28,7 @@
 
 [[main]]
   name = "Libraries"
-  url = "#dom-about"
+  url = "/libraries"
   weight = 15
   parent = "dom-id"
 
