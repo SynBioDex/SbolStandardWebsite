@@ -28,7 +28,7 @@
 
 [[main]]
   name = "Libraries"
-  url = "/DataModel-Libraries"
+  url = "/libraries"
   weight = 15
   parent = "dom-id"
 
