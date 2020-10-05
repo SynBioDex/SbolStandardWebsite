@@ -10,19 +10,19 @@
 
 [[main]]
   name = "Data Model"
-  url = "#dom"
+  url = "/DataModel"
   weight = 20
   identifier = "dom-id"
 
 [[main]]
-  name = "About"
-  url = "#dom-about"
+  name = "About SBOL"
+  url = "/DataModel-about"
   weight = 5
   parent = "dom-id"
 
 [[main]]
   name = "Specification"
-  url = "#dom-about"
+  url = "/DataModel-Specification"
   weight = 10
   parent = "dom-id"
 
@@ -33,26 +33,26 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Ontology"
-  url = "#dom-about"
+  name = "SBOL Ontology"
+  url = "/DataModel-Ontology"
   weight = 20
   parent = "dom-id"
 
 [[main]]
   name = "Converter"
-  url = "#dom-about"
+  url = "https://converter.sbolstandard.org/"
   weight = 25
   parent = "dom-id"
 
 [[main]]
   name = "Validator"
-  url = "#dom-about"
+  url = "https://validator.sbolstandard.org/"
   weight = 30
   parent = "dom-id"
 
 [[main]]
   name = "Examples"
-  url = "#dom-about"
+  url = "/DataModel-Examples"
   weight = 35
   parent = "dom-id"
 
