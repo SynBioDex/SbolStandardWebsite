@@ -21,13 +21,13 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Specification"
+  name = "SBOL Specification"
   url = "/DataModel-Specification"
   weight = 10
   parent = "dom-id"
 
 [[main]]
-  name = "Libraries"
+  name = "SBOL Libraries"
   url = "/libraries"
   weight = 15
   parent = "dom-id"
@@ -39,19 +39,19 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Converter"
+  name = "SBOL Converter"
   url = "https://converter.sbolstandard.org/"
   weight = 25
   parent = "dom-id"
 
 [[main]]
-  name = "Validator"
+  name = "SBOL Validator"
   url = "https://validator.sbolstandard.org/"
   weight = 30
   parent = "dom-id"
 
 [[main]]
-  name = "Examples"
+  name = "SBOL Examples"
   url = "/DataModel-Examples"
   weight = 35
   parent = "dom-id"
@@ -75,13 +75,13 @@
   parent = "visual-id"
 
 [[main]]
-  name = "Glyphs"
+  name = "SBOL Visual Glyphs"
   url = "/visual-glyphs"
   weight = 15
   parent = "visual-id"
 
 [[main]]
-  name = "Ontology"
+  name = "SBOL Visual Ontology"
   url = "/visual-ontology"
   weight = 20
   parent = "visual-id"
