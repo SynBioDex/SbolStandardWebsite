@@ -10,61 +10,61 @@
 
 [[main]]
   name = "Data Model"
-  url = "#dom"
+  url = "/DataModel"
   weight = 20
   identifier = "dom-id"
 
 [[main]]
-  name = "About"
-  url = "#dom-about"
+  name = "About SBOL"
+  url = "/DataModel-about"
   weight = 5
   parent = "dom-id"
 
 [[main]]
-  name = "Specification"
-  url = "#dom-about"
+  name = "SBOL Specification"
+  url = "/DataModel-Specification"
   weight = 10
   parent = "dom-id"
 
 [[main]]
-  name = "Libraries"
-  url = "#dom-about"
+  name = "SBOL Libraries"
+  url = "/libraries"
   weight = 15
   parent = "dom-id"
 
 [[main]]
-  name = "Ontology"
-  url = "#dom-about"
+  name = "SBOL Ontology"
+  url = "/DataModel-Ontology"
   weight = 20
   parent = "dom-id"
 
 [[main]]
-  name = "Converter"
-  url = "#dom-about"
+  name = "SBOL Converter"
+  url = "https://converter.sbolstandard.org/"
   weight = 25
   parent = "dom-id"
 
 [[main]]
-  name = "Validator"
-  url = "#dom-about"
+  name = "SBOL Validator"
+  url = "https://validator.sbolstandard.org/"
   weight = 30
   parent = "dom-id"
 
 [[main]]
-  name = "Examples"
-  url = "#dom-about"
+  name = "SBOL Examples"
+  url = "/DataModel-Examples"
   weight = 35
   parent = "dom-id"
 
 [[main]]
   name = "Visual"
   url = "/visual"
-  weight = 50
+  weight = 25
   identifier = "visual-id"
 
 [[main]]
-  name = "About"
-  url = "/visual"
+  name = "About SBOL Visual"
+  url = "/visual-about"
   weight = 5
   parent = "visual-id"
 
@@ -75,19 +75,19 @@
   parent = "visual-id"
 
 [[main]]
-  name = "Glyphs"
+  name = "SBOL Visual Glyphs"
   url = "/visual-glyphs"
   weight = 15
   parent = "visual-id"
 
 [[main]]
-  name = "Ontology"
+  name = "SBOL Visual Ontology"
   url = "/visual-ontology"
   weight = 20
   parent = "visual-id"
 
 [[main]]
-  name = "Examples"
+  name = "SBOL Visual Examples"
   url = "/visual-examples"
   weight = 25
   parent = "visual-id"
