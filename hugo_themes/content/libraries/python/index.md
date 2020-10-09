@@ -16,7 +16,7 @@ links:
 - icon: github
   icon_pack: fab
   name: Github
-  url: https://github.com/SynBioDex/pysbol
+  url: https://github.com/SynBioDex/pySBOL2
 - icon: file-alt
   icon_pack: fas
   name: Overview
