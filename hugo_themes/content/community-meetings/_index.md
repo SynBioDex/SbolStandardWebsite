@@ -23,7 +23,7 @@ We welcome participants from industry to these discussions, as the SBOL standard
 
 |   Events                       |   Date (YYYY/DD/MM)  |   Location                                                   |   Webpage                                                                                                              |
 |--------------------------------|----------------------|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-|   SEED 2020                    |   2020/25/06         |   Hyatt Regency, San Francisco, USA                          |   <a href="http://synbioconference.org/2020/events/software-synthetic-biology-workflows-workshop/">Link</a>            |
+|   COMBINE 2020                    |   2020/05/10         |   UConn Health, Connecticut, USA                          |   <a href="http://co.mbine.org/events/COMBINE_2020">Link</a>            |
 |   HARMONY 2020                 |   2020/9-13/03       |   EMBL-EBI, Cambridgeshire, UK                               |   <a href="http://co.mbine.org/events/HARMONY_2020/">Link</a>                                                          |
 |   COMBINE 2019 & EU-STANDS4PM  |   2019/15-19/07      |   Studio Villa Bosch, Heidelberg, Germany                    |   <a href="http://co.mbine.org/events/COMBINE_2019">Link</a>                                                           |
 |   HARMONY 2019                 |   2019/25-29/03      |   Caltech, Pasadena, California, USA                         |   <a href="http://sbolstandard.org/harmony-2019/">Link</a>                                                             |
