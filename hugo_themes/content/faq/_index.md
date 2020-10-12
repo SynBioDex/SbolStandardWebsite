@@ -170,9 +170,12 @@ Yes! There are multiple mailing lists depending on how you'd like to interact wi
   <summary><b>What paper should I cite for SBOL data?</b></summary>
 
   <ul>
-  <li><b>SBOL 1:</b> M. Galdzicki, K. Clancy, E. Oberortner, M. Pocock, J. Quinn, C. Rodriguez, N. Roehner, M. L. Wilson, L. Adam, C. Anderson, B. Bartley, J. Beal, D. Chandran, J. Chen, D. Densmore, D. Endy, R. Grünberg, J. Hallinan, N.J. Hillson, J. D. Johnson, A. Kuchinsky, M. Lux, G. Misirli, J. Peccoud, H. Plahar, E. Sirin, G.B Stan, A. Villalobos, A. Wipat, J. Gennari, C. Myers, and H. Sauro. “The Synthetic Biology Open Language (SBOL) provides a community standard for communicating designs in synthetic biology,” Nature Biotechnology, vol. 32, pp. 545-550, Jun. 2014. doi:10.1038/nbt.2891</li>
-  <li><b>SBOL 2:</b> N. Roehner, J. Beal, K. Clancy, B. Bartley, G. Misirli, R. Grunberg, E. Oberortner, M. Pocock, M. Bissell, C. Madsen, T. Nguyen, M. Zhang, Z. Zhang, Z. Zundel, D. Densmore, J. Gennari, A. Wipat, H. Sauro, and C. Myers. “Sharing structure and function in biological design with SBOL 2.0,” ACS Synthetic Biology, vol. 5, no. 6, pp. 498-506, Apr. 2016. doi: 10.1021/acssynbio.5b00215</li>
-  <li><b>SBOL 3:</b> Hasan Baig, Pedro Fontanarrosa, Vishwesh Kulkarni, James McLaughlin, Prashant Vaidyanathan, Chris Myers, Bryan Bartley, Jacob Beal, Matthew Crowther, Thomas Gorochowski, Raik Grünberg, Goksel Misirli, Ernst Oberortner, James Scott-Brown, Anil Wipat. "Synthetic biology open language (SBOL) version 3.0. 0." Journal of integrative bioinformatics. 2020 Jun 25</li>
+  <li><b>SBOL 1:</b>
+  {{< cite page="/publication/galdzicki-synthetic-2014" view="1" >}}</li>
+  <li><b>SBOL 2:</b>
+  {{< cite page="/publication/roehner-sharing-2016" view="1" >}}</li>
+  <li><b>SBOL 3:</b>
+  {{< cite page="/publication/synthetic-biology-open-mclaughlin-2020-a" view="1" >}}</li>
   </ul>
   
 </details>
@@ -181,8 +184,10 @@ Yes! There are multiple mailing lists depending on how you'd like to interact wi
   <summary><b>What paper should I cite for SBOL Visual?</b></summary>
 
   <ul>
-  <li><b>SBOL Visual 1:</b> J. Y. Quinn, R. S. Cox, A. Adler, J. Beal, S. Bhatia, Y. Cai, J. Chen, K. Clancy, M. Galdzicki, N. J. Hillson, N. L. Novère, A.J. Maheshwari, J. A. McLaughlin, C. Myers, P. Umesh, M. Pocock, C. Rodriguez, L. Soldatova, G.B. Stan, N. Swainston, A. Wipat, and H. Sauro. “SBOL Visual: A Graphical Language for Genetic Designs,” PLoS Biol, vol. 13, no. 12, Dec. 2015.doi:10.1371/journal.pbio.1002310</li>
-  <li><b>SBOL Visual 2:</b>Hasan Baig, Pedro Fontanarossa, Vishwesh Kulkarni, James McLaughlin, Prashant Vaidyanathan, Bryan Bartley, Swapnil Bhatia, Shyam Bhakta, Michael Bissell, Kevin Clancy, Robert Sidney Cox, Angel Goñi Moreno, Thomas Gorochowski, Raik Grunberg, Augustin Luna, Curtis Madsen, Goksel Misirli, Tramy Nguyen, Nicolas Le Novere, Zachary Palchick, Matthew Pocock, Nicholas Roehner, Herbert Sauro, James Scott-Brown, John T Sexton, Guy-Bart Stan, Jeffrey J Tabor, Marta Vazquez Vilar, Christopher A Voigt, Anil Wipat, David Zong, Zach Zundel, Jacob Beal, Chris Myers, "Synthetic biology open language visual (SBOL visual) Version 2.2". Journal of integrative bioinformatics. 2020 Jun 10</li>
+  <li><b>SBOL Visual 1:</b> 
+  {{< cite page="/publication/quinn-sbol-2015" view="1" >}}</li>
+  <li><b>SBOL Visual 2:</b>
+  {{< cite page="/publication/beal-communicating-2019" view="1" >}}</li>
   </ul>
   
 </details>
@@ -190,11 +195,14 @@ Yes! There are multiple mailing lists depending on how you'd like to interact wi
 <details>
   <summary><b>What papers should I cite for SBOL libraries and utilities?</b></summary>
   <ul>
-  <li><b>libSBOLj:</b> Z. Zhang, T. Nguyen, N. Roehner, G. Misirli, M. Pocock, E. Oberortner, M. Samineni, Z. Zundel, J. Beal, K. Clancy, A. Wipat, and C. Myers. “libSBOLj 2.0: A Java Library to Support SBOL 2.0,” IEEE Life Sciences Letters, vol. 1, no. 4, pp. 34-37, Mar. 2016. doi:{{% staticref "http://dx.doi.org/10.1109/LLS.2016.2546546" "newtab" %}}10.1109/LLS.2016.2546546{{% /staticref %}} </li>
-  <li><b>sboljs:</b>J. McLaughlin, C. Myers, Z. Zundel, N. Wilkinson, C. Atallah, and A. Wipat.sboljs: Bringing the Synthetic Biology Open Language to the Web Browser. ACS Synthetic Biology, 8 (1), pp 191–193 (2019). doi:10.1021/acssynbio.8b00338.</li>
-  <li><b>pySBOL:</b>B. Bartley, K. Choi, M. Samineni, Z. Zundel, T. Nguyen, C. Myers, and H. Sauro.pySBOL: A Python Package for Genetic Design Automation and Standardization. ACS Synthetic Biology, (2018). doi:10.1021/acssynbio.8b00336.</li>
-  <li><b>SBOL Validator: </b> Zundel, Zach, Meher Samineni, Zhen Zhang, and Chris J. Myers. "A validator and converter for the synthetic biology open language." ACS synthetic biology 6, no. 7 (2017): 1161-1168.</li>
-  
+  <li><b>libSBOLj:</b>
+  {{< cite page="/publication/lib-sbo-lj-java-library-zhang-2015" view="1" >}}</li>
+  <li><b>sboljs:</b>
+  {{< cite page="/publication/mclaughlin-sboljs-2019" view="1" >}}</li>
+  <li><b>pySBOL:</b>
+  {{< cite page="/publication/bartley-pysbol-2019" view="1" >}}</li>
+  <li><b>SBOL Validator: </b>
+  {{< cite page="/publication/zundel-validator-2017" view="1" >}}</li>  
   </ul>
   
 </details>
