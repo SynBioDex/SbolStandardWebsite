@@ -16,7 +16,7 @@ links:
 - icon: github
   icon_pack: fab
   name: Github
-  url: https://github.com/SynBioDex/libSBOLj
+  url: https://github.com/SynBioDex/sboljs
 - icon: file-alt
   icon_pack: fas
   name: Overview
@@ -24,19 +24,19 @@ links:
 - icon: edge
   icon_pack: fab
   name: API & Documentation
-  url: http://synbiodex.github.io/libSBOLj/docs/javadocs
+  url: http://synbiodex.github.io/sboljs/
 - icon: tools
   icon_pack: fas
   name: Installation
-  url: http://synbiodex.github.io/libSBOL/installation.html
+  url: https://github.com/SynBioDex/sboljs/blob/master/README.md
 - icon: code
   icon_pack: fas
   name: Release (v 2.4.0)
-  url: https://github.com/SynBioDex/libSBOLj/releases
+  url: https://github.com/SynBioDex/sboljs/releases
 - icon: bug
   icon_pack: fas
   name: Bug & Feature Report
-  url: https://github.com/SynBioDex/libSBOLj/issues
+  url: https://github.com/SynBioDex/sboljs/issues
 - icon: book
   icon_pack: fas
   name: CRISPR Circuit Example
