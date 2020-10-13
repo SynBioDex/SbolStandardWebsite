@@ -17,7 +17,11 @@ links:
   icon_pack: fab
   name: Github
   url: https://github.com/SynBioDex/fSBOL
-# - icon: book
+- icon: bug
+  icon_pack: fas
+  name: Bug & Feature Report
+  url: https://github.com/SynBioDex/fSBOL/issues
+
 #   icon_pack: fab
 #   name: Science Publication
 #   url: https://science.sciencemag.org/content/352/6281/aac7341
@@ -38,4 +42,4 @@ url_video: ""
 slides: ""
 ---
 
-fSBOL is made freely available under the MIT license
+fSBOL is made freely available under the MIT license. It is an F# implementation of the Synthetic Biology Open Language (SBOL) Data Model.
