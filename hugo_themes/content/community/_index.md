@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-The SBOL GitHub repository can be accessed [here](https://github.com/SynBioDex).
+[Here](https://synbiodex.github.io/SbolStandardWebsite/community-outreach/) is a list of outreach events that SBOL has been involved in to educate the community about SBOL and its capability. The presentation materials for many of these outreach events can be found in the SBOL Community Media repository found here, and they are made freely available via a Creative Commons license.
 
 The SBOL community works actively on the SBOL data model and visual standard, participates in online discussions, and meets semi-annually.  We represent over 170+ members from 17 different countries, 42 institutions, and 28 different industries. Many of our members are also actively involved in other standards communities, like the Systems Biology Markup Language (SBML) and Systems Biology Graphical Notation (SBGN).
 
