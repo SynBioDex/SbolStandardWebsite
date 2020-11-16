@@ -1,9 +1,9 @@
 ---
-title: fSBOL
+title: F#
 summary: F# libraries for SBOL
 tags:
 - Libraries
-date: "2019-01-01T00:00:00Z"
+date: "2018-01-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,3 +43,4 @@ slides: ""
 ---
 
 fSBOL is made freely available under the MIT license. It is an F# implementation of the Synthetic Biology Open Language (SBOL) Data Model.
+Note that the FSBOL library is only available for SBOL Data Model Version 2.2.1

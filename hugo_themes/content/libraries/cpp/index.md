@@ -1,5 +1,5 @@
 ---
-title: libSBOL
+title: C++
 summary: Core C/C++ interfaces and implementations for SBOL
 tags:
 - Libraries
@@ -50,8 +50,8 @@ url_video: ""
 slides: ""
 ---
 
-libSBOL provides the core C/C++ interfaces and their implementation for the Synthetic Biology Open Language (SBOL). The current version of pySBOL implements SBOL Core Specification 2.2.0. The library provides an API to work with SBOL objects and to validate the correctness of SBOL 2 documents. Version 2.3.0 of the libSBOL library provides an API to construct designs and to read and write SBOL version 2.2.0 XML/RDF files. libSBOL is made freely available under the Apache 2.0 license.
+libSBOL provides the core C/C++ interfaces and their implementation for the Synthetic Biology Open Language (SBOL). The library provides an API to work with SBOL objects and to validate the correctness of SBOL 2 documents. Version 2.3.0 of the libSBOL library provides an API to construct designs and to read and write SBOL version 2.2.0 XML/RDF files. libSBOL is made freely available under the Apache 2.0 license.
 
-The above mentioned version is the current stable version of libSBOL. 
+The above mentioned version is the current stable version of libSBOL and implements SBOL 2.
 
 <b>Cite</b>: B. Bartley, K. Choi, M. Samineni, Z. Zundel, T. Nguyen, C. Myers, and H. Sauro.pySBOL: A Python Package for Genetic Design Automation and Standardization. ACS Synthetic Biology, (2018). doi:10.1021/acssynbio.8b00336.
