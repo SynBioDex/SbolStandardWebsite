@@ -1,5 +1,5 @@
 ---
-title: sboljs
+title: JavaScript
 summary: Core JavaScript  interfaces and implementations for SBOL
 tags:
 - Libraries
@@ -56,6 +56,7 @@ slides: ""
 
 sboljs provides the core JavaScript interfaces and their implementation for the Synthetic Biology Open Language (SBOL). The current version of sboljs implements SBOL Core Specification 2.3.0. The library provides an API to work with SBOL objects, the functionality to read SBOL version documents as XML/RDF files and to write SBOL version 2 documents. sboljs is made freely available under the BSD 2-clause license.
 
-This is the current version of SBOLjs library.
+This is the current version of SBOLjs library and implements SBOL 2.
+The SBOL 3 prototype can be accessed here: <a href="https://github.com/sboltools/sbolgraph" target="_blank">SBOL Graph</a>.
 
 <b>Cite: </b> J. McLaughlin, C. Myers, Z. Zundel, N. Wilkinson, C. Atallah, and A. Wipat.sboljs: Bringing the Synthetic Biology Open Language to the Web Browser. ACS Synthetic Biology, 8 (1), pp 191–193 (2019). doi:10.1021/acssynbio.8b00338.

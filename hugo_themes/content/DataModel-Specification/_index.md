@@ -22,7 +22,7 @@ header:
 ___
 
 
-| **3.x.x Release**  |  |   |
+| **3.x.x Release**  | [Library Implementation]({{< relref "libraries" >}})  |   |
 |---|---|---|
 | **3.0.0** <br> Condenses and simplifies previous versions of SBOL, separates sequence features from part/sub-part relationships, renames ComponentDefinition/Component to Component/SubComponent, merges Component and Module classes, ensuring consistency between data model and ontology terms, extends the means to define and reference SubComponents, refines requirements on object URIs, enables graph-based serialization, moves Systems Biology Ontology (SBO) for Component types, makes all sequence associations explicit, makes interfaces explicit, generalizes SequenceConstraints into a general structural Constraint class, and expands the set of allowed constraints.| {{% staticref "docs/SBOL3.0specification.pdf" "newtab" %}}Specification{{% /staticref %}}  | [Cite](https://www.degruyter.com/view/journals/jib/ahead-of-print/article-10.1515-jib-2020-0017/article-10.1515-jib-2020-0017.xml)  |
 
