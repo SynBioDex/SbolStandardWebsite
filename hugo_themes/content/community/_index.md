@@ -153,7 +153,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Owen Gilfellon           |   Newcastle University                                    |   UK            |
 |   Pablo Carbonell          |   Manchester Institute of Biotechnology                   |   USA           |
 |   Patrick Yizhi            |   University of Edinburgh                                 |   UK            |
-|   Pedro Fontanarrosa       |   University of Colorado                                  |   USA           |
+|   Pedro Fontanarrosa       |   University of Utah                                      |   USA           |
 |   Peter Dun                |   Stanford University                                     |   USA           |
 |   Philip Bradley           |   Newcastle University                                    |   UK            |
 |   Prashant Vaidyanathan    |   Microsoft Inc.                                          |   UK            |
