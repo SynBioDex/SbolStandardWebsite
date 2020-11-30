@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aaron Adler | The Synthetic Biology Open Language</title>
+    <link>/author/aaron-adler/</link>
+      <atom:link href="/author/aaron-adler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aaron Adler</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Aaron Adler</title>
+      <link>/author/aaron-adler/</link>
+    </image>
+    
+    <item>
+      <title>SBOL Visual: A Graphical Language for Genetic Designs</title>
+      <link>/publication/quinn-sbol-2015/</link>
+      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/quinn-sbol-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Biology Open Language (SBOL) Version 1.1.0</title>
+      <link>/publication/galdzicki-synthetic-2012/</link>
+      <pubDate>Thu, 11 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/galdzicki-synthetic-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An End-to-End Workflow for Engineering of Biological Networks from High-Level Specifications</title>
+      <link>/publication/beal-end-end-2012/</link>
+      <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/beal-end-end-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Selection of Synthetic Biology Parts for Genetic Regulatory Networks</title>
+      <link>/publication/yaman-automated-2012/</link>
+      <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/yaman-automated-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Title: Synthetic Biology Open Language (SBOL) Version 1.0.0</title>
+      <link>/publication/wipat-title-2011/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/wipat-title-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

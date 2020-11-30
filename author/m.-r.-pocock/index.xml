@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M. R. Pocock | The Synthetic Biology Open Language</title>
+    <link>/author/m.-r.-pocock/</link>
+      <atom:link href="/author/m.-r.-pocock/index.xml" rel="self" type="application/rss+xml" />
+    <description>M. R. Pocock</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Dec 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>M. R. Pocock</title>
+      <link>/author/m.-r.-pocock/</link>
+    </image>
+    
+    <item>
+      <title>A RESTful API for Supporting Automated BioBrick Model Assembly</title>
+      <link>/publication/steyn-restful-2010/</link>
+      <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/steyn-restful-2010/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

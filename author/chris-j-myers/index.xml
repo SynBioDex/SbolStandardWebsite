@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris J Myers | The Synthetic Biology Open Language</title>
+    <link>/author/chris-j-myers/</link>
+      <atom:link href="/author/chris-j-myers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chris J Myers</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Chris J Myers</title>
+      <link>/author/chris-j-myers/</link>
+    </image>
+    
+    <item>
+      <title>SBOL Visual 2 Ontology</title>
+      <link>/publication/visual2ontology/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/visual2ontology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design of asynchronous genetic circuits</title>
+      <link>/publication/nguyen-2019-design/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/nguyen-2019-design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SBOL Data | The Synthetic Biology Open Language</title>
+    <link>/datamodel-about/</link>
+      <atom:link href="/datamodel-about/index.xml" rel="self" type="application/rss+xml" />
+    <description>SBOL Data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>SBOL Data</title>
+      <link>/datamodel-about/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Timothy S Jones | The Synthetic Biology Open Language</title>
+    <link>/author/timothy-s-jones/</link>
+      <atom:link href="/author/timothy-s-jones/index.xml" rel="self" type="application/rss+xml" />
+    <description>Timothy S Jones</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Timothy S Jones</title>
+      <link>/author/timothy-s-jones/</link>
+    </image>
+    
+    <item>
+      <title>Design of asynchronous genetic circuits</title>
+      <link>/publication/nguyen-2019-design/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/nguyen-2019-design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

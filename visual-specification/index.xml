@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SBOL Visual Specification | The Synthetic Biology Open Language</title>
+    <link>/visual-specification/</link>
+      <atom:link href="/visual-specification/index.xml" rel="self" type="application/rss+xml" />
+    <description>SBOL Visual Specification</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>SBOL Visual Specification</title>
+      <link>/visual-specification/</link>
+    </image>
+    
+  </channel>
+</rss>

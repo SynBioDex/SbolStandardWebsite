@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Traci Haddock | The Synthetic Biology Open Language</title>
+    <link>/author/traci-haddock/</link>
+      <atom:link href="/author/traci-haddock/index.xml" rel="self" type="application/rss+xml" />
+    <description>Traci Haddock</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Traci Haddock</title>
+      <link>/author/traci-haddock/</link>
+    </image>
+    
+    <item>
+      <title>Interactive assembly algorithms for molecular cloning</title>
+      <link>/publication/appleton-interactive-2014/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/appleton-interactive-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An End-to-End Workflow for Engineering of Biological Networks from High-Level Specifications</title>
+      <link>/publication/beal-end-end-2012/</link>
+      <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/beal-end-end-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

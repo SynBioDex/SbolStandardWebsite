@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dehua Zhao | The Synthetic Biology Open Language</title>
+    <link>/author/dehua-zhao/</link>
+      <atom:link href="/author/dehua-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dehua Zhao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Dehua Zhao</title>
+      <link>/author/dehua-zhao/</link>
+    </image>
+    
+    <item>
+      <title>Refactoring the nitrogen fixation gene cluster from Klebsiella oxytoca</title>
+      <link>/publication/temme-refactoring-2012/</link>
+      <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/temme-refactoring-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

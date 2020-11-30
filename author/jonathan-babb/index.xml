@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonathan Babb | The Synthetic Biology Open Language</title>
+    <link>/author/jonathan-babb/</link>
+      <atom:link href="/author/jonathan-babb/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jonathan Babb</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 17 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Jonathan Babb</title>
+      <link>/author/jonathan-babb/</link>
+    </image>
+    
+    <item>
+      <title>An End-to-End Workflow for Engineering of Biological Networks from High-Level Specifications</title>
+      <link>/publication/beal-end-end-2012/</link>
+      <pubDate>Fri, 17 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/beal-end-end-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

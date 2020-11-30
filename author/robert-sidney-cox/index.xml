@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Sidney Cox | The Synthetic Biology Open Language</title>
+    <link>/author/robert-sidney-cox/</link>
+      <atom:link href="/author/robert-sidney-cox/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robert Sidney Cox</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Robert Sidney Cox</title>
+      <link>/author/robert-sidney-cox/</link>
+    </image>
+    
+    <item>
+      <title>Synthetic biology open language visual (SBOL visual) version 2.2</title>
+      <link>/publication/visualsbol221/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/visualsbol221/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Biology Open Language (SBOL) Version 2.3</title>
+      <link>/publication/madsen-synthetic-2019-1/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/madsen-synthetic-2019-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Biology Open Language Visual (SBOL Visual) Version 2.1</title>
+      <link>/publication/madsen-synthetic-2019/</link>
+      <pubDate>Thu, 13 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/madsen-synthetic-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Visual Language for Protein Design</title>
+      <link>/publication/cox-visual-2017/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/cox-visual-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthetic Biology Open Language (SBOL) Version 2.1.0</title>
+      <link>/publication/beal-synthetic-2016/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/beal-synthetic-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

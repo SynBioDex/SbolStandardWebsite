@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Suzie Bartram | The Synthetic Biology Open Language</title>
+    <link>/author/suzie-bartram/</link>
+      <atom:link href="/author/suzie-bartram/index.xml" rel="self" type="application/rss+xml" />
+    <description>Suzie Bartram</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Suzie Bartram</title>
+      <link>/author/suzie-bartram/</link>
+    </image>
+    
+    <item>
+      <title>BBF RFC 16: Synthetic Biology Open Language Visual (SBOLv) Specification</title>
+      <link>/publication/rodriguez-bbf-2009/</link>
+      <pubDate>Sun, 01 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/rodriguez-bbf-2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

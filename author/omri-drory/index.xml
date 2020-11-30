@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omri Drory | The Synthetic Biology Open Language</title>
+    <link>/author/omri-drory/</link>
+      <atom:link href="/author/omri-drory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Omri Drory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Omri Drory</title>
+      <link>/author/omri-drory/</link>
+    </image>
+    
+    <item>
+      <title>Title: Synthetic Biology Open Language (SBOL) Version 1.0.0</title>
+      <link>/publication/wipat-title-2011/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/wipat-title-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

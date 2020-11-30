@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mandy Wilson | The Synthetic Biology Open Language</title>
+    <link>/author/mandy-wilson/</link>
+      <atom:link href="/author/mandy-wilson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mandy Wilson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo.svg</url>
+      <title>Mandy Wilson</title>
+      <link>/author/mandy-wilson/</link>
+    </image>
+    
+    <item>
+      <title>Synthetic Biology Open Language (SBOL) Version 1.1.0</title>
+      <link>/publication/galdzicki-synthetic-2012/</link>
+      <pubDate>Thu, 11 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/galdzicki-synthetic-2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Title: Synthetic Biology Open Language (SBOL) Version 1.0.0</title>
+      <link>/publication/wipat-title-2011/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>/publication/wipat-title-2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

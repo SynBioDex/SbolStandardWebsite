@@ -1,0 +1,2598 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://sbols.org/v2#"
+     xml:base="http://sbols.org/v2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:tawny="http://www.purl.org/ontolink/tawny#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:sbol="http://sbols.org/v2#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://sbols.org/v2">
+        <owl:imports rdf:resource="http://www.purl.org/ontolink/tawny"/>
+        <tawny:name xml:lang="en">sbol</tawny:name>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+        <rdfs:comment xml:lang="en">The OWL version of the SBOL data model</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sbols.org/v2#greaterThanZero -->
+
+    <rdfs:Datatype rdf:about="http://sbols.org/v2#greaterThanZero">
+        <tawny:name xml:lang="en">greaterThanZero</tawny:name>
+        <rdfs:comment xml:lang="en">Greater than zero.</rdfs:comment>
+        <rdfs:label xml:lang="en">greaterThanZero</rdfs:label>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- http://sbols.org/v2#zeroOrGreater -->
+
+    <rdfs:Datatype rdf:about="http://sbols.org/v2#zeroOrGreater">
+        <tawny:name xml:lang="en">zeroOrGreater</tawny:name>
+        <rdfs:comment xml:lang="en">Zero or greater.</rdfs:comment>
+        <rdfs:label xml:lang="en">zeroOrGreater</rdfs:label>
+        <owl:equivalentClass>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </owl:equivalentClass>
+    </rdfs:Datatype>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sbols.org/v2#access -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#access">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Access"/>
+        <tawny:name xml:lang="en">access</tawny:name>
+        <rdfs:comment xml:lang="en">The access property is a REQUIRED URI that indicates whether the ComponentInstance can be referred to remotely by a MapsTo on another ComponentInstance or Module contained by a different parent ComponentDefinition or ModuleDefinition (one that does not contain this ComponentInstance)</rdfs:comment>
+        <rdfs:label xml:lang="en">access</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#built -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#built">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Implementation"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#ModuleDefinition"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <tawny:name xml:lang="en">built</tawny:name>
+        <rdfs:comment xml:lang="en">The built property is OPTIONAL and MAY contain a URI that MUST refer to a TopLevel object that is either a ComponentDefinition or ModuleDefinition. This ComponentDefinition or ModuleDefinition is intended to describe the actual physical structure and/or functional behavior of the Implementation.</rdfs:comment>
+        <rdfs:label xml:lang="en">built</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#component -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#component">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#isComponentOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#SequenceAnnotation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Component"/>
+        <tawny:name xml:lang="en">component</tawny:name>
+        <rdfs:comment xml:lang="en">The components property is OPTIONAL and MAY specify a set of Component objects that are contained by the ComponentDefinition. The set of relations between Component and ComponentDefinition objects is strictly acyclic.</rdfs:comment>
+        <rdfs:label xml:lang="en">component</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#definition -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#definition">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#isDefinitionOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentInstance"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Module"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#ModuleDefinition"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <tawny:name xml:lang="en">definition</tawny:name>
+        <rdfs:comment xml:lang="en">The definition property is a REQUIRED URI that refers to the ComponentDefinition of the ComponentInstance. As described in the previous section, this ComponentDefinition effectively provides information about the types and roles of the ComponentInstance.</rdfs:comment>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#direction -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#direction">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#FunctionalComponent"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Direction"/>
+        <tawny:name xml:lang="en">direction</tawny:name>
+        <rdfs:comment xml:lang="en">Each FunctionalComponent MUST specify via the direction property whether it serves as an input, output, both, or neither for its parent ModuleDefinition object.</rdfs:comment>
+        <rdfs:label xml:lang="en">direction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#encoding -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#encoding">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Sequence"/>
+        <tawny:name xml:lang="en">encoding</tawny:name>
+        <rdfs:comment xml:lang="en">The encoding property is REQUIRED and has a data type of URI. This property MUST indicate how the elements property of a Sequence MUST be formed and interpreted.</rdfs:comment>
+        <rdfs:label xml:lang="en">encoding</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#format -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#format">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Attachment"/>
+        <tawny:name xml:lang="en">format</tawny:name>
+        <rdfs:comment xml:lang="en">The format property is OPTIONAL and MAY contain a URI that specifies the format of the attached file. It is RECOMMENDED that this URI refer to a term from the EMBRACE Data and Methods (EDAM) ontology</rdfs:comment>
+        <rdfs:label xml:lang="en">format</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#framework -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#framework">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Model"/>
+        <tawny:name xml:lang="en">framework</tawny:name>
+        <rdfs:comment xml:lang="en">The framework property is REQUIRED and MUST contain a URI that specifies the framework in which the model is implemented. It is RECOMMENDED this URI refer to a term from the modeling framework branch of the SBO when possible.</rdfs:comment>
+        <rdfs:label xml:lang="en">framework</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#functionalComponent -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#functionalComponent">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ModuleDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#FunctionalComponent"/>
+        <tawny:name xml:lang="en">functionalComponent</tawny:name>
+        <rdfs:comment xml:lang="en">The property is OPTIONAL and MAY be used specify a set of FunctionalComponent objects contained by the ModuleDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">functionalComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#interaction -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#interaction">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#isInteractionOf"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ModuleDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Interaction"/>
+        <tawny:name xml:lang="en">interaction</tawny:name>
+        <rdfs:comment xml:lang="en">The interaction property is OPTIONAL and MAY be used specify a set of Interaction objects within the ModuleDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">interaction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isComponentOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isComponentOf">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Component"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#SequenceAnnotation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <tawny:name xml:lang="en">isComponentOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the component property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isComponentOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isDefinitionOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isDefinitionOf">
+        <tawny:name xml:lang="en">isDefinitionOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the definition property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isDefinitionOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isInteractionOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isInteractionOf">
+        <tawny:name xml:lang="en">isInteractionOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the interaction property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isInteractionOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isMemberOf">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#member"/>
+        <tawny:name xml:lang="en">isMemberOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the member property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isMemberOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isModuleOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isModuleOf">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#module"/>
+        <tawny:name xml:lang="en">isModuleOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the module property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isModuleOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isObjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isObjectOf">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#object"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Component"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#SequenceConstraint"/>
+        <tawny:name xml:lang="en">isObjectOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the object property</rdfs:comment>
+        <rdfs:label xml:lang="en">isObjectOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isSequenceOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isSequenceOf">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#sequence"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Sequence"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">isSequenceOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the sequence property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isSequenceOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#isSubjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#isSubjectOf">
+        <owl:inverseOf rdf:resource="http://sbols.org/v2#subject"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Component"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#SequenceConstraint"/>
+        <tawny:name xml:lang="en">isSubjectOf</tawny:name>
+        <rdfs:comment xml:lang="en">Inverse of the subject property.</rdfs:comment>
+        <rdfs:label xml:lang="en">isSubjectOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#language -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#language">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Model"/>
+        <tawny:name xml:lang="en">language</tawny:name>
+        <rdfs:comment xml:lang="en">The language property is REQUIRED and MUST contain a URI that specifies the language in which the model is implemented. It is RECOMMENDED that this URI refer to a term from the EMBRACE Data and Methods (EDAM) ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">language</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#local -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#local">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#MapsTo"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+        <tawny:name xml:lang="en">local</tawny:name>
+        <rdfs:comment xml:lang="en">This REQUIRED property has a data type of URI and is used to refer to the ComponentInstance contained by the “higher level” ComponentDefinition or ModuleDefinition. This local ComponentInstance MUST be contained by the ComponentDefinition or ModuleDefinition that contains the ComponentInstance or Module that owns the MapsTo.</rdfs:comment>
+        <rdfs:label xml:lang="en">local</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#location -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#location">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#SequenceAnnotation"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Location"/>
+        <tawny:name xml:lang="en">location</tawny:name>
+        <rdfs:comment xml:lang="en">The location property is REQUIRED to specify one or more Location objects that indicate which elements of a Sequence are described by the SequenceAnnotation.</rdfs:comment>
+        <rdfs:label xml:lang="en">location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#mapsTo -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#mapsTo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentInstance"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Module"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://sbols.org/v2#MapsTo"/>
+        <tawny:name xml:lang="en">mapsTo</tawny:name>
+        <rdfs:comment xml:lang="en">The mapsTo property is OPTIONAL and MAY contain a MapsTo object that refers to and links together a ComponentInstance object (both Component objects and FunctionalComponent objects) within a larger design.</rdfs:comment>
+        <rdfs:label xml:lang="en">mapsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#member -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#member">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Collection"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">member</tawny:name>
+        <rdfs:comment xml:lang="en">Contains a reference to a top level entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">member</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#model -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#model">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ModuleDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Model"/>
+        <tawny:name xml:lang="en">model</tawny:name>
+        <rdfs:comment xml:lang="en">The model property is OPTIONAL and MAY be used to specify a set of URI references to Model objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">model</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#module -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#module">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ModuleDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Module"/>
+        <tawny:name xml:lang="en">module</tawny:name>
+        <rdfs:comment xml:lang="en">The property is OPTIONAL and MAY be used specify a set of Module objects contained by the ModuleDefinition. Note that the set of relations between Module and ModuleDefinition objects is strictly acyclic.</rdfs:comment>
+        <rdfs:label xml:lang="en">module</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#object -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#object">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#SequenceConstraint"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Component"/>
+        <owl:propertyDisjointWith rdf:resource="http://sbols.org/v2#subject"/>
+        <tawny:name xml:lang="en">object</tawny:name>
+        <rdfs:comment xml:lang="en">The object property is REQUIRED and MUST contain a URI that refers to a Component contained by the same parent ComponentDefinition that contains the SequenceConstraint. This Component MUST NOT be the same Component that the SequenceConstraint refers to via its subject property.</rdfs:comment>
+        <rdfs:label xml:lang="en">object</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#operator -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#operator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#VariableComponent"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#VariableOperator"/>
+        <tawny:name xml:lang="en">operator</tawny:name>
+        <rdfs:comment xml:lang="en">The operator property is REQUIRED and has a data type of URI. This property specifies how many Component objects SHOULD be derived from the template Component during the derivation of a new ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">operator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#orientation -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#orientation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Location"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Orientation"/>
+        <tawny:name xml:lang="en">orientation</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates the type of a component&apos;s orientation. All subclasses of Location share this property, which can be used to indicate how the region specified by the SequenceAnnotation and any associated double-stranded Component is oriented on the elements of a Sequence from their parent ComponentDefinition</rdfs:comment>
+        <rdfs:label xml:lang="en">orientation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#participant -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#participant">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Participation"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#FunctionalComponent"/>
+        <tawny:name xml:lang="en">participant</tawny:name>
+        <rdfs:comment xml:lang="en">The participant property MUST specify precisely one FunctionalComponent object that plays the designated role in its parent Interaction object.</rdfs:comment>
+        <rdfs:label xml:lang="en">participant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#participation -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#participation">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Interaction"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Participation"/>
+        <tawny:name xml:lang="en">participation</tawny:name>
+        <rdfs:comment xml:lang="en">The participation property is an OPTIONAL and MAY contain a Participation object, which identifies the roles that its referenced FunctionalComponent plays in the Interaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">participation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#persistentIdentity -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#persistentIdentity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Identified"/>
+        <tawny:name xml:lang="en">persistentIdentity</tawny:name>
+        <rdfs:comment xml:lang="en">It is used to refer to a set of SBOL objects that are different versions of each other.</rdfs:comment>
+        <rdfs:label xml:lang="en">persistentIdentity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#refinement -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#refinement">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#MapsTo"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Refinement"/>
+        <tawny:name xml:lang="en">refinement</tawny:name>
+        <rdfs:comment xml:lang="en">The refinement property is REQUIRED and has a data type of URI. Each MapsTo object MUST specify the rela- 27 tionship between its local and remote ComponentInstance objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">refinement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#remote -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#remote">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#MapsTo"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+        <tawny:name xml:lang="en">remote</tawny:name>
+        <rdfs:comment xml:lang="en">This REQUIRED property has a data type of URI and is used to refer to the ComponentInstance contained by the “lower level” ComponentDefinition or ModuleDefinition. This remote ComponentInstance MUST be contained by the ComponentDefinition or ModuleDefinition that is the definition of the ComponentInstance or Module that owns the MapsTo. Lastly, the access property of the remote ComponentInstance MUST be set to “public.</rdfs:comment>
+        <rdfs:label xml:lang="en">remote</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#restriction -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#restriction">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#SequenceConstraint"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Restriction"/>
+        <tawny:name xml:lang="en">restriction</tawny:name>
+        <rdfs:comment xml:lang="en">The restriction property is REQUIRED and has a data type of URI. This property MUST indicate the type of structural restriction on the positions, orientations, or structural identities of the subject and object Component objects in relation to each other.</rdfs:comment>
+        <rdfs:label xml:lang="en">restriction</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#role -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#role">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#Component"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#ModuleDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Participation"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#SequenceAnnotation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <tawny:name xml:lang="en">role</tawny:name>
+        <rdfs:comment xml:lang="en">Clarifies the potential function of an entity in a biochemical or physical context. When it is used for ComponentDefinitions, it MUST identify terms from ontologies that are consistent with the types property of the ComponentDefinition. For example, the roles property of a DNA or RNA ComponentDefinition could contain URIs identifying terms from the Sequence Ontology (SO).</rdfs:comment>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#roleIntegration -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#roleIntegration">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Component"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#RoleIntegration"/>
+        <tawny:name xml:lang="en">roleIntegration</tawny:name>
+        <rdfs:comment xml:lang="en">A roleIntegration specifies the relationship between a Component instance’s own set of roles and the set of roles on the included sub-ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">roleIntegration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#sequence -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#sequence">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Sequence"/>
+        <tawny:name xml:lang="en">sequence</tawny:name>
+        <rdfs:comment xml:lang="en">The sequences property is OPTIONAL and MAY include a set of URIs that refer to Sequence objects. These objects define the primary structure of the ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">sequence</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#sequenceAnnotation -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#sequenceAnnotation">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#SequenceAnnotation"/>
+        <tawny:name xml:lang="en">sequenceAnnotation</tawny:name>
+        <rdfs:comment xml:lang="en">The sequenceAnnotations property is OPTIONAL and MAY contain a set of SequenceAnnotation objects. Each SequenceAnnotation specifies and describes a potentially discontiguous region on the Sequence objects referred to by the ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">sequenceAnnotation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#sequenceConstraint -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#sequenceConstraint">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#SequenceConstraint"/>
+        <tawny:name xml:lang="en">sequenceConstraint</tawny:name>
+        <rdfs:comment xml:lang="en">The sequenceConstraints property is OPTIONAL and MAY contain a set of SequenceConstraint objects. These objects describe any restrictions on the relative, sequence-based positions and/or orientations of the Component objects contained by the ComponentDefinition. For example, the ComponentDefinition of a gene might specify that the position of its promoter Component precedes that of its CDS Component. This is particularly useful when a ComponentDefinition lacks a Sequence and therefore cannot specify the precise, sequence-based positions of its Component objects using SequenceAnnotation objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">sequenceConstraint</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#source -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#source">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#Attachment"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Model"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <tawny:name xml:lang="en">source</tawny:name>
+        <rdfs:comment xml:lang="en">The source property is REQUIRED and MUST contain a URI reference to the source file for a model.</rdfs:comment>
+        <rdfs:label xml:lang="en">source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#strategy -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#strategy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#CombinatorialDerivation"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#CombinatorialDerivationStrategy"/>
+        <tawny:name xml:lang="en">strategy</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates combinatorial derivation strategy.</rdfs:comment>
+        <rdfs:label xml:lang="en">strategy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#subject -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#subject">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#SequenceConstraint"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Component"/>
+        <tawny:name xml:lang="en">subject</tawny:name>
+        <rdfs:comment xml:lang="en">The subject property is REQUIRED and MUST contain a URI that refers to a Component contained by the same parent ComponentDefinition that contains the SequenceConstraint.</rdfs:comment>
+        <rdfs:label xml:lang="en">subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#template -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#template">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#CombinatorialDerivation"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">template</tawny:name>
+        <rdfs:comment xml:lang="en">The template property is REQUIRED and MUST contain a URI that refers to a ComponentDefinition. This ComponentDefinition is expected to serve as a template for the derivation of new ComponentDefinition objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">template</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#type -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#type">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Interaction"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <tawny:name xml:lang="en">type</tawny:name>
+        <rdfs:comment xml:lang="en">Specifies the category of biochemical or physical entity. For example DNA, protein, or small molecule that a ComponentDefinition object abstracts for the purpose of engineering design. For DNA or RNA entities, additional types fields are used to describe nucleic acid topology (circular / linear) and strandedness (double- or single-stranded).</rdfs:comment>
+        <rdfs:label xml:lang="en">type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#variable -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#variable">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#VariableComponent"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Component"/>
+        <tawny:name xml:lang="en">variable</tawny:name>
+        <rdfs:comment xml:lang="en">The variable property is REQUIRED and MUST contain a URI that refers to a template Component in the template ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">variable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#variableComponent -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#variableComponent">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#CombinatorialDerivation"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#VariableComponent"/>
+        <tawny:name xml:lang="en">variableComponent</tawny:name>
+        <rdfs:comment xml:lang="en">The variableComponent property is OPTIONAL and MAY contain a set of VariableComponent objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">variableComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#variant -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#variant">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#VariableComponent"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">variant</tawny:name>
+        <rdfs:comment xml:lang="en">The variants property is OPTIONAL and MAY contain zero or more URIs that each refer to a ComponentDefinition. This property specifies individual ComponentDefinition objects to serve as options when deriving a new Component from the template Component.</rdfs:comment>
+        <rdfs:label xml:lang="en">variant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#variantCollection -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#variantCollection">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#VariableComponent"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#Collection"/>
+        <tawny:name xml:lang="en">variantCollection</tawny:name>
+        <rdfs:comment xml:lang="en">This property is OPTIONAL and MAY contain zero or more URIs that each refer to a Collection. The members property of each Collection referred to in this way MUST NOT be empty. This property enables the convenient specification of existing groups of ComponentDefinition objects to serve as options when deriving a new Component from the template Component.</rdfs:comment>
+        <rdfs:label xml:lang="en">variantCollection</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sbols.org/v2#variantDerivation -->
+
+    <owl:ObjectProperty rdf:about="http://sbols.org/v2#variantDerivation">
+        <rdfs:domain rdf:resource="http://sbols.org/v2#VariableComponent"/>
+        <rdfs:range rdf:resource="http://sbols.org/v2#CombinatorialDerivation"/>
+        <tawny:name xml:lang="en">variantDerivation</tawny:name>
+        <rdfs:comment xml:lang="en">The variantDerivations property is OPTIONAL and MAY contain zero or more URIs that each refer to a CombinatorialDerivation. This property enables the convenient specification of ComponentDefinition objects derived in accordance with another CombinatorialDerivation to serve as options when deriving a new Component from the template Component. </rdfs:comment>
+        <rdfs:label xml:lang="en">variantDerivation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sbols.org/v2#at -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#at">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Cut"/>
+        <tawny:name xml:lang="en">at</tawny:name>
+        <rdfs:comment xml:lang="en">specifies a discrete position that that corresponds to the index of a character in the elements String of a Sequence.</rdfs:comment>
+        <rdfs:label xml:lang="en">at</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#displayId -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#displayId">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <tawny:name xml:lang="en">displayId</tawny:name>
+        <rdfs:comment xml:lang="en">The displayId property is an OPTIONAL identifier with a data type of String. This property is intended to be an intermediate between name and identity that is machine-readable, but more human-readable than the full URI of an identity.</rdfs:comment>
+        <rdfs:label xml:lang="en">displayId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#elements -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#elements">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Sequence"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <tawny:name xml:lang="en">elements</tawny:name>
+        <rdfs:comment xml:lang="en">The elements property is a REQUIRED String of characters that represents the constituents of a biological or chemical molecule. For example, these characters could represent the nucleotide bases of a molecule of DNA, the amino acid residues of a protein, or the atoms and chemical bonds of a small molecule.</rdfs:comment>
+        <rdfs:label xml:lang="en">elements</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#end -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#end">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Range"/>
+        <tawny:name xml:lang="en">end</tawny:name>
+        <rdfs:comment xml:lang="en">Specifies the inclusive ending position of the Range.</rdfs:comment>
+        <rdfs:label xml:lang="en">end</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#hash -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#hash">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Attachment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <tawny:name xml:lang="en">hash</tawny:name>
+        <rdfs:comment xml:lang="en">The hash property is OPTIONAL and MAY contain a SHA-1 hash of the file contents represented as a hexadecimal digest.</rdfs:comment>
+        <rdfs:label xml:lang="en">hash</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#size -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#size">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Attachment"/>
+        <tawny:name xml:lang="en">size</tawny:name>
+        <rdfs:comment xml:lang="en">The size property is OPTIONAL and MAY contain a long indicating the file size in bytes.</rdfs:comment>
+        <rdfs:label xml:lang="en">size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#start -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#start">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Range"/>
+        <tawny:name xml:lang="en">start</tawny:name>
+        <rdfs:comment xml:lang="en">Specifies the inclusive starting position of the Range.</rdfs:comment>
+        <rdfs:label xml:lang="en">start</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sbols.org/v2#version -->
+
+    <owl:DatatypeProperty rdf:about="http://sbols.org/v2#version">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <tawny:name xml:lang="en">version</tawny:name>
+        <rdfs:comment xml:lang="en">The version property is OPTIONAL and has a data type of String. This property can be used to compare two SBOL objects with the same persistentIdentity.</rdfs:comment>
+        <rdfs:label xml:lang="en">version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://identifiers.org/chebi/CHEBI:35224 -->
+
+    <owl:Class rdf:about="http://identifiers.org/chebi/CHEBI:35224"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000057 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000057"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000139 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000139"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000141 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000141"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000167 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000167"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000234 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000234"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000280 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000280"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000316 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000316"/>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000704 -->
+
+    <owl:Class rdf:about="http://identifiers.org/so/SO:0000704"/>
+    
+
+
+    <!-- http://sbols.org/v2#Access -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Access">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#private"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#public"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">Access</tawny:name>
+        <rdfs:comment xml:lang="en">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing an access type using one of its subclasses.</rdfs:comment>
+        <rdfs:label xml:lang="en">Access</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Attachment -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Attachment">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">Attachment</tawny:name>
+        <rdfs:comment xml:lang="en">The purpose of the Attachment class is to serve as a general container for data files, especially experimental data files. It provides a means for linking files and metadata to SBOL designs.</rdfs:comment>
+        <rdfs:label xml:lang="en">Attachment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#CDS -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#CDS">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000316"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">CDS</tawny:name>
+        <rdfs:comment xml:lang="en">CDS DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">CDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Collection -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Collection">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">Collection</tawny:name>
+        <rdfs:comment xml:lang="en">Groups together a set of TopLevel objects that have something in common.</rdfs:comment>
+        <rdfs:label xml:lang="en">Collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#CombinatorialDerivation -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#CombinatorialDerivation">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#template"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">CombinatorialDerivation</tawny:name>
+        <rdfs:comment xml:lang="en">The purpose of the CombinatorialDerivation class is to specify combinatorial genetic designs without having to specify every possible design variant. For example, a CombinatorialDerivation can be used to specify a library of reporter gene variants that include different promoters and RBSs without having to specify a ComponentDefinition for every possible combination of promoter, RBS, and CDS in the library. ComponentDefinition objects that realize a CombinatorialDerivation can be derived in accordance with the class properties template, variableComponents, and strategy.</rdfs:comment>
+        <rdfs:label xml:lang="en">CombinatorialDerivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#CombinatorialDerivationStrategy -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#CombinatorialDerivationStrategy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#enumerate"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#sample"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">CombinatorialDerivationStrategy</tawny:name>
+        <rdfs:comment xml:lang="en">Specifies strategy types for combinatorial derivations.</rdfs:comment>
+        <rdfs:label xml:lang="en">CombinatorialDerivationStrategy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Complex -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Complex">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://sbols.org/v2#type"/>
+                        <owl:someValuesFrom rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">Complex</tawny:name>
+        <rdfs:comment xml:lang="en">Complex component definition</rdfs:comment>
+        <rdfs:label xml:lang="en">Complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Component -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Component">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+        <owl:disjointWith rdf:resource="http://sbols.org/v2#FunctionalComponent"/>
+        <tawny:name xml:lang="en">Component</tawny:name>
+        <rdfs:comment xml:lang="en">The Component class is used to compose ComponentDefinition objects into a structural hierarchy. For example,the ComponentDefinition of a gene could contain four Component objects: a promoter, RBS, CDS, and terminator. In turn, the ComponentDefinition of the promoter Component could contain Component objects defined as various operator sites.</rdfs:comment>
+        <rdfs:label xml:lang="en">Component</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#ComponentDefinition -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#ComponentDefinition">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#Complex"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#DNA"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Protein"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#RNA"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#SmallMolecule"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">ComponentDefinition</tawny:name>
+        <rdfs:comment xml:lang="en">Can be used to represent biological design components such as DNA, RNA and small molecules.</rdfs:comment>
+        <rdfs:label xml:lang="en">ComponentDefinition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#ComponentInstance -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#ComponentInstance">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#Component"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#FunctionalComponent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#access"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Access"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#definition"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">ComponentInstance</tawny:name>
+        <rdfs:comment xml:lang="en">The ComponentInstance abstract class is inherited by SBOL classes that represent the usage or occurrence of a ComponentDefinition within a larger design (that is, another ComponentDefinition or ModuleDefinition).</rdfs:comment>
+        <rdfs:label xml:lang="en">ComponentInstance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Cut -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Cut">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Location"/>
+        <tawny:name xml:lang="en">Cut</tawny:name>
+        <rdfs:comment xml:lang="en">The Cut class has been introduced to enable the specification of a region between two discrete positions. This specification is accomplished using the at property, which specifies a discrete position that that corresponds to the index of a character in the elements String of a Sequence.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#DNA -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#DNA">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://sbols.org/v2#type"/>
+                        <owl:someValuesFrom rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">DNA</tawny:name>
+        <rdfs:comment xml:lang="en">DNA component definition</rdfs:comment>
+        <rdfs:label xml:lang="en">DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Direction -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Direction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#in"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#inout"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#none"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#out"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">Direction</tawny:name>
+        <rdfs:comment xml:lang="en">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing a direction type using one of its subclasses.</rdfs:comment>
+        <rdfs:label xml:lang="en">Direction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Effector -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Effector">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/chebi/CHEBI:35224"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SmallMolecule"/>
+        <tawny:name xml:lang="en">Effector</tawny:name>
+        <rdfs:comment xml:lang="en">Effector small molecule</rdfs:comment>
+        <rdfs:label xml:lang="en">Effector</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#EngineeredGene -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#EngineeredGene">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000280"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">EngineeredGene</tawny:name>
+        <rdfs:comment xml:lang="en">EngineeredGene DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">EngineeredGene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#FunctionalComponent -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#FunctionalComponent">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#direction"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Direction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">FunctionalComponent</tawny:name>
+        <rdfs:comment xml:lang="en">A FunctionalComponent is an instance of a ComponentDefinition being used as part of a ModuleDefinition. The ModuleDefinition describes how the that describes how the FunctionalComponent interacts with others and summarizes their aggregate function</rdfs:comment>
+        <rdfs:label xml:lang="en">FunctionalComponent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Gene -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Gene">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000704"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">Gene</tawny:name>
+        <rdfs:comment xml:lang="en">Gene DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">Gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#GenericLocation -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#GenericLocation">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Location"/>
+        <tawny:name xml:lang="en">GenericLocation</tawny:name>
+        <rdfs:comment xml:lang="en">While the Range and Cut classes are best suited to specifying regions on Sequence objects with IUPAC encodings, the GenericLocation class is included as a starting point for specifying regions on Sequence objects with different encoding properties and potentially nonlinear structure. This class can also be used to set the orientation of a SequenceAnnotation and any associated Component when their parent ComponentDefinition is a partial design that lacks a Sequence.</rdfs:comment>
+        <rdfs:label xml:lang="en">GenericLocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#GenericTopLevel -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#GenericTopLevel">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">GenericTopLevel</tawny:name>
+        <rdfs:comment xml:lang="en">The GenericTopLevel class is used to represent top-level entities whose purpose is to contain a set of annotations that are independent of any other class of SBOL object.</rdfs:comment>
+        <rdfs:label xml:lang="en">GenericTopLevel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Identified -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Identified">
+        <tawny:name xml:lang="en">Identified</tawny:name>
+        <rdfs:comment xml:lang="en">Represents SBOL objects that can be identified uniquely using URIs.</rdfs:comment>
+        <rdfs:label xml:lang="en">Identified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Implementation -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Implementation">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">Implementation</tawny:name>
+        <rdfs:comment xml:lang="en">An Implementation represents an instance of a synthetic biological construct, and describes the build phase of a design-built-test-learn workflow. Importantly, an Implementation can be associated with a laboratory sample that was already built, or that is to be built in the future. An Implementation can also represent virtual and simulated instances. An Implementation may be linked back to its original design (either a ModuleDefinition or ComponentDefinition) using the wasDerivedFroms property inherited from the Identified superclass. An Implementation may also link to a ModuleDefinition or ComponentDefinition that specifies its realized structure and/or function.</rdfs:comment>
+        <rdfs:label xml:lang="en">Implementation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Interaction -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Interaction">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <tawny:name xml:lang="en">Interaction</tawny:name>
+        <rdfs:comment xml:lang="en">Provides more detailed description of how the FunctionalComponent objects of a ModuleDefinition are intended to work together.</rdfs:comment>
+        <rdfs:label xml:lang="en">Interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Location -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Location">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#Cut"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#GenericLocation"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Range"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <tawny:name xml:lang="en">Location</tawny:name>
+        <rdfs:comment xml:lang="en">Extended by the Range, Cut, and GenericLocation classes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#MapsTo -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#MapsTo">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#local"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#refinement"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Refinement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#remote"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#ComponentInstance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#remote"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://sbols.org/v2#access"/>
+                        <owl:someValuesFrom rdf:resource="http://sbols.org/v2#public"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">MapsTo</tawny:name>
+        <rdfs:comment xml:lang="en">When ComponentDefinition and ModuleDefinition objects are composed into structural and functional hierarchies using ComponentInstance and Module objects, it is often the case that some ComponentInstance objects are intended to represent the same entity in the overall design. The purpose of the MapsTo class is to make these identity relationships clear and explicit. For example, consider a ModuleDefinition for a genetic inverter that includes a FunctionalComponent for an abstract repressor protein. When this ModuleDefinition is instantiated within a “higher level” ModuleDefinition that includes a FunctionalComponent for a LacI protein, the MapsTo object can be used to indicate that the repressor protein in the first ModuleDefinition is LacI in the context of the composite design. </rdfs:comment>
+        <rdfs:label xml:lang="en">MapsTo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Model -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Model">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">Model</tawny:name>
+        <rdfs:comment xml:lang="en">Serves as a placeholder for an external computational model and provide additional meta-data to enable better reasoning about the contents of this model.</rdfs:comment>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Module -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Module">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#definition"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#ModuleDefinition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">Module</tawny:name>
+        <rdfs:comment xml:lang="en">Represents the usage or occurrence of a ModuleDefinition within a larger design.</rdfs:comment>
+        <rdfs:label xml:lang="en">Module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#ModuleDefinition -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#ModuleDefinition">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <tawny:name xml:lang="en">ModuleDefinition</tawny:name>
+        <rdfs:comment xml:lang="en">Represents a grouping of structural and functional entities in a biological design.</rdfs:comment>
+        <rdfs:label xml:lang="en">ModuleDefinition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#NASequence -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#NASequence">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#encoding"/>
+                <owl:someValuesFrom rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#isSequenceOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://sbols.org/v2#DNA"/>
+                            <rdf:Description rdf:about="http://sbols.org/v2#RNA"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">NASequence</tawny:name>
+        <rdfs:comment xml:lang="en">Nucleic acid sequence</rdfs:comment>
+        <rdfs:label xml:lang="en">NASequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Operator -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Operator">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000057"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">Operator</tawny:name>
+        <rdfs:comment xml:lang="en">Operator DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">Operator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Orientation -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Orientation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#inline"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#reverseComplement"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">Orientation</tawny:name>
+        <rdfs:comment xml:lang="en">Provides values for the orientation of a Sequence entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">Orientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Participation -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Participation">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#participant"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#FunctionalComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">Participation</tawny:name>
+        <rdfs:comment xml:lang="en">Each Participation represents how a particular FunctionalComponent behaves in its parent Interaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Participation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Promoter -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Promoter">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000167"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">Promoter</tawny:name>
+        <rdfs:comment xml:lang="en">Promoter DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">Promoter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Protein -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Protein">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://sbols.org/v2#type"/>
+                        <owl:someValuesFrom rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">Protein</tawny:name>
+        <rdfs:comment xml:lang="en">Protein component definition</rdfs:comment>
+        <rdfs:label xml:lang="en">Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#ProteinSequence -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#ProteinSequence">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#encoding"/>
+                <owl:someValuesFrom rdf:resource="http://www.chem.qmul.ac.uk/iupac/AminoAcid/"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#isSequenceOf"/>
+                <owl:allValuesFrom rdf:resource="http://sbols.org/v2#Protein"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">ProteinSequence</tawny:name>
+        <rdfs:comment xml:lang="en">Protein sequence</rdfs:comment>
+        <rdfs:label xml:lang="en">ProteinSequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#RBS -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#RBS">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000139"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">RBS</tawny:name>
+        <rdfs:comment xml:lang="en">RBS DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">RBS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#RNA -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#RNA">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://sbols.org/v2#type"/>
+                        <owl:someValuesFrom rdf:resource="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">RNA</tawny:name>
+        <rdfs:comment xml:lang="en">RNA component definition</rdfs:comment>
+        <rdfs:label xml:lang="en">RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Range -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Range">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Location"/>
+        <tawny:name xml:lang="en">Range</tawny:name>
+        <rdfs:comment xml:lang="en">A Range object specifies a region via discrete, inclusive start and end positions that correspond to indices for characters in the elements String of a Sequence.</rdfs:comment>
+        <rdfs:label xml:lang="en">Range</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Refinement -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Refinement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#merge"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#useLocal"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#useRemote"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#verifyIdentical"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">Refinement</tawny:name>
+        <rdfs:comment xml:lang="en">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing a refinement using one of its subclasses.</rdfs:comment>
+        <rdfs:label xml:lang="en">Refinement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Restriction -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Restriction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#differentFrom"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#oppositeOrientationAs"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#precedes"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#sameOrientationAs"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">Restriction</tawny:name>
+        <rdfs:comment xml:lang="en">Specifies relative positions of sub components in a design.</rdfs:comment>
+        <rdfs:label xml:lang="en">Restriction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#RoleIntegration -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#RoleIntegration">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#mergeRoles"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#overrideRoles"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">RoleIntegration</tawny:name>
+        <rdfs:comment xml:lang="en">Not represented in SBOL directly. It is used in the OWL representation to enforce choosing a role integration using one of its subclasses.</rdfs:comment>
+        <rdfs:label xml:lang="en">RoleIntegration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#SBOLVocabulary -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#SBOLVocabulary">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#Access"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#CombinatorialDerivationStrategy"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Direction"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Orientation"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Refinement"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#Restriction"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#RoleIntegration"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#VariableOperator"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <tawny:name xml:lang="en">SBOLVocabulary</tawny:name>
+        <rdfs:comment xml:lang="en">Not represented in SBOL directly. It is used to group SBOL specific terms.</rdfs:comment>
+        <rdfs:label xml:lang="en">SBOLVocabulary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#SMILES -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#SMILES">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Sequence"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#encoding"/>
+                <owl:someValuesFrom rdf:resource="http://www.opensmiles.org/opensmiles.html"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#isSequenceOf"/>
+                <owl:allValuesFrom rdf:resource="http://sbols.org/v2#SmallMolecule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">SMILES</tawny:name>
+        <rdfs:comment xml:lang="en">SMILES sequence</rdfs:comment>
+        <rdfs:label xml:lang="en">SMILES</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Sequence -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Sequence">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#TopLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#elements"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">Sequence</tawny:name>
+        <rdfs:comment xml:lang="en">The purpose of the Sequence class is to represent the primary structure of a ComponentDefinition object and the manner in which it is encoded. This representation is accomplished by means of the elements property and encoding property.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#SequenceAnnotation -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#SequenceAnnotation">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#location"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">SequenceAnnotation</tawny:name>
+        <rdfs:comment xml:lang="en">The SequenceAnnotation class describes one or more regions of interest on the Sequence objects referred to by its parent ComponentDefinition. In addition, SequenceAnnotation objects can describe the substructure of their parent ComponentDefinition through association with the Component objects contained by this ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">SequenceAnnotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#SequenceConstraint -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#SequenceConstraint">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#object"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Component"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#restriction"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Restriction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#subject"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Component"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">SequenceConstraint</tawny:name>
+        <rdfs:comment xml:lang="en">The SequenceConstraint class can be used to assert restrictions on the relative, sequence-based positions of pairs of Component objects contained by the same parent ComponentDefinition. The primary purpose of this class is to enable the specification of partially designed ComponentDefinition objects, for which the precise positions or orientations of their contained Component objects are not yet fully determined. Each SequenceConstraint includes the restriction, subject, and object properties.</rdfs:comment>
+        <rdfs:label xml:lang="en">SequenceConstraint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#SmallMolecule -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#SmallMolecule">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://sbols.org/v2#type"/>
+                        <owl:someValuesFrom rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#ComponentDefinition"/>
+        <tawny:name xml:lang="en">SmallMolecule</tawny:name>
+        <rdfs:comment xml:lang="en">SmallMolecule component definition</rdfs:comment>
+        <rdfs:label xml:lang="en">SmallMolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#Terminator -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#Terminator">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000141"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#DNA"/>
+        <tawny:name xml:lang="en">Terminator</tawny:name>
+        <rdfs:comment xml:lang="en">Terminator DNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">Terminator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#TopLevel -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#TopLevel">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <tawny:name xml:lang="en">TopLevel</tawny:name>
+        <rdfs:comment xml:lang="en">Can be used to represent biological design components such as DNA, RNA and small molecules.</rdfs:comment>
+        <rdfs:label xml:lang="en">TopLevel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#VariableComponent -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#VariableComponent">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Identified"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#operator"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#VariableOperator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#variable"/>
+                <owl:someValuesFrom rdf:resource="http://sbols.org/v2#Component"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <tawny:name xml:lang="en">VariableComponent</tawny:name>
+        <rdfs:comment xml:lang="en">The VariableComponent class can be used to specify a choice of ComponentDefinition objects for any new 35 Component derived from a template Component in the template ComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">VariableComponent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#VariableOperator -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#VariableOperator">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://sbols.org/v2#one"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#oneOrMore"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#zeroOrMore"/>
+                    <rdf:Description rdf:about="http://sbols.org/v2#zeroOrOne"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#SBOLVocabulary"/>
+        <tawny:name xml:lang="en">VariableOperator</tawny:name>
+        <rdfs:comment xml:lang="en">Specifies the operator types for combinatorial derivations.</rdfs:comment>
+        <rdfs:label xml:lang="en">VariableOperator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#differentFrom -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#differentFrom">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Restriction"/>
+        <tawny:name xml:lang="en">differentFrom</tawny:name>
+        <rdfs:comment xml:lang="en">The definition property of the subject Component MUST NOT refer to the same ComponentDefinition as that of the object Component.</rdfs:comment>
+        <rdfs:label xml:lang="en">differentFrom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#enumerate -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#enumerate">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#CombinatorialDerivationStrategy"/>
+        <owl:disjointWith rdf:resource="http://sbols.org/v2#sample"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#in -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#in">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Direction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#inline -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#inline">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Orientation"/>
+        <owl:disjointWith rdf:resource="http://sbols.org/v2#reverseComplement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#inout -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#inout">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Direction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#mRNA -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#mRNA">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://sbols.org/v2#role"/>
+                <owl:someValuesFrom rdf:resource="http://identifiers.org/so/SO:0000234"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#RNA"/>
+        <tawny:name xml:lang="en">mRNA</tawny:name>
+        <rdfs:comment xml:lang="en">mRNA RNA component</rdfs:comment>
+        <rdfs:label xml:lang="en">mRNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#merge -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#merge">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Refinement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#mergeRoles -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#mergeRoles">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#RoleIntegration"/>
+        <owl:disjointWith rdf:resource="http://sbols.org/v2#overrideRoles"/>
+        <tawny:name xml:lang="en">mergeRoles</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates to use the union of the two sets: both the set of zero or more roles given for this Component as well as the set of zero or more roles given for the included subComponentDefinition.</rdfs:comment>
+        <rdfs:label xml:lang="en">mergeRoles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#none -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#none">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Direction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#one -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#one">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#VariableOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#oneOrMore -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#oneOrMore">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#VariableOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#oppositeOrientationAs -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#oppositeOrientationAs">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Restriction"/>
+        <tawny:name xml:lang="en">oppositeOrientationAs</tawny:name>
+        <rdfs:comment xml:lang="en">The subject and object Component objects MUST have opposite orientations. If each one is associated with a SequenceAnnotation, then the orientation URIs of the Location objects of one SequenceAnnotation MUST NOT be among those of the other SequenceAnnotation.</rdfs:comment>
+        <rdfs:label xml:lang="en">oppositeOrientationAs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#out -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#out">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Direction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#overrideRoles -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#overrideRoles">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#RoleIntegration"/>
+        <tawny:name xml:lang="en">overrideRoles</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates that in the context of a Component, ignore any roles given for the included subComponentDefinition. Instead use only the set of zero or more roles given for this Component.</rdfs:comment>
+        <rdfs:label xml:lang="en">overrideRoles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#precedes -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#precedes">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Restriction"/>
+        <tawny:name xml:lang="en">precedes</tawny:name>
+        <rdfs:comment xml:lang="en">The position of the subject Component MUST precede that of the object Component. If each one is associated with a SequenceAnnotation, then the SequenceAnnotation associated with the subject Component MUST specify a region that starts before the region specified by the SequenceAnnotation associated with the object Component.</rdfs:comment>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#private -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#private">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Access"/>
+        <owl:disjointWith rdf:resource="http://sbols.org/v2#public"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#public -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#public">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#reverseComplement -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#reverseComplement">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Orientation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#sameOrientationAs -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#sameOrientationAs">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Restriction"/>
+        <tawny:name xml:lang="en">sameOrientationAs</tawny:name>
+        <rdfs:comment xml:lang="en">The subject and object Component objects MUST have the same orientation. If each one is associated with a SequenceAnnotation, then the orientation URIs of the Location objects of the first SequenceAnnotation MUST be among those of the second SequenceAnnotation, and vice versa.</rdfs:comment>
+        <rdfs:label xml:lang="en">sameOrientationAs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#sample -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#sample">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#CombinatorialDerivationStrategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#useLocal -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#useLocal">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Refinement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#useRemote -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#useRemote">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Refinement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#verifyIdentical -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#verifyIdentical">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#Refinement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#zeroOrMore -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#zeroOrMore">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#VariableOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sbols.org/v2#zeroOrOne -->
+
+    <owl:Class rdf:about="http://sbols.org/v2#zeroOrOne">
+        <rdfs:subClassOf rdf:resource="http://sbols.org/v2#VariableOperator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#Complex -->
+
+    <owl:Class rdf:about="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#DnaRegion -->
+
+    <owl:Class rdf:about="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#Protein -->
+
+    <owl:Class rdf:about="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#RnaRegion -->
+
+    <owl:Class rdf:about="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#SmallMolecule -->
+
+    <owl:Class rdf:about="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    
+
+
+    <!-- http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html -->
+
+    <owl:Class rdf:about="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+    
+
+
+    <!-- http://www.chem.qmul.ac.uk/iupac/AminoAcid/ -->
+
+    <owl:Class rdf:about="http://www.chem.qmul.ac.uk/iupac/AminoAcid/"/>
+    
+
+
+    <!-- http://www.opensmiles.org/opensmiles.html -->
+
+    <owl:Class rdf:about="http://www.opensmiles.org/opensmiles.html"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000057 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000057">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000057"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000139 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000139">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000139"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000141 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000141">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000141"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000167 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000167">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000167"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000234 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000234">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000234"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000280 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000280">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000280"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000316 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000316">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000316"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://identifiers.org/so/SO:0000704 -->
+
+    <owl:NamedIndividual rdf:about="http://identifiers.org/so/SO:0000704">
+        <rdf:type rdf:resource="http://identifiers.org/so/SO:0000704"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#enumerate -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#enumerate">
+        <rdf:type rdf:resource="http://sbols.org/v2#enumerate"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#in -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#in">
+        <rdf:type rdf:resource="http://sbols.org/v2#in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#inline -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#inline">
+        <rdf:type rdf:resource="http://sbols.org/v2#inline"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#inout -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#inout">
+        <rdf:type rdf:resource="http://sbols.org/v2#inout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#merge -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#merge">
+        <rdf:type rdf:resource="http://sbols.org/v2#merge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#none -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#none">
+        <rdf:type rdf:resource="http://sbols.org/v2#none"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#one -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#one">
+        <rdf:type rdf:resource="http://sbols.org/v2#one"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#oneOrMore -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#oneOrMore">
+        <rdf:type rdf:resource="http://sbols.org/v2#oneOrMore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#out -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#out">
+        <rdf:type rdf:resource="http://sbols.org/v2#out"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#private -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#private">
+        <rdf:type rdf:resource="http://sbols.org/v2#private"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#public -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#public">
+        <rdf:type rdf:resource="http://sbols.org/v2#public"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#reverseComplement -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#reverseComplement">
+        <rdf:type rdf:resource="http://sbols.org/v2#reverseComplement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#sample -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#sample">
+        <rdf:type rdf:resource="http://sbols.org/v2#sample"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#useLocal -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#useLocal">
+        <rdf:type rdf:resource="http://sbols.org/v2#useLocal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#useRemote -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#useRemote">
+        <rdf:type rdf:resource="http://sbols.org/v2#useRemote"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#verifyIdentical -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#verifyIdentical">
+        <rdf:type rdf:resource="http://sbols.org/v2#verifyIdentical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#zeroOrMore -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#zeroOrMore">
+        <rdf:type rdf:resource="http://sbols.org/v2#zeroOrOne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://sbols.org/v2#zeroOrOne -->
+
+    <owl:NamedIndividual rdf:about="http://sbols.org/v2#zeroOrOne">
+        <rdf:type rdf:resource="http://sbols.org/v2#zeroOrOne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#Complex -->
+
+    <owl:NamedIndividual rdf:about="http://www.biopax.org/release/biopax-level3.owl#Complex">
+        <rdf:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Complex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#DnaRegion -->
+
+    <owl:NamedIndividual rdf:about="http://www.biopax.org/release/biopax-level3.owl#DnaRegion">
+        <rdf:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#Protein -->
+
+    <owl:NamedIndividual rdf:about="http://www.biopax.org/release/biopax-level3.owl#Protein">
+        <rdf:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#Protein"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#RnaRegion -->
+
+    <owl:NamedIndividual rdf:about="http://www.biopax.org/release/biopax-level3.owl#RnaRegion">
+        <rdf:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#RnaRegion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.biopax.org/release/biopax-level3.owl#SmallMolecule -->
+
+    <owl:NamedIndividual rdf:about="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule">
+        <rdf:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#SmallMolecule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://sbols.org/v2#enumerate">
+        <tawny:name xml:lang="en">enumerate</tawny:name>
+        <rdfs:comment xml:lang="en">A user SHOULD derive all possible ComponentDefinition objects specified by the CombinatorialDerivation.</rdfs:comment>
+        <rdfs:label xml:lang="en">enumerate</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#in">
+        <rdfs:comment xml:lang="en">Indicates that the FunctionalComponent is an input.</rdfs:comment>
+        <tawny:name xml:lang="en">in</tawny:name>
+        <rdfs:label xml:lang="en">in</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#inline">
+        <rdfs:comment xml:lang="en">The region specified by this Location is on the elements of a Sequence.</rdfs:comment>
+        <rdfs:label xml:lang="en">inline</rdfs:label>
+        <tawny:name xml:lang="en">inline</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#inout">
+        <rdfs:label xml:lang="en">inout</rdfs:label>
+        <rdfs:comment xml:lang="en">Indicates that the FunctionalComponent is both an input and output.</rdfs:comment>
+        <tawny:name xml:lang="en">inout</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#merge">
+        <tawny:name xml:lang="en">merge</tawny:name>
+        <rdfs:label xml:lang="en">merge</rdfs:label>
+        <rdfs:comment xml:lang="en">In the context of the ComponentDefinition or ModuleDefinition that contains the owner of the MapsTo, all references to the local ComponentInstance or the remote ComponentInstance MUST dereference to both objects.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#none">
+        <tawny:name xml:lang="en">none</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates that the FunctionalComponent is neither an input or output.</rdfs:comment>
+        <rdfs:label xml:lang="en">none</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#one">
+        <rdfs:label xml:lang="en">one</rdfs:label>
+        <rdfs:comment xml:lang="en">Exactly one Component in the derived ComponentDefinition SHOULD have a wasDerivedFroms property that refers to the template Component.</rdfs:comment>
+        <tawny:name xml:lang="en">one</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#oneOrMore">
+        <rdfs:label xml:lang="en">oneOrMore</rdfs:label>
+        <rdfs:comment xml:lang="en">At least one Component in the derived ComponentDefinition SHOULD have a wasDerivedFroms property that refers to the template Component.</rdfs:comment>
+        <tawny:name xml:lang="en">oneOrMore</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#out">
+        <tawny:name xml:lang="en">out</tawny:name>
+        <rdfs:label xml:lang="en">out</rdfs:label>
+        <rdfs:comment xml:lang="en">Indicates that the FunctionalComponent is an output.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#private">
+        <rdfs:label xml:lang="en">private</rdfs:label>
+        <tawny:name xml:lang="en">private</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates that a ComponentInstance MUST NOT be referred to by remote MapsTo objects.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#public">
+        <rdfs:comment xml:lang="en">Indicates that a ComponentInstance MAY be referred to by remote MapsTo objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">public</rdfs:label>
+        <tawny:name xml:lang="en">public</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#reverseComplement">
+        <rdfs:label xml:lang="en">reverseComplement</rdfs:label>
+        <rdfs:comment xml:lang="en">The region specified by this Location is on the reverse-complement translation of the elements of a Sequence. The exact nature of this translation depends on the encoding of the Sequence</rdfs:comment>
+        <tawny:name xml:lang="en">reverseComplement</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#sample">
+        <rdfs:label xml:lang="en">sample</rdfs:label>
+        <tawny:name xml:lang="en">sample</tawny:name>
+        <rdfs:comment xml:lang="en">A user SHOULD derive a subset of all possible ComponentDefinition objects specified by CombinatorialDerivation. The manner in which this subset is chosen is for the user to decide.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#useLocal">
+        <rdfs:comment xml:lang="en">In the context of the ComponentDefinition or ModuleDefinition that contains the owner of the MapsTo, all references to the remote ComponentInstance MUST dereference to the local ComponentInstance instead.</rdfs:comment>
+        <rdfs:label xml:lang="en">useLocal</rdfs:label>
+        <tawny:name xml:lang="en">useLocal</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#useRemote">
+        <tawny:name xml:lang="en">useRemote</tawny:name>
+        <rdfs:comment xml:lang="en">Indicates that all references to the local ComponentInstance MUST dereference to the remote ComponentInstance instead.</rdfs:comment>
+        <rdfs:label xml:lang="en">useRemote</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#verifyIdentical">
+        <rdfs:label xml:lang="en">verifyIdentical</rdfs:label>
+        <rdfs:comment xml:lang="en">Indicates that the definition properties of the local and remote ComponentInstance objects MUST refer to the same ComponentDefinition.</rdfs:comment>
+        <tawny:name xml:lang="en">verifyIdentical</tawny:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#zeroOrMore">
+        <rdfs:comment xml:lang="en">Any number of Component objects in the derived ComponentDefinition MAY have wasDerivedFroms properties that refer to the template Component.</rdfs:comment>
+        <tawny:name xml:lang="en">zeroOrMore</tawny:name>
+        <rdfs:label xml:lang="en">zeroOrMore</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://sbols.org/v2#zeroOrOne">
+        <rdfs:label xml:lang="en">zeroOrOne</rdfs:label>
+        <rdfs:comment xml:lang="en">No more than one Component in the derived ComponentDefinition SHOULD have a wasDerivedFroms property that refers to the template Component.</rdfs:comment>
+        <tawny:name xml:lang="en">zeroOrOne</tawny:name>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#Access"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#CombinatorialDerivationStrategy"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Direction"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Orientation"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Refinement"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Restriction"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#RoleIntegration"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#VariableOperator"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#Attachment"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Collection"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#CombinatorialDerivation"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#ComponentDefinition"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#GenericTopLevel"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Implementation"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Model"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#ModuleDefinition"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Sequence"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#CDS"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#EngineeredGene"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Gene"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Operator"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Promoter"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#RBS"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Terminator"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#Complex"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#DNA"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Protein"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#RNA"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#SmallMolecule"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#Cut"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#GenericLocation"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#Range"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#NASequence"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#ProteinSequence"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#SMILES"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#differentFrom"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#oppositeOrientationAs"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#precedes"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#sameOrientationAs"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#in"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#inout"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#none"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#out"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#merge"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#useLocal"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#useRemote"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#verifyIdentical"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sbols.org/v2#one"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#oneOrMore"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#zeroOrMore"/>
+            <rdf:Description rdf:about="http://sbols.org/v2#zeroOrOne"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
