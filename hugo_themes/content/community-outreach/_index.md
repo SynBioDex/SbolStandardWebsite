@@ -13,7 +13,7 @@ header:
   caption: ""
   image: ""
 ---
-Below is a list of outreach events that SBOL has been involved in to educate the community about SBOL and its capability.
+Below is a list of outreach events that SBOL has been involved in to educate the community about SBOL and its capability. The presentation materials for many of these outreach events can be found in the SBOL Community Media repository found [here](https://github.com/SynBioDex/Community-Media), and they are made freely available via a Creative Commons license.
 
 |   Events                                                                      |   Date (YYYY/DD/MM)        |   Location                                                                |   Agenda + Resources                                                                                        |
 |-------------------------------------------------------------------------------|----------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|

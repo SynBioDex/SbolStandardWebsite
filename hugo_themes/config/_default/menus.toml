@@ -99,7 +99,7 @@
 
 [[main]]
   name = "Publications"
-  url = "#featured"
+  url = "/publication"
   weight = 40
 
 [[main]]
@@ -147,6 +147,24 @@
   name = "FAQ"
   url = "/faq"
   weight = 60
+
+[[main]]
+  name = "About"
+  url = "/about"
+  weight = 70
+  identifier = "about-id"
+
+[[main]]
+  name = "View Source"
+  url = "https://synbiodex.github.io/SbolStandardWebsite/"
+  weight = 75
+  parent = "about-id"
+
+[[main]]
+  name = "Report an Issue"
+  url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
+  weight = 80
+  parent = "about-id"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

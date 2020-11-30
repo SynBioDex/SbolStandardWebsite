@@ -1,5 +1,5 @@
 ---
-title: pySBOL
+title: Python
 summary: Python interfaces and implementations for SBOL
 tags:
 - Libraries
@@ -16,7 +16,7 @@ links:
 - icon: github
   icon_pack: fab
   name: Github
-  url: https://github.com/SynBioDex/pysbol
+  url: https://github.com/SynBioDex/pySBOL2
 - icon: file-alt
   icon_pack: fas
   name: Overview
@@ -31,12 +31,13 @@ links:
   url: https://pysbol2.readthedocs.io/en/latest/installation.html
 - icon: code
   icon_pack: fas
-  name: Release (v 2.3.0)
-  url: https://github.com/SynBioDex/pySBOL/releases/tag/2.3.0
+  name: Release (v 1.1.0)
+  url: https://github.com/SynBioDex/pySBOL2/releases/tag/v1.1
 - icon: bug
   icon_pack: fas
   name: Bug & Feature Report
-  url: https://github.com/SynBioDex/pysbol/issues
+  url: https://github.com/SynBioDex/pySBOL2/issues
+
 - icon: book
   icon_pack: fas
   name: CRISPR Circuit Example
@@ -55,6 +56,9 @@ slides: ""
 ---
 
 pySBOL provides Python interfaces and their implementation for Synthetic Biology Open Language (SBOL). The current version of pySBOL implements SBOL Core Specification 2.2.0. The library provides an API to work with SBOL objects, the functionality to read GenBank, FASTA, and SBOL version 1 and 2 documents as XML/RDF files, to write GenBank, FASTA, and SBOL version 1 and 2 documents, and to validate the correctness of SBOL 2 documents. This is a Python binding for C/C++ based libSBOL. Currently, pySBOL supports Python version 2.7 and 3.6 only. pySBOL is made freely available under the Apache 2.0 license.
+
+The current stable version is pySBOL2 (listed above) which implements SBOL 2. The repository of beta version of pySBOL3 library can be accessed [here](https://github.com/SynBioDex/pySBOL3).
+
 
 
 <b>Cite: </b> B. Bartley, K. Choi, M. Samineni, Z. Zundel, T. Nguyen, C. Myers, and H. Sauro.pySBOL: A Python Package for Genetic Design Automation and Standardization. ACS Synthetic Biology, (2018). doi:10.1021/acssynbio.8b00336.
