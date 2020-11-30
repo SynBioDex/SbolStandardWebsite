@@ -44,7 +44,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Cesar Rodriguez          |   Florida State University                                |   USA           |
 |   Chih-Hsien Yang          |   National Yang Ming University                           |   Taiwan        |
 |   Chris Anderson           |   University of California, Berkeley                      |   USA           |
-|   Chris Myers              |   University of Utah                                      |   USA           |
+|   Chris Myers              |   University of Colorado                                  |   USA           |
 |   Chris Walker             |   Macquarie University                                    |   Australia     |
 |   Christian Atallah        |   Newcastle University                                    |   UK            |
 |   Christian Nyumbayire     |   Independent                                             |   Italy         |
@@ -91,7 +91,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Herbert Sauro            |   University of Washington                                |   USA           |
 |   Hiroyuki Kuwahara        |   KAUST                                                   |   Saudi Arabia  |
 |   Huaiyu Mi                |   USC                                                     |   USA           |
-|   Igor Durovic             |   University of Utah                                      |   USA           |
+|   Igor Durovic             |   Google                                                  |   USA           |
 |   Isabel Pötzsch           |   University of Cambridge                                 |   UK            |
 |   Jackie Quinn             |   Google                                                  |   USA           |
 |   Jake Beal                |   BBN Technologies                                        |   USA           |
@@ -100,11 +100,11 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   James Scott Brown        |   Imperial College London                                 |   UK            |
 |   James Skelton            |   NEwcastle University                                    |   UK            |
 |   Jan Madsen               |   DTU                                                     |   Denmark       |
-|   Jared Earl               |   University of Utah                                      |   USA           |
+|   Jared Earl               |   Forcepoint                                              |   USA           |
 |   Jason Mohabir            |   Columbia University                                     |   USA           |
 |   Jasper Koehorst          |   Wageningen University                                   |   Netherlands   |
 |   Jean Peccoud             |   Colorado State University                               |   USA           |
-|   Jeanet Mante             |   University of Utah                                      |   USA           |
+|   Jeanet Mante             |   University of Colorado                                  |   USA           |
 |   Jeffrey Barrick          |   UT Austin                                               |   USA           |
 |   Jeffrey Elhai            |   Virginia Commonwealth University                        |   USA           |
 |   Jenhan Tao               |   University of California, San Diego                     |   USA           |
@@ -145,7 +145,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Mike Bissell             |   Shipyard Toolchains                                     |   USA           |
 |   Mike Fero                |   Teselagen                                               |   USA           |
 |   Nathan Hillson           |   Joint Bioenergy Institute                               |   USA           |
-|   Nathan Wilkenson         |   University of Utah                                      |   USA           |
+|   Nathan Wilkinson         |   Recursion Pharmaceuticals                               |   USA           |
 |   Neil Swainston           |   Manchester BioFactory Ltd.                              |   UK            |
 |   Neil Thompson            |   Massachusetts Institute of Technology                   |   USA           |
 |   Nicholas Roehner         |   BBN Technologies                                        |   USA           |
@@ -153,7 +153,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Owen Gilfellon           |   Newcastle University                                    |   UK            |
 |   Pablo Carbonell          |   Manchester Institute of Biotechnology                   |   USA           |
 |   Patrick Yizhi            |   University of Edinburgh                                 |   UK            |
-|   Pedro Fontanarrosa       |   University of Utah                                      |   USA           |
+|   Pedro Fontanarrosa       |   University of Colorado                                  |   USA           |
 |   Peter Dun                |   Stanford University                                     |   USA           |
 |   Philip Bradley           |   Newcastle University                                    |   UK            |
 |   Prashant Vaidyanathan    |   Microsoft Inc.                                          |   UK            |
@@ -178,7 +178,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Thomas Gorochowski       |   Bio Compute Lab                                         |   UK            |
 |   Tim Fiori                |   University of Australia                                 |   Australia     |
 |   Todd Slaby               |   Lawrence Berkeley National Labs                         |   USA           |
-|   Tramy Nguyen             |   University of Utah                                      |   USA           |
+|   Tramy Nguyen             |   BBN Technologies                                        |   USA           |
 |   Tyler Camp               |   University of Texas at Austin                           |   USA           |
 |   Ueno Masayoshi           |   Kitasato University                                     |   Japan         |
 |   Umesh P                  |   University of Kerala                                    |   India         |
@@ -193,8 +193,8 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Yogev Debbi              |   Genome Compiler                                         |   USA           |
 |   Ysis Tarter              |   Amyris                                                  |   USA           |
 |   Zach Palchick            |   Zymergen                                                |   USA           |
-|   Zach Zundel              |   University of Utah                                      |   USA           |
-|   Zhen Zhang               |   University of Utah                                      |   USA           |
+|   Zach Zundel              |   Facebook                                                |   USA           |
+|   Zhen Zhang               |   Utah State University                                   |   USA           |
 |   Zhiyang Ong              |   Texas A&M University                                    |   USA           |
 |   Mudasir Shaikh           |   Habib University                                        |   Pakistan      |
 |   Ritwik Agarwal           |   Iiit Hyderabad                                          |   India         |
