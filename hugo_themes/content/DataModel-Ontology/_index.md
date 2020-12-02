@@ -22,7 +22,7 @@ The SBOL-OWL ontology provides a set of controlled terms that are used to descri
 * Properties (e.g. [“sequence“](https://dissys.github.io/sbol-owl/sbol-owl.html#sequence)) linking SBOL entities to accepted values.
 * Metadata terms (e.g. [“Promoter“](https://dissys.github.io/sbol-owl/sbol-owl.html#Promoter)) for commonly used descriptions of design entities. Such terms may require the use of several SBOL entities and properties.
 
-### browse
+### Browse
 
 [Browse the SBOL-OWL terms via an HTML page.](https://dissys.github.io/sbol-owl/sbol-owl.html)
 
