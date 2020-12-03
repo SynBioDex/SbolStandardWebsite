@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="160.93483mm"
+   height="51.348495mm"
+   viewBox="0 0 160.93483 51.348495"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -83,8 +83,8 @@
     </filter>
     <filter
        inkscape:collect="always"
-       x="-.10981"
-       y="-.32159"
+       x="-0.10981"
+       y="-0.32159001"
        width="1.2196"
        height="1.6432"
        id="filter3994">
@@ -95,8 +95,8 @@
     </filter>
     <filter
        inkscape:collect="always"
-       x="-.10981"
-       y="-.32159"
+       x="-0.10981"
+       y="-0.32159001"
        width="1.2196"
        height="1.6432"
        id="filter3998">
@@ -114,14 +114,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="215.61207"
-     inkscape:cy="390.8708"
+     inkscape:cx="19.744263"
+     inkscape:cy="-18.315737"
      inkscape:document-units="mm"
      inkscape:current-layer="g823"
      showgrid="false"
-     inkscape:window-width="3840"
-     inkscape:window-height="2028"
-     inkscape:window-x="-16"
+     inkscape:window-width="4800"
+     inkscape:window-height="2492"
+     inkscape:window-x="9584"
      inkscape:window-y="-16"
      inkscape:window-maximized="1" />
   <metadata
@@ -139,7 +139,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-12.401102,-137.38757)">
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,11.261607,199.02817)"
        inkscape:label="SBOL-industrial-logo"
