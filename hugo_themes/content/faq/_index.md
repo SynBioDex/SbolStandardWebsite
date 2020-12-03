@@ -92,7 +92,7 @@ information for your paper in one file. You can also attach mathematical models 
   <summary><b>Can I use the SBOL logo in my own work/tools?</b></summary>
   Yes, the SBOL Logo is free to use under the Creative Commons license.
 
-  You can get the SBOL logo {{% staticref "img/Logos/SBOLlogo.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "img/Logos/SBOL-Logo.svg" "newtab" %}}SVG image file{{% /staticref %}}.
+  You can get the SBOL logo {{% staticref "img/Logos/SBOLlogo.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "img/Logos/SBOLlogo.svg" "newtab" %}}SVG image file{{% /staticref %}}.
 
   You can get the SBOL Visual logo {{% staticref "img/Logos/SBOLVisualLogo.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "img/Logos/SBOLVisualLogo.svg" "newtab" %}}SVG image file{{% /staticref %}}.
 
