@@ -34,7 +34,7 @@
 
 [[main]]
   name = "SBOL Ontology"
-  url = "/DataModel-Ontology"
+  url = "/ontology"
   weight = 20
   parent = "dom-id"
 
