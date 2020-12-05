@@ -82,7 +82,7 @@
 
 [[main]]
   name = "SBOL Visual Ontology"
-  url = "/visual-ontology"
+  url = "/sbol-visual-ontology"
   weight = 20
   parent = "visual-id"
 
