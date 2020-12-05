@@ -1772,7 +1772,7 @@
   </url>
   
   <url>
-    <loc>/datamodel-ontology/</loc>
+    <loc>/ontology/</loc>
   </url>
   
   <url>
@@ -1792,7 +1792,7 @@
   </url>
   
   <url>
-    <loc>/visual-ontology/</loc>
+    <loc>/sbol-visual-ontology/</loc>
   </url>
   
   <url>
