@@ -34,7 +34,7 @@
 
 [[main]]
   name = "SBOL Ontology"
-  url = "/DataModel-Ontology"
+  url = "/ontology"
   weight = 20
   parent = "dom-id"
 
@@ -82,7 +82,7 @@
 
 [[main]]
   name = "SBOL Visual Ontology"
-  url = "/visual-ontology"
+  url = "/sbol-visual-ontology"
   weight = 20
   parent = "visual-id"
 
