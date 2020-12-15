@@ -1728,7 +1728,15 @@
   </url>
   
   <url>
+    <loc>/datamodel-about/</loc>
+  </url>
+  
+  <url>
     <loc>/sbol-industrial/</loc>
+  </url>
+  
+  <url>
+    <loc>/visual-about/</loc>
   </url>
   
   <url>
@@ -1764,7 +1772,7 @@
   </url>
   
   <url>
-    <loc>/datamodel-about/</loc>
+    <loc>/datamodel-specification/</loc>
   </url>
   
   <url>
@@ -1773,14 +1781,6 @@
   
   <url>
     <loc>/ontology/</loc>
-  </url>
-  
-  <url>
-    <loc>/datamodel-specification/</loc>
-  </url>
-  
-  <url>
-    <loc>/visual-about/</loc>
   </url>
   
   <url>
