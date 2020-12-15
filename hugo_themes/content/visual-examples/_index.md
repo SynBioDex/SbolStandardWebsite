@@ -14,8 +14,6 @@ header:
   image: ""
 ---
 
-### Examples
-
 ## 2020 (Visual Examples)
 {{< cite page="/publication/visual2Ontology" view="3" >}}
 
