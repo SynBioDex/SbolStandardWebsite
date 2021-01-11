@@ -20,12 +20,14 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - name: Clone Repo (and submodules)
+      uses: actions/checkout@v2
       with:
         submodules: true  # Fetch any Git submodules (true OR recursive)
         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-    - uses: actions/setup-go@v2
+    - name: Install Go
+      uses: actions/setup-go@v2
       with:
         go-version: '^1.15.6' # The Go version to download (if necessary) and use.
 
@@ -39,7 +41,7 @@ jobs:
     - name: Hugo Actions
       uses: srt32/hugo-action@v0.0.3
       with: 
-        args: "-s hugo_themes -d public -t academic --cleanDestinationDir"
+        args: "-s hugo_themes -d public --cleanDestinationDir"
         
     - name: Deploy  
       uses: peaceiris/actions-gh-pages@v3
