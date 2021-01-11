@@ -25,6 +25,10 @@ jobs:
         submodules: true  # Fetch any Git submodules (true OR recursive)
         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+    - uses: actions/setup-go@v2
+      with:
+        go-version: '^1.15.6' # The Go version to download (if necessary) and use.
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
