@@ -28,7 +28,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Alexis Casas             |   Imperial College London                                 |   UK            |
 |   Alice Boo                |   Imperial College London                                 |   UK            |
 |   Ana Delgado              |   University of Oslo                                      |   Norway        |
-|   Angel Moreno             |   Newcastle University                                    |   UK            |
+|   Angel Goñi-Moreno        |   Newcastle University                                    |   UK            |
 |   Anil Wipat               |   Newcastle University                                    |   UK            |
 |   Anton Kulaga             |   Computation Biology of Aging Group                      |   Romania       |
 |   Augustin Luna            |   Dana-Farber Cancer Institute                            |   USA           |
@@ -78,7 +78,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Gary Bader               |   University of Toronto                                   |   Canada        |
 |   Geoff Baldwin            |   Imperial College London                                 |   USA           |
 |   George McArthur          |   GenoCAD                                                 |   USA           |
-|   Goksel Misirli           |   Keele University                                        |   UK            |
+|   Göksel Mısırlı           |   Keele University                                        |   UK            |
 |   Gonzalo Vidal Pena       |   University of Chile                                     |   Chile         |
 |   Grimaldo Elias Urena M.  |   Technological University of Panama                      |   Panama        |
 |   Guillermo Yanez Feliu    |   Rudge Lab, PUC.                                         |   Chile         |
@@ -96,9 +96,9 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Jackie Quinn             |   Google                                                  |   USA           |
 |   Jake Beal                |   BBN Technologies                                        |   USA           |
 |   James Diggans            |   Twist Bioscience                                        |   USA           |
-|   James Mglaughlin         |   Newcastle University                                    |   UK            |
+|   James McLaughlin         |   EMBL-EBI                                                |   UK            |
 |   James Scott Brown        |   Imperial College London                                 |   UK            |
-|   James Skelton            |   NEwcastle University                                    |   UK            |
+|   James Skelton            |   Newcastle University                                    |   UK            |
 |   Jan Madsen               |   DTU                                                     |   Denmark       |
 |   Jared Earl               |   Forcepoint                                              |   USA           |
 |   Jason Mohabir            |   Columbia University                                     |   USA           |
@@ -161,7 +161,6 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Rahmi Lale               |   NTNU                                                    |   Norway        |
 |   Raik Gruenberg           |   KAUST                                                   |   Saudi Arabia  |
 |   Richard Kitney           |   Imperial College London                                 |   UK            |
-|   Robert Cox               |   Kobe University                                         |   Japan         |
 |   Robert Sidney Cox        |   Robert Sydney Cox III Co.                               |   USA           |
 |   Robin Emig               |   Augment Bioworks                                        |   USA           |
 |   S. Castillo Hair         |   Rice University                                         |   USA           |
@@ -175,7 +174,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Stuart Moodie            |   Eight Pillars Ltd.                                      |   Edinburgh     |
 |   Sunwoo Kang              |   Stanford University                                     |   USA           |
 |   Swapnil Bhatiya          |   Catalog Inc                                             |   USA           |
-|   Thomas Gorochowski       |   Bio Compute Lab                                         |   UK            |
+|   Thomas Gorochowski       |   Bio Compute Lab, Bristol University                     |   UK            |
 |   Tim Fiori                |   University of Australia                                 |   Australia     |
 |   Todd Slaby               |   Lawrence Berkeley National Labs                         |   USA           |
 |   Tramy Nguyen             |   BBN Technologies                                        |   USA           |
