@@ -1,345 +1,256 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Modeling | The Synthetic Biology Open Language</title>
-    <link>/tag/modeling/</link>
-      <atom:link href="/tag/modeling/index.xml" rel="self" type="application/rss+xml" />
-    <description>Modeling</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/logo.svg</url>
-      <title>Modeling</title>
-      <link>/tag/modeling/</link>
-    </image>
-    
-    <item>
-      <title>Cello</title>
-      <link>/applications/cello/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/cello/</guid>
-      <description>&lt;p&gt;Cello is a framework that describes what is essentially a programming language to design computational circuits in living cells. The circuits generated on plasmids expressed in Escherichia coli required careful insulation from their genetic context, but primarily functioned as specified. The circuits could, for example, regulate cellular functions in response to multiple environmental signals. Such a strategy can facilitate the development of more complex circuits by genetic engineering.&lt;/p&gt;
-&lt;p&gt;Cello converts electronic design specifications of combinational logic to complete DNA sequences encoding transcriptional logic circuits that can be executed in bacterial cells. A database of transcriptional repressors characterized in the Voigt lab provide genetic NOT gates and NOR gates that can be composed into any Boolean logic function specified in Verilog.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Doug Densmore&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Boston University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java/HTML/JS/CSS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD 2-Clause&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>iBioSim</title>
-      <link>/applications/ibiosim/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/ibiosim/</guid>
-      <description>&lt;p&gt;iBioSim has been developed for the modeling, analysis, and design of genetic circuits. While iBioSim primarily targets models of genetic circuits, models representing metabolic networks, cell-signaling pathways, and other biological and chemical systems can also be analyzed. iBioSim also includes modeling and visualization support for multi-cellular and spatial models as well. It is capable of importing and exporting models specified using the Systems Biology Markup Language (SBML). It can import all levels and versions of SBML and is able to export Level 3 Version 1. It supports all core SBML modeling constructs except some types of fast reactions, and also has support for the hierarchical model composition, layout, flux balance constraints, and arrays packages. It was the first tool to produce correct results for all examples in the SBML benchmark suite. It has also been tested successfully on the stochastic benchmark suite and the curated models in the BioModels database. Finally, it is one of the first tools to also support the Synthetic Biology Open Language (SBOL), an emerging standard for information exchange in synthetic biology.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/g4xayzlyC2Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Chris Myers&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;University of Utah&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java/C++&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;MIT&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>j5</title>
-      <link>/applications/j5/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/j5/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Nathan Hillson&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Lawrence Berkeley National Lab&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Perl&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Parts &amp; Pools</title>
-      <link>/applications/partsandpools/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/partsandpools/</guid>
-      <description>&lt;p&gt;Graphical, drag and drop design of synthetic gene circuit with Standard Biological Parts. Eukaryotic parts are modelled via a rule-based approach.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Mario Andrea Marchisio&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Harbin Institute of Technology&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Perl/Python&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Free for all users&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Proto BioCompiler</title>
-      <link>/applications/protobiocompiler/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/protobiocompiler/</guid>
-      <description>&lt;p&gt;Proto BioCompiler generates optimized genetic regulatory network designs from specifications written in a high-level programming language, producing both SBOL specifications, visualization, and ODE models.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Jacob Beal&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Raytheon BBN Technologies&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;C/C++&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux/Mac/Win/Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;GPL3 with classpath exception&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tellurium</title>
-      <link>/applications/tellurium/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/tellurium/</guid>
-      <description>&lt;p&gt;Tellurium is a Python environment based on spyder2 IDE, designed for systems and synthetic biology simulations. It combines a number of existing libraries, including libRoadRunner, libAntimony, and phraSED-ML, alongside with standards support through libSBML, libSEDML, and pySBOL. Additionally, other Python packages such as matplotlib and NumPy are used to provide extra analysis, optimization, and plotting capabilities.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Kiri Choi&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;University of Washington&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;C/C++&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>TinkerCell</title>
-      <link>/applications/tinkercell/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/tinkercell/</guid>
-      <description>&lt;p&gt;TinkerCell is a widely used open source network design and simulation application tool for synthetic biology (tinkercell.org). The software allows synthetic biologists to design new synthetic circuits and simulate them. TinkerCell is written in C++ and runs on Windows, Mac and Linux. It uses Qt as the GUI framework. Currently TinkerCell only has very limited support for SBOL.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Herbert Sauro&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;University of Washington&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;C/C++&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Virtual Parts Repository</title>
-      <link>/applications/vpr/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/vpr/</guid>
-      <description>&lt;p&gt;A repository of modular models of biological components. These models are reusable and composable, and facilitate model-driven design of biological systems.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Goksel Misirli, Anil Wipat&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Newcastle University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux/Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Modeling | The Synthetic Biology Open Language</title><link>/tag/modeling/</link><atom:link href="/tag/modeling/index.xml" rel="self" type="application/rss+xml"/><description>Modeling</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Modeling</title><link>/tag/modeling/</link></image><item><title>Cello</title><link>/applications/cello/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/cello/</guid><description>&lt;p>Cello is a framework that describes what is essentially a programming language to design computational circuits in living cells. The circuits generated on plasmids expressed in Escherichia coli required careful insulation from their genetic context, but primarily functioned as specified. The circuits could, for example, regulate cellular functions in response to multiple environmental signals. Such a strategy can facilitate the development of more complex circuits by genetic engineering.&lt;/p>
+&lt;p>Cello converts electronic design specifications of combinational logic to complete DNA sequences encoding transcriptional logic circuits that can be executed in bacterial cells. A database of transcriptional repressors characterized in the Voigt lab provide genetic NOT gates and NOR gates that can be composed into any Boolean logic function specified in Verilog.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Doug Densmore&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Boston University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java/HTML/JS/CSS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD 2-Clause&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>iBioSim</title><link>/applications/ibiosim/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/ibiosim/</guid><description>&lt;p>iBioSim has been developed for the modeling, analysis, and design of genetic circuits. While iBioSim primarily targets models of genetic circuits, models representing metabolic networks, cell-signaling pathways, and other biological and chemical systems can also be analyzed. iBioSim also includes modeling and visualization support for multi-cellular and spatial models as well. It is capable of importing and exporting models specified using the Systems Biology Markup Language (SBML). It can import all levels and versions of SBML and is able to export Level 3 Version 1. It supports all core SBML modeling constructs except some types of fast reactions, and also has support for the hierarchical model composition, layout, flux balance constraints, and arrays packages. It was the first tool to produce correct results for all examples in the SBML benchmark suite. It has also been tested successfully on the stochastic benchmark suite and the curated models in the BioModels database. Finally, it is one of the first tools to also support the Synthetic Biology Open Language (SBOL), an emerging standard for information exchange in synthetic biology.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/g4xayzlyC2Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Chris Myers&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>University of Utah&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java/C++&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>MIT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>j5</title><link>/applications/j5/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/j5/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Nathan Hillson&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Lawrence Berkeley National Lab&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Perl&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Parts &amp; Pools</title><link>/applications/partsandpools/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/partsandpools/</guid><description>&lt;p>Graphical, drag and drop design of synthetic gene circuit with Standard Biological Parts. Eukaryotic parts are modelled via a rule-based approach.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Mario Andrea Marchisio&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Harbin Institute of Technology&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Perl/Python&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Free for all users&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Proto BioCompiler</title><link>/applications/protobiocompiler/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/protobiocompiler/</guid><description>&lt;p>Proto BioCompiler generates optimized genetic regulatory network designs from specifications written in a high-level programming language, producing both SBOL specifications, visualization, and ODE models.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Jacob Beal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Raytheon BBN Technologies&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>C/C++&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux/Mac/Win/Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>GPL3 with classpath exception&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Tellurium</title><link>/applications/tellurium/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/tellurium/</guid><description>&lt;p>Tellurium is a Python environment based on spyder2 IDE, designed for systems and synthetic biology simulations. It combines a number of existing libraries, including libRoadRunner, libAntimony, and phraSED-ML, alongside with standards support through libSBML, libSEDML, and pySBOL. Additionally, other Python packages such as matplotlib and NumPy are used to provide extra analysis, optimization, and plotting capabilities.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Kiri Choi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>University of Washington&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>C/C++&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>TinkerCell</title><link>/applications/tinkercell/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/tinkercell/</guid><description>&lt;p>TinkerCell is a widely used open source network design and simulation application tool for synthetic biology (tinkercell.org). The software allows synthetic biologists to design new synthetic circuits and simulate them. TinkerCell is written in C++ and runs on Windows, Mac and Linux. It uses Qt as the GUI framework. Currently TinkerCell only has very limited support for SBOL.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Herbert Sauro&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>University of Washington&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>C/C++&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Virtual Parts Repository</title><link>/applications/vpr/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/vpr/</guid><description>&lt;p>A repository of modular models of biological components. These models are reusable and composable, and facilitate model-driven design of biological systems.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Goksel Misirli, Anil Wipat&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Newcastle University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux/Web&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>

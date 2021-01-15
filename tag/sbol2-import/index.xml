@@ -1,583 +1,441 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>SBOL2 Import | The Synthetic Biology Open Language</title>
-    <link>/tag/sbol2-import/</link>
-      <atom:link href="/tag/sbol2-import/index.xml" rel="self" type="application/rss+xml" />
-    <description>SBOL2 Import</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>/images/logo.svg</url>
-      <title>SBOL2 Import</title>
-      <link>/tag/sbol2-import/</link>
-    </image>
-    
-    <item>
-      <title>BOOST</title>
-      <link>/applications/boost/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/boost/</guid>
-      <description>&lt;p&gt;Build-OptimizatiOn Software Tools (BOOST) is a platform of tools to design DNA sequences for manufacturing. Currently, BOOST consists of three tools: (i) The &amp;ldquo;Juggler&amp;rdquo; reverse translates protein sequences into DNA sequences and codon juggles DNA sequences, (ii) The &amp;ldquo;Polisher&amp;rdquo; verifies DNA sequences against DNA synthesis constraints. In addition, the &amp;ldquo;Polisher&amp;rdquo; can modify the protein coding regions of DNA sequences in order to resolve eventual violations of DNA synthesis constraints. (iii) The &amp;ldquo;Partitioner&amp;rdquo; decomposes large DNA sequences into synthesizable building blocks with assembly-specific overlap sequences.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Ernst Oberortner&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;DOE Joint Genome Institute, Lawrence Berkeley National Labs&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;JAva&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux/Mac/Win/Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Free for academic users&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DNAplotlib</title>
-      <link>/applications/dnaplotlib/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/dnaplotlib/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Thomas Gorochowski&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;University of Bristol, UK (originally Voigt Lab, MIT)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Python&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;MIT&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eugene</title>
-      <link>/applications/eugene/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/eugene/</guid>
-      <description>&lt;p&gt;Eugene is a textual specification language for the rule-based design of synthetic biological systems, devices, parts, and DNA sequences.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/KczZskca60g&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Douglas Densmore&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Boston University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows, Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;CC BY-SA 4.0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GeneTech</title>
-      <link>/applications/genetech/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/genetech/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Hasan Baig&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Denmark Technical University, Habib University, University of Connecticut&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Python, Java&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;MacOS, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-source, Free for all users&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GenoCAD</title>
-      <link>/applications/genocad/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/genocad/</guid>
-      <description>&lt;p&gt;GenoCAD is a rule-based DNA design tool. It includes an extensive library of genetic parts derived from the annotation of common plasmids. It allows users to define domain specific languages to design expression systems for particular applications.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Jean Peccoud&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;GenoFAB, LLC&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;PHP/Java/Prolog/JS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Commercial&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>iBioSim</title>
-      <link>/applications/ibiosim/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/ibiosim/</guid>
-      <description>&lt;p&gt;iBioSim has been developed for the modeling, analysis, and design of genetic circuits. While iBioSim primarily targets models of genetic circuits, models representing metabolic networks, cell-signaling pathways, and other biological and chemical systems can also be analyzed. iBioSim also includes modeling and visualization support for multi-cellular and spatial models as well. It is capable of importing and exporting models specified using the Systems Biology Markup Language (SBML). It can import all levels and versions of SBML and is able to export Level 3 Version 1. It supports all core SBML modeling constructs except some types of fast reactions, and also has support for the hierarchical model composition, layout, flux balance constraints, and arrays packages. It was the first tool to produce correct results for all examples in the SBML benchmark suite. It has also been tested successfully on the stochastic benchmark suite and the curated models in the BioModels database. Finally, it is one of the first tools to also support the Synthetic Biology Open Language (SBOL), an emerging standard for information exchange in synthetic biology.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/g4xayzlyC2Q&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Chris Myers&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;University of Utah&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java/C++&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux, Mac, Windows&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;MIT&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ICE</title>
-      <link>/applications/ice/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/ice/</guid>
-      <description>&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Hector Plahar&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Lawrence Berkeley National Lab&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pinecone</title>
-      <link>/applications/pinecone/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/pinecone/</guid>
-      <description>&lt;p&gt;Pinecone is Serotiny’s web-based protein design software aimed at researchers doing R&amp;amp;D for therapeutics, materials, as well as those in basic research. Serotiny optimized Pinecone for designing protein constructs by focusing on functional protein domains as the basic unit of design.&lt;/p&gt;
-&lt;p&gt;Pinecone’s high-level approach allows plain language design, analysis and transmission of complex genetic construct sets. Researchers can design single proteins, or they can benefit from the economies of scale in designing combinatorial sets or mutation libraries. Pinecone then matches the design with CROs or DNA Synthesizers to produce and deliver the desired material, such as dsDNA, plasmid or purified protein.&lt;/p&gt;
-&lt;p&gt;Serotiny aims to democratize protein engineering with Pinecone - bringing nano-scale genetic-tools to disparate disciplines that aren’t necessarily experts in genetics or molecular cloning, while also freeing geneticists and protein engineers to focus on experimental approach and execution rather than on the tedious design and construction of their starting material.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/_6l4KYGeFvQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Justin Farlow&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Serotiny&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;JavaScript&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Free for all users&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Pool Designer</title>
-      <link>/applications/pooldesigner/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/pooldesigner/</guid>
-      <description>&lt;p&gt;The Pool Designer application is capable of analyzing a library of genetic construct variants encoded in SBOL and breaking this library down into pools of genetic parts that can be assembled into any library variant using multiplex assembly methods (see L. Woodruff et al., “Registry in a tube : multiplexed pools of retrievable parts for genetic design space exploration,” Nucl. Acids Res., 2016.).&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Nicholas Roehner&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Biological Design Center, Boston University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java/JavaScript&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD 3-Clause&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SBOL Validator/Converter</title>
-      <link>/applications/sbolvalidator/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/sbolvalidator/</guid>
-      <description>&lt;p&gt;SBOL Validator/Converter is a simple, easy-to-use software tool that allows for conversion between SBOL/GenBank/FASTA files using the Synthetic Biology Open Language (SBOL) 2.0 data model. The motivation behind the SBOL Validator/Converter is to provide a universally-accepted tool with the capability to check the validity of files. This tool serves as a platform for developers to verify correct implementation of the SBOL data standard, authors to ensure that data is represented properly, and editors to verify SBOL compliance of all software tools and libraries. Some key features of the Validator/Converter include its ability to convert between SBOL, FASTA, and GenBank files and that the tool is web-based which promotes ease of access and allows for central maintenance of validation methods. SBOL Validator/Converter is made freely available under the Apache 2.0 license.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/tQ28wj4fmW8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Zach Zundel&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;University of Utah&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Python/Java&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;Apache 2.0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SBOLDesigner</title>
-      <link>/applications/sboldesigner/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/sboldesigner/</guid>
-      <description>&lt;p&gt;SBOLDesigner 2.1 is a simple, biologist-friendly CAD software tool for creating and manipulating the sequences of genetic constructs using the Synthetic Biology Open Language (SBOL) 2.0 data model. Throughout the design process, SBOL Visual symbols, a system of schematic glyphs, provide standardized visualizations of individual parts. SBOLDesigner 2.1 completes a workflow for users of genetic design automation tools. It combines a simple user interface with the power of the SBOL standard and serves as a launchpad for more detailed designs involving simulations and experiments. Some new features in SBOLDesigner 2.1 are SBOL Stack integration, local repositories, importing of parts/sequences from existing files, import and export of GenBank and FASTA files, extended role ontology support, the ability to partially open designs with multiple root ComponentDefinitions, backward compatibility with SBOL 1.1, and versioning. SBOLDesigner is made freely available under the Apache 2.0 license.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Doug Densmore&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Boston University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;Java/HTML/JS/CSS&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD 2-Clause&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SynBioHub</title>
-      <link>/applications/synbiohub/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/synbiohub/</guid>
-      <description>&lt;p&gt;SynBioHub is a registry for storing and sharing genetic circuit designs using the SBOL2 standard. Designs can be uploaded in SBOL or GenBank format, assigned a public link to share with collaborators and for publications, and searched using rich querying functionality.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/9C96PwM0jQQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Anil Wipat&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Newcastle University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;JavaScript&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Linux/Mac/Win/Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD 2-Clause&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>VisBOL</title>
-      <link>/applications/visbol/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/applications/visbol/</guid>
-      <description>&lt;p&gt;VisBOL is a JavaScript software library to visualize DNA features from SBOL2 documents using the SBOL Visual standard. A Web interface is also provided to enable end-user access to generate diagrams for presentations and publications.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Contact Person&lt;/td&gt;
-&lt;td&gt;Anil Wipat&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization(s)&lt;/td&gt;
-&lt;td&gt;Newcastle University&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Programming Language&lt;/td&gt;
-&lt;td&gt;JavaScript&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;OS/Platform&lt;/td&gt;
-&lt;td&gt;Lin/Mac/Win/Web&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Availability&lt;/td&gt;
-&lt;td&gt;Open-Source&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;License&lt;/td&gt;
-&lt;td&gt;BSD 2-Clause&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOL2 Import | The Synthetic Biology Open Language</title><link>/tag/sbol2-import/</link><atom:link href="/tag/sbol2-import/index.xml" rel="self" type="application/rss+xml"/><description>SBOL2 Import</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>SBOL2 Import</title><link>/tag/sbol2-import/</link></image><item><title>BOOST</title><link>/applications/boost/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/boost/</guid><description>&lt;p>Build-OptimizatiOn Software Tools (BOOST) is a platform of tools to design DNA sequences for manufacturing. Currently, BOOST consists of three tools: (i) The &amp;ldquo;Juggler&amp;rdquo; reverse translates protein sequences into DNA sequences and codon juggles DNA sequences, (ii) The &amp;ldquo;Polisher&amp;rdquo; verifies DNA sequences against DNA synthesis constraints. In addition, the &amp;ldquo;Polisher&amp;rdquo; can modify the protein coding regions of DNA sequences in order to resolve eventual violations of DNA synthesis constraints. (iii) The &amp;ldquo;Partitioner&amp;rdquo; decomposes large DNA sequences into synthesizable building blocks with assembly-specific overlap sequences.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Ernst Oberortner&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>DOE Joint Genome Institute, Lawrence Berkeley National Labs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>JAva&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux/Mac/Win/Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Free for academic users&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>DNAplotlib</title><link>/applications/dnaplotlib/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/dnaplotlib/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Thomas Gorochowski&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>University of Bristol, UK (originally Voigt Lab, MIT)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Python&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>MIT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Eugene</title><link>/applications/eugene/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/eugene/</guid><description>&lt;p>Eugene is a textual specification language for the rule-based design of synthetic biological systems, devices, parts, and DNA sequences.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/KczZskca60g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Douglas Densmore&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Boston University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows, Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>CC BY-SA 4.0&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>GeneTech</title><link>/applications/genetech/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/genetech/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Hasan Baig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Denmark Technical University, Habib University, University of Connecticut&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Python, Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>MacOS, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-source, Free for all users&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>GenoCAD</title><link>/applications/genocad/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/genocad/</guid><description>&lt;p>GenoCAD is a rule-based DNA design tool. It includes an extensive library of genetic parts derived from the annotation of common plasmids. It allows users to define domain specific languages to design expression systems for particular applications.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Jean Peccoud&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>GenoFAB, LLC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>PHP/Java/Prolog/JS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Commercial&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>iBioSim</title><link>/applications/ibiosim/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/ibiosim/</guid><description>&lt;p>iBioSim has been developed for the modeling, analysis, and design of genetic circuits. While iBioSim primarily targets models of genetic circuits, models representing metabolic networks, cell-signaling pathways, and other biological and chemical systems can also be analyzed. iBioSim also includes modeling and visualization support for multi-cellular and spatial models as well. It is capable of importing and exporting models specified using the Systems Biology Markup Language (SBML). It can import all levels and versions of SBML and is able to export Level 3 Version 1. It supports all core SBML modeling constructs except some types of fast reactions, and also has support for the hierarchical model composition, layout, flux balance constraints, and arrays packages. It was the first tool to produce correct results for all examples in the SBML benchmark suite. It has also been tested successfully on the stochastic benchmark suite and the curated models in the BioModels database. Finally, it is one of the first tools to also support the Synthetic Biology Open Language (SBOL), an emerging standard for information exchange in synthetic biology.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/g4xayzlyC2Q" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Chris Myers&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>University of Utah&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java/C++&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, Mac, Windows&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>MIT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>ICE</title><link>/applications/ice/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/ice/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Hector Plahar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Lawrence Berkeley National Lab&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Pinecone</title><link>/applications/pinecone/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/pinecone/</guid><description>&lt;p>Pinecone is Serotiny’s web-based protein design software aimed at researchers doing R&amp;amp;D for therapeutics, materials, as well as those in basic research. Serotiny optimized Pinecone for designing protein constructs by focusing on functional protein domains as the basic unit of design.&lt;/p>
+&lt;p>Pinecone’s high-level approach allows plain language design, analysis and transmission of complex genetic construct sets. Researchers can design single proteins, or they can benefit from the economies of scale in designing combinatorial sets or mutation libraries. Pinecone then matches the design with CROs or DNA Synthesizers to produce and deliver the desired material, such as dsDNA, plasmid or purified protein.&lt;/p>
+&lt;p>Serotiny aims to democratize protein engineering with Pinecone - bringing nano-scale genetic-tools to disparate disciplines that aren’t necessarily experts in genetics or molecular cloning, while also freeing geneticists and protein engineers to focus on experimental approach and execution rather than on the tedious design and construction of their starting material.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/_6l4KYGeFvQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Justin Farlow&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Serotiny&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>JavaScript&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Free for all users&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Pool Designer</title><link>/applications/pooldesigner/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/pooldesigner/</guid><description>&lt;p>The Pool Designer application is capable of analyzing a library of genetic construct variants encoded in SBOL and breaking this library down into pools of genetic parts that can be assembled into any library variant using multiplex assembly methods (see L. Woodruff et al., “Registry in a tube : multiplexed pools of retrievable parts for genetic design space exploration,” Nucl. Acids Res., 2016.).&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Nicholas Roehner&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Biological Design Center, Boston University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java/JavaScript&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD 3-Clause&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>SBOL Validator/Converter</title><link>/applications/sbolvalidator/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/sbolvalidator/</guid><description>&lt;p>SBOL Validator/Converter is a simple, easy-to-use software tool that allows for conversion between SBOL/GenBank/FASTA files using the Synthetic Biology Open Language (SBOL) 2.0 data model. The motivation behind the SBOL Validator/Converter is to provide a universally-accepted tool with the capability to check the validity of files. This tool serves as a platform for developers to verify correct implementation of the SBOL data standard, authors to ensure that data is represented properly, and editors to verify SBOL compliance of all software tools and libraries. Some key features of the Validator/Converter include its ability to convert between SBOL, FASTA, and GenBank files and that the tool is web-based which promotes ease of access and allows for central maintenance of validation methods. SBOL Validator/Converter is made freely available under the Apache 2.0 license.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/tQ28wj4fmW8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Zach Zundel&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>University of Utah&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Python/Java&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>Apache 2.0&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>SBOLDesigner</title><link>/applications/sboldesigner/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/sboldesigner/</guid><description>&lt;p>SBOLDesigner 2.1 is a simple, biologist-friendly CAD software tool for creating and manipulating the sequences of genetic constructs using the Synthetic Biology Open Language (SBOL) 2.0 data model. Throughout the design process, SBOL Visual symbols, a system of schematic glyphs, provide standardized visualizations of individual parts. SBOLDesigner 2.1 completes a workflow for users of genetic design automation tools. It combines a simple user interface with the power of the SBOL standard and serves as a launchpad for more detailed designs involving simulations and experiments. Some new features in SBOLDesigner 2.1 are SBOL Stack integration, local repositories, importing of parts/sequences from existing files, import and export of GenBank and FASTA files, extended role ontology support, the ability to partially open designs with multiple root ComponentDefinitions, backward compatibility with SBOL 1.1, and versioning. SBOLDesigner is made freely available under the Apache 2.0 license.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Doug Densmore&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Boston University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Java/HTML/JS/CSS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD 2-Clause&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>SynBioHub</title><link>/applications/synbiohub/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/synbiohub/</guid><description>&lt;p>SynBioHub is a registry for storing and sharing genetic circuit designs using the SBOL2 standard. Designs can be uploaded in SBOL or GenBank format, assigned a public link to share with collaborators and for publications, and searched using rich querying functionality.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/9C96PwM0jQQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Anil Wipat&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Newcastle University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>JavaScript&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux/Mac/Win/Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD 2-Clause&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>VisBOL</title><link>/applications/visbol/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/visbol/</guid><description>&lt;p>VisBOL is a JavaScript software library to visualize DNA features from SBOL2 documents using the SBOL Visual standard. A Web interface is also provided to enable end-user access to generate diagrams for presentations and publications.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Anil Wipat&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Newcastle University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>JavaScript&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Lin/Mac/Win/Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>BSD 2-Clause&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
