@@ -1,0 +1,59 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: Composable Modular Models for Synthetic Biology
+subtitle: ''
+summary: ''
+authors:
+- Goksel Misirli
+- Jennifer Hallinan
+- Anil Wipat
+tags:
+- '"composable models"'
+- '"database of models"'
+- '"model annotation"'
+- '"model-driven design"'
+- '"standard virtual parts"'
+- '"Synthetic biology"'
+categories: []
+date: '2015-12-01'
+lastmod: 2021-01-15T11:35:11-03:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: 'Smart'
+  preview_only: true
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2021-01-15T14:35:06.123024Z'
+publication_types:
+- 2
+abstract: Modelling and computational simulation are crucial for the large-scale engineering
+  of biological circuits since they allow the system under design to be simulated
+  prior to implementation in vivo. To support automated, model-driven design it is
+  desirable that in silico models are modular, composable and use standard formats.
+  The synthetic biology design process typically involves the composition of genetic
+  circuits from individual parts. At the most basic level, these parts are representations
+  of genetic features such as promoters, ribosome binding sites (RBSs), and coding
+  sequences (CDSs). However, it is also desirable to model the biological molecules
+  and behaviour that arise when these parts are combined in vivo. Modular models of
+  parts can be composed and their associated systems simulated, facilitating the process
+  of model-centred design. The availability of databases of modular models is essential
+  to support software tools used in the model-driven design process. In this article,
+  we present an approach to support the development of composable, modular models
+  for synthetic biology, termed Standard Virtual Parts. We then describe a programmatically
+  accessible and publicly available database of these models to allow their use by
+  computational design tools.
+publication: '*ACM Journal on Emerging Technologies in Computing Systems*'
+doi: 10.1145/2631921
+---
