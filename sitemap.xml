@@ -179,7 +179,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -189,7 +189,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -214,17 +214,17 @@
   
   <url>
     <loc>/publication-type/2/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
     <loc>/author/anil-wipat/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -249,12 +249,12 @@
   
   <url>
     <loc>/publication_types/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -309,7 +309,7 @@
   
   <url>
     <loc>/author/goksel-misirli/</loc>
-    <lastmod>2020-10-05T20:39:01-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -504,7 +504,7 @@
   
   <url>
     <loc>/tag/synthetic-biology/</loc>
-    <lastmod>2020-10-12T16:03:51-03:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -919,7 +919,7 @@
   
   <url>
     <loc>/author/jennifer-hallinan/</loc>
-    <lastmod>2020-09-19T21:28:27+01:00</lastmod>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -1073,8 +1073,18 @@
   </url>
   
   <url>
+    <loc>/tag/composable-models/</loc>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/computational-biology/</loc>
     <lastmod>2020-10-05T20:39:01-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/database-of-models/</loc>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
@@ -1083,8 +1093,28 @@
   </url>
   
   <url>
+    <loc>/tag/model-annotation/</loc>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/model-driven-design/</loc>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/software-libraries/</loc>
     <lastmod>2020-10-05T20:39:01-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/standard-virtual-parts/</loc>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/composable-modular-models-misirli-2015/</loc>
+    <lastmod>2021-01-15T11:35:11-03:00</lastmod>
   </url>
   
   <url>
