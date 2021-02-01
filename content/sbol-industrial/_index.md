@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-{{< figure library="true" src="Logos/SBOLIndustrialLogo.svg" title="" lightbox="true" >}}
+{{< figure src="SBOLIndustrialLogo.png" title="" lightbox="true" >}}
 
 The SBOL Industrial Consortium is a pre-competitive non-profit organization supporting innovation, dissemination, and integration of SBOL standards, tools and practices for practical applications in an industrial environment. As the SBOL Industrial Consortium operates pre-competitively, all products of activities supported by the SBOL Industrial Consortium are free, open, and intended to support the core values of the SBOL community.
 
@@ -37,21 +37,21 @@ We will periodically post opportunities for the community to respond to in this 
 ### Member Organizations
 
 #### Gold
-| {{< figure library="true" src="industrial/raytheon.jpeg" title="" lightbox="true" width="270" >}} | {{< figure library="true" src="industrial/doulix.png" title="" lightbox="true" width="190" >}} |
+| {{< figure library="true" src="raytheon.jpeg" title="" lightbox="true" width="270" >}} | {{< figure library="true" src="doulix.png" title="" lightbox="true" width="190" >}} |
 |---|---|
 
 #### Silver
-| {{< figure library="true" src="industrial/idt.png" title="" lightbox="true" width="250" >}} | {{< figure library="true" src="industrial/Twist_Logo_cropped.jpeg" title="" lightbox="true" width="200" >}} |
+| {{< figure library="true" src="idt.png" title="" lightbox="true" width="250" >}} | {{< figure library="true" src="Twist_Logo_cropped.jpeg" title="" lightbox="true" width="200" >}} |
 |---|---|
 
 #### Bronze
-| {{< figure library="true" src="industrial/amyris-1.png" title="" lightbox="true" width="240" >}} | {{< figure library="true" src="industrial/Inscripta_Brandmark-with-Tagline_R3-FINAL_RGB.png" title="" lightbox="true" width="320" >}} |
+| {{< figure library="true" src="amyris-1.png" title="" lightbox="true" width="240" >}} | {{< figure library="true" src="Inscripta_Brandmark-with-Tagline_R3-FINAL_RGB.png" title="" lightbox="true" width="320" >}} |
 |---|---|
 
-| {{< figure library="true" src="industrial/Teselagen_300x150-1.png" title="" lightbox="true" width="270" >}} | {{< figure library="true" src="industrial/zymergen.png" title="" lightbox="true" width="70" >}} |
+| {{< figure library="true" src="Teselagen_300x150-1.png" title="" lightbox="true" width="270" >}} | {{< figure library="true" src="zymergen.png" title="" lightbox="true" width="70" >}} |
 |---|---|
 
-| {{< figure library="true" src="industrial/shipyard_toolchains_logo_02_338px_matte.png" title="" lightbox="true" width="270" >}} | |
+| {{< figure library="true" src="shipyard_toolchains_logo_02_338px_matte.png" title="" lightbox="true" width="270" >}} | |
 |---|---|
 
 #### Joining SBOL Industrial
