@@ -161,15 +161,9 @@
   parent = "about-id"
 
 [[main]]
-  name = "Community Media"
-  url = "https://github.com/SynBioDex/Community-Media"
-  weight = 80
-  parent = "about-id"  
-
-[[main]]
   name = "Report an Issue"
   url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 85
+  weight = 80
   parent = "about-id"
 
 # Link to a PDF of your resume/CV from the menu.
