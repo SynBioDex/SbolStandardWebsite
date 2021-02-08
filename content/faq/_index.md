@@ -64,7 +64,7 @@ You can also express your design using {{% staticref "/visual-about/" "newtab" %
 
 <details>
   <summary><b>What can I do with SBOL?</b></summary>
-  You can describe the components of a design and the interactions between components like circuit diagrams in the file using {{% staticref "/data/" "newtab" %}}SBOL data{{% /staticref %}}. And you can draw them to prepare publications using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. You can submit genetic designs to include all sequence
+  You can describe the components of a design and the interactions between components like circuit diagrams in the file using {{% staticref "/datamodel-about/" "newtab" %}}SBOL data{{% /staticref %}}. And you can draw them to prepare publications using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. You can submit genetic designs to include all sequence
 information for your paper in one file. You can also attach mathematical models to genetic designs SBOL will let you move your designs and work history between different tools.
 </details>
 
@@ -126,7 +126,7 @@ commercial enterprises, and academic institutions. Please contact the {{% static
 
 <details>
   <summary><b>Where can I get detailed information on SBOL Data?</b></summary>
-  SBOL is described in detail in the current {{% staticref "/data/" "newtab" %}}SBOL specification{{% /staticref %}}.
+  SBOL is described in detail in the current {{% staticref "/datamodel-about/" "newtab" %}}SBOL specification{{% /staticref %}}.
 </details>
 
 <details>
