@@ -107,7 +107,7 @@ information for your paper in one file. You can also attach mathematical models 
   <summary><b>How is the SBOL standard funded?</b></summary>
   SBOL was funded by grants through the National Science Foundation through Collaborative awards #1355909 and #1356401 and EPSRC grant
 #EP/J02175X/1. Other sponsorship, support, or endorsements have been provided by the federal agencies, federal research centers,
-commercial enterprises, and academic institutions. Please contact the {{% staticref "mailto:sbol-editors@googlegroups.com" "newtab" %}}SBOL Editors{{% /staticref %}} for donation consideration.
+commercial enterprises, and academic institutions. Please contact the <a href="mailto:sbol-editors@googlegroups.com">SBOL Editors</a> for donation consideration.
 </details>
 
 <details>
