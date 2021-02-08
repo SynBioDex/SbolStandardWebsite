@@ -56,9 +56,9 @@ Didn’t find an answer to your question? Post your question to our [sbol-dev](m
 
 <details>
   <summary><b>How will SBOL help me?</b></summary>
-  Using the {{% staticref "/data/" "newtab" %}}SBOL data model{{% /staticref %}} will let you download sequence designs from published experiments. You can retrieve SBOL designs from repositories like {{% staticref "http://synbiohub.org/" "newtab" %}}SynBioHub{{% /staticref %}}, and {{% staticref "https://acs-registry.jbei.org/" "newtab" %}}JBEI-ICE{{% /staticref %}}. Take a look at our applications page to see the {{% staticref "/applications/" "newtab" %}}software tools{{% /staticref %}} that currently support SBOL. If you want to support SBOL data in your tool, take a look at the available programming languages that are available to use in your tool.
+  Using the {{% staticref "/datamodel-about/" "newtab" %}}SBOL data model{{% /staticref %}} will let you download sequence designs from published experiments. You can retrieve SBOL designs from repositories like {{% staticref "http://synbiohub.org/" "newtab" %}}SynBioHub{{% /staticref %}}, and {{% staticref "https://acs-registry.jbei.org/" "newtab" %}}JBEI-ICE{{% /staticref %}}. Take a look at our applications page to see the {{% staticref "/applications/" "newtab" %}}software tools{{% /staticref %}} that currently support SBOL. If you want to support SBOL data in your tool, take a look at the available programming languages that are available to use in your tool.
 
-You can also express your design using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. If you want to use SBOL visual in your tool, you can download the available SBOL graphical notations {{% staticref "/visual/" "newtab" %}}here{{% /staticref %}}.
+You can also express your design using {{% staticref "/visual-about/" "newtab" %}}SBOL Visual{{% /staticref %}}. If you want to use SBOL visual in your tool, you can download the available SBOL graphical notations {{% staticref "/visual-about/" "newtab" %}}here{{% /staticref %}}.
   
 </details>
 
