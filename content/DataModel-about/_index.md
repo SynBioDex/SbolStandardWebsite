@@ -13,6 +13,7 @@ header:
   caption: ""
   image: ""
 ---
+
 {{< figure width="600px" library="true" src="Logos/SBOLlogo.svg" title="" lightbox="true" >}}
 
 ### Purpose
