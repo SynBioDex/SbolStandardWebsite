@@ -37,8 +37,8 @@ Examples to demonstrate the usage of SBOL Visual glyphs is given below.
 
 Example1: A SBOL visual design of the circuit that contains a promoter, RBS, CDS, and terminator. The promoter is stimulated by CDS that it regulates.
 
-{{< figure library="true" src="SBOLVisualExamples/example1-1.jpg" title="Example 1: Promoter stimulated by CDS" lightbox="true" width="470" >}}
+<img library="true" src="/img/SBOLVisualExamples/example1-1.jpg" title="Example 1: Promoter stimulated by CDS" width="470" />
 
 Example2: Phosphorylation of an inactive transcription factor (produced by two different CDSs) by a kinase to form an active transcriptional activator, which then stimulates a promoter.
 
-{{< figure library="true" src="SBOLVisualExamples/example2.jpg" title="Example 2: Phosphorylation of an inactive transcription factor" lightbox="true" width="670" >}}
+<img library="true" src="/img/SBOLVisualExamples/example2.jpg" title="Example 2: Phosphorylation of an inactive transcription factor" width="670" />

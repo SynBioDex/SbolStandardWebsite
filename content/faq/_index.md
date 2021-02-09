@@ -56,15 +56,15 @@ Didn’t find an answer to your question? Post your question to our [sbol-dev](m
 
 <details>
   <summary><b>How will SBOL help me?</b></summary>
-  Using the {{% staticref "/data/" "newtab" %}}SBOL data model{{% /staticref %}} will let you download sequence designs from published experiments. You can retrieve SBOL designs from repositories like {{% staticref "http://synbiohub.org/" "newtab" %}}SynBioHub{{% /staticref %}}, and {{% staticref "https://acs-registry.jbei.org/" "newtab" %}}JBEI-ICE{{% /staticref %}}. Take a look at our applications page to see the {{% staticref "/applications/" "newtab" %}}software tools{{% /staticref %}} that currently support SBOL. If you want to support SBOL data in your tool, take a look at the available programming languages that are available to use in your tool.
+  Using the {{% staticref "/datamodel-about/" "newtab" %}}SBOL data model{{% /staticref %}} will let you download sequence designs from published experiments. You can retrieve SBOL designs from repositories like {{% staticref "http://synbiohub.org/" "newtab" %}}SynBioHub{{% /staticref %}}, and {{% staticref "https://acs-registry.jbei.org/" "newtab" %}}JBEI-ICE{{% /staticref %}}. Take a look at our applications page to see the {{% staticref "/applications/" "newtab" %}}software tools{{% /staticref %}} that currently support SBOL. If you want to support SBOL data in your tool, take a look at the available programming languages that are available to use in your tool.
 
-You can also express your design using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. If you want to use SBOL visual in your tool, you can download the available SBOL graphical notations {{% staticref "/visual/" "newtab" %}}here{{% /staticref %}}.
+You can also express your design using {{% staticref "/visual-about/" "newtab" %}}SBOL Visual{{% /staticref %}}. If you want to use SBOL visual in your tool, you can download the available SBOL graphical notations {{% staticref "/visual-about/" "newtab" %}}here{{% /staticref %}}.
   
 </details>
 
 <details>
   <summary><b>What can I do with SBOL?</b></summary>
-  You can describe the components of a design and the interactions between components like circuit diagrams in the file using {{% staticref "/data/" "newtab" %}}SBOL data{{% /staticref %}}. And you can draw them to prepare publications using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. You can submit genetic designs to include all sequence
+  You can describe the components of a design and the interactions between components like circuit diagrams in the file using {{% staticref "/datamodel-about/" "newtab" %}}SBOL data{{% /staticref %}}. And you can draw them to prepare publications using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. You can submit genetic designs to include all sequence
 information for your paper in one file. You can also attach mathematical models to genetic designs SBOL will let you move your designs and work history between different tools.
 </details>
 
@@ -107,7 +107,7 @@ information for your paper in one file. You can also attach mathematical models 
   <summary><b>How is the SBOL standard funded?</b></summary>
   SBOL was funded by grants through the National Science Foundation through Collaborative awards #1355909 and #1356401 and EPSRC grant
 #EP/J02175X/1. Other sponsorship, support, or endorsements have been provided by the federal agencies, federal research centers,
-commercial enterprises, and academic institutions. Please contact the {{% staticref "mailto:sbol-editors@googlegroups.com" "newtab" %}}SBOL Editors{{% /staticref %}} for donation consideration.
+commercial enterprises, and academic institutions. Please contact the <a href="mailto:sbol-editors@googlegroups.com">SBOL Editors</a> for donation consideration.
 </details>
 
 <details>
@@ -126,7 +126,7 @@ commercial enterprises, and academic institutions. Please contact the {{% static
 
 <details>
   <summary><b>Where can I get detailed information on SBOL Data?</b></summary>
-  SBOL is described in detail in the current {{% staticref "/data/" "newtab" %}}SBOL specification{{% /staticref %}}.
+  SBOL is described in detail in the current {{% staticref "/datamodel-about/" "newtab" %}}SBOL specification{{% /staticref %}}.
 </details>
 
 <details>

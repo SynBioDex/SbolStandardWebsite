@@ -56,6 +56,6 @@ abstract: A synthetic biology workflow is composed of data repositories that pro
   information using a variety of data standards. Recently, the ACS Synthetic Biology
   journal has recommended the use of SBOL in their publications.
 publication: ''
-url_pdf: /biochemsoctrans/article/45/3/793/66896/A-standard-enabled-workflow-for-synthetic-biology
+url_pdf: https://portlandpress.com/biochemsoctrans/article-abstract/45/3/793/66896/A-standard-enabled-workflow-for-synthetic-biology?redirectedFrom=fulltext
 doi: 10.1042/BST20160347
 ---

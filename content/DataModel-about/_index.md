@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-{{< figure library="true" src="Logos/SBOLlogo.svg" width="500" title="" lightbox="true" >}}
+<img src="/img/Logos/SBOLlogo.svg" width="500" title="" />
 
 ### Purpose
 
