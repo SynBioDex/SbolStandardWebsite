@@ -69,7 +69,7 @@ The SBOL Editors shall hold weekly meetings to coordinate their execution of the
 
 The SBOL Editors mailing list is [sbol-editors@googlegroups.com](mailto:sbol-editors@googlegroups.com). Editorial communications should generally use this list to preserve records and aid organization. To preserve organizational memory, former editors are kept on the mailing list until they choose to remove themselves.
 
-SBOL Editors are elected by a community vote, following the process below. Editors serve for a two year term and cannot serve terms consecutively. To maximize continuity, editors’ terms should be desynchronized. There are 5 editorial positions, currently held by:
+SBOL Editors are elected by a community vote, following the process below. Editors serve initially for a two-year term, and upon unanimous approval of the editors and chair, an editor's term can be extended for an additional third year. After completing their term as editor, a person may not run for editor again for at least one year. To maximize continuity, editors’ terms should be desynchronized. There are 5 editorial positions, currently held by:
 
 * James McLaughlin, EMBL-EBI
 * Pedro Fontanarrosa, University of Utah
