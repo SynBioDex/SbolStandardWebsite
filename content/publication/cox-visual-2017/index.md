@@ -48,7 +48,7 @@ abstract: As protein engineering becomes more sophisticated, practitioners incre
   that uses Protein Language in a “drag and drop” interface for visualization and
   computer-aided-design of engineered proteins, as well as conversion of annotated
   protein sequences to Protein Language diagrams and figure export. Protein Designer
-  can be accessed at http://biocad.ncl.ac.uk/protein-designer/.
+  can be accessed at http://protlang.biocad.io/.
 publication: ''
 url_pdf: https://doi.org/10.1021/acssynbio.6b00286
 doi: 10.1021/acssynbio.6b00286

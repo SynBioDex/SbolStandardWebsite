@@ -153,6 +153,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Nathan Wilkinson         |   Recursion Pharmaceuticals                               |   USA           |
 |   Neil Swainston           |   Manchester BioFactory Ltd.                              |   UK            |
 |   Neil Thompson            |   Massachusetts Institute of Technology                   |   USA           |
+|   Noah Sprent              |   Imperial College                                        |   UK            |
 |   Nicholas Roehner         |   BBN Technologies                                        |   USA           |
 |   Nicolas Le Novere        |   EMBL-EBI                                                |   UK            |
 |   Noah Sprent              |   Imperial College                                        |   UK            |

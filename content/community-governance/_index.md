@@ -69,15 +69,15 @@ The SBOL Editors shall hold weekly meetings to coordinate their execution of the
 
 The SBOL Editors mailing list is [sbol-editors@googlegroups.com](mailto:sbol-editors@googlegroups.com). Editorial communications should generally use this list to preserve records and aid organization. To preserve organizational memory, former editors are kept on the mailing list until they choose to remove themselves.
 
-SBOL Editors are elected by a community vote, following the process below. Editors serve for a two year term and cannot serve terms consecutively. To maximize continuity, editors’ terms should be desynchronized. There are 5 editorial positions, currently held by:
+SBOL Editors are elected by a community vote, following the process below. Editors serve initially for a two-year term, and upon unanimous approval of the editors and chair, an editor's term can be extended for an additional third year. After completing their term as editor, a person may not run for editor again for at least one year. To maximize continuity, editors’ terms should be desynchronized. There are 5 editorial positions, currently held by:
 
-* James McLaughlin, Newcastle University
+* James McLaughlin, EMBL-EBI
 * Pedro Fontanarrosa, University of Utah
-* Vishwesh Kulkarni, University of Warwick
+* James Scott-Brown, University of Oxford
 * Prashant Vaidyananthan, Microsoft Research
 * Hasan Baig, University of Connecticut
 
-Previous SBOL Editors include: Zach Palchik (Zymergen), Curtis Madsen (Sandia National Labs), Nicholas Roehner (BBN Technologies), Angel Goñi Moreno (Newcastle University), Umesh P (Kerala Technological University), Tramy Nguyen (University of Utah), James McLaughlin (Newcastle University), Robert Sidney Cox (Kobe University), Raik Grunberg (University of Montreal), Jacob Beal (BBN Technologies), Bryan Bartley (University of Washington), Kevin Clancy (ThermoFisher), Michal Galdzicki (University of Washington), Goksel Misirli (Newcastle University), Ernst Oberortner (Boston University), Matthew Pocock, (Newcastle University), Jacqueline Quinn (Google), Cesar Rodriguez (Autodesk), Mandy Wilson (Virginia Bioinformatics Institute).
+Previous SBOL Editors include: Vishwesh Kulkarni (University of Warwick), Zach Palchik (Zymergen), Curtis Madsen (Sandia National Labs), Nicholas Roehner (BBN Technologies), Angel Goñi Moreno (Newcastle University), Umesh P (Kerala Technological University), Tramy Nguyen (University of Utah), James McLaughlin (Newcastle University), Robert Sidney Cox (Kobe University), Raik Grunberg (University of Montreal), Jacob Beal (BBN Technologies), Bryan Bartley (University of Washington), Kevin Clancy (ThermoFisher), Michal Galdzicki (University of Washington), Goksel Misirli (Newcastle University), Ernst Oberortner (Boston University), Matthew Pocock, (Newcastle University), Jacqueline Quinn (Google), Cesar Rodriguez (Autodesk), Mandy Wilson (Virginia Bioinformatics Institute).
 
 ## SBOL Chair and Steering Committee
 The positions of SBOL Chair and Steering Committee are a means for organizing strategic planning and coordination amongst PI-level members of the SBOL community.
