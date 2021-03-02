@@ -41,6 +41,8 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Bryan Bartley            |   BBN Technologies                                        |   USA           |
 |   Bryan Der                |   MIT                                                     |   USA           |
 |   Carlog Olguin            |   Autodesk                                                |   USA           |
+|   Carlos Vidal             |   University of Chile                                     |   Chile         |
+|   Cesar Puentes            |   Independent                                             |   Columbia      |
 |   Cesar Rodriguez          |   Florida State University                                |   USA           |
 |   Chih-Hsien Yang          |   National Yang Ming University                           |   Taiwan        |
 |   Chris Anderson           |   University of California, Berkeley                      |   USA           |
@@ -86,6 +88,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Harold Fellermann        |   Newcastle University                                    |   UK            |
 |   Hasan Baig               |   Independent                                             |   Pakistan      |
 |   Hasan Baig               |   University of Connecticut                               |   USA           |
+|   Haseong Kim              |   Korea Research Institute of Bioscience and Biotechnology|   South Korea   |
 |   Hector Plahar            |   Joint Bioenergy Institute (JBEI)                        |   USA           |
 |   Henry Holbrook           |   Benchling                                               |   USA           |
 |   Herbert Sauro            |   University of Washington                                |   USA           |
@@ -95,6 +98,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Isabel Pötzsch           |   University of Cambridge                                 |   UK            |
 |   Jackie Quinn             |   Google                                                  |   USA           |
 |   Jake Beal                |   BBN Technologies                                        |   USA           |
+|   Jake Sumner              |   Keele University                                        |   UK            |
 |   James Diggans            |   Twist Bioscience                                        |   USA           |
 |   James McLaughlin         |   EMBL-EBI                                                |   UK            |
 |   James Scott Brown        |   Imperial College London                                 |   UK            |
@@ -126,6 +130,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Linda Kahl               |   Stanford University                                     |   USA           |
 |   Linh Huynh               |   UC Davis                                                |   USA           |
 |   Linhao Meng              |   Zhejiang University                                     |   China         |
+|   Lukas Buecherl           |   Colorado University, Boulder                            |   USA         |
 |   Maciek Jacek Swat        |   CSIRO                                                   |   Australia     |
 |   Mandy Wilson             |   Virginia Tech                                           |   USA           |
 |   Marc Juul                |   BIOFAB                                                  |   USA           |
@@ -150,9 +155,11 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Neil Thompson            |   Massachusetts Institute of Technology                   |   USA           |
 |   Nicholas Roehner         |   BBN Technologies                                        |   USA           |
 |   Nicolas Le Novere        |   EMBL-EBI                                                |   UK            |
+|   Noah Sprent              |   Imperial College                                        |   UK            |
 |   Owen Gilfellon           |   Newcastle University                                    |   UK            |
 |   Pablo Carbonell          |   Manchester Institute of Biotechnology                   |   USA           |
 |   Patrick Yizhi            |   University of Edinburgh                                 |   UK            |
+|   Payton J Thomas          |   University of Utah                                      |   USA           |
 |   Pedro Fontanarrosa       |   University of Utah                                      |   USA           |
 |   Peter Dun                |   Stanford University                                     |   USA           |
 |   Philip Bradley           |   Newcastle University                                    |   UK            |
