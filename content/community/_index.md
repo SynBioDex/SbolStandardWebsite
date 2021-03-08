@@ -24,6 +24,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 
 | Name                       | Affiliation                                               | Country         |
 |----------------------------|-----------------------------------------------------------|-----------------|
+|   AJ Abam                  |   Colorado University, Boulder                            |   USA           |
 |   Alex McFadden            |   Zymergen Inc                                            |   USA           |
 |   Alexis Casas             |   Imperial College London                                 |   UK            |
 |   Alice Boo                |   Imperial College London                                 |   UK            |
@@ -101,6 +102,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Jake Sumner              |   Keele University                                        |   UK            |
 |   James Diggans            |   Twist Bioscience                                        |   USA           |
 |   James McLaughlin         |   EMBL-EBI                                                |   UK            |
+|   James Scholz             |   Genetic Logic Lab                                       |   USA           |
 |   James Scott Brown        |   Imperial College London                                 |   UK            |
 |   James Skelton            |   Newcastle University                                    |   UK            |
 |   Jan Madsen               |   DTU                                                     |   Denmark       |
