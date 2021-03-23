@@ -12,7 +12,7 @@
     header:
       caption: ""
       image: ""
-    ---
+---
 
 {{< figure library="true" src="SBOLVisualSpecExamples/apdx-exa1.pdf" title="DNA sequence for a functional unit in which the pTet promoter and an anonymous ribosome entry site regulate expression of a coding sequence for GFP, ended by a terminator." lightbox="true" width="470" >}}
 
