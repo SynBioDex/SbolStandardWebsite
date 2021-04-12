@@ -87,11 +87,17 @@
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Examples"
+  name = "SBOL Visual Examples from papers"
   url = "/visual-examples"
   weight = 25
   parent = "visual-id"
 
+[[main]]
+  name = "SBOL Visual Examples from specification"
+  url = "/visual-spec-examples"
+  weight = 25
+  parent = "visual-id"
+  
 [[main]]
   name = "Applications"
   url = "/applications"
@@ -144,9 +150,22 @@
   weight = 55
 
 [[main]]
-  name = "FAQ"
+  name = "Help"
   url = "/faq"
   weight = 60
+  identifier = "help-id"
+
+[[main]]
+  name = "FAQ"
+  url = "/faq"
+  weight = 62
+  parent = "help-id"
+
+[[main]]
+  name = "StackExchange"
+  url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
+  weight = 64
+  parent = "help-id"
 
 [[main]]
   name = "About"
@@ -161,9 +180,15 @@
   parent = "about-id"
 
 [[main]]
+  name = "Community Media"
+  url = "https://github.com/SynBioDex/Community-Media"
+  weight = 80
+  parent = "about-id"  
+
+[[main]]
   name = "Report an Issue"
   url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 80
+  weight = 85
   parent = "about-id"
 
 # Link to a PDF of your resume/CV from the menu.
