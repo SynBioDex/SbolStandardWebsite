@@ -150,9 +150,22 @@
   weight = 55
 
 [[main]]
-  name = "FAQ"
+  name = "Help"
   url = "/faq"
   weight = 60
+  identifier = "help-id"
+
+[[main]]
+  name = "FAQ"
+  url = "/faq"
+  weight = 62
+  parent = "help-id"
+
+[[main]]
+  name = "StackExchange"
+  url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
+  weight = 64
+  parent = "help-id"
 
 [[main]]
   name = "About"
