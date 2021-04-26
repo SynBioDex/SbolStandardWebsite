@@ -24,6 +24,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 
 | Name                       | Affiliation                                               | Country         |
 |----------------------------|-----------------------------------------------------------|-----------------|
+|   Abby Moore               |   University of Georgia                                   |   USA           |
 |   AJ Abam                  |   Colorado University, Boulder                            |   USA           |
 |   Alex McFadden            |   Zymergen Inc                                            |   USA           |
 |   Alexis Casas             |   Imperial College London                                 |   UK            |
