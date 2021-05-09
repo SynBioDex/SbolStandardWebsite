@@ -28,22 +28,30 @@ Look at this {{% staticref "docs/SBOL-Visual-2.1-Quickstart.pdf" "newtab" %}}qui
 
 ### SBOL Visual 2.0.0
 
-{{< figure library="true" src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Sequence%20Features.png" title="" lightbox="true" width="470" >}}
+<a href="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Sequence%20Features.png">
+<img src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Sequence%20Features.png" width="470" />
+</a>
 
 {{% staticref "zip/Sequence Feature Glyphs PDF.zip" "newtab" %}}Sequence Feature Glyphs PDF{{% /staticref %}}\
 {{% staticref "zip/Sequence Feature Glyphs PNG.zip" "newtab" %}}Sequence Feature Glyphs PNG{{% /staticref %}}\
 {{% staticref "zip/Sequence Feature Glyphs SVG.zip" "newtab" %}}Sequence Feature Glyphs SVG{{% /staticref %}}
 
-{{< figure library="true" src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Molecular%20Species.png" title="" lightbox="true" width="470" >}}
+<a href="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Molecular%20Species.png">
+<img src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Molecular%20Species.png" width="470" />
+</a>
 
 {{% staticref "zip/molecular_species_pdf.zip" "newtab" %}}Molecular Species Glyphs PDF{{% /staticref %}}\
 {{% staticref "zip/molecular_species_png.zip" "newtab" %}}Molecular Species Glyphs PNG{{% /staticref %}}\
 {{% staticref "zip/molecular_species_svg.zip" "newtab" %}}Molecular Species Glyphs SVG{{% /staticref %}}
 
-{{< figure library="true" src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Interactions.png" title="" lightbox="true" width="470" >}}
+<a href="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Interactions.png">
+<img src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Interactions.png" width="470" />
+</a>
 
 {{% staticref "zip/Interaction Glyphs PDF 2.1.zip" "newtab" %}}Interaction Glyphs PDF{{% /staticref %}}\
 {{% staticref "zip/Interaction Glyphs PNG 2.1.zip" "newtab" %}}Interaction Glyphs PNG{{% /staticref %}}\
 {{% staticref "zip/Interaction Glyphs SVG 2.1.zip" "newtab" %}}Interaction Glyphs SVG{{% /staticref %}}
 
-{{< figure library="true" src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Interaction%20Nodes.png" title="" lightbox="true" width="470" >}}
+<a href="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Interaction%20Nodes.png">
+<img src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Interaction%20Nodes.png" width="470" />
+</a>
