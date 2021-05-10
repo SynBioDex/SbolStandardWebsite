@@ -15,8 +15,6 @@ header:
   image: ""
 ---
 
-### Glyphs
-
 SBOL Visual is built off of the latest [specification release]({{< relref "visual-specification" >}}).\
 These glyphs are made to be drawable on a white board but they are not definite, they are guidelines.\
 Sample visual glyphs are supported in PDF, PNG, SVG.\
@@ -26,7 +24,7 @@ Contact the [SBOL Visual team](mailto:sbol-visual@googlegroups.com) for further 
 
 Look at this {{% staticref "docs/SBOL-Visual-2.1-Quickstart.pdf" "newtab" %}}quick introduction to SBOL Visual 2.1{{% /staticref %}} to get started.
 
-### SBOL Visual 2.0.0
+### Glyphs
 
 Zip files containing images of the glyphs as PDF, PNG or SVG files can be downloaded from the [Releases page](https://github.com/SynBioDex/SBOL-visual/releases) of the SBOL Visual repository on GitHub.
 
