@@ -18,8 +18,15 @@ header:
 
 ___
 
+[Glyphs]({{< relref "visual-glyphs" >}})
 
-| **2.x.x Release**  | [View Glyphs]({{< relref "visual-glyphs" >}})  |   |
+| **3.x.x Release** |  |  |
+|---|---|---|
+| **3.0.0** <br>The major difference between SBOL Visual 3 and SBOL Visual 2 is that diagrams and glyphs are defined with respect to the SBOL 3 data model rather than the SBOL 2 data model.<br/><br/> A byproduct of this change is that the use of dashed undirected lines for subsystem mappings has been removed. Until a decision is made about how to represent constraints, the specification is mute on both constraints and dashed undirected lines, which means that it is acceptable to use them, if desired, as an annotation indicating identity.<br /><br /> In addition, collection of glyphs has been modified as follows:<br /><ul><li>The deprecated Insulator glyph and “shmoo” Macromolecule alternative glyph have been removed.</li><li>Deprecated BioPAX alternatives to SBO terms for molecular species glyphs have been removed.</li></ul>The changes for this release were approved as SEP V024.</p> |{{% staticref "docs/SBOL-Visual-3.0.pdf" "newtab" %}}Specification{{% /staticref %}} |  |
+
+
+
+| **2.x.x Release**  |  |   |
 |---|---|---|
 | **2.3.0** <br> SBOL Visual 2.3 provides a simple and flexible language for diagrams of genetic systems and design, including both structure (e.g., nucleic acid sequence features) and function (e.g., regulatory interactions and reactions). <br> <br>SBOL Visual 2.3 enhances the prior SBOL Visual 2.2 standard as follows:<br><ul><li>Adds higher-level "interactions with interactions", such as an inducer molecule stimulating a repression interaction</li> <li>Binding with a nucleic acid backbone can be shown by overlapping glyphs, as with other molecular complexes</li> <li>Recommends using polypeptide region glyph to show 2A sequences</li> <li>Adds new "unspecified interaction" glyph for visualizing interactions whose nature is unknown</li> <li>Deprecates "insulator" glyph in favor of new "inert DNA spacer" glyph </li> </ul>|{{% staticref "docs/SBOL-Visual-2.3.pdf" "newtab" %}}Specification{{% /staticref %}}  |   |
 | **2.2.0** <br> SBOL Visual 2.2 provides a simple and flexible language for diagrams of genetic systems and design, including both structure (e.g., nucleic acid sequence features) and function (e.g., regulatory interactions and reactions).<br><br> SBOL Visual 2.2 enhances the prior SBOL Visual 2.1 standard as follows: <br> <ul><li> Grounding for molecular species glyphs is changed from BioPAX to SBO (BioPAX terms are retained as deprecated alternatives). </li><li> New glyphs are added for introns and polypeptide regions (e.g., protein domains). </li><li> The macromolecule glyph often confused with yeast is deprecated, and a new glyph for proteins added </li><li> Small polygons are recommended as alternative glyphs for simple chemicals. </li></ul>| {{% staticref "docs/SBOL-Visual-2.2.pdf" "newtab" %}}Specification{{% /staticref %}}  |   |
