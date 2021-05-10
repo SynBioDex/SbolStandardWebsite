@@ -28,7 +28,7 @@ Look at this {{% staticref "docs/SBOL-Visual-2.1-Quickstart.pdf" "newtab" %}}qui
 
 ### SBOL Visual 2.0.0
 
-Zip files containing iamges of the glyphs as PDF, PNG or SVG files can be downloaded from the [Releases page](https://github.com/SynBioDex/SBOL-visual/releases) of the SBOL Visual repository on GitHub.
+Zip files containing images of the glyphs as PDF, PNG or SVG files can be downloaded from the [Releases page](https://github.com/SynBioDex/SBOL-visual/releases) of the SBOL Visual repository on GitHub.
 
 <a href="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Sequence%20Features.png">
 <img src="https://raw.githubusercontent.com/SynBioDex/SBOL-visual/master/sampler/Sequence%20Features.png" width="470" />
