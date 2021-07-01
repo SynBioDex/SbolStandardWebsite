@@ -80,6 +80,7 @@ To join our growing community, contact the SBOL Editors [here](https://docs.goog
 |   Falk Shreiber            |   University of Konstanz                                  |   Germany       |
 |   Florencio Mazzoldi       |   Ginkgo Bioworks                                         |   USA           |
 |   Gary Bader               |   University of Toronto                                   |   Canada        |
+|   Ge Xiao Yu               |   Nanyang Technological University                        |   Singapore     |
 |   Geoff Baldwin            |   Imperial College London                                 |   USA           |
 |   George McArthur          |   GenoCAD                                                 |   USA           |
 |   Göksel Mısırlı           |   Keele University                                        |   UK            |
