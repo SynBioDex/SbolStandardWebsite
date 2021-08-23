@@ -109,8 +109,10 @@ The SBOL Steering Committee is currently (listed alphabetically):
 * Goksel Misirli, Keele University
 * Chris Myers, University of Utah
 * Ernst Oberortner, DOE Joint Genome Institute (JGI)
+* Timothy Rudge, Pontificia Universidad Católica de Chile
 * Herbert Sauro, University of Washington
 * Anil Wipat, Newcastle University
+
 
 The SBOL chair has also organized an international advisory panel comprising a range of experts in standards and synthetic biology. The panel will provide an external perspective for SBOL, with advice on how SBOL can grow to meet the needs of the wider community.
 
