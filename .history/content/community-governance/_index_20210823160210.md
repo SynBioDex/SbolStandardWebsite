@@ -71,11 +71,11 @@ The SBOL Editors mailing list is [sbol-editors@googlegroups.com](mailto:sbol-edi
 
 SBOL Editors are elected by a community vote, following the process below. Editors serve initially for a two-year term, and upon unanimous approval of the editors and chair, an editor's term can be extended for an additional third year. After completing their term as editor, a person may not run for editor again for at least one year. To maximize continuity, editors' terms should be de-synchronized. There are 5 editorial positions, currently held by:
 
-* James McLaughlin, EMBL-EBI
 * Pedro Fontanarrosa, University of Utah
 * James Scott-Brown, University of Oxford
 * Prashant Vaidyananthan, Microsoft Research
 * Gonzalo Vidal Peña, Pontificia Universidad Católica de Chile
+* Tom Mitchell, Raytheon BBN Technologies
 
 Previous SBOL Editors include: Hasan Baig (University of Connecticut), Vishwesh Kulkarni (University of Warwick), Zach Palchik (Zymergen), Curtis Madsen (Sandia National Labs), Nicholas Roehner (BBN Technologies), Angel Goñi Moreno (Newcastle University), Umesh P (Kerala Technological University), Tramy Nguyen (University of Utah), James McLaughlin (Newcastle University), Robert Sidney Cox (Kobe University), Raik Grunberg (University of Montreal), Jacob Beal (BBN Technologies), Bryan Bartley (University of Washington), Kevin Clancy (ThermoFisher), Michal Galdzicki (University of Washington), Goksel Misirli (Newcastle University), Ernst Oberortner (Boston University), Matthew Pocock, (Newcastle University), Jacqueline Quinn (Google), Cesar Rodriguez (Autodesk), Mandy Wilson (Virginia Bioinformatics Institute).
 
@@ -109,8 +109,10 @@ The SBOL Steering Committee is currently (listed alphabetically):
 * Goksel Misirli, Keele University
 * Chris Myers, University of Utah
 * Ernst Oberortner, DOE Joint Genome Institute (JGI)
+* Timothy Rudge, Pontificia Universidad Católica de Chile
 * Herbert Sauro, University of Washington
 * Anil Wipat, Newcastle University
+
 
 The SBOL chair has also organized an international advisory panel comprising a range of experts in standards and synthetic biology. The panel will provide an external perspective for SBOL, with advice on how SBOL can grow to meet the needs of the wider community.
 
