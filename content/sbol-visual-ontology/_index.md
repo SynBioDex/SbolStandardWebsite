@@ -56,7 +56,7 @@ The web service returns the default PNG images. The PNG and SVG versions can be 
 
 **Searching for glyphs**: The SBOL-VO-WS can be used to search for glyphs using the `http://{SBOL-VO-WS}/query/{ONTOLOGY_TERM}"}` REST interface. This query interface is the reverse of the mapping interface and returns information about glyphs using a query term and for all its child terms. Glyphs are searched for by using a term from the SBOL-Visual Ontology, the Sequence Ontology or the Systems Biology Ontology. Examples:
 
-*Returning information about the CDSGlyph and CDSAlternativeGlyph terms:
+* Returning information about the CDSGlyph and CDSAlternativeGlyph terms:
     * [http://vows.sbolstandard.org/query/CDSGlyph](https://vows.sbolstandard.org/query/CDSGlyph)
     * [http://vows.sbolstandard.org/query/SO:0000316](https://vows.sbolstandard.org/query/SO:0000316)
 * Returning information about all glyphs that represent molecular interactions:
