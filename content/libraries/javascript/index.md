@@ -31,7 +31,7 @@ links:
   url: https://github.com/SynBioDex/sboljs/blob/master/README.md
 - icon: code
   icon_pack: fas
-  name: Release (v 2.4.0)
+  name: Release (v 1.0.0)
   url: https://github.com/SynBioDex/sboljs/releases
 - icon: bug
   icon_pack: fas
