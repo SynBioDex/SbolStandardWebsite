@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: https://synbiotools.bbn.com/
+  url: https://web.archive.org/web/20200528234504/https://synbiotools.bbn.com/
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
