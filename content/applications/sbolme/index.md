@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: http://www.cbrc.kaust.edu.sa/sbolme/
+  url: https://web.archive.org/web/20201128054240/https://www.cbrc.kaust.edu.sa/sbolme//
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
