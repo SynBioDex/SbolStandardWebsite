@@ -8,7 +8,7 @@ authors:
 - Zhen Zhang
 - Tramy Nguyen
 - Nicholas Roehner
-- Göksel Misirli
+- Goksel Misirli
 - Matthew Pocock
 - Ernst Oberortner
 - Meher Samineni
