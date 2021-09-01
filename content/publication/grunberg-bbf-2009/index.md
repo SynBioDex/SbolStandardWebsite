@@ -39,7 +39,7 @@ abstract: 'This Request for Comments (RFC) suggests a framework for the descript
   in a decentralized fashion. These goals   are achieved by embracing the RDF (Resource
   Description Framework), a set   of W3C standards. A one-sentence summary of this
   proposal would there-   fore be: “Use RDF according to the W3C standards.” The PoBoL
-  pro ject   (Provisional BioBrick Ontology Language, http://pobol.org) is based on   this
+  pro ject   (Provisional BioBrick Ontology Language, https://web.archive.org/web/20091216100340/http://pobol.org/) is based on   this
   idea.   This RFC does not describe a data model per se but only outlines a   possible
   architecture and rules of data exchange.'
 publication: ''
