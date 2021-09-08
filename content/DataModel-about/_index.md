@@ -12,6 +12,10 @@ view: 3
 header:
   caption: ""
   image: ""
+
+# Provide a short alias (See GitHub #135)
+aliases:
+    - /datamodel/
 ---
 
 {{< figure width="600px" library="true" src="Logos/SBOLlogo.svg" title="" lightbox="true" >}}
