@@ -12,6 +12,10 @@ view: 3
 header:
   caption: ""
   image: ""
+
+# Provide a short alias (See GitHub #135)
+aliases:
+    - /visual/
 ---
 
 {{< figure width="600px" library="true" src="Logos/SBOLVisualLogo.svg" title="" lightbox="true" >}}
