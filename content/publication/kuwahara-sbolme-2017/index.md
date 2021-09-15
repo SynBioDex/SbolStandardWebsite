@@ -39,7 +39,7 @@ abstract: The Synthetic Biology Open Language (SBOL) is a community-driven open 
   to promote standardization in synthetic biology. To support the use of SBOL in metabolic
   engineering, we developed SBOLme, the first open-access repository of SBOL 2-compliant
   biochemical parts for a wide range of metabolic engineering applications. The URL
-  of our repository is http://www.cbrc.kaust.edu.sa/sbolme.
+  of our repository is https://web.archive.org/web/20201128054240/https://www.cbrc.kaust.edu.sa/sbolme/.
 publication: ''
 url_pdf: https://doi.org/10.1021/acssynbio.6b00278
 doi: 10.1021/acssynbio.6b00278
