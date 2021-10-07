@@ -6,7 +6,7 @@ title: A Computational Workflow for the Automated Generation of Models of Geneti
 subtitle: ''
 summary: ''
 authors:
-- Göksel Misirli
+- Goksel Misirli
 - Tramy Nguyen
 - James Alastair McLaughlin
 - Prashant Vaidyanathan

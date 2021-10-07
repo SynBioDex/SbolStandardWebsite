@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: https://j5.jbei.org/bin/sbol_converter_entry_form.pl
+  url: https://j5.jbei.org/
 
 # Slides (optional).
 #   Associate this project with Markdown slides.

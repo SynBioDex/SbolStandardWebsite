@@ -64,7 +64,7 @@ You can also express your design using {{% staticref "/visual-about/" "newtab" %
 
 <details>
   <summary><b>What can I do with SBOL?</b></summary>
-  You can describe the components of a design and the interactions between components like circuit diagrams in the file using {{% staticref "/datamodel-about/" "newtab" %}}SBOL data{{% /staticref %}}. And you can draw them to prepare publications using {{% staticref "/visual/" "newtab" %}}SBOL Visual{{% /staticref %}}. You can submit genetic designs to include all sequence
+  You can describe the components of a design and the interactions between components like circuit diagrams in the file using {{% staticref "/datamodel-about/" "newtab" %}}SBOL data{{% /staticref %}}. And you can draw them to prepare publications using {{% staticref "/visual-about/" "newtab" %}}SBOL Visual{{% /staticref %}}. You can submit genetic designs to include all sequence
 information for your paper in one file. You can also attach mathematical models to genetic designs SBOL will let you move your designs and work history between different tools.
 </details>
 
@@ -105,7 +105,7 @@ information for your paper in one file. You can also attach mathematical models 
 
   You can get the SBOL logo {{% staticref "media/Logos/SBOLlogo.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "media/Logos/SBOLlogo.svg" "newtab" %}}SVG image file{{% /staticref %}}.
 
-  You can get the SBOL logo (without text) {{% staticref "media/Logos/SBOL-Logo-NoText.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "media/Logos/SBOL-Logo-NoText.svg" "newtab" %}}SVG image file{{% /staticref %}}.  
+  You can get the SBOL logo (without text) {{% staticref "media/Logos/SBOL-logo-NoText.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "media/Logos/SBOL-Logo-NoText.svg" "newtab" %}}SVG image file{{% /staticref %}}.  
   
   You can get the SBOL logo favicon {{% staticref "media/Logos/SBOL_Logo_Simple.png" "newtab" %}}PNG image file{{% /staticref %}} or {{% staticref "media/Logos/SBOL_Logo_Simple.svg" "newtab" %}}SVG image file{{% /staticref %}}.  
 

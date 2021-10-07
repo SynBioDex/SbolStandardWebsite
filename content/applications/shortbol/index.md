@@ -19,7 +19,7 @@ links:
 - icon: laptop
   icon_pack: fas
   name: Demo
-  url: http://shortbol.org/sandbox.html
+  url: http://shortbol.org/
 url_code: ""
 url_pdf: ""
 url_slides: ""

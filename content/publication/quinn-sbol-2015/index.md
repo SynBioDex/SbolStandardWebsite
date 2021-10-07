@@ -66,7 +66,7 @@ abstract: 'Synthetic Biology Open Language (SBOL) Visual is a graphical standard
   design. SBOL Visual is a community standard, freely available for personal, academic,
   and commercial use (Creative Commons CC0 license). We provide prototypical symbol
   images that have been used in scientific publications and software tools. We encourage
-  users to use and modify them freely, and to join the SBOL Visual community: http://www.sbolstandard.org/visual.'
+  users to use and modify them freely, and to join the SBOL Visual community: http://www.sbolstandard.org/visual-about.'
 publication: ''
 url_pdf: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002310
 doi: 10.1371/journal.pbio.1002310
