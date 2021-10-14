@@ -68,13 +68,30 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
+# SBOL is an open standard for the representation of in silico biological designs.
+# SBOL provides a data format composed of genetic vocabulary terms called SBOL Data.
+# SBOL also provides schematic glyphs to graphically depict genetic designs called SBOL Visual.
+# SBOL standardises data used by synthetic biology practitioners, from users to software developers to wet lab biologists.
 user_groups:
 - Researchers
 - Visitors
 ---
 
 
-* SBOL is an open standard for the representation of in silico biological designs.
-* SBOL provides a data format composed of genetic vocabulary terms called SBOL Data.
-* SBOL also provides schematic glyphs to graphically depict genetic designs called SBOL Visual.
-* SBOL standardises data used by synthetic biology practitioners, from users to software developers to wet lab biologists.
+Welcome to the <b>Synthetic Biology Open Language (SBOL)</b> community portal! 
+
+SBOL is a free and open-source standard for the representation of biological designs. The SBOL standard was developed by the synthetic biology community to create a standardized format for the electronic exchange of information on the structural and functional aspects of biological designs.
+
+SBOL was designed for everyone in synthetic biology!
+
+{{< icon name="info-circle" pack="fas" >}} If you are new to SBOL and would like to learn more, checkout the [SBOL section](#sbol)!
+
+{{< icon name="dna" pack="fas" >}} If you would like to use SBOL to create diagrams to visualize your biological designs, you can learn more from the [SBOL Visual section](#visual).
+
+{{< icon name="laptop" pack="fas" >}} If you are a developer, check out all the [libraries and tools](#libraries) created by the SBOL community!
+
+{{< icon name="flask" pack="fas" >}} If you would like to use SBOL without writing any code, you may be interested in the tools and [applications](/applications/) developed by the SBOL community!
+
+{{< icon name="file" pack="fas" >}} You can find the latest [SBOL and SBOL visual specifications here](#specifications). We've also included an [exhaustive list of publications](/publication/) that either use SBOL or have been built around SBOL.
+
+{{< icon name="industry" pack="fas" >}} SBOL is also used in the industry! If you are working in the industry and would like learn about how SBOL could support your applications you can join the [SBOL Industrial Consortium](/sbol-industrial/)!

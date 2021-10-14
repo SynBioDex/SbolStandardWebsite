@@ -1,17 +1,17 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
-title = "SBOL for developers!"
+title = "Visualize with SBOL Visual!"
 subtitle = ""
 
 [content]
   # Page type to display. E.g. project.
-  page_type = "libraries"
-  
+  page_type = "about"
+
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
   # To show all items, set `tag` to "*".
@@ -34,6 +34,7 @@ subtitle = ""
   #   tag = "Demo"
 
 [design]
+
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
 
@@ -42,7 +43,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view = 3
+  view = 5
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows = false
@@ -73,6 +74,12 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
+# Commenting this section out. This can be used if we want a shorter description. 
+# The Synthetic Biology Open Language (SBOL) has been developed as a standard to support the specification and exchange of biological design information in synthetic biology, following an open community process involving both wet bench scientists and dry scientific modelers and software developers, across academia, industry, and other institutions.
+
 +++
 
-The SBOL community has created a number of libraries to programmatically use the SBOL data model in a number of popular languages!
+SBOL Visual aims to organize and systematize such conventions in order to produce a coherent language for expressing the structure and function of genetic designs. At the same time, we aim to make this language simple and easy to use, allowing a high degree of flexibility and freedom in how such diagrams are organized, presented, and styled—in particular, it should be readily possible to create diagrams both by hand and with a wide variety of software programs.
+
+Read the [SBOL Visual](/visual-about/) page to learn more about the SBOL visual glyphs and how you can create beatutiful diagrams to communicate the structure of nucleic acid sequences that you may be engineering or to show the functional relationships between sequence features and other molecular species!
