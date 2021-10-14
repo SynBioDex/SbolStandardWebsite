@@ -42,7 +42,7 @@ authors:
 categories: []
 date: 2020-04-01T00:00:00Z
 publishDate: 2016-04-01T00:00:00Z
-featured: true
+featured: false
 draft: false
 publication_types: ["2"]
 tags: []
