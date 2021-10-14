@@ -175,7 +175,7 @@
 
 [[main]]
   name = "View Source"
-  url = "https://synbiodex.github.io/SbolStandardWebsite/"
+  url = "https://github.com/SynBioDex/SbolStandardWebsite"
   weight = 75
   parent = "about-id"
 
