@@ -21,7 +21,7 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Specification"
+  name = "Data Model Specification"
   url = "/DataModel-Specification"
   weight = 10
   parent = "dom-id"
@@ -69,7 +69,7 @@
   parent = "visual-id"
 
 [[main]]
-  name = "Specification"
+  name = "Visual Specification"
   url = "/visual-specification"
   weight = 10
   parent = "visual-id"
@@ -100,7 +100,7 @@
   
 [[main]]
   name = "Applications"
-  url = "/applications"
+  url = "#applications"
   weight = 30
 
 [[main]]

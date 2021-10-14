@@ -88,10 +88,10 @@ SBOL was designed for everyone in synthetic biology!
 
 {{< icon name="dna" pack="fas" >}} If you would like to use SBOL to create diagrams to visualize your biological designs, you can learn more from the [SBOL Visual section](#visual).
 
-{{< icon name="laptop" pack="fas" >}} If you are a developer, check out all the [libraries and tools](#libraries) created by the SBOL community!
+{{< icon name="laptop" pack="fas" >}} If you are a developer, check out all the [libraries](#libraries) and [tools](#applications) created by the SBOL community!
 
 {{< icon name="flask" pack="fas" >}} If you would like to use SBOL without writing any code, you may be interested in the tools and [applications](/applications/) developed by the SBOL community!
 
-{{< icon name="file" pack="fas" >}} You can find the latest [SBOL and SBOL visual specifications here](#specifications). We've also included an [exhaustive list of publications](/publication/) that either use SBOL or have been built around SBOL.
+{{< icon name="file" pack="fas" >}} You can find the latest [SBOL and SBOL visual specifications here](#specifications). We've also included an [exhaustive list of publications](/publication/) that either use SBOL or support SBOL.
 
 {{< icon name="industry" pack="fas" >}} SBOL is also used in the industry! If you are working in the industry and would like learn about how SBOL could support your applications you can join the [SBOL Industrial Consortium](/sbol-industrial/)!
