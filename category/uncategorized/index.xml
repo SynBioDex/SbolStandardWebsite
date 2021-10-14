@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Uncategorized | The Synthetic Biology Open Language</title><link>/category/uncategorized/</link><atom:link href="/category/uncategorized/index.xml" rel="self" type="application/rss+xml"/><description>Uncategorized</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Jun 2019 20:55:45 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Uncategorized</title><link>/category/uncategorized/</link></image><item><title>IWBDA 2015</title><link>/events/2015/iwbda/2018-07-22-iwbda-2015/</link><pubDate>Sun, 22 Jul 2018 05:51:25 +0000</pubDate><guid>/events/2015/iwbda/2018-07-22-iwbda-2015/</guid><description>&lt;h2 id="location-university-of-washington-in-wa-usa">Location: University of Washington in WA, USA&lt;/h2>
+&lt;p>Date: August 19th – 21st, 2015&lt;br>
+Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2015/program/IWBDA_2015_Proceedings.pdf" target="_blank" rel="noopener">http://www.iwbdaconf.org/2015/program/IWBDA_2015_Proceedings.pdf&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international workshop on Bio-Design Automation.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Thursday, August 20th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp;
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/SBOL.pdf&amp;quot;&amp;gt;Introduction to SBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:20AM PDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/roehner_iwbda_2015_slides.pdf&amp;quot;&amp;gt;The Synthetic Biology Open Language 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:20AM &amp;#8211; 09:40AM PDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/tramy-iwbda2015-presentation.pdf&amp;quot;&amp;gt; A Converter from the Systems Biology Markup Language to the Synthetic Biology Open Language &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff; width:20%;&amp;quot;&amp;gt;
+&amp;amp;nbsp; [09:40AM &amp;amp;#8211; 10:00AM PDT]
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/sbol_stack.pdf&amp;quot;&amp;gt; SBOL Stack: The One-stop-shop for Storing and Publishing Synthetic Biology Designs &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Curtis Madsen
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
+&amp;lt;p&amp;gt;
+&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;strong&amp;gt;Friday, August 21st&amp;lt;/strong&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;table style=&amp;quot;width:100%;border-color:#fff;margin-bottom:0px&amp;quot;&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff; width:20%;&amp;quot;&amp;gt;
+&amp;amp;nbsp; [04:00PM &amp;amp;#8211; 04:20PM PDT]
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SynBad: An SVP Design Framework&amp;lt;/p&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Owen Gilfellon
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
+&amp;lt;p&amp;gt;
+&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;
+&amp;lt;/p&amp;gt;&lt;/code>&lt;/pre></description></item><item><title>SBOL 8</title><link>/events/2018/sbol-workshop/2018-06-29-sbol-8/</link><pubDate>Fri, 29 Jun 2018 20:56:35 +0000</pubDate><guid>/events/2018/sbol-workshop/2018-06-29-sbol-8/</guid><description>&lt;p>The 8th SBOL workshop took place in Boston University in Boston, MA, USA&lt;br>
+Materials that were presented at the workshop are linked below.&lt;br>
+The full agenda of the workshop can be found &lt;a href="https://docs.google.com/document/d/1TqUqovny1-4esIiVZJKPHAAdlcDnVL0kAqIqpycfLYc/edit#heading=h.2i3m39ieoijr" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Aaron Adler and Fusun Yaman: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/BBN_Tools.pdf" target="_blank" rel="noopener">Synthetic Biology Tools from BBN&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki and Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/HostContextPresentation.pptx" target="_blank" rel="noopener">Host Context&lt;/a>&lt;/li>
+&lt;li>Matthew Pocock: [Minimal Information](&lt;a href="https://github.com/SynBioDex/Community-">https://github.com/SynBioDex/Community-&lt;/a>
+Media/blob/master/2012/SBOL8/Minimal%20Information.pptx)&lt;/li>
+&lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/roehner_myers_SBMLtoSBOL_boston2012.pdf" target="_blank" rel="noopener">A Methodology to Annotate Systems Biology Markup Language (SBML) Models with the Synthetic Biology Open Language (SBOL)&lt;/a>&lt;/li>
+&lt;li>Mandy Wilson: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Extensions.pptx" target="_blank" rel="noopener">SBOL Extensions&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Values.pptx" target="_blank" rel="noopener">I’m going to talk about SBOL Values&lt;/a>&lt;/li>
+&lt;li>Jackie Quinn and Cesar Rodriguez: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Visual.pdf" target="_blank" rel="noopener">SBOL Visual&lt;/a>&lt;/li>
+&lt;li>Jackie Quinn and Ernst Oberortner: &lt;a href="">SBOL in Action “Wetware Studio + Eugene”&lt;/a>&lt;/li>
+&lt;li>Douglas Densmore: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/sbol8-compliance.pdf" target="_blank" rel="noopener">SBOL Compliance&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/sbol8-core.pptx" target="_blank" rel="noopener">SBOL Core&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/Using%20the%20Sequence%20Ontology.pptx" target="_blank" rel="noopener">Using the Sequence Ontology&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/demo.pptx" target="_blank" rel="noopener">3 Use Cases for SBOL&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>SBOL 10</title><link>/events/2018/sbol-workshop/2018-06-29-sbol-10/</link><pubDate>Fri, 29 Jun 2018 20:50:13 +0000</pubDate><guid>/events/2018/sbol-workshop/2018-06-29-sbol-10/</guid><description>&lt;p>The 10th SBOL workshop took place in UC Berkeley, CA, USA.&lt;br>
+Materials that were presented at the workshop are linked below.&lt;br>
+The full agenda of the workshop can be found &lt;a href="https://docs.google.com/document/d/1qP6WK-eUUB41Upt38vN0LmulLcoG9yEEr1gHEyJaiVQ/edit" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Jackie Quinn: Brief Intro to SBOL and the Workshop
+&lt;ul>
+&lt;li>Matthew Pocock: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/RDF%20Pickling.pptx" target="_blank" rel="noopener">Taking Stock, Code base tour&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/miniEugene.pdf" target="_blank" rel="noopener">libSBOLj in Eugene + mapping&lt;/a>&lt;/li>
+&lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/SBOL_as_genetic_model.pptx" target="_blank" rel="noopener">Using SBOL as a Genetic Data Model&lt;/a>&lt;/li>
+&lt;li>Kevin: Lessons learned of NOT using libSBOLj&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/miniEugene.pdf" target="_blank" rel="noopener">(mini)Eugene&lt;/a>&lt;/li>
+&lt;li>Kevin Clancy: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/Berkeley_Jan2014_SBOL_Workshop.pptx" target="_blank" rel="noopener">Vector NTI Express Designer&lt;/a>&lt;/li>
+&lt;li>Nathan Hillson: TeselaGen and ICE + SBOL Visual and XML&lt;/li>
+&lt;li>Nicholas Roehner and Chris Myers: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/SBOL_2.0_Vision_Structure.pptx" target="_blank" rel="noopener">SBOL 2.0: Vision&lt;/a>&lt;/li>
+&lt;li>Matthew Pocock and Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/RDF%20Pickling.pptx" target="_blank" rel="noopener">Serialization (RDF Pickling)&lt;/a>&lt;/li>
+&lt;li>Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/libSBOLj.pptx" target="_blank" rel="noopener">libSBOLj in Virtual Parts&lt;/a>&lt;/li>
+&lt;li>Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/Exchanging%20synthetic%20biology%20data%20using%20SBOL%20and%20the%20Systems%20extension.pptx" target="_blank" rel="noopener">Exchanging synthetic biology data using SBOL and the Systems extension: A use case from the Flowers infrastructure&lt;/a>&lt;/ul>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>SBOL 9</title><link>/events/2018/sbol-workshop/2018-06-29-sbol-9/</link><pubDate>Fri, 29 Jun 2018 20:32:09 +0000</pubDate><guid>/events/2018/sbol-workshop/2018-06-29-sbol-9/</guid><description>&lt;p>The 9th SBOL workshop took place in Newcastle University in Newcastle, UK.&lt;br>
+Materials that were presented at the workshop are linked below.&lt;/p>
+&lt;ul>
+&lt;li>Michal Galdzicki, Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Bartley%20-%20Host%20Context.pptx" target="_blank" rel="noopener">Host Context&lt;/a>&lt;/li>
+&lt;li>Ryan, Jackie, Robert, Mike, Larisa, Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Case%20StudiesBreakoutReport.pptx" target="_blank" rel="noopener">Case Studies&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki, Bryan Bartley, Evren Sirin, Nikhil Gopal, John Gennari: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/GaldzickiSBOLDesignerDemo.pptx" target="_blank" rel="noopener">Demo of Version Control using the “SBOL Designer”&lt;/a>&lt;/li>
+&lt;li>Raik Grünberg: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/gruenberg_proteinextension.pdf" target="_blank" rel="noopener">Protein Parts in SBOL&lt;/a>&lt;/li>
+&lt;li>Chris Myers, Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Modeling.pdf" target="_blank" rel="noopener">SBOL Modeling Extension&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner, Matthew Pocock, Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/regulatory-interactions.pptx" target="_blank" rel="noopener">SBOL Regulatory Interactions&lt;/a>&lt;/li>
+&lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Roehner_DAG-Based_Genetic_Tech_Mapping.pdf" target="_blank" rel="noopener">Directed Acyclic Graph-Based Technology Mapping of Genetic Circuits&lt;/a>&lt;/li>
+&lt;li>Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/SBOL_Systems_v2.pptx" target="_blank" rel="noopener">Representing Biological Systems for the Flowers Consortium&lt;/a>&lt;/li>
+&lt;li>Jacob Beal: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/SBOL-BioCompiler-Apr2013.pptx" target="_blank" rel="noopener">SBOL in Action: The BBN BioCompiler&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner, Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/sbol-compliance.pptx" target="_blank" rel="noopener">SBOL Compliance Working Group&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/sbol-script.pptx" target="_blank" rel="noopener">SBOL Script&lt;/a>&lt;/li>
+&lt;li>Larisa Soldatova: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/SBOL9-Soldatova.pdf" target="_blank" rel="noopener">Towards an ontology for Synthetic Biology&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
