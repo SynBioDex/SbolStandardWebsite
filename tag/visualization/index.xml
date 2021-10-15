@@ -122,6 +122,40 @@
 &lt;td>Free for academic users&lt;/td>
 &lt;/tr>
 &lt;/tbody>
+&lt;/table></description></item><item><title>Flapjack</title><link>/applications/flapjack/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/flapjack/</guid><description>&lt;p>Flapjack is a data management and analysis app for genetic circuit characterization to store, share, mix, analyze and plot your SynBio data.It has a database backend, a webapp as frontend and a Python API, this allows you to access your data remotely using an intuitive user interface and be able to integrate it easily in Python workflows for automation.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>Gonzalo Vidal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>Newcastle University&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>Python, JavaScript&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Linux, MacOS, Windows, Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>MIT License&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table></description></item><item><title>Graphviz</title><link>/applications/graphviz/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/graphviz/</guid><description>&lt;p>Graphviz (short for Graph Visualization Software) is a package of open-source tools initiated by AT&amp;amp;T Labs Research for drawing graphs specified in DOT language scripts. It also provides libraries for software applications to use the tools. Graphviz is free software licensed under the Eclipse Public License. Graphviz includes SBOL visual symbols in its set of node shapes, and has edge shapes compatible with proposed regulatory arc shapes.&lt;/p>
 &lt;table>
 &lt;thead>
