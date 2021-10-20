@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recent &amp; Upcoming Talks | The Synthetic Biology Open Language</title><link>/event/</link><atom:link href="/event/index.xml" rel="self" type="application/rss+xml"/><description>Recent &amp; Upcoming Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Recent &amp; Upcoming Talks</title><link>/event/</link></image><item><title>Example Event</title><link>/event/2013/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/event/2013/example/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>SEED 2020: Software for Synthetic Biology Workflows Workshop</title><link>/event/2020/seed/</link><pubDate>Fri, 07 Feb 2020 23:49:16 +0000</pubDate><guid>/event/2020/seed/</guid><description>&lt;p>&lt;strong>Workshop Description:&lt;/strong>&lt;br>
+This workshop is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology. The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows. In the second half, participants will work hands-on with the tools in groups, with the instructors assisting them in applying tools hands-on to address prototypical example problems and/or challenges from their own work. For the second half, participants are strongly encouraged to bring a laptop with network access.&lt;/p>
+&lt;p>This workshop will be free for attendees of SEED 2020. There will be a small fee if you wish to attend this workshop without attending SEED.&lt;/p>
+&lt;p>&lt;strong>Important Information:&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Date:&lt;/strong> Thursday, June 25, 2020,&lt;/p>
+&lt;p>&lt;strong>Time:&lt;/strong> 1:45pm-3:45pm EDT&lt;/p>
+&lt;p>&lt;strong>Location:&lt;/strong> &lt;a href="http://synbioconference.org/2020" target="_blank" rel="noopener">SEED 2020&lt;/a> @ Hyatt Regency San Francisco&lt;/p>
+&lt;p>&lt;strong>Registration Page:&lt;/strong> FORTHCOMING&lt;/p>
+&lt;p>&lt;strong>Organizers:&lt;/strong>&lt;br>
+Prof. Chris Myers, University of Utah&lt;br>
+Dr. Ernst Oberortner, DOE Joint Genome Institute&lt;/p>
+&lt;p>&lt;strong>Agenda:&lt;/strong>&lt;br>
+1:45PM – 1:55PM Introduction: Chris Myers, University of Utah&lt;br>
+1:55PM – 2:20PM JBEI/JGI Tools: Ernst Oberortner, Joint Genome Institute&lt;br>
+2:20PM – 2:45PM SynBioHub, SBOLCanvas: Chris Myers, U. of Utah&lt;br>
+2:45PM – 3:45PM Hands On Session&lt;/p></description></item><item><title>Software for Synthetic Biology Workflows</title><link>/event/2019/software-for-synthetic-biology-workflows/</link><pubDate>Sat, 22 Jun 2019 20:55:45 +0000</pubDate><guid>/event/2019/software-for-synthetic-biology-workflows/</guid><description>&lt;p>&lt;strong>Date&lt;/strong>: Thursday, June 27, 2019, 1:45pm-3:45pm EDT&lt;br>
+&lt;strong>Venue&lt;/strong>: New York Hilton – Midtown, New York, NY&lt;br>
+&lt;strong>Location Map&lt;/strong>: &amp;lt;&lt;a href="https://www.google.com/maps/place/1335&amp;#43;6th&amp;#43;Ave,&amp;#43;New&amp;#43;York,&amp;#43;NY&amp;#43;10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235%3E" target="_blank" rel="noopener">https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235&amp;gt;&lt;/a>{.};&lt;/p>
+&lt;p>This workshop is conducted as a part of SEED 2019. It is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology.&lt;/p>
+&lt;ul>
+&lt;li>The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows.&lt;/li>
+&lt;li>In the second half, participants will work hands-on with the tools in groups, with the instructors assisting them in applying tools hands-on to address prototypical example problems and/or challenges from their own work.&lt;/li>
+&lt;li>For the second half, participants are strongly encouraged to bring a laptop with network access.&lt;/li>
+&lt;/ul>
+&lt;p class="has-text-color has-vivid-red-color">
+&lt;strong>Schedule:&lt;/strong>
+&lt;/p>
+&lt;p class="has-small-font-size">
+&lt;strong>1:45 PM&lt;/strong>    Introduction [10 min]   &lt;em>Nicholas Roehner&lt;/em>, Raytheon BBN Technologies&lt;br />&lt;strong>1:55 PM&lt;/strong>    JBEI ICE/DIVA, EDD, and ART [15 min]  &lt;em>Hector Plahar, Mark Forrer, and Nathan Hillson&lt;/em>, Joint BioEnergy Institute&lt;br />&lt;strong>2:10 PM &lt;/strong>   BOOST, BLiSS, and SynTrack [15 min]  &lt;em>Lisa Simirenko&lt;/em>, Joint Genome Institute&lt;br />&lt;strong>2:25 PM &lt;/strong>   SynBioHub, iBioSim, and SBOL Designer [15 min]  &lt;em>Nicholas Roehner&lt;/em>, Raytheon BBN Technologies&lt;br />&lt;strong>2:40 PM &lt;/strong>   Hands On Session [65 min]</description></item><item><title>COMBINE 2019</title><link>/event/2019/combine/</link><pubDate>Sat, 01 Jun 2019 00:29:26 +0000</pubDate><guid>/event/2019/combine/</guid><description>&lt;h2 id="location-heidelberg-institute-for-theoretical-studies-heidelberg-germany">Location: Heidelberg Institute for Theoretical Studies, Heidelberg, Germany&lt;/h2>
+&lt;h2 id="date-july-15-8211-19-2019">Date: July 15 – 19, 2019&lt;/h2>
+&lt;h2 id="complete-combine-agendahttpcombineorgeventscombine_2019agenda">Complete COMBINE Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2019/agenda">http://co.mbine.org/events/COMBINE_2019/agenda&lt;/a>&lt;/h2>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p></description></item><item><title>IWBDA 2019</title><link>/event/2019/iwbda/</link><pubDate>Sat, 01 Jun 2019 00:20:15 +0000</pubDate><guid>/event/2019/iwbda/</guid><description>&lt;figure class="wp-block-image">&lt;img src="http://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-1024x590.png" alt="" class="wp-image-3507" srcset="https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-1024x590.png 1024w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-300x173.png 300w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-768x442.png 768w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-624x359.png 624w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019.png 1783w" sizes="(max-width: 1024px) 100vw, 1024px" />&lt;/figure>
+&lt;h2 id="location-cambridge-england">Location: Cambridge, England&lt;/h2>
+&lt;h2 id="date-july-8-8211-10-2019">Date: July 8 – 10, 2019&lt;/h2>
+&lt;h2 id="link-httpwwwiwbdaconforg2019">Link: &lt;a href="http://www.iwbdaconf.org/2019/">http://www.iwbdaconf.org/2019/&lt;/a>&lt;/h2>
+&lt;h2 id="sbol-workshop">SBOL Workshop&lt;/h2>
+&lt;p>Date: July 08, 2019&lt;br>
+Time: 9:00 – 18.30&lt;/p>
+&lt;p>Prior to IWBDA, there will be a one-day SBOL workshop on July 8th, 2019 at Cambridge University, UK. The workshop is aimed for both for software developers and SBOL users, and will include demos and tutorials. Although there is no registration fee for the SBOL workshop, participants should still register. More details and registration link to follow shortly.&lt;/p></description></item><item><title>SEED 2019</title><link>/event/2019/seed/</link><pubDate>Sat, 02 Mar 2019 22:15:21 +0000</pubDate><guid>/event/2019/seed/</guid><description>&lt;header class="entry-header">
+&lt;h1 id="span-idlocation_scottsdale_arizona_us_date_june_3rd_8211_7th_2018_complete_seed_agenda_httpsynbioconferenceorg2018-classez-toc-sectionlocation-new-york-city-new-york-usbr--date-june-23rd--27th-2019br--complete-seed-agendaa-hrefhttpsynbioconferenceorg2019httpsynbioconferenceorg2019abr--span-entry-titleheader">&lt;span id="Location_Scottsdale_Arizona_US_Date_June_3rd_8211_7th_2018_Complete_SEED_Agenda_httpsynbioconferenceorg2018" class="ez-toc-section">Location: New York City, New York, US&lt;br /> Date: June 23rd – 27th, 2019&lt;br /> Complete SEED Agenda: &lt;a href="http://synbioconference.org/2019">&lt;a href="http://synbioconference.org/2019">http://synbioconference.org/2019&lt;/a>&lt;/a>&lt;br /> &lt;/span> {.entry-title}&lt;/header>&lt;/h1>
+&lt;div class="entry-content">
+&lt;h2>
+&lt;span id="Description" class="ez-toc-section">Description:&lt;/span>
+&lt;/h2>
+&lt;p>
+SEED is a conference where synthetic biologist from different areas of the field come together to present their work.
+&lt;/p>
+&lt;/div></description></item><item><title>HARMONY 2019: SBOL Breakout Sessions</title><link>/event/2019/harmony/</link><pubDate>Mon, 21 Jan 2019 00:40:26 +0000</pubDate><guid>/event/2019/harmony/</guid><description>&lt;h2 id="locationcaltech-pasadena-california-usa">Location: &lt;strong>Caltech, Pasadena, California, USA&lt;/strong>&lt;/h2>
+&lt;p>Date: March 25th – 29th, 2019&lt;br>
+Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/HARMONY_2019">http://co.mbine.org/events/HARMONY_2019&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>HARMONY is a hackathon meeting that members of the SBOL community attends annually to discuss the development of the SBOL data model and SBOL visual.&lt;br>
+This meeting welcomes everyone in the community to join in on the development of the COMBINE standards.&lt;/p>
+&lt;h2 id="agenda-tbd">Agenda: TBD&lt;/h2></description></item><item><title>COMBINE 2018</title><link>/event/2018/combine/</link><pubDate>Sat, 08 Sep 2018 22:49:27 +0000</pubDate><guid>/event/2018/combine/</guid><description>&lt;h2 id="locationcenter-for-integrated-life-sciences-and-engineering-at-boston-universityhttpwwwbuedufacilitiesprojectcenter-for-integrated-life-sciences-engineeringfreelinkingexternalin-boston-ma-usa">Location: &lt;a href="http://www.bu.edu/facilities/project/center-for-integrated-life-sciences-engineering" target="_blank" rel="noopener">Center for Integrated Life Sciences and Engineering at Boston University&lt;/a>{.freelinking.external} in Boston, MA USA&lt;/h2>
+&lt;p>Date: October 8th – 12th, 2018&lt;br>
+Complete COMBINE Agenda: &lt;a href="https://co.mbine.org/events/COMBINE_2018">https://co.mbine.org/events/COMBINE_2018&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Tuesday, October 9th&lt;/strong>&lt;/p>
+&lt;table style="width: 100%; border-color: #fff; margin-bottom: 0px;">
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[10:00AM &amp;#8211; 12:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;amp;nbsp;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[1:30PM &amp;#8211; 3:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;amp;nbsp;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[3:30PM &amp;#8211; 5:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;amp;nbsp;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Wednesday, October 10th&lt;/strong>&lt;/p>
+&lt;table style="width: 100%; border-color: #fff; margin-bottom: 0px;">
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[08:45AM &amp;#8211; 09:00AM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+Rendering Complex Genetic Design with DNAplotlib and pySBOL2
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+Sunwoo Kang
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[09:00AM &amp;#8211; 09:15AM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+VisBOL enhancements for SBOL 2
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+Arezoo Sadeghi
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[11:15AM &amp;#8211; 11:30AM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+A Web-based CAD tool for the Synthetic Biology Open Language
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+James Alastair Mclaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[1:30PM &amp;#8211; 3:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[3:30PM &amp;#8211; 5:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;p>**&lt;br>
+Thursday, October 11th**&lt;/p>
+&lt;table style="width: 100%; border-color: #fff; margin-bottom: 0px;">
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[10:30AM &amp;#8211; 10:45AM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+Software Tools for Next-Gen Genetic Design
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[11:00AM &amp;#8211; 11:15AM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+Sharing COMBINE Archives using SynBioHub
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+Zach Zundel
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[11:15AM &amp;#8211; 11:30AM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOLExplorer: Data Infrastructure and Data Mining for Genetic Design Repositories
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+Michael Zhang
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[1:30PM &amp;#8211; 3:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[3:30PM &amp;#8211; 5:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Friday, October 12th&lt;/strong>&lt;/p>
+&lt;table style="width: 100%; border-color: #fff; margin-bottom: 0px;">
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[1:30PM &amp;#8211; 3:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color: #fff; width: 20%;">
+[3:30PM &amp;#8211; 5:00PM ET]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color: #fff;&amp;quot;&amp;gt;
+SBOL Breakout Session
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color: #fff; text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table></description></item><item><title>SoundBioLab</title><link>/event/2018/soundbiolab/</link><pubDate>Mon, 23 Jul 2018 05:31:01 +0000</pubDate><guid>/event/2018/soundbiolab/</guid><description>&lt;p>Portions of this NSF Collaborative award supports science outreach classes at &lt;a href="https://sound.bio" target="_blank" rel="noopener">SoundBioLab&lt;/a>, a non-profit, community-supported, Do-It-Yourself (DIY) biology laboratory located in Seattle, Washington.  This program offers introductory biology and biotechnology classes to students of any age at a discounted rate.&lt;/p>
+&lt;center>
+&lt;img class="alignnone wp-image-2766" src="http://sbolstandard.org/wp-content/uploads/2018/05/soundbio2.png" alt="" width="421" height="158" /> &lt;img class="wp-image-2769 alignnone" src="http://sbolstandard.org/wp-content/uploads/2018/05/soundbio5.png" alt="" width="282" height="200" /> &lt;img class="alignnone wp-image-2770" src="http://sbolstandard.org/wp-content/uploads/2018/05/soundbio6.png" alt="" width="255" height="125" />
+&lt;/center>SoundBio, supported by the SBOL team, recently held a science outreach event to provide hands-on and engaging science activities and lessons to elementary school kids at Sacajawea Boys &amp; Girls Club. As child care program, Sacajawea serves youth ages 5-12 in the Maple Leaf neighborhood. We thought this would be a great opportunity to bring science directly to children as well as partner with an amazing child care program.
+&lt;p>&lt;img style="float: left; margin: 0px 15px 0px 0px; padding-left: 0px;" src="http://sbolstandard.org/wp-content/uploads/2018/05/soundbio8.png" alt="" width="191" height="143" /> Because of the wide range of ages, we decided to split the students into 2 groups: grades 1-3 and grades 4-5. This allowed us to provide a more customized lesson based on the students’ scientific understanding and capabilities. With 8 SoundBio volunteers and 4 Sacajawea staff members, 39 students received lessons about camouflage, ears &amp;amp; soundwaves, microscopes, and DNA.&lt;/p>
+&lt;p>During the Ears &amp;amp; Soundwaves lesson, 1-3 graders got to learn about different ear shapes found in nature and how soundwaves travel. During the activity students got to design their own ears! This resulted in some pretty spectacular designs.&lt;/p>
+&lt;p>The same students then learned about why animals hide and how it helps them. The students looked at pictures of different animals using camouflage in their natural environment. Then, using patterned paper as the background the kids cut out animal shapes and colored them to create camouflage!&lt;/p>
+&lt;p>The older students in grades 4-5 participated in the Microscope Exploration and DNA Extraction lessons.&lt;/p>
+&lt;p>&lt;img style="float: right; margin: 0px 0px 0px 15px; padding-left: 0px;" src="http://sbolstandard.org/wp-content/uploads/2014/12/soundbio3.png" alt="" width="127" height="171" />&lt;img style="float: right; margin: 0px 0px 0px 15px; padding-left: 0px;" src="http://sbolstandard.org/wp-content/uploads/2018/05/soundbio7.png" alt="" width="226" height="170" /> During the Microscope Exploration lesson, students learned about how microscopes help scientists see objects that are invisible to the naked eye. Students then used the microscope to look at the structures of common items like table salt and onion cells. Finally, each student was challenged to make their own slides using cardboard and tape.&lt;/p>
+&lt;p>During the final lesson, students learned about traits, genes, and DNA. Students were asked to identify different inheritable traits like eye color, ear shape, and tongue rolling. We then connected these traits with genes and DNA. To support the lesson, students extracted DNA from strawberries using teamwork and measuring skills to create a DIY DNA extraction solution.&lt;/p>
+&lt;p>This was a fantastic event! The students and volunteers were engaged and had fun learning about science. Additionally, each student was given a handout to take home and continue the discussion of science with their parents and siblings in an effort to broaden this event to the larger community.&lt;/p>
+&lt;p>For more information about this program, buzz on over to &lt;a href="https://sound.bio/membership/" target="_blank" rel="noopener">SoundBioLab Membership&lt;/a> at SoundBioLab.&lt;/p></description></item><item><title>SB6.0</title><link>/event/2013/sb6/</link><pubDate>Mon, 23 Jul 2018 05:27:00 +0000</pubDate><guid>/event/2013/sb6/</guid><description>&lt;h2 id="location-imperial-college-in-londonuk">Location: Imperial College in London,UK&lt;/h2>
+&lt;p>Date: July 9th – 11th, 2015&lt;br>
+Complete SB6.0 Agenda: &lt;a href="https://biobricks.org/sb6-archived/">https://biobricks.org/sb6-archived/&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international synthetic biology conference.&lt;/p>
+&lt;h2 id="sbol-talks">SBOL Talks:&lt;/h2>
+&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; Chris Myers
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2013/SB6/SB6_0.pdf&amp;quot;&amp;gt; Development of the Synthetic Biology Open Language &amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; Jacqueline Quinn
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/8759d242062471f7753daeb33e2b8630d1ff8a27/posters/SB%206.0%20SBOL%20Visual%20Poster%20Final.pdf&amp;quot;&amp;gt; Synthetic Biology Open Language Visual: An Open-Source Graphical Notation for Synthetic Biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; Michal Galdzicki
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; The Synthetic Biology Open Language Standard: Sharing Design Information in Synthetic Biology
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>IWBDA 2013</title><link>/event/2013/iwbda/</link><pubDate>Mon, 23 Jul 2018 05:21:43 +0000</pubDate><guid>/event/2013/iwbda/</guid><description>&lt;h2 id="location-imperial-college-in-londonuk">Location: Imperial College in London,UK&lt;/h2>
+&lt;p>Date: July 12th – 13th, 2013&lt;br>
+Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2013/program/">http://www.iwbdaconf.org/2013/program/&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international workshop on Bio-Design Automation.&lt;/p>
+&lt;h2 id="sbol-materials">SBOL Materials:&lt;/h2>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Michal Galdzicki
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Recent Advances in the Synthetic Biology Open Language
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Jacqueline Quinn
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/8759d242062471f7753daeb33e2b8630d1ff8a27/2013/IWBDA_Presentations/IWBDA%20SBOL%20Visual%20Presentation.pdf&amp;quot;&amp;gt;Synthetic Biology Open Language Visual: An Open-Source Graphical Notation for Synthetic Biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;hr></description></item><item><title>IWBDA 2014</title><link>/event/2014/iwbda/</link><pubDate>Mon, 23 Jul 2018 05:15:26 +0000</pubDate><guid>/event/2014/iwbda/</guid><description>&lt;h2 id="location-photonics-center-in-boston-ma-usa">Location: Photonics Center in Boston, MA, USA&lt;/h2>
+&lt;p>Date: June 11th – 12th, 2014&lt;br>
+Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2015/program/IWBDA_2015_Proceedings.pdf" target="_blank" rel="noopener">http://www.iwbdaconf.org/2015/program/IWBDA_2015_Proceedings.pdf&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international workshop on Bio-Design Automation.&lt;/p>
+&lt;h2 id="sbol-materials">SBOL Materials:&lt;/h2>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Nicholas Roehner
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/posters/roehner_iwbda_2014_poster.pdf&amp;quot;&amp;gt;Generating Systems Biology Markup Language Models from the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Christian Olsen
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Synthetic Biology Open Language Designer
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;hr></description></item><item><title>SEED 2014</title><link>/event/2014/seed/</link><pubDate>Mon, 23 Jul 2018 05:09:10 +0000</pubDate><guid>/event/2014/seed/</guid><description>&lt;h2 id="location-manhattan-beach-ca-usa">Location: Manhattan Beach, CA, USA&lt;/h2>
+&lt;p>Date: July 14th – 17th, 2014&lt;br>
+Complete SEED Agenda: &lt;a href="http://synbioconference.org/2014/seed-2014-program">http://synbioconference.org/2014/seed-2014-program&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A synthetic biology conference that brings together synthetic biologist from industry and academia to present their work.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Nicholas Roehner
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2014/SEED/roehner_seed_2014_slides.pdf&amp;quot;&amp;gt;A Proposed Data Model for the Next Version of the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>ICSB 2014</title><link>/event/2014/icsb/</link><pubDate>Mon, 23 Jul 2018 05:04:22 +0000</pubDate><guid>/event/2014/icsb/</guid><description>&lt;h2 id="location-ether-conference-centre-in-melbourne-australia">Location: Ether Conference Centre in Melbourne, Australia&lt;/h2>
+&lt;p>Date: Sunday, September 14th, 2014&lt;br>
+Complete ICSB 2014 Agenda: &lt;a href="http://co.mbine.org/events/tutorial2014/fullagenda">http://co.mbine.org/events/tutorial2014/fullagenda&lt;/a>&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference that invites speakers from industry and academia to present their work in bioinformatics.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Chris Myers
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; The Synthetic Biology Open Language (SBOL)
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>SEED 2015</title><link>/event/2015/seed/</link><pubDate>Mon, 23 Jul 2018 04:58:56 +0000</pubDate><guid>/event/2015/seed/</guid><description>&lt;h2 id="location-boston-park-plaza-in-chicago-il">Location: Boston Park Plaza in Chicago, IL&lt;/h2>
+&lt;p>Date: June 10th – 13th, 2015&lt;br>
+Complete SEED Agenda: &lt;a href="http://synbioconference.org/2015/seed-2015-program">http://synbioconference.org/2015/seed-2015-program&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A synthetic biology conference that brings together synthetic biologist from industry and academia to present their work.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Jake Beal
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/SEED/SBOL-SEED15-talk.pptx&amp;quot;&amp;gt; Synthetic Biology Open Language (SBOL): Community-Driven Standard for Communication of Synthetic Biology Designs&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Aaron Adlerl
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Sbol Visual: Standard Schematic Diagrams for Synthetic Genetic Constructs
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Jacqueline Quinn
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Standardized Design Description Language for Synthetic Biological Constructs
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Jacqueline Quinn
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Sbol Visual: Standard Schematic Diagrams for Synthetic Genetic Constructs
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>IWBDA 2015</title><link>/event/2015/iwbda/</link><pubDate>Sun, 22 Jul 2018 05:51:25 +0000</pubDate><guid>/event/2015/iwbda/</guid><description>&lt;h2 id="location-university-of-washington-in-wa-usa">Location: University of Washington in WA, USA&lt;/h2>
+&lt;p>Date: August 19th – 21st, 2015&lt;br>
+Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2015/program/IWBDA_2015_Proceedings.pdf" target="_blank" rel="noopener">http://www.iwbdaconf.org/2015/program/IWBDA_2015_Proceedings.pdf&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international workshop on Bio-Design Automation.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Thursday, August 20th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp;
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/SBOL.pdf&amp;quot;&amp;gt;Introduction to SBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:20AM PDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/roehner_iwbda_2015_slides.pdf&amp;quot;&amp;gt;The Synthetic Biology Open Language 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:20AM &amp;#8211; 09:40AM PDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/tramy-iwbda2015-presentation.pdf&amp;quot;&amp;gt; A Converter from the Systems Biology Markup Language to the Synthetic Biology Open Language &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff; width:20%;&amp;quot;&amp;gt;
+&amp;amp;nbsp; [09:40AM &amp;amp;#8211; 10:00AM PDT]
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/sbol_stack.pdf&amp;quot;&amp;gt; SBOL Stack: The One-stop-shop for Storing and Publishing Synthetic Biology Designs &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Curtis Madsen
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
+&amp;lt;p&amp;gt;
+&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;strong&amp;gt;Friday, August 21st&amp;lt;/strong&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;table style=&amp;quot;width:100%;border-color:#fff;margin-bottom:0px&amp;quot;&amp;gt;
+&amp;lt;tr&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff; width:20%;&amp;quot;&amp;gt;
+&amp;amp;nbsp; [04:00PM &amp;amp;#8211; 04:20PM PDT]
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SynBad: An SVP Design Framework&amp;lt;/p&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Owen Gilfellon
+&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
+&amp;lt;p&amp;gt;
+&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;
+&amp;lt;/p&amp;gt;&lt;/code>&lt;/pre></description></item><item><title>ISMB 2016</title><link>/event/2016/ismb/</link><pubDate>Sun, 22 Jul 2018 05:35:05 +0000</pubDate><guid>/event/2016/ismb/</guid><description>&lt;h2 id="location-swan-and-dolphin-hotel-in-orlando-fl-usa">Location: Swan and Dolphin Hotel in Orlando, FL, USA&lt;/h2>
+&lt;p>Date: July 8th – 12th, 2016&lt;br>
+Complete ISMB 2016 Agenda: &lt;a href="https://www.iscb.org/ismb2016program/ismb2016-bof">https://www.iscb.org/ismb2016program/ismb2016-bof&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference that invites speakers from industry and academia to present their work in bioinformatics.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Kevin Clancy
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Synthetic Biology &amp;amp; SBOL
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Chris Myers
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/ISMB/SBOL.pdf&amp;quot;&amp;gt;Synthetic Biology Open Language (SBOL)&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Chris Myers
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/ISMB/GDA_SBOL.pdf&amp;quot;&amp;gt;GDA Synthetic Biology Open Language (SBOL)&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>NONA</title><link>/event/2018/nona/</link><pubDate>Sun, 22 Jul 2018 05:19:57 +0000</pubDate><guid>/event/2018/nona/</guid><description>&lt;h2 id="location-chicago-il-usa">Location: Chicago, IL, USA&lt;/h2>
+&lt;p>Date: July 17th, 2017&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A online software used to host academic tools.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;p>&lt;strong>Monday, July 17th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Ernst Oboerortner
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOL-NonaTalks-2016.pdf&amp;quot;&amp;gt; Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Monday, July 17th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Michael Zhang
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOLDesignerPresentation.pdf&amp;quot;&amp;gt;SBOLDesigner&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>IET / SynbiCITE Engineering Biology Conference 2016</title><link>/event/2016/synbiocite/</link><pubDate>Sun, 22 Jul 2018 04:49:10 +0000</pubDate><guid>/event/2016/synbiocite/</guid><description>&lt;h2 id="location-iet-london-savoy-place-in-london-uk">Location: IET London Savoy Place in London, UK&lt;/h2>
+&lt;p>Date: December 13th – 15th, 2016&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international conference that welcomes all synthetic biologist to from academia and industry to present their current bleeding edge research and technology.&lt;br>
+A complete description of the symposium can be found &lt;a href="https://communities.theiet.org/communities/events/item/547/75/13435" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; Anil Wipat
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; The Synthetic Biology Open Language (SBOL) – an enabling standard for synthetic biology workflows
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>iBioK 2017</title><link>/event/2017/ibiok/</link><pubDate>Sun, 22 Jul 2018 04:42:49 +0000</pubDate><guid>/event/2017/ibiok/</guid><description>&lt;h2 id="location-kobe-university-centennial-hall-japan">Location: Kobe University Centennial Hall, Japan&lt;/h2>
+&lt;p>Date: February 2nd – 3rd, 2017&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>The 8th International Symposium of Innovative BioProduction Kobe (iBioK) hosts an annual symposium every year to educate the scientific community on their latest technology to produce biofuels, bio-plastics, bio-fibers, bio-chemicals from biomass using carbon dioxide as a recyclable resources.&lt;br>
+A complete description of the symposium can be found &lt;a href="http://www.kobe-u.ac.jp/documents/NEWS/event/stin/2017_02_02_1.pdf" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;p>&lt;strong>Friday, February 3rd&lt;/strong>&lt;/p>
+&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [14:50AM &amp;#8211; 12:00PM JST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Enabling synthetic biology workflows using biological data standards
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>EMBL-EBI 2017</title><link>/event/2017/embl-ebi/</link><pubDate>Sun, 22 Jul 2018 04:34:31 +0000</pubDate><guid>/event/2017/embl-ebi/</guid><description>&lt;h2 id="location-european-bioinformatics-institute-in-cambridge-united-kingdom">Location: European Bioinformatics Institute in Cambridge, United Kingdom&lt;/h2>
+&lt;p>Date: May 2nd, 2017&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A EMBL-EBI event that teaches attendees the skills and knowledge in bioinformatic.&lt;br>
+A complete description of the course can be found &lt;a href="https://www.ebi.ac.uk/about/events/seminars/2017/synthetic-biology-open-language-sbol-and-recent-developments-tools-and-repositories" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;p>&lt;strong>Monday, May 22nd&lt;/strong>&lt;/p>
+&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; Anil Wipat
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; The Synthetic Biology Open Language (SBOL) and recent developments in tools and repositories
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>Living Computing Project</title><link>/event/2017/lcp/</link><pubDate>Wed, 18 Jul 2018 15:23:53 +0000</pubDate><guid>/event/2017/lcp/</guid><description>&lt;h2 id="location-boston-university-ma-us">Location: Boston University, MA, US&lt;/h2>
+&lt;p>Date: May 12th, 2017&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A synthetic biology project funded by the National Science Foundation’s Expedition in Computing Program. A complete description of the project can be found &lt;a href="https://www.programmingbiology.org" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;p>&lt;strong>Friday, July 12th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; Chris Myers
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/LivingComputingProject/Myers_051217.pptx&amp;quot;&amp;gt; Data Management Workflow &amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>SB7.0</title><link>/event/2017/sb7/</link><pubDate>Wed, 18 Jul 2018 15:20:21 +0000</pubDate><guid>/event/2017/sb7/</guid><description>&lt;h2 id="location-national-university-of-singapore-singapore">Location: National University of Singapore, Singapore&lt;/h2>
+&lt;p>Date: July 13th – 16th, 2017&lt;br>
+Complete SB7.0 Agenda: &lt;a href="http://sb7.info/session/foundational-engineering/">http://sb7.info/session/foundational-engineering/&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>An international synthetic biology conference.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;p>&lt;strong>Friday, July 13th – 1&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:30%;">
+&amp;nbsp; [08:30AM &amp;#8211; 10:00AM SGT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Foundational Engineering
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>SEED 2017</title><link>/event/2017/seed/</link><pubDate>Wed, 18 Jul 2018 15:14:58 +0000</pubDate><guid>/event/2017/seed/</guid><description>&lt;h2 id="location-hyatt-regency-vancouver-in-british-columbia-canada">Location: Hyatt Regency Vancouver in British Columbia, Canada&lt;/h2>
+&lt;p>Date: June 19th – 23rd, 2017&lt;br>
+Complete SEED Agenda: &lt;a href="http://synbioconference.org/2017/seed-2017-program">http://synbioconference.org/2017/seed-2017-program&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A synthetic biology conference that brings together synthetic biologist from industry and academia to present their work.&lt;/p>
+&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
+&lt;p>&lt;strong>Friday, June 23rd&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [11:30AM &amp;#8211; 12:00PM PDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/SEED%202017/SEED2017.pdf&amp;quot;&amp;gt;A Synthetic Biology Workflow Using Sbol&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>SBOL 8</title><link>/event/2018/sbol-workshop/2018-06-29-sbol-8/</link><pubDate>Fri, 29 Jun 2018 20:56:35 +0000</pubDate><guid>/event/2018/sbol-workshop/2018-06-29-sbol-8/</guid><description>&lt;p>The 8th SBOL workshop took place in Boston University in Boston, MA, USA&lt;br>
+Materials that were presented at the workshop are linked below.&lt;br>
+The full agenda of the workshop can be found &lt;a href="https://docs.google.com/document/d/1TqUqovny1-4esIiVZJKPHAAdlcDnVL0kAqIqpycfLYc/edit#heading=h.2i3m39ieoijr" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Aaron Adler and Fusun Yaman: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/BBN_Tools.pdf" target="_blank" rel="noopener">Synthetic Biology Tools from BBN&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki and Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/HostContextPresentation.pptx" target="_blank" rel="noopener">Host Context&lt;/a>&lt;/li>
+&lt;li>Matthew Pocock: [Minimal Information](&lt;a href="https://github.com/SynBioDex/Community-">https://github.com/SynBioDex/Community-&lt;/a>
+Media/blob/master/2012/SBOL8/Minimal%20Information.pptx)&lt;/li>
+&lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/roehner_myers_SBMLtoSBOL_boston2012.pdf" target="_blank" rel="noopener">A Methodology to Annotate Systems Biology Markup Language (SBML) Models with the Synthetic Biology Open Language (SBOL)&lt;/a>&lt;/li>
+&lt;li>Mandy Wilson: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Extensions.pptx" target="_blank" rel="noopener">SBOL Extensions&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Values.pptx" target="_blank" rel="noopener">I’m going to talk about SBOL Values&lt;/a>&lt;/li>
+&lt;li>Jackie Quinn and Cesar Rodriguez: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Visual.pdf" target="_blank" rel="noopener">SBOL Visual&lt;/a>&lt;/li>
+&lt;li>Jackie Quinn and Ernst Oberortner: &lt;a href="">SBOL in Action “Wetware Studio + Eugene”&lt;/a>&lt;/li>
+&lt;li>Douglas Densmore: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/sbol8-compliance.pdf" target="_blank" rel="noopener">SBOL Compliance&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/sbol8-core.pptx" target="_blank" rel="noopener">SBOL Core&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/Using%20the%20Sequence%20Ontology.pptx" target="_blank" rel="noopener">Using the Sequence Ontology&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/demo.pptx" target="_blank" rel="noopener">3 Use Cases for SBOL&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>SBOL 10</title><link>/event/2018/sbol-workshop/2018-06-29-sbol-10/</link><pubDate>Fri, 29 Jun 2018 20:50:13 +0000</pubDate><guid>/event/2018/sbol-workshop/2018-06-29-sbol-10/</guid><description>&lt;p>The 10th SBOL workshop took place in UC Berkeley, CA, USA.&lt;br>
+Materials that were presented at the workshop are linked below.&lt;br>
+The full agenda of the workshop can be found &lt;a href="https://docs.google.com/document/d/1qP6WK-eUUB41Upt38vN0LmulLcoG9yEEr1gHEyJaiVQ/edit" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Jackie Quinn: Brief Intro to SBOL and the Workshop
+&lt;ul>
+&lt;li>Matthew Pocock: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/RDF%20Pickling.pptx" target="_blank" rel="noopener">Taking Stock, Code base tour&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/miniEugene.pdf" target="_blank" rel="noopener">libSBOLj in Eugene + mapping&lt;/a>&lt;/li>
+&lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/SBOL_as_genetic_model.pptx" target="_blank" rel="noopener">Using SBOL as a Genetic Data Model&lt;/a>&lt;/li>
+&lt;li>Kevin: Lessons learned of NOT using libSBOLj&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/miniEugene.pdf" target="_blank" rel="noopener">(mini)Eugene&lt;/a>&lt;/li>
+&lt;li>Kevin Clancy: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/Berkeley_Jan2014_SBOL_Workshop.pptx" target="_blank" rel="noopener">Vector NTI Express Designer&lt;/a>&lt;/li>
+&lt;li>Nathan Hillson: TeselaGen and ICE + SBOL Visual and XML&lt;/li>
+&lt;li>Nicholas Roehner and Chris Myers: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/SBOL_2.0_Vision_Structure.pptx" target="_blank" rel="noopener">SBOL 2.0: Vision&lt;/a>&lt;/li>
+&lt;li>Matthew Pocock and Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/RDF%20Pickling.pptx" target="_blank" rel="noopener">Serialization (RDF Pickling)&lt;/a>&lt;/li>
+&lt;li>Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/libSBOLj.pptx" target="_blank" rel="noopener">libSBOLj in Virtual Parts&lt;/a>&lt;/li>
+&lt;li>Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SBOL10/Exchanging%20synthetic%20biology%20data%20using%20SBOL%20and%20the%20Systems%20extension.pptx" target="_blank" rel="noopener">Exchanging synthetic biology data using SBOL and the Systems extension: A use case from the Flowers infrastructure&lt;/a>&lt;/ul>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>SBOL 9</title><link>/event/2018/sbol-workshop/2018-06-29-sbol-9/</link><pubDate>Fri, 29 Jun 2018 20:32:09 +0000</pubDate><guid>/event/2018/sbol-workshop/2018-06-29-sbol-9/</guid><description>&lt;p>The 9th SBOL workshop took place in Newcastle University in Newcastle, UK.&lt;br>
+Materials that were presented at the workshop are linked below.&lt;/p>
+&lt;ul>
+&lt;li>Michal Galdzicki, Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Bartley%20-%20Host%20Context.pptx" target="_blank" rel="noopener">Host Context&lt;/a>&lt;/li>
+&lt;li>Ryan, Jackie, Robert, Mike, Larisa, Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Case%20StudiesBreakoutReport.pptx" target="_blank" rel="noopener">Case Studies&lt;/a>&lt;/li>
+&lt;li>Michal Galdzicki, Bryan Bartley, Evren Sirin, Nikhil Gopal, John Gennari: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/GaldzickiSBOLDesignerDemo.pptx" target="_blank" rel="noopener">Demo of Version Control using the “SBOL Designer”&lt;/a>&lt;/li>
+&lt;li>Raik Grünberg: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/gruenberg_proteinextension.pdf" target="_blank" rel="noopener">Protein Parts in SBOL&lt;/a>&lt;/li>
+&lt;li>Chris Myers, Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Modeling.pdf" target="_blank" rel="noopener">SBOL Modeling Extension&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner, Matthew Pocock, Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/regulatory-interactions.pptx" target="_blank" rel="noopener">SBOL Regulatory Interactions&lt;/a>&lt;/li>
+&lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/Roehner_DAG-Based_Genetic_Tech_Mapping.pdf" target="_blank" rel="noopener">Directed Acyclic Graph-Based Technology Mapping of Genetic Circuits&lt;/a>&lt;/li>
+&lt;li>Goksel Misirli: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/SBOL_Systems_v2.pptx" target="_blank" rel="noopener">Representing Biological Systems for the Flowers Consortium&lt;/a>&lt;/li>
+&lt;li>Jacob Beal: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/SBOL-BioCompiler-Apr2013.pptx" target="_blank" rel="noopener">SBOL in Action: The BBN BioCompiler&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner, Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/sbol-compliance.pptx" target="_blank" rel="noopener">SBOL Compliance Working Group&lt;/a>&lt;/li>
+&lt;li>Ernst Oberortner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/sbol-script.pptx" target="_blank" rel="noopener">SBOL Script&lt;/a>&lt;/li>
+&lt;li>Larisa Soldatova: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SBOL9/SBOL9-Soldatova.pdf" target="_blank" rel="noopener">Towards an ontology for Synthetic Biology&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>COMBINE 2014</title><link>/event/2014/combine/</link><pubDate>Fri, 29 Jun 2018 02:17:09 +0000</pubDate><guid>/event/2014/combine/</guid><description>&lt;h2 id="location-università-degli-studi-di-milano-bicocca-in-milan-italy">Location: Università degli Studi di Milano Bicocca in Milan, Italy&lt;/h2>
+&lt;p>Date: October 9th – 13th, 2017&lt;br>
+Complete COMBINE Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2014/agenda">http://co.mbine.org/events/COMBINE_2014/agenda&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Monday, August 18th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [14:30PM &amp;#8211; 15:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Synthetic_Biology.pdf&amp;quot;&amp;gt;Developing Standards in Synthetic Biology: the needs for a broad new engineering discipline&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Herbert Sauro
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Tuesday, August 19th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [12:00PM &amp;#8211; 12:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Synthetic%20Biology%20Open%20Language%20Visual%20graphical%20notation%20for%20forward%20engineering%20of%20biology.pdf&amp;quot;&amp;gt;Synthetic Biology Open Language Visual: graphical notation for forward engineering of biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jackie Quinn
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 16:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual 2.0
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jackie Quinn
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, August 20th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Generating%20SBML%20models%20from%20SBOL.pdf&amp;quot;&amp;gt;Generating SBML models from SBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Vector NTI Express Designer as a demonstration of SBOL interoperability with COMBINE standards
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Kevin Clancy
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:00AM &amp;#8211; 10:30AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/sbol-stack.pdf&amp;quot;&amp;gt;SBOL Stack: The One-stop-shop to Storing and Publishing SBOL Data&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Curtis Madsen
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [14:00PM &amp;#8211; 14:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL 2.0 Hierarchical Composition
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL 2.0 Interactions and Other Issues
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, August 22nd&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL 2.0 finalization
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>IWBDA 2018</title><link>/event/2018/iwbda/</link><pubDate>Mon, 18 Jun 2018 05:06:37 +0000</pubDate><guid>/event/2018/iwbda/</guid><description>&lt;p>&lt;img src="http://www.iwbdaconf.org/2018/images/iwbda2018_small.png" alt="IWBDA 2018: 10th International Workshop on Bio-Design Automation, Berkeley, CA, USA">&lt;/p>
+&lt;p>There will be a one-day workshop to introduce software developers to SBOL on August 1st, 2018. The workshop will be held during the &lt;a href="http://www.iwbdaconf.org/2018/" target="_blank" rel="noopener">International Workshop for Bio-design Automation&lt;/a> (IWBDA) in the Tamalpais Room at The David Brower Center in Berkeley, California. No registration fee required!&lt;/p>
+&lt;p>The preliminary program (subject to change) is as follows:&lt;/p>
+&lt;ul>
+&lt;li>09:00-9:30 &lt;a href="http://sbolstandard.org/wp-content/uploads/2018/06/SBOL-IWBDA-2018.pdf" target="_blank" rel="noopener">Introduction to SBOL&lt;/a> – Jake Beal&lt;/li>
+&lt;li>9:30-10:00 &lt;a href="http://sbolstandard.org/wp-content/uploads/2018/06/SBOL-IWBDA-2018.pdf" target="_blank" rel="noopener">Linking Design and Experimental Information&lt;/a> – Jake Beal&lt;/li>
+&lt;li>10:00-11:00 &lt;a href="http://sbolstandard.org/wp-content/uploads/2018/06/SBOLWorkshop2018.pdf" target="_blank" rel="noopener">Introduction to the SBOL2 Data Model, the Java Library (libSBOLj), and the Javascript Library (sboljs)&lt;/a> – Chris Myers&lt;/li>
+&lt;li>11:00-11:30 Coffee&lt;/li>
+&lt;li>11:30-12:00 &lt;a href="http://sbolstandard.org/wp-content/uploads/2018/06/Intro2pySBOL.pdf" target="_blank" rel="noopener">C++ and Python Libraries&lt;/a> – Bryan Bartley&lt;/li>
+&lt;li>12:00-13:00 Lunch&lt;/li>
+&lt;li>13:00-15:30 &lt;a href="https://github.com/SynBioDex/Community-Media/tree/master/2018/IWBDA18/workshop" target="_blank" rel="noopener">Hands-on Tutorial&lt;/a> – Zach Palchick&lt;/li>
+&lt;li>15:30-16:00 Coffee&lt;/li>
+&lt;li>16:00-17:00 &lt;a href="http://sbolstandard.org/wp-content/uploads/2018/06/SBOL@IWBDA-18-Panel-Discussion.pdf" target="_blank" rel="noopener">Panel Discussion&lt;/a>
+&lt;ul>
+&lt;li>Moderator: Ernst Oberortner&lt;/li>
+&lt;li>Panelists: Bryan Bartley, Curtis Madsen, Chris Myers, Nicholas Roehner&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>We hope you can join us!&lt;/p>
+&lt;div>
+&lt;/div></description></item><item><title>HARMONY 2018</title><link>/event/2018/harmony/</link><pubDate>Wed, 13 Jun 2018 18:11:00 +0000</pubDate><guid>/event/2018/harmony/</guid><description>&lt;center>
+Come join us at HARMONY 2018 in Oxford, UK on June 18th &amp;#8211; 22nd, 2018!
+&lt;/center>
+&lt;p>&lt;strong>Monday, June 18th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [11:00AM &amp;#8211; 12:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Goals for meetings and future directions of SBOL
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [02:00PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Chris_Harmony2018.pptx&amp;quot;&amp;gt;SBOL Data Model v2.2.1&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Tuesday, June 19th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [09:15AM &amp;#8211; 12:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL paper and tool hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [02:00PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Ernst_SBOL-Experimental-Data.pptx&amp;quot;&amp;gt;Encoding Experimental Data&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Ernst Oberortner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, June 20th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [09:15AM &amp;#8211; 12:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL paper and tool hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [02:00PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; [&amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Thomas_HARMONY-SBOLv.pdf&amp;quot;&amp;gt;SBOL Visual v2.1&amp;lt;/a&amp;gt;] [&amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/James_mapsToColor.pdf&amp;quot;&amp;gt;MapsTo&amp;lt;/a&amp;gt;] [&amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/James_parametrisation.pdf&amp;quot;&amp;gt;Parametrisation&amp;lt;/a&amp;gt;]
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Thomas Gorochowski
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, June 21st&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [09:15AM &amp;#8211; 12:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL data model v3.0
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [02:00PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL paper and tool hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, June 22nd&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [02:00PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL paper and tool hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [02:00PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL paper and tool hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table></description></item><item><title>SEED 2018</title><link>/event/2018/software-for-synthetic-biology-workflows/</link><pubDate>Sun, 04 Feb 2018 20:45:49 +0000</pubDate><guid>/event/2018/software-for-synthetic-biology-workflows/</guid><description>&lt;h2 id="location-scottsdale-arizona-us">Location: Scottsdale, Arizona, US&lt;/h2>
+&lt;p>Date: June 3rd – 7th, 2018&lt;br>
+Complete SEED Agenda: &lt;a href="http://synbioconference.org/2018">http://synbioconference.org/2018&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>SEED is a conference where synthetic biologist from different areas of the field come together to present their work.&lt;/p>
+&lt;h2 id="sbol-talks">SBOL Talk(s):&lt;/h2>
+&lt;p>&lt;strong>Monday, June 18th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [12:30PM &amp;#8211; 12:50PM MST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SBOL%20Visual%20Introduction.pptx&amp;quot;&amp;gt;SBOL Visual 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;h3 id="software-for-synthetic-biology-workflows-workshop-description">Software for Synthetic Biology Workflows Workshop Description:&lt;/h3>
+&lt;p>This workshop is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology. The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows. In the second half, participants will work hands-on with the tools in groups, with the instructors assisting them in applying tools hands-on to address prototypical example problems and/or challenges from their own work. For the second half, participants are strongly encouraged to bring a laptop with network access.&lt;/p>
+&lt;p>**This workshop will be free for attendees of SEED 2018. **There will be a small fee if you wish to attend this workshop without attending SEED.&lt;/p>
+&lt;h3 id="important-information">Important Information:&lt;/h3>
+&lt;p>Date: Thursday, June 7, 2018,&lt;/p>
+&lt;p>Time: 2:00pm-5:30pm EDT&lt;/p>
+&lt;p>Location: SEED 2018 @ JW Marriott Scottsdale Camelback Inn Resort &amp;amp; Spa&lt;/p>
+&lt;p>&lt;a href="http://synbioconference.org/2018/events/software-synthetic-biology-workflows-workshop" target="_blank" rel="noopener">Registration Page&lt;/a>&lt;/p>
+&lt;div class="field field-name-body field-type-text-with-summary field-label-hidden">
+&lt;div class="field-items">
+&lt;div class="field-item even">
+&lt;h3>
+Organizers:
+&lt;/h3>
+&lt;pre>&lt;code> &amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;
+Dr. Jacob Beal, Raytheon BBN Technologies
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+Dr. Kevin Clancy, ThermoFisher Scientific
+&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;
+Dr. Ernst Oberortner, DOE Joint Genome Institute
+&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/div>
+&lt;/div>
+&lt;h3 id="agenda">Agenda:&lt;/h3>
+&lt;p>&lt;strong>2:00PM – 3:30PM – Presentations to introduce the tools&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/Workshop-Introduction.pptx">Introduction to workflows&lt;/a> [10min]
+&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
+Jacob Beal
+&lt;/td>&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; SBOL, its libraries, converter, and validator [10min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/02-JBEI-ICE.pptx">JBEI ICE&lt;/a> [10min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nathan J. Hillson
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/03-SynBioHub_SBOLDesigner_iBioSim.pdf">SynBioHub/iBioSim/SBOLDesigner&lt;/a> [20min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/04-Cello.pptx">Cello&lt;/a> [10min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Shuyi Zhang
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; Operon Calculator and RBS Library Calculator [10min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Howard Salis
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/06-BOOST.pptx">BOOST&lt;/a> [10min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Ernst Oberortner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/Test-TASBE-Flow-Analytics.pptx">TASBE&lt;/a> [10min]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>3:30PM – 4:00PM Break&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>4:00PM – 5:30PM Hands-on work with the tools&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff">
+&amp;#9679; &amp;nbsp; Hands-on tools and workflows (&lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SEED_2018_Presentation_Part1.pptx">Part 1&lt;/a>)(&lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SEED_2018_Presentation_Part2.pptx">Part 2&lt;/a>)
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Kevin Clancy
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table></description></item><item><title>COMBINE 2017</title><link>/event/2017/combine/</link><pubDate>Thu, 03 Aug 2017 18:07:57 +0000</pubDate><guid>/event/2017/combine/</guid><description>&lt;h2 id="location-università-degli-studi-di-milano-bicocca-in-milan-italy">Location: Università degli Studi di Milano Bicocca in Milan, Italy&lt;/h2>
+&lt;p>Date: October 9th – 13th, 2017&lt;br>
+Complete COMBINE Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2017">http://co.mbine.org/events/COMBINE_2017&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Tuesday, October 10th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual Specification Writing
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, October 11th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:15AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/Automated%20Coupling%20of%20Chassis%20and%20%20Circuit%20for%20Synthetic%20Biology.pptx&amp;quot;&amp;gt;Automated Coupling of Circuit and Chassis for Synthetic Biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley, Herbert Sauro and John Gennari
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:15AM &amp;#8211; 09:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/COMBINE_2017_StandarsForDataIntegration_JM.pdf&amp;quot;&amp;gt;Standards for Data Integration in Synthetic Biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James Alastair McLaughlin, Göksel Mısırlı and Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:30AM &amp;#8211; 10:00AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Encoding recipes for experimental implementation in SBOL
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Alasdair Humphries, James Alastair McLaughlin and Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:00AM &amp;#8211; 10:15AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/Design-Build-Test-Learn.pptx&amp;quot;&amp;gt;Representing the Design-Build-Test-Learn Cycle with the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley, Jacob Beal, John Gennari, and et al.
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:15AM &amp;#8211; 10:30AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/synbiohub.pdf&amp;quot;&amp;gt;Recent Updates to the SynBioHub Data Repository&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Zach Zundel, James McLaughlin, Chris Myers and Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Encoding design-build-test
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, October 12th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Combinatorial Design Specification and Library Hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, October 13th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:15AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/2017_COMBINE.pdf&amp;quot;&amp;gt;An Infobiotics Workbench Conversion Tool for SBOL and SBML&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Boyang Dun, Chris Myers and Harold Fellermann
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:15AM &amp;#8211; 09:30AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/sbol_combinatorial_design.pdf&amp;quot;&amp;gt;Representing Combinatorial Genetic Designs&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner and Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:30AM &amp;#8211; 09:45AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/COMBINE%202017%20Presentation%20V2%20(2).pdf&amp;quot;&amp;gt;DNA Specifications and Codon: Expressing Combinatorial Designs at Scale&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Zachary Palchick, Barbara Frewen and Aaron Kimball
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:45AM &amp;#8211; 10:00AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/COMBINE%202017%20-%20Presentation%20Ruud%20Stoof.pdf&amp;quot;&amp;gt;Genetic networks in 3D &amp;amp;#8211; Requirements for an SBOL spatial package&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Ruud Stoof and Ángel Goñi Moreno
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:00AM &amp;#8211; 10:15AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/SBOLv-update-2017.pptx&amp;quot;&amp;gt;Improving the SBOL Visual Glyph Collection&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley, Jacob Beal, Robert Sidney Cox, and et al.
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:15AM &amp;#8211; 10:30AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/COMBINE%202017/COMBINE_2017_TawnySBOL.pdf&amp;quot;&amp;gt;Tawny-SBOL: Using ontologies to design and constrain genetic circuits&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Goksel Misirli, James Alastair Mclaughlin, Angel Goni-Moreno and et al.
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table></description></item><item><title>IWBDA 2017</title><link>/event/2017/iwbda/</link><pubDate>Thu, 29 Jun 2017 21:33:38 +0000</pubDate><guid>/event/2017/iwbda/</guid><description>&lt;p>&lt;img src="http://sbolstandard.org/wp-content/uploads/2017/06/iwbda2017_small.png" alt="" width="1200" height="424" class="alignnone size-full wp-image-2320" />&lt;/p>
+&lt;h2 id="location-university-of-pittsburgh-pa">Location: University of Pittsburgh, PA.&lt;/h2>
+&lt;p>Date: August 8th – 11th, 2017&lt;br>
+Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2017/program/">http://www.iwbdaconf.org/2017/program/&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>There will be a one-day workshop to introduce software developers to SBOL on August 11th, 2017. The workshop will be held immediately after the &lt;a href="http://www.iwbdaconf.org/2017/#content" target="_blank" rel="noopener">International Workshop for Bio-design Automation&lt;/a> (IWBDA) at University of Pittsburgh, PA. No registration fee required!&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Wednesday, August 9th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:00PM &amp;#8211; 16:20PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Mapping Genetic Design Space with Phylosemantics
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [16:20PM &amp;#8211; 16:40PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Large-Scale Genetic Design: Moving From Designs to Design Spaces
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, August 10th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:50AM &amp;#8211; 09:10AM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/IWBDA2017/tramy-iwbda2017-presentation.pdf&amp;quot;&amp;gt;Standard Enabled Model Generator for Genetic Circuit Design&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:50AM &amp;#8211; 09:10AM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/IWBDA2017/sbol-compliance-testing.pdf&amp;quot;&amp;gt;A Test Suite for Compliance Testing of Software Support for the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Meher Samineni
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, August 11th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 12:00PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/Second%20Annual%20SBOL%20Workshop/SBOL-IWBDA-2017.pptx&amp;quot;&amp;gt;Introduction to SBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 12:00PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/Second%20Annual%20SBOL%20Workshop/SBOL_libraries-2.pdf&amp;quot;&amp;gt;Introduction to libSBOLj and sboljs&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 12:00PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;Introduction to libSBOL and pySBOL&amp;quot;&amp;gt;Introduction to libSBOL and pySBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [12:00PM &amp;#8211; 01:00PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Lunch Break
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:00PM &amp;#8211; 05:00PM EDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Hands on experience to integrate SBOL into user’s Software
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>HARMONY 2017</title><link>/event/2017/harmony/</link><pubDate>Mon, 16 Jan 2017 06:43:17 +0000</pubDate><guid>/event/2017/harmony/</guid><description>&lt;h2 id="location-university-of-washington-in-washington-united-states">Location: University of Washington in Washington, United States&lt;/h2>
+&lt;p>Date: June 26-30, 2017&lt;br>
+Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/HARMONY_2017">http://co.mbine.org/events/HARMONY_2017&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>HARMONY is a hackathon meeting that members of the SBOL community attends annually to discuss the development of the SBOL data model and SBOL visual.&lt;br>
+This meeting welcomes everyone in the community to join in on the development of the COMBINE standards.&lt;br>
+A registration fee are applied for attendees who are attending in person. However, virtual attendance are free and will be available for those who would like to participate for the SBOL breakout sessions.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Monday, June 26th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [9:30AM &amp;#8211; 10:30AM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Model generation in iBioSim using SBOL and SBML
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [09:30AM &amp;#8211; 10:30AM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/HARMONY/SBOL.assembly.pdf&amp;quot;&amp;gt;SBOL.assembly: Automated Design to Build Transition using SBOL 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Ernst Oberortner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [9:30AM &amp;#8211; 10:30AM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SynBioHub: A Design Repository for Synthetic Biology
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [10:30AM &amp;#8211; 12:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/HARMONY/SBOLv2-Roadblocks.pptx&amp;quot;&amp;gt;SBOL Visual 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [14:00PM &amp;#8211; 15:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/HARMONY/combinatorial_design_in_SBOL.pptx&amp;quot;&amp;gt;Combinatorial Design&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/HARMONY/combinatorial_design_in_SBOL.pptx&amp;quot;&amp;gt;Combinatorial Design&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Tuesday, June 27th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [9:30AM &amp;#8211; 10:30AM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; iGEM Vision
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Vinoo Selvarajah
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [10:30AM &amp;#8211; 12:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; iGEM Vision
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Vinoo Selvarajah
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [14:00PM &amp;#8211; 15:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Workflow Hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Workflow Hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, June 28th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [09:30AM &amp;#8211; 10:30AM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Provenance/Assembly
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [10:30AM &amp;#8211; 12:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Provenance/Assembly
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [14:00PM &amp;#8211; 15:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Experimental Data
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Sidney Cox III
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Experimental Data
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Sidney Cox III
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, June 29th&lt;/strong>&lt;/p>
+&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [09:30AM &amp;#8211; 10:30AM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [10:30AM &amp;#8211; 12:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [14:00PM &amp;#8211; 15:30PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual 2
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:25%;">
+&amp;nbsp; [16:00PM &amp;#8211; 17:00PM PST]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual 2
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>COMBINE 2016</title><link>/event/2016/combine/</link><pubDate>Thu, 06 Oct 2016 16:06:21 +0000</pubDate><guid>/event/2016/combine/</guid><description>&lt;h2 id="location-newcastle-uk">Location: Newcastle, UK&lt;/h2>
+&lt;p>Date: 19th – 23rd September, 2016&lt;br>
+Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2016/agenda">http://co.mbine.org/events/COMBINE_2016/agenda&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Monday, September 19th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [04:15PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Myers-Workflows.pdf&amp;quot;&amp;gt;A Standard Enabled Workflow for Synthetic Biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Tuesday, September 20th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:30AM &amp;#8211; 10:45AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Misirli_agenda.pdf&amp;quot;&amp;gt;Data Integration and Mining for Synthetic Biology Design&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Goksel Misirli
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [11:00AM &amp;#8211; 11:15AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Nic_Knox.pdf&amp;quot;&amp;gt;How to Remember and Revisit Many Genetic Design Variants Automatically&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [11:15AM &amp;#8211; 11:30AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Bryan_VersionVariantControl.pdf&amp;quot;&amp;gt;Version and Variant Control for Synthetic Biology&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Host Context
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Website, FAQ, and Tutorials
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Herbert Sauro
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, September 21st&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual / SBGN
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Robert Sydney Cox
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; Ontologies and URI Best Practices
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, September 22nd&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Sequence Layer
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Bryan Bartley
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Interaction Definitions
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, September 23rd&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:45AM &amp;#8211; 11:00AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/COX_COMBINE2016_protlang.pdf&amp;quot;&amp;gt;The Visual Protein Design Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Robert Sidney Cox
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [11:00AM &amp;#8211; 11:15AM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Beal-COMBINE16-SBOLv2-update.pptx&amp;quot;&amp;gt;Progress Report on Development of SBOL Visual 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; General Discussion/Hacking
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr></description></item><item><title>14th SBOL Workshop Report</title><link>/event/2016/sbol-workshop/</link><pubDate>Thu, 05 May 2016 13:14:17 +0000</pubDate><guid>/event/2016/sbol-workshop/</guid><description>&lt;p>The 14th SBOL Workshop took place in Boston, March 14-16, 2016.  Some of the key developments from the workshop:&lt;/p>
+&lt;ul>
+&lt;li>Now that there are four SBOL libraries (Java, JS, C++, Python), we need to ensure unity between their behaviors.  The library developers extracted tests to build a shared suite of regression tests, which is close but not yet done.&lt;/li>
+&lt;li>SBOL Validator is up and running, and can be used for online validation and for compliance testing; Nona may be able to help with long-term hosting / maintenance of that and other community resources.&lt;/li>
+&lt;li>Software compliance model sketched out, and compliance matrix being updated for all software known to claim to be SBOL compliant.&lt;/li>
+&lt;li>Workflow examples being worked out for ISMB tutorial, and will be captured on the website as well.&lt;/li>
+&lt;li>Website updated, also the FAQ is being worked on: we discovered that it was in an embarrassing half-state and turned all of the “Question? Good question!” bits into a big HTML comment for the moment; hopefully those who were working on it will be able to finish that soon.&lt;/li>
+&lt;li>Lots of minor spec improvements, which should shortly bring us to SBOL 2.0.1 (minor clarifications and fixes) and SBOL 2.1 (incorporating SEP 004 and a EDAM encodings for the recommended ontologies.  We should be getting pull requests for SBOL 2.0.1 material soon: as soon as that’s all in, we can release 2.0.1.  SEP 004 is just waiting for final sign-off to be put up for community vote.  Spec issues in GitHub have been clarified, and many assigned for action.&lt;/li>
+&lt;li>Lots of progress on SBOL Visual 2.0, and lots of space for more hands to help.  The draft document will likely be solid and ready for review by summer; certainly by the end of the COMBINE meeting in September.  Anyone interested in it can start engaging now via the Overleaf link shared on sbol-dev.&lt;/li>
+&lt;li>Sid Cox showed a sketch of a protein description extension for SBOL Visual, inviting those interested to join him in development.&lt;/li>
+&lt;/ul>
+&lt;p> &lt;/p>
+&lt;p>&lt;strong>Group Photo&lt;/strong>&lt;/p>
+&lt;p>&lt;a href="http://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490.jpg" rel="attachment wp-att-1213">&lt;img class="alignnone size-large wp-image-1213" src="http://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-1024x655.jpg" alt="SBOL Boston 2016" width="1024" height="655" srcset="https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-1024x655.jpg 1024w, https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-300x192.jpg 300w, https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-768x491.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />&lt;/a>&lt;/p></description></item><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
+&lt;p>Date: October 12-16, 2015&lt;br>
+Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2015">http://co.mbine.org/events/COMBINE_2015&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Monday, October 12th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 04:15PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/recent%20developments%20in%20SBOL%20tools%20and%20repositories.pdf&amp;quot;&amp;gt;The Synthetic Biology Open Language (SBOL) &amp;amp;#8211; recent developments in SBOL tools and repositories&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Tuesday, October 13th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:30AM &amp;#8211; 10:00AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/sbol.pdf&amp;quot;&amp;gt;SBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:30AM &amp;#8211; 08:45AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/Multiplicity%20of%20Representation%20in%20SBOL%202.0.pdf&amp;quot;&amp;gt;Multiplicity of Representation in SBOL 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:45AM &amp;#8211; 09:00AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;http://co.mbine.org/events/COMBINE_2015/agenda?q=system/files/combine2015-Zhang_libSBOLj2.pdf&amp;quot;&amp;gt;libSBOLj 2.0: A Java Library to Support SBOL 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Zhen Zhang
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:15AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/A%20Converter%20from%20the%20Systems%20Biology%20Markup%20Language%20to%20the%20Synthetic%20Biology%20Open%20Language.pdf&amp;quot;&amp;gt;A Converter from the Systems Biology Markup Language to the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:15AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/SBOL%20visual%20introduction%2C%20recent%20developments%2C%20and%20current%20challenges.pdf&amp;quot;&amp;gt;SBOL visual: introduction, recent developments, and current challenges&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [11:15AM &amp;#8211; 11:30AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/VisBOL.pdf&amp;quot;&amp;gt;VisBOL: Web-based tooling for synthetic biology design visualization&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Community Discussion
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Herbert Sauro
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual 2.0/SBGN Discussion
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jake Beal/Augustin Luna
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, October 14th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Extension Discussion
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Raik Gruenberg
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, October 15th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/SBOL%20Infrastructure%20Discussion.pdf&amp;quot;&amp;gt;SBOL Infrastructure Discussion&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, October 16th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:45AM &amp;#8211; 11:00AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/Ernst_JGI.pdf&amp;quot;&amp;gt;On the Adoption of Standards at the DOE Joint Genome Institute&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Ernst Oberortner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Poster Session&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Monday &amp;#8211; Friday Break Sessions
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/posters/combine-2015-poster.pdf&amp;quot;&amp;gt; Analysis of Weaknesses in SBOL/SBML Modeling through Creation of Use Cases &amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Zach Zundel
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table></description></item><item><title>SBOL 12 Workshop Report</title><link>/event/2015/harmony/</link><pubDate>Tue, 05 May 2015 13:09:19 +0000</pubDate><guid>/event/2015/harmony/</guid><description>&lt;p>The 12th SBOL workshop took place as part of &lt;a href="http://co.mbine.org/events/HARMONY_2015" title="HARMONY 2015" target="_blank" rel="noopener">HARMONY 2015&lt;/a> on April 20-24, 2015, at  at the &lt;a class="external text" href="http://www.leucorea.de/" rel="nofollow">Leucorea Wittenberg&lt;/a>, part of the &lt;a class="external text" href="http://www.uni-halle.de/" rel="nofollow">Martin Luther University Halle-Wittenberg&lt;/a>, Germany.&lt;/p>
+&lt;h2 id="sbol-posters">SBOL Posters:&lt;/h2>
+&lt;p>Curtis Madsen: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/sbolstack_poster.pdf" target="_blank" rel="noopener">SBOL Stack: The One-stop-shop to Storing and Publishing SBOL Data&lt;/a>&lt;br>
+Tramy Nguyen: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/softwareinfra-syntheticbiology.pdf" target="_blank" rel="noopener">Synthetic Biology Open Language (SBOL) 2.0&lt;/a>&lt;/p>
+&lt;h2 id="here-are-the-outcomes-of-the-meeting">Here are the outcomes of the meeting:&lt;/h2>
+&lt;ol>
+&lt;li>SBOL 2.0 Specification
+&lt;ol>
+&lt;li>Significant work was performed on the specification, no decision TODOs remain.  Goal is to finish writing by SEED.&lt;/li>
+&lt;li>Ontologies selected, when possible, for those needing them. Identifiers.org  to provide the ontology terms.&lt;/li>
+&lt;li>No significant changes to data model though some required fields changed to optional, especially those with no clear ontology.  Other minor changes include: Interactions no longer require a participation, displayId was moved to Identified, roles removed from Model. Roles in other entities were made optional.&lt;/li>
+&lt;li>Discussed the linking of ModuleDefinition entities to corresponding ComponentDefinitions&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>libSBOLj 2.0 Release
+&lt;ol>
+&lt;li>Agreed that beta release will support only compliant URIs.
+&lt;ol>
+&lt;li>TopLevel: &lt;prefix>/&lt;type>/&lt;displayId>/&lt;version>&lt;/li>
+&lt;li>1st level child: &lt;prefix>/&lt;type>/&lt;parentId>/&lt;displayId>/&lt;version>&lt;/li>
+&lt;li>NOTE: also decided &lt;version> is optional.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Agreed that validation errors would be reported through exceptions.&lt;/li>
+&lt;li>Agreed that beta release would have complete docs with simple examples.&lt;/li>
+&lt;li>Tested libSBOLj in several applications:
+&lt;ol>
+&lt;li>Nicholas Roehner – SBOL to SBML converter.&lt;/li>
+&lt;li>Tramy Nguyen – SBML to SBOL converter.&lt;/li>
+&lt;li>Newcastle Group – VirtualParts Repository, SBOL Stack, and SynBad&lt;/li>
+&lt;li>Bryan Der – Cello&lt;/li>
+&lt;li>Neil Swanston – (Metabolic) SBML to SBOL converter. Integration with genome-scale models.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Beta release planned before SEED.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Publication Plan
+&lt;ol>
+&lt;li>Abstract on 2.0 submitted to IWBDA.  Hope to submit to special ACS Synthetic Biology special issue.&lt;/li>
+&lt;li>SBOLv paper is currently under review.&lt;/li>
+&lt;li>libSBOLj paper under review at IEEE Life Science Letters&lt;/li>
+&lt;li>libSBOLc paper under development.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Outreach Plan
+&lt;ol>
+&lt;li>Decided to make a new sbol-announce mailing list, make sbol-dev and sbol-visual public lists, and add old SBOL editors to sbol-editors list.&lt;/li>
+&lt;li>Discussed several improvements to website such as making logos more prominent, better emphasis of international community and industrial supporters. We also need to keep the SBOL tools up to date.&lt;/li>
+&lt;li>Talked about international advisory board for SBOL&lt;/li>
+&lt;li>A SEED talk is scheduled to talk about SBOL, the community, and supporting tools&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>SBOLv and SBGN
+&lt;ol>
+&lt;li>Had dedicated session to interaction with SBGN.&lt;/li>
+&lt;li>Got a better understanding of the SBGN capabilities.&lt;/li>
+&lt;li>Conveyed our requirements to SBGN.&lt;/li>
+&lt;li>Matthew Pocock will continue to follow up with them.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p> &lt;/p></description></item><item><title>NIST Synthetic Biology Standards Workshop: March 31</title><link>/event/2015/nist/</link><pubDate>Fri, 27 Mar 2015 23:22:58 +0000</pubDate><guid>/event/2015/nist/</guid><description>&lt;p>The NIST Synthetic Biology Standards Consortium (SBSC) workshop is coming up on March 31, 2015.  Several members of the SBOL Developers group will be showing a strong presence on the Digital Biological Information panel.  For more information on SBSC visit: &lt;a id="yui_3_16_0_1_1427555251301_7241" href="http://jimb.stanford.edu/sbsc" target="_blank" rel="nofollow">&lt;a href="http://jimb.stanford.edu/sbsc">http://jimb.stanford.edu/sbsc&lt;/a>&lt;/a>&lt;/p></description></item></channel></rss>

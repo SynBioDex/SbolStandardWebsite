@@ -1,11 +1,247 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Archives | The Synthetic Biology Open Language</title><link>/category/archives/</link><atom:link href="/category/archives/index.xml" rel="self" type="application/rss+xml"/><description>Archives</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Aug 2015 21:52:45 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Archives</title><link>/category/archives/</link></image><item><title>Please join us for the SBOL Community Outreach Meeting at IWBDA!</title><link>/events/2015/iwbda/2015-08-05-please-join-us-for-the-sbol-community-outreach-meeting-at-iwbda/</link><pubDate>Wed, 05 Aug 2015 21:52:45 +0000</pubDate><guid>/events/2015/iwbda/2015-08-05-please-join-us-for-the-sbol-community-outreach-meeting-at-iwbda/</guid><description>&lt;p>Coming up on August 19th, at the International Workshop on Bio-Design Automation, at the University of Washington campus, Kane Hall 210, in Seattle, WA! If you are a synthetic biologist and not very familiar with the efforts of the SBOL Developers group, this is a great opportunity to learn more about it. The outreach session will include a demo of software tools enabled by SBOL and guided breakout discussions in which we imagine the future of synthetic biology.&lt;br>
-If you are already a member of the SBOL Developers group, whether new or veteran, this is a great opportunity to catch up on the latest news and discuss the future of the community.&lt;/p>
-&lt;p>The schedule is below:&lt;br>
-13:30 – 14:00 Introduction to SBOL&lt;br>
-14:00 – 15:00 Live demos of SBOL-based tools&lt;br>
-15:00 – 15:30 Coffee Break&lt;br>
-15:30 – 17:00 Input from the Bench&lt;br>
-17:00 – 17:30 Roadmap and integration with other communities and standards&lt;/p>
-&lt;p>Please join us!&lt;/p>
-&lt;p>Sincerely,&lt;br>
-The SBOL Chair &amp;amp; Editors&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Archives | The Synthetic Biology Open Language</title><link>/category/archives/</link><atom:link href="/category/archives/index.xml" rel="self" type="application/rss+xml"/><description>Archives</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2015 16:55:28 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Archives</title><link>/category/archives/</link></image><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
+&lt;p>Date: October 12-16, 2015&lt;br>
+Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2015">http://co.mbine.org/events/COMBINE_2015&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
+&lt;p>&lt;strong>Monday, October 12th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 04:15PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/recent%20developments%20in%20SBOL%20tools%20and%20repositories.pdf&amp;quot;&amp;gt;The Synthetic Biology Open Language (SBOL) &amp;amp;#8211; recent developments in SBOL tools and repositories&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Tuesday, October 13th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:30AM &amp;#8211; 10:00AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/sbol.pdf&amp;quot;&amp;gt;SBOL&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Anil Wipat
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:30AM &amp;#8211; 08:45AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/Multiplicity%20of%20Representation%20in%20SBOL%202.0.pdf&amp;quot;&amp;gt;Multiplicity of Representation in SBOL 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Nicholas Roehner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [08:45AM &amp;#8211; 09:00AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;http://co.mbine.org/events/COMBINE_2015/agenda?q=system/files/combine2015-Zhang_libSBOLj2.pdf&amp;quot;&amp;gt;libSBOLj 2.0: A Java Library to Support SBOL 2.0&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Zhen Zhang
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:15AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/A%20Converter%20from%20the%20Systems%20Biology%20Markup%20Language%20to%20the%20Synthetic%20Biology%20Open%20Language.pdf&amp;quot;&amp;gt;A Converter from the Systems Biology Markup Language to the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Tramy Nguyen
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:00AM &amp;#8211; 09:15AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/SBOL%20visual%20introduction%2C%20recent%20developments%2C%20and%20current%20challenges.pdf&amp;quot;&amp;gt;SBOL visual: introduction, recent developments, and current challenges&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jacob Beal
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [11:15AM &amp;#8211; 11:30AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/VisBOL.pdf&amp;quot;&amp;gt;VisBOL: Web-based tooling for synthetic biology design visualization&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+James McLaughlin
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Community Discussion
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Herbert Sauro
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Visual 2.0/SBGN Discussion
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Jake Beal/Augustin Luna
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Wednesday, October 14th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [03:30PM &amp;#8211; 05:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; SBOL Extension Discussion
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Raik Gruenberg
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Thursday, October 15th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [01:30PM &amp;#8211; 03:00PM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/SBOL%20Infrastructure%20Discussion.pdf&amp;quot;&amp;gt;SBOL Infrastructure Discussion&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Chris Myers
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Friday, October 16th&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [10:45AM &amp;#8211; 11:00AM MDT]
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/COMBINE/Ernst_JGI.pdf&amp;quot;&amp;gt;On the Adoption of Standards at the DOE Joint Genome Institute&amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Ernst Oberortner
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table>
+&lt;hr>
+&lt;p>&lt;strong>Poster Session&lt;/strong>&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; Monday &amp;#8211; Friday Break Sessions
+&lt;/td>
+&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/posters/combine-2015-poster.pdf&amp;quot;&amp;gt; Analysis of Weaknesses in SBOL/SBML Modeling through Creation of Use Cases &amp;lt;/a&amp;gt;
+&amp;lt;/td&amp;gt;
+&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+Zach Zundel
+&amp;lt;/td&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;/tr>
+&lt;/table></description></item><item><title>SBOL 12 Workshop Report</title><link>/event/2015/harmony/</link><pubDate>Tue, 05 May 2015 13:09:19 +0000</pubDate><guid>/event/2015/harmony/</guid><description>&lt;p>The 12th SBOL workshop took place as part of &lt;a href="http://co.mbine.org/events/HARMONY_2015" title="HARMONY 2015" target="_blank" rel="noopener">HARMONY 2015&lt;/a> on April 20-24, 2015, at  at the &lt;a class="external text" href="http://www.leucorea.de/" rel="nofollow">Leucorea Wittenberg&lt;/a>, part of the &lt;a class="external text" href="http://www.uni-halle.de/" rel="nofollow">Martin Luther University Halle-Wittenberg&lt;/a>, Germany.&lt;/p>
+&lt;h2 id="sbol-posters">SBOL Posters:&lt;/h2>
+&lt;p>Curtis Madsen: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/sbolstack_poster.pdf" target="_blank" rel="noopener">SBOL Stack: The One-stop-shop to Storing and Publishing SBOL Data&lt;/a>&lt;br>
+Tramy Nguyen: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/softwareinfra-syntheticbiology.pdf" target="_blank" rel="noopener">Synthetic Biology Open Language (SBOL) 2.0&lt;/a>&lt;/p>
+&lt;h2 id="here-are-the-outcomes-of-the-meeting">Here are the outcomes of the meeting:&lt;/h2>
+&lt;ol>
+&lt;li>SBOL 2.0 Specification
+&lt;ol>
+&lt;li>Significant work was performed on the specification, no decision TODOs remain.  Goal is to finish writing by SEED.&lt;/li>
+&lt;li>Ontologies selected, when possible, for those needing them. Identifiers.org  to provide the ontology terms.&lt;/li>
+&lt;li>No significant changes to data model though some required fields changed to optional, especially those with no clear ontology.  Other minor changes include: Interactions no longer require a participation, displayId was moved to Identified, roles removed from Model. Roles in other entities were made optional.&lt;/li>
+&lt;li>Discussed the linking of ModuleDefinition entities to corresponding ComponentDefinitions&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>libSBOLj 2.0 Release
+&lt;ol>
+&lt;li>Agreed that beta release will support only compliant URIs.
+&lt;ol>
+&lt;li>TopLevel: &lt;prefix>/&lt;type>/&lt;displayId>/&lt;version>&lt;/li>
+&lt;li>1st level child: &lt;prefix>/&lt;type>/&lt;parentId>/&lt;displayId>/&lt;version>&lt;/li>
+&lt;li>NOTE: also decided &lt;version> is optional.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Agreed that validation errors would be reported through exceptions.&lt;/li>
+&lt;li>Agreed that beta release would have complete docs with simple examples.&lt;/li>
+&lt;li>Tested libSBOLj in several applications:
+&lt;ol>
+&lt;li>Nicholas Roehner – SBOL to SBML converter.&lt;/li>
+&lt;li>Tramy Nguyen – SBML to SBOL converter.&lt;/li>
+&lt;li>Newcastle Group – VirtualParts Repository, SBOL Stack, and SynBad&lt;/li>
+&lt;li>Bryan Der – Cello&lt;/li>
+&lt;li>Neil Swanston – (Metabolic) SBML to SBOL converter. Integration with genome-scale models.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Beta release planned before SEED.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Publication Plan
+&lt;ol>
+&lt;li>Abstract on 2.0 submitted to IWBDA.  Hope to submit to special ACS Synthetic Biology special issue.&lt;/li>
+&lt;li>SBOLv paper is currently under review.&lt;/li>
+&lt;li>libSBOLj paper under review at IEEE Life Science Letters&lt;/li>
+&lt;li>libSBOLc paper under development.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Outreach Plan
+&lt;ol>
+&lt;li>Decided to make a new sbol-announce mailing list, make sbol-dev and sbol-visual public lists, and add old SBOL editors to sbol-editors list.&lt;/li>
+&lt;li>Discussed several improvements to website such as making logos more prominent, better emphasis of international community and industrial supporters. We also need to keep the SBOL tools up to date.&lt;/li>
+&lt;li>Talked about international advisory board for SBOL&lt;/li>
+&lt;li>A SEED talk is scheduled to talk about SBOL, the community, and supporting tools&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>SBOLv and SBGN
+&lt;ol>
+&lt;li>Had dedicated session to interaction with SBGN.&lt;/li>
+&lt;li>Got a better understanding of the SBGN capabilities.&lt;/li>
+&lt;li>Conveyed our requirements to SBGN.&lt;/li>
+&lt;li>Matthew Pocock will continue to follow up with them.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p> &lt;/p></description></item><item><title>NIST Synthetic Biology Standards Workshop: March 31</title><link>/event/2015/nist/</link><pubDate>Fri, 27 Mar 2015 23:22:58 +0000</pubDate><guid>/event/2015/nist/</guid><description>&lt;p>The NIST Synthetic Biology Standards Consortium (SBSC) workshop is coming up on March 31, 2015.  Several members of the SBOL Developers group will be showing a strong presence on the Digital Biological Information panel.  For more information on SBSC visit: &lt;a id="yui_3_16_0_1_1427555251301_7241" href="http://jimb.stanford.edu/sbsc" target="_blank" rel="nofollow">&lt;a href="http://jimb.stanford.edu/sbsc">http://jimb.stanford.edu/sbsc&lt;/a>&lt;/a>&lt;/p></description></item></channel></rss>
