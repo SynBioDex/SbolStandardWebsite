@@ -1,24 +1,24 @@
 ---
-title: "SEED 2020: Software for Synthetic Biology Workflows Workshop"
+title: "SEED 2018: Software for Synthetic Biology Workflows Workshop"
 
-event: "2020 Synthetic Biology: Engineering, Evolution & Design (SEED)"
-event_url: http://synbioconference.org/2020
+event: "2018 Synthetic Biology: Engineering, Evolution & Design (SEED)"
+event_url: http://synbioconference.org/2018
 
-location: Hyatt Regency San Francisco
+location: JW Marriott Scottsdale Camelback Inn Resort & Spa
 address:
-  street: 5 Embarcadero Ctr
-  city: San Francisco
-  region: CA
-  postcode: '94111'
+  street: 5402 E Lincoln Dr 
+  city: Scottsdale
+  region: AZ
+  postcode: '85253'
   country: United States
 
-summary: SEED 2020 will focus on advances in science, technology, applications, and related investments in the field of synthetic biology. 
-abstract: "SEED 2020 will focus on advances in science, technology, applications, and related investments in the field of synthetic biology. "
+summary: SEED 2018 will focus on advances in science, technology, applications, and related investments in the field of synthetic biology. 
+abstract: "SEED 2018 will focus on advances in science, technology, applications, and related investments in the field of synthetic biology. "
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-06-22"
-date_end: "2020-06-25"
+date: "2018-06-03"
+date_end: "2018-06-07"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
@@ -56,17 +56,8 @@ projects:
 
 This workshop is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology. The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows. In the second half, participants will work hands-on with the tools in groups, with the instructors assisting them in applying tools hands-on to address prototypical example problems and/or challenges from their own work. For the second half, participants are strongly encouraged to bring a laptop with network access.  
   
-This workshop will be free for attendees of SEED 2020. There will be a small fee if you wish to attend this workshop without attending SEED
+This workshop will be free for attendees of SEED 2018. There will be a small fee if you wish to attend this workshop without attending SEED
 
 **Organizers**  
 Prof. Chris Myers, University of Utah  
 Dr. Ernst Oberortner, DOE Joint Genome Institute
-
-**Agenda**  
-1:45PM - 1:55PM Introduction: Chris Myers, University of Utah  
-1:55PM - 2:20PM JBEI/JGI Tools: Ernst Oberortner, Joint Genome Institute  
-2:20PM - 2:45PM SynBioHub, SBOLCanvas: Chris Myers, U. of Utah  
-2:45PM - 3:45PM Hands On Session
-
-**The 2020 SEED Conference is Canceled**
-Due to the ongoing, and dynamic, situation relating to the Coronavirus (COVID-19) we have made the difficult decision to cancel the 2020 Synthetic Biology: Engineering, Evolution & Design Conference (SEED) in the best interests of attendees, sponsors, and exhibitors. The event will not be rescheduled and refunds will be issued to all registered attendees. 
