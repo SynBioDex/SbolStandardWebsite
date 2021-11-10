@@ -9,6 +9,39 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Example Event</title><link>/event/2016/ismb/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/event/2016/ismb/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Example Event</title><link>/event/2016/sbol-workshop/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/event/2016/sbol-workshop/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Example Event</title><link>/event/2016/synbiocite/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>/event/2016/synbiocite/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
+&lt;/ul>
 &lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>SEED 2020: Software for Synthetic Biology Workflows Workshop</title><link>/event/2020/seed/</link><pubDate>Fri, 07 Feb 2020 23:49:16 +0000</pubDate><guid>/event/2020/seed/</guid><description>&lt;p>&lt;strong>Workshop Description:&lt;/strong>&lt;br>
 This workshop is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology. The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows. In the second half, participants will work hands-on with the tools in groups, with the instructors assisting them in applying tools hands-on to address prototypical example problems and/or challenges from their own work. For the second half, participants are strongly encouraged to bring a laptop with network access.&lt;/p>
 &lt;p>This workshop will be free for attendees of SEED 2020. There will be a small fee if you wish to attend this workshop without attending SEED.&lt;/p>
@@ -500,48 +533,7 @@ Owen Gilfellon
 &amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
 &amp;lt;p&amp;gt;
 &amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;
-&amp;lt;/p&amp;gt;&lt;/code>&lt;/pre></description></item><item><title>ISMB 2016</title><link>/event/2016/ismb/</link><pubDate>Sun, 22 Jul 2018 05:35:05 +0000</pubDate><guid>/event/2016/ismb/</guid><description>&lt;h2 id="location-swan-and-dolphin-hotel-in-orlando-fl-usa">Location: Swan and Dolphin Hotel in Orlando, FL, USA&lt;/h2>
-&lt;p>Date: July 8th – 12th, 2016&lt;br>
-Complete ISMB 2016 Agenda: &lt;a href="https://www.iscb.org/ismb2016program/ismb2016-bof">https://www.iscb.org/ismb2016program/ismb2016-bof&lt;/a>&lt;/p>
-&lt;h2 id="description">Description:&lt;/h2>
-&lt;p>A conference that invites speakers from industry and academia to present their work in bioinformatics.&lt;/p>
-&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
-&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; Kevin Clancy
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Synthetic Biology &amp;amp; SBOL
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr>
-&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; Chris Myers
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/ISMB/SBOL.pdf&amp;quot;&amp;gt;Synthetic Biology Open Language (SBOL)&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr>
-&lt;table style="width:70%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; Chris Myers
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/ISMB/GDA_SBOL.pdf&amp;quot;&amp;gt;GDA Synthetic Biology Open Language (SBOL)&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr></description></item><item><title>NONA</title><link>/event/2018/nona/</link><pubDate>Sun, 22 Jul 2018 05:19:57 +0000</pubDate><guid>/event/2018/nona/</guid><description>&lt;h2 id="location-chicago-il-usa">Location: Chicago, IL, USA&lt;/h2>
+&amp;lt;/p&amp;gt;&lt;/code>&lt;/pre></description></item><item><title>NONA</title><link>/event/2018/nona/</link><pubDate>Sun, 22 Jul 2018 05:19:57 +0000</pubDate><guid>/event/2018/nona/</guid><description>&lt;h2 id="location-chicago-il-usa">Location: Chicago, IL, USA&lt;/h2>
 &lt;p>Date: July 17th, 2017&lt;/p>
 &lt;h2 id="description">Description:&lt;/h2>
 &lt;p>A online software used to host academic tools.&lt;/p>
@@ -567,23 +559,6 @@ Complete ISMB 2016 Agenda: &lt;a href="https://www.iscb.org/ismb2016program/ismb
 &lt;/td>
 &lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
 &amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOLDesignerPresentation.pdf&amp;quot;&amp;gt;SBOLDesigner&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr></description></item><item><title>IET / SynbiCITE Engineering Biology Conference 2016</title><link>/event/2016/synbiocite/</link><pubDate>Sun, 22 Jul 2018 04:49:10 +0000</pubDate><guid>/event/2016/synbiocite/</guid><description>&lt;h2 id="location-iet-london-savoy-place-in-london-uk">Location: IET London Savoy Place in London, UK&lt;/h2>
-&lt;p>Date: December 13th – 15th, 2016&lt;/p>
-&lt;h2 id="description">Description:&lt;/h2>
-&lt;p>An international conference that welcomes all synthetic biologist to from academia and industry to present their current bleeding edge research and technology.&lt;br>
-A complete description of the symposium can be found &lt;a href="https://communities.theiet.org/communities/events/item/547/75/13435" target="_blank" rel="noopener">here&lt;/a>.&lt;/p>
-&lt;h2 id="sbol-talk">SBOL Talk:&lt;/h2>
-&lt;table style="width:90%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:30%;">
-&amp;nbsp; Anil Wipat
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; The Synthetic Biology Open Language (SBOL) – an enabling standard for synthetic biology workflows
 &amp;lt;/td&amp;gt;
 &lt;/code>&lt;/pre>
 &lt;/tr>
@@ -1706,201 +1681,18 @@ Jacob Beal
 &lt;/code>&lt;/pre>
 &lt;/tr>
 &lt;/table>
-&lt;hr></description></item><item><title>COMBINE 2016</title><link>/event/2016/combine/</link><pubDate>Thu, 06 Oct 2016 16:06:21 +0000</pubDate><guid>/event/2016/combine/</guid><description>&lt;h2 id="location-newcastle-uk">Location: Newcastle, UK&lt;/h2>
-&lt;p>Date: 19th – 23rd September, 2016&lt;br>
-Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2016/agenda">http://co.mbine.org/events/COMBINE_2016/agenda&lt;/a>&lt;/p>
-&lt;h2 id="description">Description:&lt;/h2>
-&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
-&lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
-&lt;p>&lt;strong>Monday, September 19th&lt;/strong>&lt;/p>
-&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [04:15PM &amp;#8211; 05:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Myers-Workflows.pdf&amp;quot;&amp;gt;A Standard Enabled Workflow for Synthetic Biology&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Chris Myers
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr>
-&lt;p>&lt;strong>Tuesday, September 20th&lt;/strong>&lt;/p>
-&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [10:30AM &amp;#8211; 10:45AM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Misirli_agenda.pdf&amp;quot;&amp;gt;Data Integration and Mining for Synthetic Biology Design&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Goksel Misirli
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [11:00AM &amp;#8211; 11:15AM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Nic_Knox.pdf&amp;quot;&amp;gt;How to Remember and Revisit Many Genetic Design Variants Automatically&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Nicholas Roehner
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [11:15AM &amp;#8211; 11:30AM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Bryan_VersionVariantControl.pdf&amp;quot;&amp;gt;Version and Variant Control for Synthetic Biology&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Bryan Bartley
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Host Context
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Anil Wipat
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [03:30PM &amp;#8211; 05:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Website, FAQ, and Tutorials
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Herbert Sauro
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr>
-&lt;p>&lt;strong>Wednesday, September 21st&lt;/strong>&lt;/p>
-&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; SBOL Visual / SBGN
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Robert Sydney Cox
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [03:30PM &amp;#8211; 05:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Ontologies and URI Best Practices
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-James McLaughlin
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr>
-&lt;p>&lt;strong>Thursday, September 22nd&lt;/strong>&lt;/p>
-&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; SBOL Sequence Layer
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Bryan Bartley
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [03:30PM &amp;#8211; 05:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; SBOL Interaction Definitions
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Tramy Nguyen
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr>
-&lt;p>&lt;strong>Friday, September 23rd&lt;/strong>&lt;/p>
-&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [10:45AM &amp;#8211; 11:00AM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/COX_COMBINE2016_protlang.pdf&amp;quot;&amp;gt;The Visual Protein Design Language&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Robert Sidney Cox
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [11:00AM &amp;#8211; 11:15AM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2016/COMBINE/Beal-COMBINE16-SBOLv2-update.pptx&amp;quot;&amp;gt;Progress Report on Development of SBOL Visual 2.0&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Jacob Beal
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;tr>
-&lt;td style="border-color:#fff; width:20%;">
-&amp;nbsp; [01:30PM &amp;#8211; 03:00PM GMT]
-&lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; General Discussion/Hacking
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
-Anil Wipat
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;/tr>
-&lt;/table>
-&lt;hr></description></item><item><title>14th SBOL Workshop Report</title><link>/event/2016/sbol-workshop/</link><pubDate>Thu, 05 May 2016 13:14:17 +0000</pubDate><guid>/event/2016/sbol-workshop/</guid><description>&lt;p>The 14th SBOL Workshop took place in Boston, March 14-16, 2016.  Some of the key developments from the workshop:&lt;/p>
+&lt;hr></description></item><item><title>COMBINE 2016</title><link>/event/2016/combine/</link><pubDate>Mon, 19 Sep 2016 08:30:00 +0100</pubDate><guid>/event/2016/combine/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+&lt;p>Slides can be added in a few ways:&lt;/p>
 &lt;ul>
-&lt;li>Now that there are four SBOL libraries (Java, JS, C++, Python), we need to ensure unity between their behaviors.  The library developers extracted tests to build a shared suite of regression tests, which is close but not yet done.&lt;/li>
-&lt;li>SBOL Validator is up and running, and can be used for online validation and for compliance testing; Nona may be able to help with long-term hosting / maintenance of that and other community resources.&lt;/li>
-&lt;li>Software compliance model sketched out, and compliance matrix being updated for all software known to claim to be SBOL compliant.&lt;/li>
-&lt;li>Workflow examples being worked out for ISMB tutorial, and will be captured on the website as well.&lt;/li>
-&lt;li>Website updated, also the FAQ is being worked on: we discovered that it was in an embarrassing half-state and turned all of the “Question? Good question!” bits into a big HTML comment for the moment; hopefully those who were working on it will be able to finish that soon.&lt;/li>
-&lt;li>Lots of minor spec improvements, which should shortly bring us to SBOL 2.0.1 (minor clarifications and fixes) and SBOL 2.1 (incorporating SEP 004 and a EDAM encodings for the recommended ontologies.  We should be getting pull requests for SBOL 2.0.1 material soon: as soon as that’s all in, we can release 2.0.1.  SEP 004 is just waiting for final sign-off to be put up for community vote.  Spec issues in GitHub have been clarified, and many assigned for action.&lt;/li>
-&lt;li>Lots of progress on SBOL Visual 2.0, and lots of space for more hands to help.  The draft document will likely be solid and ready for review by summer; certainly by the end of the COMBINE meeting in September.  Anyone interested in it can start engaging now via the Overleaf link shared on sbol-dev.&lt;/li>
-&lt;li>Sid Cox showed a sketch of a protein description extension for SBOL Visual, inviting those interested to join him in development.&lt;/li>
+&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
+&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p> &lt;/p>
-&lt;p>&lt;strong>Group Photo&lt;/strong>&lt;/p>
-&lt;p>&lt;a href="http://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490.jpg" rel="attachment wp-att-1213">&lt;img class="alignnone size-large wp-image-1213" src="http://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-1024x655.jpg" alt="SBOL Boston 2016" width="1024" height="655" srcset="https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-1024x655.jpg 1024w, https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-300x192.jpg 300w, https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-768x491.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />&lt;/a>&lt;/p></description></item><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
 &lt;p>Date: October 12-16, 2015&lt;br>
 Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2015">http://co.mbine.org/events/COMBINE_2015&lt;/a>&lt;/p>
 &lt;h2 id="description">Description:&lt;/h2>
