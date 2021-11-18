@@ -9,7 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Data Model"
+  name = "SBOL Data Model"
   url = "/DataModel"
   weight = 20
   identifier = "dom-id"
@@ -21,43 +21,43 @@
   parent = "dom-id"
 
 [[main]]
-  name = "SBOL Specification"
+  name = "Data Model Specification"
   url = "/DataModel-Specification"
   weight = 10
   parent = "dom-id"
 
 [[main]]
-  name = "SBOL Libraries"
+  name = "Libraries"
   url = "/libraries"
   weight = 15
   parent = "dom-id"
 
 [[main]]
-  name = "SBOL Ontology"
+  name = "Ontology"
   url = "/ontology"
   weight = 20
   parent = "dom-id"
 
 [[main]]
-  name = "SBOL Converter"
+  name = "Converter"
   url = "https://converter.sbolstandard.org/"
   weight = 25
   parent = "dom-id"
 
 [[main]]
-  name = "SBOL Validator"
+  name = "Validator"
   url = "https://validator.sbolstandard.org/"
   weight = 30
   parent = "dom-id"
 
 [[main]]
-  name = "SBOL Examples"
+  name = "Examples"
   url = "/DataModel-Examples"
   weight = 35
   parent = "dom-id"
 
 [[main]]
-  name = "Visual"
+  name = "SBOL Visual"
   url = "/visual"
   weight = 25
   identifier = "visual-id"
@@ -69,38 +69,38 @@
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Specification"
+  name = "Visual Specification"
   url = "/visual-specification"
   weight = 10
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Glyphs"
+  name = "Glyphs"
   url = "/visual-glyphs"
   weight = 15
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Ontology"
+  name = "Ontology"
   url = "/sbol-visual-ontology"
   weight = 20
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Examples from papers"
+  name = "Examples from papers"
   url = "/visual-examples"
   weight = 25
   parent = "visual-id"
 
 [[main]]
-  name = "SBOL Visual Examples from specification"
+  name = "Examples from specification"
   url = "/visual-spec-examples"
   weight = 25
   parent = "visual-id"
   
 [[main]]
   name = "Applications"
-  url = "/applications"
+  url = "#applications"
   weight = 30
 
 [[main]]
@@ -175,7 +175,7 @@
 
 [[main]]
   name = "View Source"
-  url = "https://synbiodex.github.io/SbolStandardWebsite/"
+  url = "https://github.com/SynBioDex/SbolStandardWebsite"
   weight = 75
   parent = "about-id"
 

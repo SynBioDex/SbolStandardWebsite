@@ -11,12 +11,6 @@ image:
   # caption: Photo by rawpixel on Unsplash
   focal_point: Smart
 
-links:
-- icon: edge
-  icon_pack: fab
-  name: Link
-  url: https://synbiotools.bbn.com/
-
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.

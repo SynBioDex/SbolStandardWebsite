@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Libraries"
+title = "SBOL for developers!"
 subtitle = ""
 
 [content]
@@ -75,3 +75,4 @@ subtitle = ""
  css_class = ""
 +++
 
+The SBOL community has created a number of libraries to programmatically use the SBOL data model in a number of popular languages!

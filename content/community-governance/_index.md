@@ -77,7 +77,28 @@ SBOL Editors are elected by a community vote, following the process below. Edito
 * Gonzalo Vidal Peña, Pontificia Universidad Católica de Chile
 * Tom Mitchell, Raytheon BBN Technologies
 
-Previous SBOL Editors include: Hasan Baig (University of Connecticut), Vishwesh Kulkarni (University of Warwick), Zach Palchik (Zymergen), Curtis Madsen (Sandia National Labs), Nicholas Roehner (BBN Technologies), Angel Goñi Moreno (Newcastle University), Umesh P (Kerala Technological University), Tramy Nguyen (University of Utah), James McLaughlin (Newcastle University), Robert Sidney Cox (Kobe University), Raik Grunberg (University of Montreal), Jacob Beal (BBN Technologies), Bryan Bartley (University of Washington), Kevin Clancy (ThermoFisher), Michal Galdzicki (University of Washington), Goksel Misirli (Newcastle University), Ernst Oberortner (Boston University), Matthew Pocock, (Newcastle University), Jacqueline Quinn (Google), Cesar Rodriguez (Autodesk), Mandy Wilson (Virginia Bioinformatics Institute).
+Previous SBOL Editors (including their affiliation when they were editors): 
+* Hasan Baig (University of Connecticut)
+* Vishwesh Kulkarni (University of Warwick)
+* Zach Palchik (Zymergen)
+* Curtis Madsen (Sandia National Labs)
+* Nicholas Roehner (BBN Technologies)
+* Angel Goñi Moreno (Newcastle University)
+* Umesh P (Kerala Technological University)
+* Tramy Nguyen (University of Utah)
+* James McLaughlin (Newcastle University)
+* Robert Sidney Cox (Kobe University)
+* Raik Grunberg (University of Montreal)
+* Jacob Beal (BBN Technologies)
+* Bryan Bartley (University of Washington)
+* Kevin Clancy (ThermoFisher)
+* Michal Galdzicki (University of Washington)
+* Goksel Misirli (Newcastle University)
+* Ernst Oberortner (Boston University)
+* Matthew Pocock, (Newcastle University)
+* Jacqueline Quinn (Google)
+* Cesar Rodriguez (Autodesk)
+* Mandy Wilson (Virginia Bioinformatics Institute).
 
 ## SBOL Chair and Steering Committee
 The positions of SBOL Chair and Steering Committee are a means for organizing strategic planning and coordination amongst PI-level members of the SBOL community.

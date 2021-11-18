@@ -2,10 +2,10 @@
 # A Projects section created with the Portfolio widget.
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 95  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 140  # Order that this section will appear.
 
-title = "Applications"
+title = "SBOL Tools & Applications"
 subtitle = ""
 
 [content]
@@ -21,17 +21,49 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
+ 
+  [[content.filter_button]]
+    name = "SBOL1 Import"
+    tag = "SBOL1 Import"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  [[content.filter_button]]
+    name = "SBOL1 Export"
+    tag = "SBOL1 Export"
   
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+  [[content.filter_button]]
+    name = "SBOL2 Import"
+    tag = "SBOL2 Import"
+  
+  [[content.filter_button]]
+    name = "SBOL2 Export"
+    tag = "SBOL2 Export"
+  
+  [[content.filter_button]]
+    name = "Sequence Design"
+    tag = "Sequence Design"
+  
+  [[content.filter_button]]
+    name = "Circuit Design"
+    tag = "Circuit Design"
+
+  [[content.filter_button]]
+    name = "Modeling"
+    tag = "Modeling"
+
+  [[content.filter_button]]
+    name = "SBOL Visual"
+    tag = "SBOL Visual"
+
+  [[content.filter_button]]
+    name = "Visualization"
+    tag = "Visualization"
+  
+  [[content.filter_button]]
+    name = "Knowledge Management"
+    tag = "Knowledge Management"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -66,7 +98,7 @@ subtitle = ""
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
-  
+  # {{< figure width="600px" library="true" src="SBOL_2_demo_workflow_chris.png" title="" lightbox="true" >}}
 [advanced]
  # Custom CSS. 
  css_style = ""
@@ -75,3 +107,6 @@ subtitle = ""
  css_class = ""
 +++
 
+If you are a synthetic biologist, you may not be aware that there are already many software tools available that support different aspects of the synthetic biology workflow, such as optimizing DNA assembly or simulating gene networks.  Each of the software tools listed here supports exchange of genetic designs in the SBOL file format (SBOL core) or supports display of genetic designs using standard SBOL Visual glyphs.
+
+If you would like us to feature your application here, please fill out this [survey](https://docs.google.com/forms/d/e/1FAIpQLScOTJLCoTniVPrMh88eg74Eaubh1bFMjncbyG6yt8q4cFLQ-Q/viewform).
