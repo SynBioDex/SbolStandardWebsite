@@ -31,16 +31,20 @@ links:
   url: https://github.com/SynBioDex/sboljs/blob/master/README.md
 - icon: code
   icon_pack: fas
-  name: Release (v 1.0.0)
-  url: https://github.com/SynBioDex/sboljs/releases
+  name: Release (v 2.2.6)
+  url: https://www.npmjs.com/package/sboljs
 - icon: bug
   icon_pack: fas
   name: Bug & Feature Report
   url: https://github.com/SynBioDex/sboljs/issues
-- icon: book
+# - icon: book
+#   icon_pack: fas
+#   name: CRISPR Circuit Example
+#   url: docs/libsbolj_crisprTutorial_2_3.pdf
+- icon: chalkboard-teacher
   icon_pack: fas
-  name: CRISPR Circuit Example
-  url: docs/libsbolj_crisprTutorial_2_3.pdf
+  name: tutorial
+  url: https://github.com/SynBioDex/Community-Media/blob/master/2018/IWBDA18/SBOLWorkshop2018_java_js.pdf
 url_code: ""
 url_pdf: ""
 url_slides: ""
