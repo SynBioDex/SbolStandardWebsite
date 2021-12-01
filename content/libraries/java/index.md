@@ -41,6 +41,10 @@ links:
   icon_pack: fas
   name: CRISPR Circuit Example
   url: docs/libsbolj_crisprTutorial_2_3.pdf
+- icon: chalkboard-teacher
+  icon_pack: fas
+  name: tutorial
+  url: https://github.com/SynBioDex/Community-Media/blob/master/2018/IWBDA18/SBOLWorkshop2018_java_js.pdf
 url_code: ""
 url_pdf: ""
 url_slides: ""

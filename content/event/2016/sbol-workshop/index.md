@@ -1,27 +1,74 @@
 ---
-id: 1212
-title: 14th SBOL Workshop Report
-date: 2016-05-05T13:14:17+00:00
-author: James Alastair McLaughlin
-layout: post
-guid: http://sbolstandard.org/?p=1212
-permalink: /14th-sbol-workshop-report/
-categories:
-  - Announcements
+title: Example Event
+layout: event
+event: Wowchemy Conference
+event_url: https://example.org
+
+location: Wowchemy HQ
+address:
+  street: 450 Serra Mall
+  city: Stanford
+  region: CA
+  postcode: '94305'
+  country: United States
+
+summary: An example talk using Wowchemy's Markdown slides feature.
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: "2030-06-01T13:00:00Z"
+date_end: "2030-06-01T15:00:00Z"
+all_day: false
+
+# Schedule page publish date (NOT talk date).
+publishDate: "2017-01-01T00:00:00Z"
+
+authors: []
+tags: []
+
+# Is this a featured talk? (true/false)
+featured: false
+
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  focal_point: Right
+
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+url_code: "www.example.com"
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: example
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects:
+- internal-project
 ---
-The 14th SBOL Workshop took place in Boston, March 14-16, 2016.  Some of the key developments from the workshop:
 
-  * Now that there are four SBOL libraries (Java, JS, C++, Python), we need to ensure unity between their behaviors.  The library developers extracted tests to build a shared suite of regression tests, which is close but not yet done.
-  * SBOL Validator is up and running, and can be used for online validation and for compliance testing; Nona may be able to help with long-term hosting / maintenance of that and other community resources.
-  * Software compliance model sketched out, and compliance matrix being updated for all software known to claim to be SBOL compliant.
-  * Workflow examples being worked out for ISMB tutorial, and will be captured on the website as well.
-  * Website updated, also the FAQ is being worked on: we discovered that it was in an embarrassing half-state and turned all of the &#8220;Question? Good question!&#8221; bits into a big HTML comment for the moment; hopefully those who were working on it will be able to finish that soon.
-  * Lots of minor spec improvements, which should shortly bring us to SBOL 2.0.1 (minor clarifications and fixes) and SBOL 2.1 (incorporating SEP 004 and a EDAM encodings for the recommended ontologies.  We should be getting pull requests for SBOL 2.0.1 material soon: as soon as that&#8217;s all in, we can release 2.0.1.  SEP 004 is just waiting for final sign-off to be put up for community vote.  Spec issues in GitHub have been clarified, and many assigned for action.
-  * Lots of progress on SBOL Visual 2.0, and lots of space for more hands to help.  The draft document will likely be solid and ready for review by summer; certainly by the end of the COMBINE meeting in September.  Anyone interested in it can start engaging now via the Overleaf link shared on sbol-dev.
-  * Sid Cox showed a sketch of a protein description extension for SBOL Visual, inviting those interested to join him in development.
+{{% callout note %}}
+Click on the **Slides** button above to view the built-in slides feature.
+{{% /callout %}}
 
-&nbsp;
+Slides can be added in a few ways:
 
-**Group Photo**
 
-<a href="http://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490.jpg" rel="attachment wp-att-1213"><img class="alignnone size-large wp-image-1213" src="http://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-1024x655.jpg" alt="SBOL Boston 2016" width="1024" height="655" srcset="https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-1024x655.jpg 1024w, https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-300x192.jpg 300w, https://sbolstandard.org/wp-content/uploads/2016/05/DSC_5490-768x491.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page.
