@@ -82,4 +82,4 @@ subtitle = ""
 
 
 
-<a class="twitter-timeline" href="https://twitter.com/SBOLstandard?ref_src=twsrc%5Etfw">Tweets by SBOLstandard</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" href="https://twitter.com/SBOLstandard?ref_src=twsrc%5Etfw" data-height="800">Tweets by SBOLstandard</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
