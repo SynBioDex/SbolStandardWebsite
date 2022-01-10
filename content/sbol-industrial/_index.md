@@ -28,9 +28,9 @@ For any inquiries, contact: [sbol-industrial@googlegroups.com](mailto:sbol-indus
 
 We will periodically post opportunities for the community to respond to in this space, such as internships, project sponsorship, or infrastructure support.
 
-- **(NEW)** CFP: SBOL Industrial 2021 Summer Program.
+- **(NEW)** CFP: SBOL Industrial 2022 Summer Program. {{% staticref "docs/CFP_SBOL_Industrial_2022_Summer_Program.pdf" "newtab" %}}PDF{{% /staticref %}} {{% staticref "docs/CFP_SBOL_Industrial_2022_Summer_Program.docx" "newtab" %}}Word{{% /staticref %}}
 
-{{< figure src="CFP - SBOL Industrial 2021 Summer Program.jpg" title="" >}}
+  **Proposals are Due February 15th, 2022**
 
 - CFP: SBOL Community Critical Infrastructure Support: {{% staticref "docs/CFP_SBOL_Community_Critical_Infrastructure_Support.pdf" "newtab" %}}PDF{{% /staticref %}} {{% staticref "docs/CFP_SBOL_Community_Critical_Infrastructure_Support.docx" "newtab" %}}Word{{% /staticref %}}
 
@@ -44,15 +44,17 @@ We will periodically post opportunities for the community to respond to in this 
 | {{< figure library="true" src="idt.png" title="" lightbox="true" width="250" >}} | {{< figure library="true" src="Twist_Logo_cropped.jpeg" title="" lightbox="true" width="200" >}} |
 |---|---|
 
+| {{< figure library="true" src="lattice.jpeg" title="" lightbox="true" width="270" >}} |  |
+|---|---|
+
+
 #### Bronze
 | {{< figure library="true" src="amyris-1.png" title="" lightbox="true" width="240" >}} | {{< figure library="true" src="Inscripta_Brandmark-with-Tagline_R3-FINAL_RGB.png" title="" lightbox="true" width="320" >}} |
 |---|---|
 
-| {{< figure library="true" src="Teselagen_300x150-1.png" title="" lightbox="true" width="270" >}} | {{< figure library="true" src="zymergen.png" title="" lightbox="true" width="70" >}} |
+| {{< figure library="true" src="Teselagen_300x150-1.png" title="" lightbox="true" width="270" >}} |  |
 |---|---|
 
-| {{< figure library="true" src="shipyard_toolchains_logo_02_338px_matte.png" title="" lightbox="true" width="270" >}} | |
-|---|---|
 
 #### Joining SBOL Industrial
 
