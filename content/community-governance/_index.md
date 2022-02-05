@@ -129,11 +129,12 @@ The SBOL Steering Committee is currently (listed alphabetically):
 * Thomas Gorochowski, University of Bristol
 * Goksel Misirli, Keele University
 * Chris Myers, University of Utah
-* Ernst Oberortner, DOE Joint Genome Institute (JGI)
-* Timothy Rudge, Pontificia Universidad Católica de Chile
+* Timothy Rudge, Newcastle University, UK
 * Herbert Sauro, University of Washington
 * Anil Wipat, Newcastle University
 
+Past SBOL Steering Committee Members (listed alphabetically):
+* Ernst Oberortner, Takara Bio, USA
 
 The SBOL chair has also organized an international advisory panel comprising a range of experts in standards and synthetic biology. The panel will provide an external perspective for SBOL, with advice on how SBOL can grow to meet the needs of the wider community.
 
@@ -145,6 +146,7 @@ The SBOL Advisory Panel is currently (listed alphabetically):
 * Prof. Richard Kitney, Imperial College London
 * Dr. Sarah Munro, US National Institute of Standards and Technology / Stanford University
 * Prof. Chris Voigt, Massachusetts Institute of Technology
+
 
 ## SBOL Industrial Consortium
 The SBOL Industrial Consortium is a pre-competitive organization of companies (or similar non-company organizations) investing in the SBOL community.
