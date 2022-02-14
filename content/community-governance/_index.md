@@ -138,15 +138,21 @@ Past SBOL Steering Committee Members (listed alphabetically):
 
 The SBOL chair has also organized an international advisory panel comprising a range of experts in standards and synthetic biology. The panel will provide an external perspective for SBOL, with advice on how SBOL can grow to meet the needs of the wider community.
 
-The SBOL Advisory Panel is currently (listed alphabetically):
+The SBOL Advisory Board is currently (listed alphabetically):
 
-* Prof. Matthew Chang, National University of Singapore
-* Prof. Victor de Lorenzo, Centro Nacional de Biotecnologia-CSIC
 * Dr. Traci Haddock, iGEM Foundation
-* Prof. Richard Kitney, Imperial College London
-* Dr. Sarah Munro, US National Institute of Standards and Technology / Stanford University
+* Dr. Hennig Hermajakob, EMBL-EBI
+* Prof. Jean Peccoud, Colorado State University
+* Prof. Manuel Porcar Miralles, I2SysBio
+* Elizabeth Strychalski, National Institute of Standards and Technology
 * Prof. Chris Voigt, Massachusetts Institute of Technology
 
+
+Past SBOL Advisory Board Members (listed alphabetically):
+* Prof. Matthew Chang, National University of Singapore
+* Prof. Richard Kitney, Imperial College London
+* Prof. Victor de Lorenzo, Centro Nacional de Biotecnologia-CSIC
+* Dr. Sarah Munro, US National Institute of Standards and Technology / Stanford University
 
 ## SBOL Industrial Consortium
 The SBOL Industrial Consortium is a pre-competitive organization of companies (or similar non-company organizations) investing in the SBOL community.
