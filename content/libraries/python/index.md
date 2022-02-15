@@ -17,10 +17,6 @@ links:
   icon_pack: fab
   name: Github
   url: https://github.com/SynBioDex/pySBOL2
-- icon: file-alt
-  icon_pack: fas
-  name: Overview
-  url: docs/pySBOLOverview.pdf
 - icon: edge
   icon_pack: fab
   name: API & Documentation
