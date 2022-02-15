@@ -1,8 +1,8 @@
 ---
-title: Python
-summary: Python interfaces and implementations for SBOL
+title: pySBOL2
+summary: Python interfaces and implementations for SBOL 2
 tags:
-- Libraries
+- Libraries/Python
 date: "2018-01-01T00:00:04Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -17,10 +17,6 @@ links:
   icon_pack: fab
   name: Github
   url: https://github.com/SynBioDex/pySBOL2
-- icon: file-alt
-  icon_pack: fas
-  name: Overview
-  url: docs/pySBOLOverview.pdf
 - icon: edge
   icon_pack: fab
   name: API & Documentation
