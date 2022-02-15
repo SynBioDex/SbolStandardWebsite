@@ -33,6 +33,10 @@ links:
   icon_pack: fas
   name: Bug & Feature Report
   url: https://github.com/SynBioDex/pySBOL3/issues
+- icon: chalkboard-teacher
+  icon_pack: fas
+  name: tutorial
+  url: https://github.com/SynBioDex/Community-Media/blob/master/2021/IWBDA21
 
 url_code: ""
 url_pdf: ""
