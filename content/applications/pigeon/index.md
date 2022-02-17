@@ -1,6 +1,6 @@
 ---
 title: Pigeon Visualizer
-summary: A simple chart, cheat sheet, and short accessible document describing the latest SBOL data model. A faster adoption process for SBOL Visual glyphs
+summary: A tool for creating SBOL Visual diagrams from a concise textual representation.
 tags: ["Visualization", "SBOL Visual"]
 date: "2020-06-30T00:00:00Z"
 
