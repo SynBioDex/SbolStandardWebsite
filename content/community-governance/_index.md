@@ -145,6 +145,7 @@ The SBOL Advisory Board is currently (listed alphabetically):
 * Prof. Jean Peccoud, Colorado State University
 * Prof. Manuel Porcar Miralles, I2SysBio
 * Dr. Elizabeth Strychalski, National Institute of Standards and Technology
+* Prof. Claudia Vickers, University of Queensland
 * Prof. Chris Voigt, Massachusetts Institute of Technology
 
 
