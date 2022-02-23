@@ -40,14 +40,14 @@ SBOL-VO is available as an RDF file. Click [here](http://synbiodex.github.io/sbo
 
 **An HTTP-based glyph service**: The SBOL-VO web service(SBOL-VO-WS) has been developed to resolve SBOL-VO glyphs via an REST-based HTTP interface. The matching glyph is returned by using a term from the SBOL-Visual Ontology, the Sequence Ontology (SO) or the Systems Biology Ontology (SBO). The `http://{SBOL-VO-WS}/glyph/{ONTOLOGY_TERM}"}` REST interface returns glyphs. When a term from the SO or the SBO is used and there is no exact match, then a glyph is returned using the closest mathing parent term. The following example demonsrates retrieving the aptamer glyph by using the corresponding SBOL-VO or terms from the SO:
 
-* [http://vows.sbolstandard.org/glyph/AptamerGlyph](http://synbiodex.github.io/SBOL-visual/Glyphs/aptamer/aptamer-specification.png)
-* [http://vows.sbolstandard.org/glyph/SO:0000031](http://synbiodex.github.io/SBOL-visual/Glyphs/aptamer/aptamer-specification.png)
-* [http://vows.sbolstandard.org/glyph/SO:0000033](http://synbiodex.github.io/SBOL-visual/Glyphs/aptamer/aptamer-specification.png)
+* [http://vows.sbolstandard.org/glyph/AptamerGlyph](http://vows.sbolstandard.org/glyph/AptamerGlyph)
+* [http://vows.sbolstandard.org/glyph/SO:0000031](http://vows.sbolstandard.org/glyph/SO:0000031)
+* [http://vows.sbolstandard.org/glyph/SO:0000033](http://vows.sbolstandard.org/glyph/SO:0000033)
 
 The web service returns the default PNG images. The PNG and SVG versions can be retrieved explicitly by appending “/svg” or “/png” to the query interface :
 
-* [http://vows.sbolstandard.org/glyph/SO:0000031/svg](http://synbiodex.github.io/SBOL-visual/Glyphs/aptamer/aptamer-specification.svg)
-* [http://vows.sbolstandard.org/glyph/SO:0000031/png](http://synbiodex.github.io/SBOL-visual/Glyphs/aptamer/aptamer-specification.png)
+* [http://vows.sbolstandard.org/glyph/SO:0000031/svg](http://vows.sbolstandard.org/glyph/SO:0000031/svg)
+* [http://vows.sbolstandard.org/glyph/SO:0000031/png](http://vows.sbolstandard.org/glyph/SO:0000031/png)
 
 **Mapping glyphs to terms from ontologies**: Tools can also use the SBOL-VO-WS to get the mapping information and then to subsequently include glyphs, using the `http://{SBOL-VO-WS}/mapping/{ONTOLOGY_TERM}"}` interface. The mapping interface works similar to the glyph interface but it returns information in the JSON format. This interface includes information about the closest parent term, for which a glyph is assigned, and the parent term’s distance to the query term. URL examples below return information about AptamerGlyph.
 
