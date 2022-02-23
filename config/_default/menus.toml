@@ -33,7 +33,7 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Ontology"
+  name = "SBOL Ontology"
   url = "/ontology"
   weight = 20
   parent = "dom-id"
@@ -81,7 +81,7 @@
   parent = "visual-id"
 
 [[main]]
-  name = "Ontology"
+  name = "SBOL Visual Ontology"
   url = "/sbol-visual-ontology"
   weight = 20
   parent = "visual-id"
