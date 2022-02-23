@@ -17,10 +17,10 @@ header:
 The SBOL Visual Ontology (SBOL-VO) provides a set of controlled terms to describe visual glyphs for genetic circuit designs. The terms are organised based on their descriptions in community-edited [Markdown](https://github.com/SynBioDex/SBOL-visual/tree/master/Glyphs) files. Terms are defined for recommended and alternative glyphs in addition to terms to represent generic glyphs. SBOL-VO consists of the following items.
 
 * **Terms for glyphs** to represent
-    * DNA sequence features (e.g. "[CDSGlyph](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#CDSGlyph)", "[AptamerGlyph](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#AptamerGlyph)", "[AssemblyScarGlyph](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#AssemblyScarGlyph)" and "[AssemblyScarGlyphAlternative](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#AssemblyScarGlyphAlternative)" )
-    * different types of molecular entities (e.g. "[ProteinGlyph](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#ProteinGlyph)")
-    * binary molecular interactions (e.g. "[InhibitionGlyph](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#InhibitionGlyph)")
-    * molecular interactions with multiple participants (e.g. "[AssociationGlyph](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html#AssociationGlyph)").
+    * DNA sequence features (e.g. "[CDSGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#CDSGlyph)", "[AptamerGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AptamerGlyph)", "[AssemblyScarGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AssemblyScarGlyph)" and "[AssemblyScarGlyphAlternative](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AssemblyScarGlyphAlternative)" )
+    * different types of molecular entities (e.g. "[ProteinGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#ProteinGlyph)")
+    * binary molecular interactions (e.g. "[InhibitionGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#InhibitionGlyph)")
+    * molecular interactions with multiple participants (e.g. "[AssociationGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AssociationGlyph)").
 * **A base term**. The base term in the ontology is called "Glyph".
 * **Properties**. SBOL-VO includes object properties such as "hasGlyph" and "isAlternativeOf" to define the relationships between different terms.
 * **Annotations**. Terms are annotated using properties such as "defaultGlyph" and "recommended".
@@ -28,13 +28,13 @@ The SBOL Visual Ontology (SBOL-VO) provides a set of controlled terms to describ
 
 ### Browse
 
-[Browse the SBOL-VO terms via an HTML page](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.html).
+[Browse the SBOL-VO terms via an HTML page](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html).
 
 The ontology can also be viewed after downloading and opening in an ontology editor, such as Protege.
 
 ### Download
 
-SBOL-VO is available as an RDF file. Click [here](http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.rdf) to download the ontology (**please note** that your browser may not allow direct downloads. If it does not, please copy and paste the following link on a new tab: http://synbiodex.github.io/SBOL-visual/Ontology/v2/sbol-vo.rdf ).
+SBOL-VO is available as an RDF file. Click [here](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.rdf) to download the ontology (**please note** that your browser may not allow direct downloads. If it does not, please copy and paste the following link on a new tab: http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.rdf ).
 
 ### Computational access: The SBOL-VO web service (SBOL-VOWS)
 
