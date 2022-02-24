@@ -1,8 +1,8 @@
 ---
-title: Python
-summary: Python interfaces and implementations for SBOL
+title: pySBOL2
+summary: Python interfaces and implementations for SBOL 2
 tags:
-- Libraries
+- Libraries/Python
 date: "2018-01-01T00:00:04Z"
 
 # Optional external URL for project (replaces project detail page).
