@@ -43,12 +43,12 @@ We support the SBOL Data models in the following formats: **C/C++**, **Java**, *
 
 ### Proposing a New Feature to the SBOL Data Model
 
-To propose a new feature to SBOL visual, a standard procedure must be followed.
+To propose a new feature to SBOL, a standard procedure must be followed.
 
-1. Submit a [new issue](https://github.com/SynBioDex/SBOL-specification/issues) on the SBOL-visual Github repository.
+1. Submit a [new issue](https://github.com/SynBioDex/SBOL-specification/issues) on the SBOL Github repository.
 2. Create a SBOL Enhancement Proposal (SEP)
     * A detailed description about what is an SEP, how to create an SEP, and how to submit an SEP can be found [here](https://github.com/SynBioDex/SEPs/issues/1).
     * A template of what a general SEP should look like can be found [here](https://raw.githubusercontent.com/SynBioDex/SEPs/master/sep_002_template.md).
     * For further assistance, please contact the [SBOL Editors](mailto:sbol-editors@googlegroups.com).
 3. The community will discuss on the proposed SEP through the GitHub issue created for the corresponding SEP.
-4. When the community has reached a consensus for the proposed SEP, voting will then be initiated to determine if the SEP will get accepted into the new release of SBOL Visual.
+4. When the community has reached a consensus for the proposed SEP, voting will then be initiated to determine if the SEP will get accepted into the new release of SBOL.
