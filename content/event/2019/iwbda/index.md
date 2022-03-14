@@ -9,7 +9,9 @@ permalink: /iwbda-2019/
 categories:
   - Announcements
 ---
-<figure class="wp-block-image"><img src="http://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-1024x590.png" alt="" class="wp-image-3507" srcset="https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-1024x590.png 1024w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-300x173.png 300w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-768x442.png 768w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-624x359.png 624w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019.png 1783w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure> 
+<figure class="wp-block-image">
+  <img src="https://www.iwbdaconf.org/2019/images/IWBDA2019.png">
+</figure> 
 
 ## Location: Cambridge, England
 
