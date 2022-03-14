@@ -9,7 +9,7 @@ permalink: /iwbda2017/
 categories:
   - Announcements
 ---
-<img src="http://sbolstandard.org/wp-content/uploads/2017/06/iwbda2017_small.png" alt="" width="1200" height="424" class="alignnone size-full wp-image-2320" />
+<img src="https://www.iwbdaconf.org/2017/images/iwbda2017_small.png" alt="" width="1200" height="424" class="alignnone size-full wp-image-2320" />
 
 ## Location: University of Pittsburgh, PA.  
 Date: August 8th – 11th, 2017  
