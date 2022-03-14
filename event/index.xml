@@ -42,7 +42,22 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>SEED 2020: Software for Synthetic Biology Workflows Workshop</title><link>/event/2020/seed/</link><pubDate>Fri, 07 Feb 2020 23:49:16 +0000</pubDate><guid>/event/2020/seed/</guid><description>&lt;p>&lt;strong>Workshop Description:&lt;/strong>&lt;br>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>SEED 2021</title><link>/event/2021/seed/</link><pubDate>Mon, 14 Mar 2022 18:41:53 +0000</pubDate><guid>/event/2021/seed/</guid><description>&lt;img src="https://synbioconference.org/sites/default/files/styles/redux_intro_breaker/public/images/conference/logo/seed2021_logo_web.png?itok=9H2zrW87" alt="">
+&lt;h2 id="location-virtual">Location: Virtual&lt;/h2>
+&lt;h2 id="date-june-15-8211-18-2021">Date: June 15 – 18, 2021&lt;/h2>
+&lt;h2 id="link-httpssynbioconferenceorg2021">Link: &lt;a href="https://synbioconference.org/2021">https://synbioconference.org/2021&lt;/a>&lt;/h2>
+&lt;p>
+SEED is a conference where synthetic biologist from different areas of the field come together to present their work.
+&lt;/p></description></item><item><title>IWBDA 2021</title><link>/event/2021/iwbda/</link><pubDate>Mon, 14 Mar 2022 18:24:53 +0000</pubDate><guid>/event/2021/iwbda/</guid><description>&lt;figure class="wp-block-image">
+&lt;img src="https://www.iwbdaconf.org/2021/images/IWBDA2021.png">
+&lt;/figure>
+&lt;h2 id="location-virtual">Location: Virtual&lt;/h2>
+&lt;h2 id="date-september-20-8211-24-2021">Date: September 20 – 24, 2021&lt;/h2>
+&lt;h2 id="link-httpswwwiwbdaconforg2021">Link: &lt;a href="https://www.iwbdaconf.org/2021/">https://www.iwbdaconf.org/2021/&lt;/a>&lt;/h2>
+&lt;h2 id="sbol-workshop">SBOL Workshop&lt;/h2>
+&lt;p>Date: September 20, 2021&lt;br>
+Time: 18:30 – 20:30 BST&lt;/p>
+&lt;p>SBOL Version 3: Data Exchange throughout the Bioengineering Lifecycle&lt;/p></description></item><item><title>SEED 2020: Software for Synthetic Biology Workflows Workshop</title><link>/event/2020/seed/</link><pubDate>Fri, 07 Feb 2020 23:49:16 +0000</pubDate><guid>/event/2020/seed/</guid><description>&lt;p>&lt;strong>Workshop Description:&lt;/strong>&lt;br>
 This workshop is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology. The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows. In the second half, participants will work hands-on with the tools in groups, with the instructors assisting them in applying tools hands-on to address prototypical example problems and/or challenges from their own work. For the second half, participants are strongly encouraged to bring a laptop with network access.&lt;/p>
 &lt;p>This workshop will be free for attendees of SEED 2020. There will be a small fee if you wish to attend this workshop without attending SEED.&lt;/p>
 &lt;p>&lt;strong>Important Information:&lt;/strong>&lt;/p>
@@ -74,7 +89,9 @@ Dr. Ernst Oberortner, DOE Joint Genome Institute&lt;/p>
 &lt;h2 id="date-july-15-8211-19-2019">Date: July 15 – 19, 2019&lt;/h2>
 &lt;h2 id="complete-combine-agendahttpcombineorgeventscombine_2019agenda">Complete COMBINE Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2019/agenda">http://co.mbine.org/events/COMBINE_2019/agenda&lt;/a>&lt;/h2>
 &lt;h2 id="description">Description:&lt;/h2>
-&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p></description></item><item><title>IWBDA 2019</title><link>/event/2019/iwbda/</link><pubDate>Sat, 01 Jun 2019 00:20:15 +0000</pubDate><guid>/event/2019/iwbda/</guid><description>&lt;figure class="wp-block-image">&lt;img src="http://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-1024x590.png" alt="" class="wp-image-3507" srcset="https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-1024x590.png 1024w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-300x173.png 300w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-768x442.png 768w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019-624x359.png 624w, https://sbolstandard.org/wp-content/uploads/2019/06/IWBDA2019.png 1783w" sizes="(max-width: 1024px) 100vw, 1024px" />&lt;/figure>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p></description></item><item><title>IWBDA 2019</title><link>/event/2019/iwbda/</link><pubDate>Sat, 01 Jun 2019 00:20:15 +0000</pubDate><guid>/event/2019/iwbda/</guid><description>&lt;figure class="wp-block-image">
+&lt;img src="https://www.iwbdaconf.org/2019/images/IWBDA2019.png">
+&lt;/figure>
 &lt;h2 id="location-cambridge-england">Location: Cambridge, England&lt;/h2>
 &lt;h2 id="date-july-8-8211-10-2019">Date: July 8 – 10, 2019&lt;/h2>
 &lt;h2 id="link-httpwwwiwbdaconforg2019">Link: &lt;a href="http://www.iwbdaconf.org/2019/">http://www.iwbdaconf.org/2019/&lt;/a>&lt;/h2>
