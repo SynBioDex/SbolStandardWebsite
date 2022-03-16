@@ -26,7 +26,6 @@ A synthetic biology project funded by the National Science Foundation&#8217;s Ex
     <td style="border-color:#fff; width:30%;">
       &nbsp; Chris Myers
     </td>
-    
     <td style="border-color:#fff">
       &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2017/LivingComputingProject/Myers_051217.pptx"> Data Management Workflow </a>
     </td>
