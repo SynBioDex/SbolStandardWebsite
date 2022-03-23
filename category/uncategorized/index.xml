@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Uncategorized | The Synthetic Biology Open Language</title><link>/category/uncategorized/</link><atom:link href="/category/uncategorized/index.xml" rel="self" type="application/rss+xml"/><description>Uncategorized</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Jun 2019 20:55:45 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Uncategorized</title><link>/category/uncategorized/</link></image><item><title>Software for Synthetic Biology Workflows</title><link>/event/2019/software-for-synthetic-biology-workflows/</link><pubDate>Sat, 22 Jun 2019 20:55:45 +0000</pubDate><guid>/event/2019/software-for-synthetic-biology-workflows/</guid><description>&lt;p>&lt;strong>Date&lt;/strong>: Thursday, June 27, 2019, 1:45pm-3:45pm EDT&lt;br>
 &lt;strong>Venue&lt;/strong>: New York Hilton – Midtown, New York, NY&lt;br>
-&lt;strong>Location Map&lt;/strong>: &amp;lt;&lt;a href="https://www.google.com/maps/place/1335&amp;#43;6th&amp;#43;Ave,&amp;#43;New&amp;#43;York,&amp;#43;NY&amp;#43;10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235%3E" target="_blank" rel="noopener">https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235&amp;gt;&lt;/a>{.};&lt;/p>
+&lt;strong>Location Map&lt;/strong>: &lt;a href="https://www.google.com/maps/place/1335&amp;#43;6th&amp;#43;Ave,&amp;#43;New&amp;#43;York,&amp;#43;NY&amp;#43;10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235%3E" target="_blank" rel="noopener">https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235&amp;gt;&lt;/a>&lt;/p>
 &lt;p>This workshop is conducted as a part of SEED 2019. It is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology.&lt;/p>
 &lt;ul>
 &lt;li>The first half of the workshop will introduce a number of recent software tools and key underlying technologies, then show how these can be combined and incorporated into effective organism engineering workflows.&lt;/li>
@@ -34,28 +34,25 @@ Complete SB6.0 Agenda: &lt;a href="https://biobricks.org/sb6-archived/">https://
 &lt;td style="border-color:#fff; width:30%;">
 &amp;nbsp; Chris Myers
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2013/SB6/SB6_0.pdf&amp;quot;&amp;gt; Development of the Synthetic Biology Open Language &amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2013/SB6/SB6_0.pdf"> Development of the Synthetic Biology Open Language &lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:30%;">
 &amp;nbsp; Jacqueline Quinn
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/8759d242062471f7753daeb33e2b8630d1ff8a27/posters/SB%206.0%20SBOL%20Visual%20Poster%20Final.pdf&amp;quot;&amp;gt; Synthetic Biology Open Language Visual: An Open-Source Graphical Notation for Synthetic Biology&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/8759d242062471f7753daeb33e2b8630d1ff8a27/posters/SB%206.0%20SBOL%20Visual%20Poster%20Final.pdf"> Synthetic Biology Open Language Visual: An Open-Source Graphical Notation for Synthetic Biology&lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:30%;">
 &amp;nbsp; Michal Galdzicki
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; The Synthetic Biology Open Language Standard: Sharing Design Information in Synthetic Biology
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; The Synthetic Biology Open Language Standard: Sharing Design Information in Synthetic Biology
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>IWBDA 2013</title><link>/event/2013/iwbda/</link><pubDate>Mon, 23 Jul 2018 05:21:43 +0000</pubDate><guid>/event/2013/iwbda/</guid><description>&lt;h2 id="location-imperial-college-in-londonuk">Location: Imperial College in London,UK&lt;/h2>
@@ -69,19 +66,17 @@ Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2013/program/">http:
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Michal Galdzicki
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Recent Advances in the Synthetic Biology Open Language
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; Recent Advances in the Synthetic Biology Open Language
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Jacqueline Quinn
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/8759d242062471f7753daeb33e2b8630d1ff8a27/2013/IWBDA_Presentations/IWBDA%20SBOL%20Visual%20Presentation.pdf&amp;quot;&amp;gt;Synthetic Biology Open Language Visual: An Open-Source Graphical Notation for Synthetic Biology&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/8759d242062471f7753daeb33e2b8630d1ff8a27/2013/IWBDA_Presentations/IWBDA%20SBOL%20Visual%20Presentation.pdf">Synthetic Biology Open Language Visual: An Open-Source Graphical Notation for Synthetic Biology&lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr>
@@ -96,19 +91,17 @@ Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2015/program/IWBDA_2
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Nicholas Roehner
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/posters/roehner_iwbda_2014_poster.pdf&amp;quot;&amp;gt;Generating Systems Biology Markup Language Models from the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/roehner_iwbda_2014_poster.pdf">Generating Systems Biology Markup Language Models from the Synthetic Biology Open Language&lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Christian Olsen
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Synthetic Biology Open Language Designer
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; Synthetic Biology Open Language Designer
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr>
@@ -123,10 +116,9 @@ Complete SEED Agenda: &lt;a href="http://synbioconference.org/2014/seed-2014-pro
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Nicholas Roehner
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2014/SEED/roehner_seed_2014_slides.pdf&amp;quot;&amp;gt;A Proposed Data Model for the Next Version of the Synthetic Biology Open Language&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SEED/roehner_seed_2014_slides.pdf">A Proposed Data Model for the Next Version of the Synthetic Biology Open Language&lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>ICSB 2014</title><link>/event/2014/icsb/</link><pubDate>Mon, 23 Jul 2018 05:04:22 +0000</pubDate><guid>/event/2014/icsb/</guid><description>&lt;h2 id="location-ether-conference-centre-in-melbourne-australia">Location: Ether Conference Centre in Melbourne, Australia&lt;/h2>
@@ -140,10 +132,9 @@ Complete ICSB 2014 Agenda: &lt;a href="http://co.mbine.org/events/tutorial2014/f
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Chris Myers
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; The Synthetic Biology Open Language (SBOL)
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; The Synthetic Biology Open Language (SBOL)
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>SEED 2015</title><link>/event/2015/seed/</link><pubDate>Mon, 23 Jul 2018 04:58:56 +0000</pubDate><guid>/event/2015/seed/</guid><description>&lt;h2 id="location-boston-park-plaza-in-chicago-il">Location: Boston Park Plaza in Chicago, IL&lt;/h2>
@@ -157,37 +148,33 @@ Complete SEED Agenda: &lt;a href="http://synbioconference.org/2015/seed-2015-pro
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Jake Beal
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/SEED/SBOL-SEED15-talk.pptx&amp;quot;&amp;gt; Synthetic Biology Open Language (SBOL): Community-Driven Standard for Communication of Synthetic Biology Designs&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2015/SEED/SBOL-SEED15-talk.pptx"> Synthetic Biology Open Language (SBOL): Community-Driven Standard for Communication of Synthetic Biology Designs&lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Aaron Adlerl
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Sbol Visual: Standard Schematic Diagrams for Synthetic Genetic Constructs
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; Sbol Visual: Standard Schematic Diagrams for Synthetic Genetic Constructs
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Jacqueline Quinn
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Standardized Design Description Language for Synthetic Biological Constructs
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; Standardized Design Description Language for Synthetic Biological Constructs
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; Jacqueline Quinn
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Sbol Visual: Standard Schematic Diagrams for Synthetic Genetic Constructs
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; Sbol Visual: Standard Schematic Diagrams for Synthetic Genetic Constructs
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>IWBDA 2015</title><link>/event/2015/iwbda/</link><pubDate>Sun, 22 Jul 2018 05:51:25 +0000</pubDate><guid>/event/2015/iwbda/</guid><description>&lt;h2 id="location-university-of-washington-in-wa-usa">Location: University of Washington in WA, USA&lt;/h2>
@@ -202,60 +189,62 @@ Complete IWBDA Agenda: &lt;a href="http://www.iwbdaconf.org/2015/program/IWBDA_2
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp;
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/SBOL.pdf&amp;quot;&amp;gt;Introduction to SBOL&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/SBOL.pdf">Introduction to SBOL&lt;/a>
+&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Chris Myers
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; [09:00AM &amp;#8211; 09:20AM PDT]
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/roehner_iwbda_2015_slides.pdf&amp;quot;&amp;gt;The Synthetic Biology Open Language 2.0&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/roehner_iwbda_2015_slides.pdf">The Synthetic Biology Open Language 2.0&lt;/a>
+&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Bryan Bartley
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; [09:20AM &amp;#8211; 09:40AM PDT]
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/tramy-iwbda2015-presentation.pdf&amp;quot;&amp;gt; A Converter from the Systems Biology Markup Language to the Synthetic Biology Open Language &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/tramy-iwbda2015-presentation.pdf"> A Converter from the Systems Biology Markup Language to the Synthetic Biology Open Language &lt;/a>&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Tramy Nguyen
-&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;
-&amp;lt;tr&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff; width:20%;&amp;quot;&amp;gt;
-&amp;amp;nbsp; [09:40AM &amp;amp;#8211; 10:00AM PDT]
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/sbol_stack.pdf&amp;quot;&amp;gt; SBOL Stack: The One-stop-shop for Storing and Publishing Synthetic Biology Designs &amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [09:40AM &amp;#8211; 10:00AM PDT]
+&lt;/td>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2015/IWBDA_Presentations/sbol_stack.pdf"> SBOL Stack: The One-stop-shop for Storing and Publishing Synthetic Biology Designs &lt;/a>&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Curtis Madsen
-&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
-&amp;lt;p&amp;gt;
-&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;strong&amp;gt;Friday, August 21st&amp;lt;/strong&amp;gt;
-&amp;lt;/p&amp;gt;
-&amp;lt;table style=&amp;quot;width:100%;border-color:#fff;margin-bottom:0px&amp;quot;&amp;gt;
-&amp;lt;tr&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff; width:20%;&amp;quot;&amp;gt;
-&amp;amp;nbsp; [04:00PM &amp;amp;#8211; 04:20PM PDT]
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; SynBad: An SVP Design Framework&amp;lt;/p&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;p>
+&lt;strong>&lt;/strong>&lt;br /> &lt;strong>Friday, August 21st&lt;/strong>
+&lt;/p>
+&lt;table style="width:100%;border-color:#fff;margin-bottom:0px">
+&lt;tr>
+&lt;td style="border-color:#fff; width:20%;">
+&amp;nbsp; [04:00PM &amp;#8211; 04:20PM PDT]
+&lt;/td>
+&lt;td style="border-color:#fff">
+&amp;nbsp; SynBad: An SVP Design Framework&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Owen Gilfellon
-&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt; &amp;lt;/table&amp;gt;
-&amp;lt;p&amp;gt;
-&amp;lt;strong&amp;gt;&amp;lt;/strong&amp;gt;
-&amp;lt;/p&amp;gt;&lt;/code>&lt;/pre></description></item><item><title>NONA</title><link>/event/2018/nona/</link><pubDate>Sun, 22 Jul 2018 05:19:57 +0000</pubDate><guid>/event/2018/nona/</guid><description>&lt;h2 id="location-chicago-il-usa">Location: Chicago, IL, USA&lt;/h2>
+&lt;/td>&lt;/tr> &lt;/table>
+&lt;p>
+&lt;strong>&lt;/strong>
+&lt;/p>
+&lt;hr></description></item><item><title>NONA</title><link>/event/2018/nona/</link><pubDate>Sun, 22 Jul 2018 05:19:57 +0000</pubDate><guid>/event/2018/nona/</guid><description>&lt;h2 id="location-chicago-il-usa">Location: Chicago, IL, USA&lt;/h2>
 &lt;p>Date: July 17th, 2017&lt;/p>
 &lt;h2 id="description">Description:&lt;/h2>
 &lt;p>A online software used to host academic tools.&lt;/p>
@@ -297,13 +286,12 @@ A complete description of the symposium can be found &lt;a href="http://www.kobe
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; [14:50AM &amp;#8211; 12:00PM JST]
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Enabling synthetic biology workflows using biological data standards
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;td style="border-color:#fff">
+&amp;nbsp; Enabling synthetic biology workflows using biological data standards
+&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Anil Wipat
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>EMBL-EBI 2017</title><link>/event/2017/embl-ebi/</link><pubDate>Sun, 22 Jul 2018 04:34:31 +0000</pubDate><guid>/event/2017/embl-ebi/</guid><description>&lt;h2 id="location-european-bioinformatics-institute-in-cambridge-united-kingdom">Location: European Bioinformatics Institute in Cambridge, United Kingdom&lt;/h2>
@@ -318,10 +306,9 @@ A complete description of the course can be found &lt;a href="https://www.ebi.ac
 &lt;td style="border-color:#fff; width:30%;">
 &amp;nbsp; Anil Wipat
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; The Synthetic Biology Open Language (SBOL) and recent developments in tools and repositories
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; The Synthetic Biology Open Language (SBOL) and recent developments in tools and repositories
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>Living Computing Project</title><link>/event/2017/lcp/</link><pubDate>Wed, 18 Jul 2018 15:23:53 +0000</pubDate><guid>/event/2017/lcp/</guid><description>&lt;h2 id="location-boston-university-ma-us">Location: Boston University, MA, US&lt;/h2>
@@ -335,10 +322,9 @@ A complete description of the course can be found &lt;a href="https://www.ebi.ac
 &lt;td style="border-color:#fff; width:30%;">
 &amp;nbsp; Chris Myers
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/LivingComputingProject/Myers_051217.pptx&amp;quot;&amp;gt; Data Management Workflow &amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2017/LivingComputingProject/Myers_051217.pptx"> Data Management Workflow &lt;/a>
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>SB7.0</title><link>/event/2017/sb7/</link><pubDate>Wed, 18 Jul 2018 15:20:21 +0000</pubDate><guid>/event/2017/sb7/</guid><description>&lt;h2 id="location-national-university-of-singapore-singapore">Location: National University of Singapore, Singapore&lt;/h2>
@@ -353,13 +339,12 @@ Complete SB7.0 Agenda: &lt;a href="http://sb7.info/session/foundational-engineer
 &lt;td style="border-color:#fff; width:30%;">
 &amp;nbsp; [08:30AM &amp;#8211; 10:00AM SGT]
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; Foundational Engineering
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;td style="border-color:#fff">
+&amp;nbsp; Foundational Engineering
+&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Anil Wipat
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>SEED 2017</title><link>/event/2017/seed/</link><pubDate>Wed, 18 Jul 2018 15:14:58 +0000</pubDate><guid>/event/2017/seed/</guid><description>&lt;h2 id="location-hyatt-regency-vancouver-in-british-columbia-canada">Location: Hyatt Regency Vancouver in British Columbia, Canada&lt;/h2>
@@ -374,13 +359,12 @@ Complete SEED Agenda: &lt;a href="http://synbioconference.org/2017/seed-2017-pro
 &lt;td style="border-color:#fff; width:20%;">
 &amp;nbsp; [11:30AM &amp;#8211; 12:00PM PDT]
 &lt;/td>
-&lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;https://github.com/SynBioDex/Community-Media/blob/master/2017/SEED%202017/SEED2017.pdf&amp;quot;&amp;gt;A Synthetic Biology Workflow Using Sbol&amp;lt;/a&amp;gt;
-&amp;lt;/td&amp;gt;
-&amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
+&lt;td style="border-color:#fff">
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2017/SEED%202017/SEED2017.pdf">A Synthetic Biology Workflow Using Sbol&lt;/a>
+&lt;/td>
+&lt;td style="border-color:#fff;text-align: right;">
 Chris Myers
-&amp;lt;/td&amp;gt;
-&lt;/code>&lt;/pre>
+&lt;/td>
 &lt;/tr>
 &lt;/table>
 &lt;hr></description></item><item><title>SBOL 8</title><link>/event/2018/sbol-workshop/2018-06-29-sbol-8/</link><pubDate>Fri, 29 Jun 2018 20:56:35 +0000</pubDate><guid>/event/2018/sbol-workshop/2018-06-29-sbol-8/</guid><description>&lt;p>The 8th SBOL workshop took place in Boston University in Boston, MA, USA&lt;br>
