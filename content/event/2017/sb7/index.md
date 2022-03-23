@@ -27,11 +27,9 @@ An international synthetic biology conference.
     <td style="border-color:#fff; width:30%;">
       &nbsp; [08:30AM &#8211; 10:00AM SGT]
     </td>
-    
     <td style="border-color:#fff">
       &nbsp; Foundational Engineering
     </td>
-    
     <td style="border-color:#fff;text-align: right;">
       Anil Wipat
     </td>

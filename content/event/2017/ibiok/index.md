@@ -27,11 +27,9 @@ A complete description of the symposium can be found [here](http://www.kobe-u.ac
     <td style="border-color:#fff; width:20%;">
       &nbsp; [14:50AM &#8211; 12:00PM JST]
     </td>
-    
     <td style="border-color:#fff">
       &nbsp; Enabling synthetic biology workflows using biological data standards
     </td>
-    
     <td style="border-color:#fff;text-align: right;">
       Anil Wipat
     </td>

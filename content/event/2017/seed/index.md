@@ -27,11 +27,9 @@ A synthetic biology conference that brings together synthetic biologist from ind
     <td style="border-color:#fff; width:20%;">
       &nbsp; [11:30AM &#8211; 12:00PM PDT]
     </td>
-    
     <td style="border-color:#fff">
       &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2017/SEED%202017/SEED2017.pdf">A Synthetic Biology Workflow Using Sbol</a>
     </td>
-    
     <td style="border-color:#fff;text-align: right;">
       Chris Myers
     </td>

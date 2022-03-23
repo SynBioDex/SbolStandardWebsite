@@ -27,7 +27,6 @@ A complete description of the course can be found [here](https://www.ebi.ac.uk/a
     <td style="border-color:#fff; width:30%;">
       &nbsp; Anil Wipat
     </td>
-    
     <td style="border-color:#fff">
       &nbsp; The Synthetic Biology Open Language (SBOL) and recent developments in tools and repositories
     </td>

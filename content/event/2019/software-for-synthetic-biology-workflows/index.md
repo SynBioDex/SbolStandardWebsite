@@ -11,7 +11,7 @@ categories:
 ---
 **Date**: Thursday, June 27, 2019, 1:45pm-3:45pm EDT  
 **Venue**: New York Hilton &#8211; Midtown, New York, NY  
-**Location Map**: <[https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235>](https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235%3E){.};  
+**Location Map**: [https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235>](https://www.google.com/maps/place/1335+6th+Ave,+New+York,+NY+10019/@40.7625654,-73.9819122,17z/data=!3m1!4b1!4m5!3m4!1s0x89c258f9ad303595:0x3270a54be206ffce!8m2!3d40.7625654!4d-73.9797235%3E)
 
 
 This workshop is conducted as a part of SEED 2019. It is a tutorial session intended to introduce participants to recent software tools and how they can be used to address common challenges in synthetic biology. 

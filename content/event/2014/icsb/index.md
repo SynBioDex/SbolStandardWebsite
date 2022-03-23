@@ -25,7 +25,6 @@ A conference that invites speakers from industry and academia to present their w
     <td style="border-color:#fff; width:20%;">
       &nbsp; Chris Myers
     </td>
-    
     <td style="border-color:#fff">
       &nbsp; The Synthetic Biology Open Language (SBOL)
     </td>
