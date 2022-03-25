@@ -42,7 +42,21 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>HARMONY 2022</title><link>/event/2022/harmony/</link><pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate><guid>/event/2022/harmony/</guid><description>&lt;p>&lt;strong>Location&lt;/strong>: Washington, DC - Hybrid&lt;br>
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>COMBINE 2021</title><link>/event/2021/combine/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>/event/2021/combine/</guid><description>&lt;hr>
+&lt;p>&lt;strong>Location&lt;/strong>: Online (virtual) meeting&lt;br>
+&lt;strong>Date&lt;/strong>: 11-15 October 2021&lt;br>
+&lt;strong>Conference Link&lt;/strong>: &lt;a href="http://co.mbine.org/events/COMBINE_2021">http://co.mbine.org/events/COMBINE_2021&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
+&lt;hr></description></item><item><title>HARMONY 2021</title><link>/event/2021/harmony/</link><pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate><guid>/event/2021/harmony/</guid><description>&lt;p>&lt;strong>Location&lt;/strong>: Online (virtual) meeting&lt;br>
+&lt;strong>Date&lt;/strong>: 22 - 26 March 2021&lt;br>
+&lt;strong>Conference Link&lt;/strong>: &lt;a href="http://co.mbine.org/events/HARMONY_2021">http://co.mbine.org/events/HARMONY_2021&lt;/a>&lt;/p>
+&lt;h2 id="description">Description:&lt;/h2>
+&lt;p>HARMONY is a hackathon meeting that members of the SBOL community
+attend annually to discuss the development of the SBOL data model and
+SBOL visual. This meeting welcomes everyone in the community to join
+in on the development of the COMBINE standards.&lt;/p>
+&lt;hr></description></item><item><title>HARMONY 2022</title><link>/event/2022/harmony/</link><pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate><guid>/event/2022/harmony/</guid><description>&lt;p>&lt;strong>Location&lt;/strong>: Washington, DC - Hybrid&lt;br>
 &lt;strong>Date&lt;/strong>: April 26 – 30, 2022&lt;br>
 &lt;strong>Conference Registration&lt;/strong>: &lt;a href="https://combine-org.github.io/events/">https://combine-org.github.io/events/&lt;/a>&lt;br>
 &lt;strong>Permanent Conference Link&lt;/strong>: &lt;a href="https://combine-org.github.io/author/harmony-2022">https://combine-org.github.io/author/harmony-2022&lt;/a>&lt;/p>
