@@ -695,8 +695,7 @@ The full agenda of the workshop can be found &lt;a href="https://docs.google.com
 &lt;ul>
 &lt;li>Aaron Adler and Fusun Yaman: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/BBN_Tools.pdf" target="_blank" rel="noopener">Synthetic Biology Tools from BBN&lt;/a>&lt;/li>
 &lt;li>Michal Galdzicki and Bryan Bartley: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/HostContextPresentation.pptx" target="_blank" rel="noopener">Host Context&lt;/a>&lt;/li>
-&lt;li>Matthew Pocock: [Minimal Information](&lt;a href="https://github.com/SynBioDex/Community-">https://github.com/SynBioDex/Community-&lt;/a>
-Media/blob/master/2012/SBOL8/Minimal%20Information.pptx)&lt;/li>
+&lt;li>Matthew Pocock: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/Minimal%20Information.pptx" target="_blank" rel="noopener">Minimal Information&lt;/a>&lt;/li>
 &lt;li>Nicholas Roehner: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/roehner_myers_SBMLtoSBOL_boston2012.pdf" target="_blank" rel="noopener">A Methodology to Annotate Systems Biology Markup Language (SBML) Models with the Synthetic Biology Open Language (SBOL)&lt;/a>&lt;/li>
 &lt;li>Mandy Wilson: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Extensions.pptx" target="_blank" rel="noopener">SBOL Extensions&lt;/a>&lt;/li>
 &lt;li>Michal Galdzicki: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2012/SBOL8/SBOL%20Values.pptx" target="_blank" rel="noopener">I’m going to talk about SBOL Values&lt;/a>&lt;/li>
@@ -1438,7 +1437,7 @@ Chris Myers
 &amp;nbsp; [09:00AM &amp;#8211; 12:00PM EDT]
 &lt;/td>
 &lt;td style="border-color:#fff">
-&amp;nbsp; &lt;a href="Introduction to libSBOL and pySBOL">Introduction to libSBOL and pySBOL&lt;/a>
+&amp;nbsp; &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/2017/Second%20Annual%20SBOL%20Workshop/SBOL%20Workshop%202017.pptx">Introduction to libSBOL and pySBOL&lt;/a>
 &lt;/td>
 &lt;td style="border-color:#fff;text-align: right;">
 Bryan Bartley
@@ -1700,18 +1699,7 @@ Jacob Beal
 &lt;/code>&lt;/pre>
 &lt;/tr>
 &lt;/table>
-&lt;hr></description></item><item><title>COMBINE 2016</title><link>/event/2016/combine/</link><pubDate>Mon, 19 Sep 2016 08:30:00 +0100</pubDate><guid>/event/2016/combine/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
-&lt;/div>
-&lt;/div>
-&lt;p>Slides can be added in a few ways:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Create&lt;/strong> slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
+&lt;hr></description></item><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
 &lt;p>Date: October 12-16, 2015&lt;br>
 Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2015">http://co.mbine.org/events/COMBINE_2015&lt;/a>&lt;/p>
 &lt;h2 id="description">Description:&lt;/h2>
