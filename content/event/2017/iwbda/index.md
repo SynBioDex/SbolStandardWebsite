@@ -113,7 +113,7 @@ There will be a one-day workshop to introduce software developers to SBOL on Aug
       &nbsp; [09:00AM &#8211; 12:00PM EDT]
     </td>
     <td style="border-color:#fff">
-      &nbsp; <a href="Introduction to libSBOL and pySBOL">Introduction to libSBOL and pySBOL</a>
+      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2017/Second%20Annual%20SBOL%20Workshop/SBOL%20Workshop%202017.pptx">Introduction to libSBOL and pySBOL</a>
     </td>
     <td style="border-color:#fff;text-align: right;">
       Bryan Bartley
