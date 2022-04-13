@@ -16,7 +16,6 @@ Date: May 2nd, 2017
 ## Description:
 
 A EMBL-EBI event that teaches attendees the skills and knowledge in bioinformatic.  
-A complete description of the course can be found [here](https://www.ebi.ac.uk/about/events/seminars/2017/synthetic-biology-open-language-sbol-and-recent-developments-tools-and-repositories).
 
 ## SBOL Talk:
 
