@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: http://tellurium.analogmachine.org/
+  url: https://github.com/sys-bio/tellurium
 - icon: youtube
   icon_pack: fab
   name: Demo

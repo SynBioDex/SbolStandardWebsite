@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: http://eugenecad.org/
+  url: https://www.cidarlab.org/eugene
 - icon: github
   icon_pack: fab
   name: Eugene v1.9.1 Source Code
