@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: http://gene-genie.org/
+  url: https://bio.tools/genegenie
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
