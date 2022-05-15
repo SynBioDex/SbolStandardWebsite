@@ -21,6 +21,9 @@ SBOL is being developed by a collegial volunteer organization, which runs primar
 * Leaders of the SBOL community are expected to actively foster a safe environment where all participants feel comfortable making their voices heard.
 * Leadership from new and diverse voices should be actively developed, including by participation in working groups and by public speaking at workshops.
 
+## Code of Conduct
+The SBOL community is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), or technology choices. We do not tolerate harassment of participants in our meetings, email lists, and other communication mechanisms in any form. Sexual language and imagery is not appropriate for any of these venues, including talks, workshops, parties, email lists, Twitter and other online media. Participants in our meetings and discussions violating these rules may be sanctioned or expelled from our mailing lists and our meetings without a refund at the discretion of the SBOL editors.
+
 ## SBOL Organization
 The SBOL community has the following organization:
 
