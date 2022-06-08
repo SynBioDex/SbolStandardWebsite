@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visualization | The Synthetic Biology Open Language</title><link>/tag/visualization/</link><atom:link href="/tag/visualization/index.xml" rel="self" type="application/rss+xml"/><description>Visualization</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Visualization</title><link>/tag/visualization/</link></image><item><title>Device Editor</title><link>/applications/device-editor/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/device-editor/</guid><description>&lt;table>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Visualization | The Synthetic Biology Open Language</title><link>/tag/visualization/</link><atom:link href="/tag/visualization/index.xml" rel="self" type="application/rss+xml"/><description>Visualization</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Visualization</title><link>/tag/visualization/</link></image><item><title>SBOLCanvas</title><link>/applications/sbolcanvas/</link><pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate><guid>/applications/sbolcanvas/</guid><description>&lt;p>&lt;a href="https://sbolcanvas.org/canvas/" target="_blank" rel="noopener">SBOLCanvas&lt;/a> is a web application for
+creation and editing of genetic constructs using the SBOL data and
+visual standard. SBOLCanvas allows a user to create a genetic design
+from start to finish, with the option to incorporate existing SBOL
+data from a SynBioHub repository. SBOLCanvas is created as part of
+&lt;a href="http://web.synbioks.org" target="_blank" rel="noopener">SynBioKS&lt;/a>.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contact Person&lt;/td>
+&lt;td>&lt;a href="https://sbolcanvas.org/canvas/about" target="_blank" rel="noopener">Jared Earl, Logan Terry, Samuel Thayer&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Organization(s)&lt;/td>
+&lt;td>&lt;a href="http://web.synbioks.org" target="_blank" rel="noopener">Synthetic Biology Knowledge System&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Programming Language&lt;/td>
+&lt;td>HTML/Java/TypeScript&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>OS/Platform&lt;/td>
+&lt;td>Web&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Availability&lt;/td>
+&lt;td>Open-Source&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>License&lt;/td>
+&lt;td>Apache 2.0&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Device Editor</title><link>/applications/device-editor/</link><pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate><guid>/applications/device-editor/</guid><description>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>&lt;/th>
