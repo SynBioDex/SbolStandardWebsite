@@ -64,5 +64,8 @@ program and [Raytheon BBN Technologies](https://www.bbn.com).  pySBOL3
 is made freely available under the [MIT
 License](https://opensource.org/licenses/MIT).
 
+**Cite:** Tom Mitchell, Jacob Beal, and Bryan Bartley.
+  [pySBOL3: SBOL3 for Python Programmers](https://doi.org/10.1021/acssynbio.2c00249).
+  ACS Synthetic Biology, available online June 29, 2022. PMID: 35767721.
 
 # Older Versions
