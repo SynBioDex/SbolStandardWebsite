@@ -2,17 +2,12 @@
 title: SBOL Data Model Version 3.0.1
 date: '2021-10-27'
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 3
+# Variables in the data specification template
+version: 3.0.1
+specification: /docs/SBOL3.0.1.pdf
+# No citation for 3.0.1
+# citation: 
 
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
 
 # Provide an alias for identifiers.org (See GitHub #195)
 aliases:
@@ -32,7 +27,6 @@ links:
   icon_pack: fas
   name: Identifier
   url: http://identifiers.org/combine.specifications/sbol.version-3.0.1
-
 ---
 
 Version 3.0.1 is an extension of version 3.0.0 data model to allow

@@ -16,8 +16,13 @@ header:
 
 [Report an Issue with the Current SBOL Specification](https://github.com/SynBioDex/SBOL-specification/issues)
 
-___
+<!--
 
+Everything below here is commented out via the HTML comment
+above. Leave this here until all of this data is migrated to
+individual pages. Then this content can be deleted.
+
+___
 
 | **3.x.x Release**  | [Library Implementation]({{< relref "libraries" >}})  |   |
 |---|---|---|
@@ -37,3 +42,4 @@ ___
 |---|---|---|
 | **1.1.0** <br> Version 1.1.0 of the SBOL core data model is limited to the description of discrete segments of DNA, called DNA components. To remove ambiguity when specifying the design of synthetic DNA, the information about DNA components is structured. DNA components described using the SBOL core data model may have an associated DNA sequence, or may be left as abstract descriptions. This flexibility allows for the description of DNA component designs which have not yet been realized, as well as those which are specific implementations of that design. | {{% staticref "docs/BBFRFC87.pdf" "newtab" %}}Specification{{% /staticref %}} | [Cite](https://www.nature.com/articles/nbt.2891) |
 | **1.0.0** <br> Define the vocabulary that contain a set of preferred terms and the core data model composed of a common computational representation, to enable the electronic exchange of information describing DNA components used in synthetic biology. | {{% staticref "docs/SBOLv1.0.0.pdf" "newtab" %}}Specification{{% /staticref %}} | [Cite](https://www.nature.com/articles/nbt.2891) |
+-->

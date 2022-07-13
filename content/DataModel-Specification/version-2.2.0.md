@@ -2,6 +2,11 @@
 title: SBOL Data Model Version 2.2.0
 date: '2018-04-02'
 
+# Variables in the data specification template
+version: 2.2.0
+specification: /docs/BBF-RFC114-SBOL2.2.0.pdf
+citation: https://www.degruyter.com/view/journals/jib/15/1/article-20180001.xml
+
 # View.
 #   1 = List
 #   2 = Compact
