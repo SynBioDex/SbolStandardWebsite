@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOL Data Model Specification | The Synthetic Biology Open Language</title><link>/datamodel-specification/</link><atom:link href="/datamodel-specification/index.xml" rel="self" type="application/rss+xml"/><description>SBOL Data Model Specification</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>/images/logo.svg</url><title>SBOL Data Model Specification</title><link>/datamodel-specification/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOL Data Model Specification | The Synthetic Biology Open Language</title><link>/datamodel-specification/</link><atom:link href="/datamodel-specification/index.xml" rel="self" type="application/rss+xml"/><description>SBOL Data Model Specification</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Oct 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>SBOL Data Model Specification</title><link>/datamodel-specification/</link></image><item><title>SBOL Data Model Version 3.0.1</title><link>/datamodel-specification/version-3.0.1/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-3.0.1/</guid><description>&lt;p>Version 3.0.1 is an extension of version 3.0.0 data model to allow
+flexibility and extendibility of the following: move declaration of
+SBOL namespace from serialization to identifiers, change all
+identifiers.org URLs to short form, add serialization recommendation,
+use best practices in URI examples, change of logos, added compact
+validation rules, add extension of SBOL classes to extension options,
+improve complementary standards section, explain closure assumptions
+and document composition implications, use RDF cardinality
+terminology, add combinatorial derivation &amp;amp; validation rules amongst
+other fixes and updates.&lt;/p>
+&lt;p>Version 3.0.1 of SBOL was published on October 27, 2021&lt;/p></description></item><item><title>SBOL Data Model Version 3.0.0</title><link>/datamodel-specification/version-3.0.0/</link><pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-3.0.0/</guid><description>&lt;p>Condenses and simplifies previous versions of SBOL, separates sequence features from part/sub-part relationships, renames ComponentDefinition/Component to Component/SubComponent, merges Component and Module classes, ensuring consistency between data model and ontology terms, extends the means to define and reference SubComponents, refines requirements on object URIs, enables graph-based serialization, moves Systems Biology Ontology (SBO) for Component types, makes all sequence associations explicit, makes interfaces explicit, generalizes SequenceConstraints into a general structural Constraint class, and expands the set of allowed constraints.&lt;/p></description></item><item><title>SBOL Data Model Version 2.3.0</title><link>/datamodel-specification/version-2.3.0/</link><pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-2.3.0/</guid><description>&lt;p>Includes means of succinctly representing sequence modifications, an
+extension to support organization and attachment of experimental data,
+and an extension for describing numerical parameters of design
+elements. The new version also includes specifying types of synthetic
+biology activities, unambiguous locations for sequences with multiple
+encodings, and refinement of a number of validation rules.&lt;/p></description></item><item><title>SBOL Data Model Version 2.2.1</title><link>/datamodel-specification/version-2.2.1/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-2.2.1/</guid><description>&lt;p>Clarification on ontology terms on roles for proteins and small
+molecules, refining a number of validation rules, and illustrating a
+design for combinatorial derivations using Prov-O.&lt;/p></description></item><item><title>SBOL Data Model Version 2.2.0</title><link>/datamodel-specification/version-2.2.0/</link><pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-2.2.0/</guid><description>&lt;p>Version 2.2.0 introduces new classes for representing combinatorial
+genetic designs, physical implementations of genetic designs, and
+attachments to external files. It also adds best practices for using
+existing classes to encode provenance for the Design-Build-Test-Learn
+cycle.&lt;/p>
+&lt;p>Version 2.2.0 of SBOL was published on April 2, 2018.&lt;/p></description></item><item><title>SBOL Data Model Version 2.1.0</title><link>/datamodel-specification/version-2.1.0/</link><pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-2.1.0/</guid><description>&lt;p>A backwards-compatible release extending the data model and updating ontology terms and best practices.&lt;/p></description></item><item><title>SBOL Data Model Version 2.1.0</title><link>/datamodel-specification/version-2.0.1/</link><pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-2.0.1/</guid><description>&lt;p>An updated version of SBOL 2.0 data model to refine validation rules.&lt;/p></description></item><item><title>SBOL Data Model Version 2.0.0</title><link>/datamodel-specification/version-2.0.0/</link><pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-2.0.0/</guid><description>&lt;p>An extension of version 1.1 data model to allow flexibility and
+extendibility of the following: Represent non-DNA structural
+components of a biological design; Describe the behavioral aspects of
+a biological design; Associate structure and function to a design;
+Support rich annotation of biological designs.&lt;/p></description></item><item><title>SBOL Data Model Version 1.1.0</title><link>/datamodel-specification/version-1.1.0/</link><pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-1.1.0/</guid><description>&lt;p>Version 1.1.0 of the SBOL core data model is limited to the
+description of discrete segments of DNA, called DNA components. To
+remove ambiguity when specifying the design of synthetic DNA, the
+information about DNA components is structured. DNA components
+described using the SBOL core data model may have an associated DNA
+sequence, or may be left as abstract descriptions. This flexibility
+allows for the description of DNA component designs which have not yet
+been realized, as well as those which are specific implementations of
+that design.&lt;/p></description></item><item><title>SBOL Data Model Version 1.0.0</title><link>/datamodel-specification/version-1.0.0/</link><pubDate>Fri, 30 Sep 2011 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-1.0.0/</guid><description>&lt;p>Define the vocabulary that contain a set of preferred terms and the
+core data model composed of a common computational representation, to
+enable the electronic exchange of information describing DNA
+components used in synthetic biology.&lt;/p></description></item></channel></rss>
