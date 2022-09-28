@@ -1,0 +1,40 @@
+{{ define "main" }}
+
+  {{ partial "page_header.html" . }}
+
+  <div class="universal-wrapper">
+
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+
+    <table>
+      <thead>
+	<tr>
+	  <th><strong>Version</strong></th>
+	  <th><strong>Summary</strong></th>
+	  <th><strong>Specification</strong></th>
+	  <th><strong>Citation</strong></th>
+	</tr>
+      </thead>
+      <tbody>
+	<!-- Sort the pages (i.e. the spec versions) in reverse order by date -->
+	{{ range .Pages.ByDate.Reverse }}
+        <tr>
+	  <td>
+            <a href="{{.Permalink}}">{{.Params.Version}}</a>
+	  </td>
+	  <td> {{.Content}} </td>
+	  <td> <a href="{{.Params.Specification}}">Specification</a> </td>
+	  <!-- citation is optional. If it does not exist, emit an empty table cell. -->
+	  {{ if isset .Params "citation"}}
+	    <td><a href="{{.Params.Citation}}">Cite</a></td>
+	  {{ else }}
+	    <td/>
+	  {{ end }}
+        </tr>
+	{{ end }}
+      </tbody>
+    </table>
+  </div>
+
+{{ end }}
