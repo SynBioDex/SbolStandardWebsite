@@ -1,1 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOL Visual Specification | The Synthetic Biology Open Language</title><link>/visual-specification/</link><atom:link href="/visual-specification/index.xml" rel="self" type="application/rss+xml"/><description>SBOL Visual Specification</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><image><url>/images/logo.svg</url><title>SBOL Visual Specification</title><link>/visual-specification/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SBOL Visual Specification | The Synthetic Biology Open Language</title><link>/visual-specification/</link><atom:link href="/visual-specification/index.xml" rel="self" type="application/rss+xml"/><description>SBOL Visual Specification</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Apr 2021 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>SBOL Visual Specification</title><link>/visual-specification/</link></image><item><title>SBOL Visual Version 3.0.0</title><link>/visual-specification/version-3.0.0/</link><pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate><guid>/visual-specification/version-3.0.0/</guid><description>&lt;p>The major difference between SBOL Visual 3 and SBOL Visual 2 is that
+diagrams and glyphs are defined with respect to the SBOL 3 data model
+rather than the SBOL 2 data model.&lt;/p>
+&lt;p>A byproduct of this change is that the use of dashed undirected lines
+for subsystem mappings has been removed. Until a decision is made
+about how to represent constraints, the specification is mute on both
+constraints and dashed undirected lines, which means that it is
+acceptable to use them, if desired, as an annotation indicating
+identity.&lt;/p>
+&lt;p>In addition, collection of glyphs has been modified as follows:&lt;/p>
+&lt;ul>
+&lt;li>The deprecated Insulator glyph and “shmoo” Macromolecule alternative
+glyph have been removed.&lt;/li>
+&lt;li>Deprecated BioPAX alternatives to SBO terms for molecular species
+glyphs have been removed.&lt;/li>
+&lt;/ul>
+&lt;p>The changes for this release were approved as SEP V024.&lt;/p></description></item><item><title>SBOL Visual Version 2.3.0</title><link>/visual-specification/version-2.3.0/</link><pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate><guid>/visual-specification/version-2.3.0/</guid><description>&lt;p>SBOL Visual 2.3 provides a simple and flexible language for diagrams
+of genetic systems and design, including both structure (e.g., nucleic
+acid sequence features) and function (e.g., regulatory interactions
+and reactions).&lt;/p>
+&lt;p>SBOL Visual 2.3 enhances the prior SBOL Visual 2.2 standard as follows:&lt;/p>
+&lt;ul>
+&lt;li>Adds higher-level &amp;ldquo;interactions with interactions&amp;rdquo;, such as an
+inducer molecule stimulating a repression interaction&lt;/li>
+&lt;li>Binding with a nucleic acid backbone can be shown by overlapping
+glyphs, as with other molecular complexes&lt;/li>
+&lt;li>Recommends using polypeptide region glyph to show 2A sequences&lt;/li>
+&lt;li>Adds new &amp;ldquo;unspecified interaction&amp;rdquo; glyph for visualizing
+interactions whose nature is unknown&lt;/li>
+&lt;li>Deprecates &amp;ldquo;insulator&amp;rdquo; glyph in favor of new &amp;ldquo;inert DNA spacer&amp;rdquo; glyph&lt;/li>
+&lt;/ul></description></item><item><title>SBOL Visual Version 2.2.0</title><link>/visual-specification/version-2.2.0/</link><pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate><guid>/visual-specification/version-2.2.0/</guid><description>&lt;p>SBOL Visual 2.2 provides a simple and flexible language for diagrams
+of genetic systems and design, including both structure (e.g., nucleic
+acid sequence features) and function (e.g., regulatory interactions
+and reactions).&lt;/p>
+&lt;p>SBOL Visual 2.2 enhances the prior SBOL Visual 2.1 standard as
+follows:&lt;/p>
+&lt;ul>
+&lt;li>Grounding for molecular species glyphs is changed from BioPAX to SBO
+(BioPAX terms are retained as deprecated alternatives).&lt;/li>
+&lt;li>New glyphs are added for introns and polypeptide regions (e.g., protein domains).&lt;/li>
+&lt;li>The macromolecule glyph often confused with yeast is deprecated, and a new glyph for proteins added&lt;/li>
+&lt;li>Small polygons are recommended as alternative glyphs for simple chemicals.&lt;/li>
+&lt;/ul></description></item><item><title>SBOL Visual Version 2.1.0</title><link>/visual-specification/version-2.1.0/</link><pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate><guid>/visual-specification/version-2.1.0/</guid><description>&lt;p>SBOL Visual 2.1 provides a simple and flexible language for diagrams
+of genetic systems and design, including both structure (e.g., nucleic
+acid sequence features) and function (e.g., regulatory interactions
+and reactions). SBOL Visual 2.1 enhances the prior SBOL Visual 2.0
+standard with the addition of methods for showing modular structure
+and mappings between elements of a system, and new glyphs for
+indicating genomic context (e.g., integration into a plasmid or
+genome) and for stop codons. Additionally, interactions arrows were
+modified such that they can split or join, with the glyph at the split
+or join indicating either superposition or a chemical process.&lt;/p></description></item><item><title>SBOL Visual Version 2.0.0</title><link>/visual-specification/version-2.0.0/</link><pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate><guid>/visual-specification/version-2.0.0/</guid><description>&lt;p>A diagram language and collection of symbols that can be used to
+graphically depict a genetic design and its functional
+interactions. SBOL Visual 2.0 builds on the prior SBOL Visual 1.0
+standard by expanding diagram syntax to include functional
+interactions and molecular species, making the relationship between
+diagrams and the SBOL data model explicit, supporting families of
+symbol variants, clarifying a number of requirements and best
+practices, and significantly expanding the collection of diagram
+glyphs.&lt;/p></description></item><item><title>SBOL Visual Version 1.0.0</title><link>/visual-specification/version-1.0.0/</link><pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate><guid>/visual-specification/version-1.0.0/</guid><description>&lt;p>A set of symbols that can be used to graphically depict functional
+information encoded by nucleic acid sequences. Each symbol in the set
+has three components: a shape, a display name, and a definition.&lt;/p></description></item></channel></rss>
