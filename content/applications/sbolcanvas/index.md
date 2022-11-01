@@ -33,7 +33,7 @@ url_video: ""
 slides: ""
 ---
 
-[SBOLCanvas](https://sbolcanvas.org/canvas/) is a web application for
+[SBOLCanvas](https://sbolcanvas.org/) is a web application for
 creation and editing of genetic constructs using the SBOL data and
 visual standard. SBOLCanvas allows a user to create a genetic design
 from start to finish, with the option to incorporate existing SBOL
