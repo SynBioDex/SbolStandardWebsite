@@ -15,7 +15,7 @@ links:
 - icon: edge
   icon_pack: fab
   name: Link
-  url: https://sbolcanvas.org/canvas/
+  url: https://sbolcanvas.org/
 - icon: github
   icon_pack: fab
   name: Source Code
