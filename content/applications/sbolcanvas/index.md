@@ -43,7 +43,7 @@ data from a SynBioHub repository. SBOLCanvas is created as part of
 
 | | |
 | ---| ---|
-| Contact Person | [Jared Earl, Logan Terry, Samuel Thayer](https://sbolcanvas.org/canvas/about) |
+| Contact Person | [Jared Earl, Logan Terry, Samuel Thayer](https://sbolcanvas.org/about) |
 | Organization(s) | [Synthetic Biology Knowledge System](http://web.synbioks.org) |
 | Programming Language | HTML/Java/TypeScript |
 | OS/Platform | Web |
