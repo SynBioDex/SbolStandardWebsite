@@ -1,0 +1,17 @@
+name: Check links on live website
+
+on:
+  schedule:
+    # run automatically on the first of the month
+    - cron: '5 1 1 * *'
+  workflow_dispatch:
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    
+      - name: Check links with linkcheck
+        uses: filiph/linkcheck@2.0.23
+        with:
+          arguments: https://sbolstandard.org/
