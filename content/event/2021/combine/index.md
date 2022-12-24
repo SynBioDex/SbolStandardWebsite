@@ -11,7 +11,7 @@ categories:
 ****
 **Location**: Online (virtual) meeting  
 **Date**: 11-15 October 2021  
-**Conference Link**: http://co.mbine.org/events/COMBINE_2021
+**Conference Link**: http://old_co.mbine.org/events/COMBINE_2021
 
 ## Description:
 

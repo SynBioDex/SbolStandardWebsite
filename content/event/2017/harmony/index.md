@@ -11,7 +11,7 @@ categories:
 ---
 ## Location: University of Washington in Washington, United States  
 Date: June 26-30, 2017  
-Complete HARMONY Agenda: <http://co.mbine.org/events/HARMONY_2017>  
+Complete HARMONY Agenda: <http://old_co.mbine.org/events/HARMONY_2017>  
 
 
 ## Description:

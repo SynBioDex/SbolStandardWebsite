@@ -11,7 +11,7 @@ categories:
 ---
 ## Location: Università degli Studi di Milano Bicocca in Milan, Italy  
 Date: October 9th – 13th, 2017  
-Complete COMBINE Agenda: <http://co.mbine.org/events/COMBINE_2017>  
+Complete COMBINE Agenda: <http://old_co.mbine.org/events/COMBINE_2017>  
 
 
 ## Description:

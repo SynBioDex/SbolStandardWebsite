@@ -11,7 +11,7 @@ categories:
 ---
 ## Location: Ether Conference Centre in Melbourne, Australia  
 Date: Sunday, September 14th, 2014  
-Complete ICSB 2014 Agenda: http://co.mbine.org/events/tutorial2014/fullagenda</a>  
+Complete ICSB 2014 Agenda: http://old_co.mbine.org/events/tutorial2014/fullagenda</a>  
 
 
 ## Description:

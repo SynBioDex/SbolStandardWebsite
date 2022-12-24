@@ -13,7 +13,7 @@ categories:
 
 ## Date: July 15 &#8211; 19, 2019
 
-## Complete COMBINE Agenda: <http://co.mbine.org/events/COMBINE_2019/agenda>
+## Complete COMBINE Agenda: <http://old_co.mbine.org/events/COMBINE_2019/agenda>
 
 ## Description:
 
