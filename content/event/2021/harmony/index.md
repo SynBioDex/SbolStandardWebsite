@@ -9,7 +9,7 @@ categories:
 ---
 **Location**: Online (virtual) meeting  
 **Date**: 22 - 26 March 2021  
-**Conference Link**: http://co.mbine.org/events/HARMONY_2021
+**Conference Link**: http://old_co.mbine.org/events/HARMONY_2021
 
 ## Description:
 

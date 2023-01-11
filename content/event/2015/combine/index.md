@@ -12,7 +12,7 @@ categories:
 ---
 ## Location: University of Utah in Salt Lake City, USA  
 Date: October 12-16, 2015  
-Complete HARMONY Agenda: <http://co.mbine.org/events/COMBINE_2015>  
+Complete HARMONY Agenda: <http://old_co.mbine.org/events/COMBINE_2015>  
 
 
 ## Description:
@@ -77,7 +77,7 @@ A conference where the COMBINE community come together to present their work and
     </td>
     
     <td style="border-color:#fff">
-      &nbsp; <a href="http://co.mbine.org/events/COMBINE_2015/agenda?q=system/files/combine2015-Zhang_libSBOLj2.pdf">libSBOLj 2.0: A Java Library to Support SBOL 2.0</a>
+      &nbsp; <a href="http://old_co.mbine.org/events/COMBINE_2015/agenda?q=system/files/combine2015-Zhang_libSBOLj2.pdf">libSBOLj 2.0: A Java Library to Support SBOL 2.0</a>
     </td>
     
     <td style="border-color:#fff;text-align: right;">

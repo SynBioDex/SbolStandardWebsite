@@ -8,7 +8,7 @@ guid: http://sbolstandard.org/?page_id=3050
 ---
 ## Location: University of Oxford, UK  
 Date: June 18th &#8211; 22nd, 2018  
-Complete HARMONY Agenda: <http://co.mbine.org/events/HARMONY_2018>  
+Complete HARMONY Agenda: <http://old_co.mbine.org/events/HARMONY_2018>  
 
 
 ## Description:

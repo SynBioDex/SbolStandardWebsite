@@ -10,7 +10,7 @@ categories:
   - Announcements
   - Archives
 ---
-The 12th SBOL workshop took place as part of [HARMONY 2015](http://co.mbine.org/events/HARMONY_2015 "HARMONY 2015") on April 20-24, 2015, at  at the <a class="external text" href="http://www.leucorea.de/" rel="nofollow">Leucorea Wittenberg</a>, part of the <a class="external text" href="http://www.uni-halle.de/" rel="nofollow">Martin Luther University Halle-Wittenberg</a>, Germany.
+The 12th SBOL workshop took place as part of [HARMONY 2015](http://old_co.mbine.org/events/HARMONY_2015 "HARMONY 2015") on April 20-24, 2015, at  at the <a class="external text" href="http://www.leucorea.de/" rel="nofollow">Leucorea Wittenberg</a>, part of the <a class="external text" href="http://www.uni-halle.de/" rel="nofollow">Martin Luther University Halle-Wittenberg</a>, Germany.
 
 ## SBOL Posters:
 

@@ -11,7 +11,7 @@ categories:
 ---
 ## Location: **Caltech, Pasadena, California, USA**  
 Date: March 25th &#8211; 29th, 2019  
-Complete HARMONY Agenda: <http://co.mbine.org/events/HARMONY_2019>
+Complete HARMONY Agenda: <http://old_co.mbine.org/events/HARMONY_2019>
 
 ## Description:
 
