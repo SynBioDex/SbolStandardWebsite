@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Archives | The Synthetic Biology Open Language</title><link>/category/archives/</link><atom:link href="/category/archives/index.xml" rel="self" type="application/rss+xml"/><description>Archives</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 Jul 2015 16:55:28 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>Archives</title><link>/category/archives/</link></image><item><title>COMBINE 2015</title><link>/event/2015/combine/</link><pubDate>Sat, 25 Jul 2015 16:55:28 +0000</pubDate><guid>/event/2015/combine/</guid><description>&lt;h2 id="location-university-of-utah-in-salt-lake-city-usa">Location: University of Utah in Salt Lake City, USA&lt;/h2>
 &lt;p>Date: October 12-16, 2015&lt;br>
-Complete HARMONY Agenda: &lt;a href="http://co.mbine.org/events/COMBINE_2015">http://co.mbine.org/events/COMBINE_2015&lt;/a>&lt;/p>
+Complete HARMONY Agenda: &lt;a href="http://old_co.mbine.org/events/COMBINE_2015">http://old_co.mbine.org/events/COMBINE_2015&lt;/a>&lt;/p>
 &lt;h2 id="description">Description:&lt;/h2>
 &lt;p>A conference where the COMBINE community come together to present their work and their incorporations on the COMBINE data standards.&lt;/p>
 &lt;h2 id="sbol-agenda">SBOL Agenda:&lt;/h2>
@@ -51,7 +51,7 @@ Nicholas Roehner
 &amp;nbsp; [08:45AM &amp;#8211; 09:00AM MDT]
 &lt;/td>
 &lt;pre>&lt;code>&amp;lt;td style=&amp;quot;border-color:#fff&amp;quot;&amp;gt;
-&amp;amp;nbsp; &amp;lt;a href=&amp;quot;http://co.mbine.org/events/COMBINE_2015/agenda?q=system/files/combine2015-Zhang_libSBOLj2.pdf&amp;quot;&amp;gt;libSBOLj 2.0: A Java Library to Support SBOL 2.0&amp;lt;/a&amp;gt;
+&amp;amp;nbsp; &amp;lt;a href=&amp;quot;http://old_co.mbine.org/events/COMBINE_2015/agenda?q=system/files/combine2015-Zhang_libSBOLj2.pdf&amp;quot;&amp;gt;libSBOLj 2.0: A Java Library to Support SBOL 2.0&amp;lt;/a&amp;gt;
 &amp;lt;/td&amp;gt;
 &amp;lt;td style=&amp;quot;border-color:#fff;text-align: right;&amp;quot;&amp;gt;
 Zhen Zhang
@@ -182,7 +182,7 @@ Zach Zundel
 &amp;lt;/td&amp;gt;
 &lt;/code>&lt;/pre>
 &lt;/tr>
-&lt;/table></description></item><item><title>SBOL 12 Workshop Report</title><link>/event/2015/harmony/</link><pubDate>Tue, 05 May 2015 13:09:19 +0000</pubDate><guid>/event/2015/harmony/</guid><description>&lt;p>The 12th SBOL workshop took place as part of &lt;a href="http://co.mbine.org/events/HARMONY_2015" title="HARMONY 2015" target="_blank" rel="noopener">HARMONY 2015&lt;/a> on April 20-24, 2015, at  at the &lt;a class="external text" href="http://www.leucorea.de/" rel="nofollow">Leucorea Wittenberg&lt;/a>, part of the &lt;a class="external text" href="http://www.uni-halle.de/" rel="nofollow">Martin Luther University Halle-Wittenberg&lt;/a>, Germany.&lt;/p>
+&lt;/table></description></item><item><title>SBOL 12 Workshop Report</title><link>/event/2015/harmony/</link><pubDate>Tue, 05 May 2015 13:09:19 +0000</pubDate><guid>/event/2015/harmony/</guid><description>&lt;p>The 12th SBOL workshop took place as part of &lt;a href="http://old_co.mbine.org/events/HARMONY_2015" title="HARMONY 2015" target="_blank" rel="noopener">HARMONY 2015&lt;/a> on April 20-24, 2015, at  at the &lt;a class="external text" href="http://www.leucorea.de/" rel="nofollow">Leucorea Wittenberg&lt;/a>, part of the &lt;a class="external text" href="http://www.uni-halle.de/" rel="nofollow">Martin Luther University Halle-Wittenberg&lt;/a>, Germany.&lt;/p>
 &lt;h2 id="sbol-posters">SBOL Posters:&lt;/h2>
 &lt;p>Curtis Madsen: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/sbolstack_poster.pdf" target="_blank" rel="noopener">SBOL Stack: The One-stop-shop to Storing and Publishing SBOL Data&lt;/a>&lt;br>
 Tramy Nguyen: &lt;a href="https://github.com/SynBioDex/Community-Media/blob/master/posters/softwareinfra-syntheticbiology.pdf" target="_blank" rel="noopener">Synthetic Biology Open Language (SBOL) 2.0&lt;/a>&lt;/p>
