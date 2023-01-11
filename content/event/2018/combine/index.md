@@ -11,7 +11,7 @@ categories:
 ---
 ## Location: [Center for Integrated Life Sciences and Engineering at Boston University](http://www.bu.edu/facilities/project/center-for-integrated-life-sciences-engineering){.freelinking.external} in Boston, MA USA  
 Date: October 8th – 12th, 2018  
-Complete COMBINE Agenda: <https://co.mbine.org/events/COMBINE_2018>
+Complete COMBINE Agenda: <https://old_co.mbine.org/events/COMBINE_2018>
 
 ## Description:
 
