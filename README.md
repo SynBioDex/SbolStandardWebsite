@@ -96,6 +96,16 @@ Make the desired changes, and re-build:
     docker run --rm -it -v $(pwd):/src --user $(id -u):$(id -g) klakegg/hugo:ext-alpine
 
 
+## Checking for broken links
+
+There is a Github Action which checks the deployed site for broken links.
+This is not scheduled to run automatically on the first of the month, but additional runs can be triggered manually.
+
+On the **Actions** tab, [select the "Check links on live website" action](https://github.com/SynBioDex/SbolStandardWebsite/actions/workflows/check-links.yml), then click "Run Workflow" to trigger a new run.
+
+You cna view the results of an existing run from [the list of actions](https://github.com/SynBioDex/SbolStandardWebsite/actions/workflows/check-links.yml) by clicking on the "Check links on live website" title, and then on "check links".
+
+
 ## Problem solving
 
 If you encounter problems, you may find the [Wowchemy website](https://wowchemy.com/) or [Discord channel](https://discord.com/invite/z8wNYzb) helpful.
