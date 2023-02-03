@@ -44,10 +44,9 @@ SBOL-VO is available as an RDF file. Click [here](http://synbiodex.github.io/sbo
 * [http://vows.sbolstandard.org/glyph/SO:0000031](http://vows.sbolstandard.org/glyph/SO:0000031)
 * [http://vows.sbolstandard.org/glyph/SO:0000033](http://vows.sbolstandard.org/glyph/SO:0000033)
 
-The web service returns the default PNG images. The PNG and SVG versions can be retrieved explicitly by appending “/svg” or “/png” to the query interface :
+The web service returns the default SVG images. The SVG versions can be retrieved explicitly by appending “/svg” to the query interface:
 
 * [http://vows.sbolstandard.org/glyph/SO:0000031/svg](http://vows.sbolstandard.org/glyph/SO:0000031/svg)
-* [http://vows.sbolstandard.org/glyph/SO:0000031/png](http://vows.sbolstandard.org/glyph/SO:0000031/png)
 
 **Mapping glyphs to terms from ontologies**: Tools can also use the SBOL-VO-WS to get the mapping information and then to subsequently include glyphs, using the `http://{SBOL-VO-WS}/mapping/{ONTOLOGY_TERM}"}` interface. The mapping interface works similar to the glyph interface but it returns information in the JSON format. This interface includes information about the closest parent term, for which a glyph is assigned, and the parent term’s distance to the query term. URL examples below return information about AptamerGlyph.
 
