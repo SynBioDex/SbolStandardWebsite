@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Synthetic Biology Open Language</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>The Synthetic Biology Open Language</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>The Synthetic Biology Open Language</title><link>/</link></image><item><title>IWBDA 2022</title><link>/event/2022/iwbda/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>/event/2022/iwbda/</guid><description>&lt;figure class="wp-block-image">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Synthetic Biology Open Language</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>The Synthetic Biology Open Language</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>The Synthetic Biology Open Language</title><link>/</link></image><item><title>SBOL Data Model Version 3.1.0</title><link>/datamodel-specification/version-3.1.0/</link><pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate><guid>/datamodel-specification/version-3.1.0/</guid><description>&lt;p>SBOL Version 3.1.0 improves on version 3.0.0 by including a number of
+corrections and clarifications as well as several other updates and
+enhancements. First, this version includes a complete set of
+validation rules for checking whether documents are valid SBOL
+3. Second, the best practices section has been moved to an online
+repository that allows for more rapid and interactive of sharing these
+conventions. Third, it includes updates based upon six community
+approved enhancement proposals. Two enhancement proposals are related
+to the representation of an object&amp;rsquo;s namespace. In particular, the
+Namespace class has been removed and replaced with a namespace
+property on each class. Another enhancement is the generalization of
+the CombinatorialDeriviation class to allow direct use of Features and
+Measures. Next, the Participation class now allow Interactions to be
+participants to describe higher-order interactions. Another change is
+the use of Sequence Ontology}terms for Feature orientation. Finally,
+this version of SBOL has generalized from using Unique Reference
+Identifiers (URIs) to Internationalized Resource Identifiers (IRIs) to
+support international character sets.&lt;/p>
+&lt;p>Version 3.1.0 of SBOL was published on October 26, 2022&lt;/p></description></item><item><title>IWBDA 2022</title><link>/event/2022/iwbda/</link><pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate><guid>/event/2022/iwbda/</guid><description>&lt;figure class="wp-block-image">
 &lt;img src="https://www.iwbdaconf.org/2022/images/IWBDA2022.png">
 &lt;/figure>
 &lt;h2 id="location-paris-france">Location: Paris, France&lt;/h2>
