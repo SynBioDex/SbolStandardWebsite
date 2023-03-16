@@ -5,8 +5,7 @@ date: '2022-10-26'
 # Variables in the data specification template
 version: 3.1.0
 specification: /docs/SBOL3.1.0.pdf
-# Waiting for citation for 3.1.0
-# citation: 
+citation: https://www.degruyter.com/document/doi/10.1515/jib-2022-0058/html
 
 
 # Provide an alias for identifiers.org (See GitHub #195)
@@ -18,11 +17,11 @@ links:
   icon_pack: fas
   name: Specification
   url: docs/SBOL3.1.0.pdf
-# - icon: pen-fancy
-#   # icon: keyboard
-#   icon_pack: fas
-#   name: Cite
-#   url: https://www.degruyter.com/view/journals/jib/15/1/article-20180001.xml
+- icon: pen-fancy
+  # icon: keyboard
+  icon_pack: fas
+  name: Cite
+  url: https://www.degruyter.com/document/doi/10.1515/jib-2022-0058/html
 - icon: passport
   icon_pack: fas
   name: Identifier
