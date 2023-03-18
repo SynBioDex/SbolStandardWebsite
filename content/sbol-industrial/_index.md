@@ -30,7 +30,7 @@ We will periodically post opportunities for the community to respond to in this 
 
 - **(NEW)** CFP: SBOL Industrial 2023 Summer Program. {{% staticref "docs/CFP_SBOL_Industrial_2023_Summer_Program.pdf" "newtab" %}}PDF{{% /staticref %}} {{% staticref "docs/CFP_SBOL_Industrial_2023_Summer_Program.docx" "newtab" %}}Word{{% /staticref %}}
 
-  **Proposals are Due February 15th, 2022**
+  **Proposals are Due April 7th, 2023**
 
 - CFP: SBOL Community Critical Infrastructure Support: {{% staticref "docs/CFP_SBOL_Community_Critical_Infrastructure_Support.pdf" "newtab" %}}PDF{{% /staticref %}} {{% staticref "docs/CFP_SBOL_Community_Critical_Infrastructure_Support.docx" "newtab" %}}Word{{% /staticref %}}
 
