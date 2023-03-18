@@ -28,7 +28,7 @@ For any inquiries, contact: [sbol-industrial@googlegroups.com](mailto:sbol-indus
 
 We will periodically post opportunities for the community to respond to in this space, such as internships, project sponsorship, or infrastructure support.
 
-- **(NEW)** CFP: SBOL Industrial 2022 Summer Program. {{% staticref "docs/CFP_SBOL_Industrial_2022_Summer_Program.pdf" "newtab" %}}PDF{{% /staticref %}} {{% staticref "docs/CFP_SBOL_Industrial_2022_Summer_Program.docx" "newtab" %}}Word{{% /staticref %}}
+- **(NEW)** CFP: SBOL Industrial 2023 Summer Program. {{% staticref "docs/CFP_SBOL_Industrial_2023_Summer_Program.pdf" "newtab" %}}PDF{{% /staticref %}} {{% staticref "docs/CFP_SBOL_Industrial_2023_Summer_Program.docx" "newtab" %}}Word{{% /staticref %}}
 
   **Proposals are Due February 15th, 2022**
 
