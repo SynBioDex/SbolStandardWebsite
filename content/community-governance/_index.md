@@ -81,7 +81,7 @@ SBOL Editors are elected by a community vote, following the process below. Edito
 * Carolus Vitalis, Pontificia Universidad Católica de Chile
 
 Previous SBOL Editors (including their affiliation when they were editors): 
-* Prashant Vaidyananthan, Microsoft Research
+* Prashant Vaidyananthan (Microsoft Research)
 * Pedro Fontanarrosa (University of Utah)
 * Hasan Baig (University of Connecticut)
 * Vishwesh Kulkarni (University of Warwick)
@@ -120,10 +120,11 @@ The SBOL Steering Committee mailing list is [sbol-steering@googlegroups.com](mai
 
 The SBOL current chair:
 
-**Chris Myers (May, 2019-), University of Colorado, Boulder**
+**Prashant Vaidyanathan (April, 2023-), Oxford Biomedica**
 
 Previous Chairs:
 
+* Chris Myers (2019-2023), University of Colorado, Boulder
 * Anil Wipat (2015-2019), Newcastle University
 * Herbert Sauro (2010-2015), University of Washington, Seattle
 
@@ -133,7 +134,7 @@ The SBOL Steering Committee is currently (listed alphabetically):
 * Kevin Clancy, Synthetic Genomics, Inc.
 * Thomas Gorochowski, University of Bristol
 * Goksel Misirli, Keele University
-* Chris Myers, University of Utah
+* Chris Myers, University of Colorado, Boulder
 * Timothy Rudge, Newcastle University, UK
 * Herbert Sauro, University of Washington
 * Anil Wipat, Newcastle University
