@@ -57,9 +57,9 @@ url_video: ""
 slides: ""
 ---
 
-libSBOLj provides the core Java interfaces and their implementation for the Synthetic Biology Open Language (SBOL). The current version of libSBOLj implements SBOL Core Specification 2.3.0. The library provides an API to work with SBOL objects, the functionality to read GenBank, FASTA, and SBOL version 1 and 2 documents as XML/RDF files, to write GenBank, FASTA, and SBOL version 1 and 2 documents, and to validate the correctness of SBOL 2 documents. libSBOLj is made freely available under the Apache 2.0 license.
+libSBOLj provides the core Java interfaces and their implementation for the Synthetic Biology Open Language (SBOL). This version of libSBOLj implements SBOL Core Specification 2.3.0. The library provides an API to work with SBOL objects, the functionality to read GenBank, FASTA, and SBOL version 1 and 2 documents as XML/RDF files, to write GenBank, FASTA, and SBOL version 1 and 2 documents, and to validate the correctness of SBOL 2 documents. libSBOLj is made freely available under the Apache 2.0 license.
 
-This is the current stable version of libSBOLj and implements SBOL 2. 
-The SBOL 3 prototype can be accessed here: <a href="https://goksel.github.io/libSBOLj3/" target="_blank">libSBOLj3</a>
+
+The most recent version of libSBOLj that supports SBOL 3 can be accessed here: <a href="https://synbiodex.github.io/libSBOLj3" target="_blank">libSBOLj3</a>
 
 <b>Cite: </b> Z. Zhang, T. Nguyen, N. Roehner, G. Misirli, M. Pocock, E. Oberortner, M. Samineni, Z. Zundel, J. Beal, K. Clancy, A. Wipat, C. Myers. libSBOLj 2.0: A Java Library to Support SBOL 2.0. IEEE Life Sciences Letters 1, 34-37 (2016). doi:10.1109/LLS.2016.2546546.

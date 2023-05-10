@@ -70,3 +70,4 @@ programmatically validate SBOL documents or individual entities.
 
 
 # Older Versions
+- [libSBOLj for SBOL2](sbol2)
