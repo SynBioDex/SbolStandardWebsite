@@ -20,7 +20,7 @@ SBOL data is built off of the latest specification release and is available in C
 Here's a list of links to the SBOL 3 libraries:
 <ul>
 <li><a href="https://github.com/SynBioDex/pySBOL3" target="_blank">pySBOL3 (Python)</a></li>
-<li><a href="https://goksel.github.io/libSBOLj3/" target="_blank">libSBOLj3 (Java, prototype)</a></li>
+<li><a href="https://synbiodex.github.io/libSBOLj3" target="_blank">libSBOLj3 (Java)</a></li>
 <li><a href="https://github.com/sboltools/sbolgraph" target="_blank">SBOL Graph (TypeScript, prototype)</a></li>
 </ul>
 

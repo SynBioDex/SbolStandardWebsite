@@ -1,6 +1,6 @@
 ---
-title: Java
-summary: Java interfaces and implementations for SBOL
+title: libSBOLj
+summary: Java interfaces and implementations for SBOL2
 tags:
 - Libraries
 date: "2018-01-01T00:00:02Z"
