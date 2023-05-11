@@ -3,7 +3,7 @@ title: Java
 summary: Java interfaces and implementations for SBOL
 tags:
 - Libraries
-date: "2018-01-01T00:00:02Z"
+date: "2023-05-10T00:00:02Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,39 +16,41 @@ links:
 - icon: github
   icon_pack: fab
   name: Github
-  url: https://github.com/SynBioDex/libSBOLj
-- icon: file-alt
-  icon_pack: fas
-  name: Overview
-  url: docs/libSBOLjOverview.pdf
-- icon: edge
-  icon_pack: fab
-  name: API & Documentation
-  url: http://synbiodex.github.io/libSBOLj/docs/javadocs/index.html
+  url: https://github.com/SynBioDex/libSBOLj3
+# - icon: file-alt
+#   icon_pack: fas
+#   name: Overview
+#   url: docs/libSBOLjOverview.pdf
+# - icon: edge
+#   icon_pack: fab
+#   name: API & Documentation
+#   url: http://synbiodex.github.io/libSBOLj/docs/javadocs/index.html
 - icon: tools
   icon_pack: fas
   name: Installation
-  url: docs/libsbolj_install.pdf
+  url: https://synbiodex.github.io/libSBOLj3/#how-to-use-libsbolj3
 - icon: code
   icon_pack: fas
-  name: Release (v 2.4.0)
-  url: https://github.com/SynBioDex/libSBOLj/releases
+  name: Releases
+  url: https://github.com/SynBioDex/libSBOLj3/releases
 - icon: bug
   icon_pack: fas
   name: Bug & Feature Report
-  url: https://github.com/SynBioDex/libSBOLj/issues
+  url: https://github.com/SynBioDex/libSBOLj3/issues
 - icon: book
   icon_pack: fas
-  name: CRISPR Circuit Example
-  url: docs/libsbolj_crisprTutorial_2_3.pdf
+  name: Examples
+  url: https://synbiodex.github.io/libSBOLj3/#sbol-examples
 - icon: chalkboard-teacher
   icon_pack: fas
-  name: tutorial
-  url: https://github.com/SynBioDex/Community-Media/blob/master/2018/IWBDA18/SBOLWorkshop2018_java_js.pdf
+  name: Getting Started
+  url: https://synbiodex.github.io/libSBOLj3/#getting-started
+
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -57,9 +59,15 @@ url_video: ""
 slides: ""
 ---
 
-libSBOLj provides the core Java interfaces and their implementation for the Synthetic Biology Open Language (SBOL). The current version of libSBOLj implements SBOL Core Specification 2.3.0. The library provides an API to work with SBOL objects, the functionality to read GenBank, FASTA, and SBOL version 1 and 2 documents as XML/RDF files, to write GenBank, FASTA, and SBOL version 1 and 2 documents, and to validate the correctness of SBOL 2 documents. libSBOLj is made freely available under the Apache 2.0 license.
+The [libSBOLj3](https://synbiodex.github.io/libSBOLj3) library is a
+Java library for SBOL3 and can be used in a standalone mode or as a
+Maven dependency. The current version of the library implements SBOL
+Version 3.1.0. The library provides an API to work with SBOL entities
+and read and write SBOL documents using the RDF/XML, Turtle,
+N-Triples, and JSON-LD graph formats. The library also provides a
+higher-level API to abstract commonly used methods and a validator to
+programmatically validate SBOL documents or individual entities.
 
-This is the current stable version of libSBOLj and implements SBOL 2. 
-The SBOL 3 prototype can be accessed here: <a href="https://goksel.github.io/libSBOLj3/" target="_blank">libSBOLj3</a>
 
-<b>Cite: </b> Z. Zhang, T. Nguyen, N. Roehner, G. Misirli, M. Pocock, E. Oberortner, M. Samineni, Z. Zundel, J. Beal, K. Clancy, A. Wipat, C. Myers. libSBOLj 2.0: A Java Library to Support SBOL 2.0. IEEE Life Sciences Letters 1, 34-37 (2016). doi:10.1109/LLS.2016.2546546.
+# Older Versions
+- [libSBOLj for SBOL2](sbol2)

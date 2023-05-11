@@ -67,3 +67,4 @@ License](https://opensource.org/licenses/MIT).
 **Cite:** Mitchell, Tom, Jacob Beal, and Bryan Bartley. "[pySBOL3: SBOL3 for Python Programmers.](https://doi.org/10.1021/acssynbio.2c00249)" ACS Synthetic Biology 11, no. 7 (2022): 2523-2526.
 
 # Older Versions
+- [pySBOL2 for SBOL2](pysbol2)
