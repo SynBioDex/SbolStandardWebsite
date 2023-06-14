@@ -48,6 +48,9 @@ social:
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: slack
+  icon_pack: fab
+  link: https://join.slack.com/t/sbol-standard/shared_invite/zt-1xjsvsiy8-gFM3dAAju~JpBQDswDWHYg
 - icon: github
   icon_pack: fab
   link: https://github.com/SynBioDex
