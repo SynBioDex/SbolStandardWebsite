@@ -78,7 +78,7 @@ SBOL Editors are elected by a community vote, following the process below. Edito
 * Tom Mitchell, Raytheon BBN Technologies
 * Gonzalo Vidal Peña, Newcastle University
 * Georgie Hau Sørensen, University of Bristol
-* Carolus Vitalis, Pontificia Universidad Católica de Chile
+* Carolus Vitalis, University of Colorado
 
 Previous SBOL Editors (including their affiliation when they were editors): 
 * James Scott-Brown (University of Oxford)
