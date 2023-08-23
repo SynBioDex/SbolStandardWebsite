@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Synthetic Biology Open Language</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>The Synthetic Biology Open Language</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 May 2023 00:00:02 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>The Synthetic Biology Open Language</title><link>/</link></image><item><title>Java</title><link>/libraries/java/</link><pubDate>Wed, 10 May 2023 00:00:02 +0000</pubDate><guid>/libraries/java/</guid><description>&lt;p>The &lt;a href="https://synbiodex.github.io/libSBOLj3" target="_blank" rel="noopener">libSBOLj3&lt;/a> library is a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Synthetic Biology Open Language</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>The Synthetic Biology Open Language</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><image><url>/images/logo.svg</url><title>The Synthetic Biology Open Language</title><link>/</link></image><item><title>IWBDA 2023</title><link>/event/2023/iwbda/</link><pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate><guid>/event/2023/iwbda/</guid><description>&lt;!--
+&lt;figure class="wp-block-image">
+&lt;img src="https://www.iwbdaconf.org/2022/images/IWBDA2022.png">
+&lt;/figure>
+-->
+&lt;h2 id="location-boston-massachusetts-usa">Location: Boston, Massachusetts, USA&lt;/h2>
+&lt;h2 id="date-september-11-8211-14-2023">Date: September 11 – 14, 2023&lt;/h2>
+&lt;h2 id="link-httpswwwiwbdaconforg2023">Link: &lt;a href="https://www.iwbdaconf.org/2023/">https://www.iwbdaconf.org/2023/&lt;/a>&lt;/h2>
+&lt;h2 id="sbol-data-workshop">SBOL Data Workshop&lt;/h2>
+&lt;p>Date: September 11, 2023&lt;br>
+Time: 09:10 - 10:30 EDT (13:10 - 14:30 UTC)&lt;/p>
+&lt;h2 id="sbol-visual-workshop">SBOL Visual Workshop&lt;/h2>
+&lt;p>Date: September 11, 2023&lt;br>
+Time: 11:00 - 12:30 EDT (15:00 - 16:30 UTC)&lt;/p></description></item><item><title>Java</title><link>/libraries/java/</link><pubDate>Wed, 10 May 2023 00:00:02 +0000</pubDate><guid>/libraries/java/</guid><description>&lt;p>The &lt;a href="https://synbiodex.github.io/libSBOLj3" target="_blank" rel="noopener">libSBOLj3&lt;/a> library is a
 Java library for SBOL3 and can be used in a standalone mode or as a
 Maven dependency. The current version of the library implements SBOL
 Version 3.1.0. The library provides an API to work with SBOL entities
