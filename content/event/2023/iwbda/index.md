@@ -18,14 +18,12 @@ categories:
 
 ## Link: <https://www.iwbdaconf.org/2023/>
 
-## SBOL Workshop
+## SBOL Data Workshop
 
-Date: October 11, 2023  
-Time: TBD
+Date: September 11, 2023  
+Time: 09:10 - 10:30 EDT (13:10 - 14:30 UTC)
   
-SBOL Version 3: Data Exchange throughout the Bioengineering Lifecycle
-
 ## SBOL Visual Workshop
 
-Date: October 11, 2023  
-Time: TBD
+Date: September 11, 2023  
+Time: 11:00 - 12:30 EDT (15:00 - 16:30 UTC)
