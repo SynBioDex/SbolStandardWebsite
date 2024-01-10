@@ -132,16 +132,16 @@ Previous Chairs:
 The SBOL Steering Committee is currently (listed alphabetically):
 
 * Jacob Beal, Raytheon BBN Technologies
-* Kevin Clancy, Synthetic Genomics, Inc.
 * Thomas Gorochowski, University of Bristol
 * Goksel Misirli, Keele University
 * Chris Myers, University of Colorado, Boulder
-* Timothy Rudge, Newcastle University, UK
-* Herbert Sauro, University of Washington
-* Anil Wipat, Newcastle University
 
 Past SBOL Steering Committee Members (listed alphabetically):
+* Kevin Clancy, Synthetic Genomics, Inc.
 * Ernst Oberortner, Takara Bio, USA
+* Timothy Rudge, Newcastle University, UK
+* Herbert Sauro, University of Washington
+* Anil Wipat, Newcastle University, UK
 
 The SBOL chair has also organized an international advisory panel comprising a range of experts in standards and synthetic biology. The panel will provide an external perspective for SBOL, with advice on how SBOL can grow to meet the needs of the wider community.
 
