@@ -2,10 +2,10 @@
 # A Projects section created with the Portfolio widget.
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 25  # Order that this section will appear.
 
-title = "What is SBOL?"
+title = "Getting Started"
 subtitle = ""
 
 [content]
@@ -80,6 +80,8 @@ subtitle = ""
 
 +++
 
-The SBOL data standard is a data exchange representation for synthetic biology designs. Its goal is to improve the efficiency of data exchange and reproducibility of synthetic biology research. SBOL introduces a standardized format for the electronic exchange of information on the structural and functional aspects of biological designs. The standard has been designed to support the explicit and unambiguous description of biological designs by means of a well defined data model. The standard further describes the rules and best practices on how to use this data model and populate it with relevant design details. SBOL uses existing Semantic Web practices and resources, such as Uniform Resource Identifiers (URIs) and ontologies, to unambiguously identify and define genetic design elements. The definition of the data model and associated format, the rules on the addition of data within the format and the representation of this in electronic data files are intended to make the SBOL standard a useful means of promoting global data exchange between laboratories and between software programs.
-
-You can learn more about SBOL by reading the [SBOL Data Model](/datamodel-about/) page.
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="biologist.png" alt="I'm a biologist" style="width: 30%; max-width: 400px; margin: 10px;">
+  <img src="developer_d.png" alt="I'm a developer" style="width: 30%; max-width: 400px; margin: 10px;">
+  <img src="community.png" alt="I'm a stakeholder" style="width: 30%; max-width: 400px; margin: 10px;">
+</div>

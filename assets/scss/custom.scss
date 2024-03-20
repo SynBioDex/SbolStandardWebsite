@@ -4,3 +4,13 @@ $sbol-green: #8cc63f;
 .universal-wrapper{
   text-align: justify;
 }
+
+.avatar {
+  height: 250px; // Adjust this value to the desired height
+  width: auto; // Keeps the aspect ratio intact
+}
+
+.row {
+  margin-top: -20px; /* Adjust this value to your preferred margin */
+  margin-bottom: 5px; /* Adjust this value to your preferred margin */
+}
