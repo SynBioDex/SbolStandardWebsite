@@ -75,12 +75,13 @@ The SBOL Editors mailing list is [sbol-editors@googlegroups.com](mailto:sbol-edi
 SBOL Editors are elected by a community vote, following the process below. Editors serve initially for a two-year term, and upon unanimous approval of the editors and chair, an editor's term can be extended for an additional third year. After completing their term as editor, a person may not run for editor again for at least one year. To maximize continuity, editors' terms should be de-synchronized. There are 5 editorial positions, currently held by:
 
 * Lukas Buecherl, University of Colorado
+* Felipe Buson, University of Bristol
 * Tom Mitchell, Raytheon BBN Technologies
-* Gonzalo Vidal Peña, Newcastle University
 * Georgie Hau Sørensen, University of Bristol
 * Carolus Vitalis, University of Colorado
 
 Previous SBOL Editors (including their affiliation when they were editors): 
+* Gonzalo Vidal Peña (Newcastle University)
 * James Scott-Brown (University of Oxford)
 * Prashant Vaidyananthan (Microsoft Research)
 * Pedro Fontanarrosa (University of Utah)
