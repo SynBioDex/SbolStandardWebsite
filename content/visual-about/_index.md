@@ -31,9 +31,9 @@ In order to ground SBOL Visual with precise definitions, we reference its visual
 ### Usage
 
 SBOL Visual acts as a guideline to graphically depict genetic designs and its functional interaction.
-A quick introduction can be found [here]({{< relref "visual-glyphs" >}}).  
+A quick introduction can be found [here]({{< relref "visual-glyphs" >}}).
 
-To get an idea on how these glyphs has been used in software tools, view all of the [SBOL Visual tools]({{< relref "applications" >}}) that have been reported to us.  
+To get an idea on how these glyphs has been used in software tools, view all of the [SBOL Visual tools]({{< relref "applications" >}}) that have been reported to us.
 
 Also take a look at sample papers that have been published online for SBOL visual, featuring SBOL visual, and software tools supporting SBOL visual [here]({{< relref "publication" >}}).
 

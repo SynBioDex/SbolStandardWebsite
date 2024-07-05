@@ -17,18 +17,18 @@ subtitle = ""
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-  
+
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
-  
+
   # [[content.filter_button]]
   #   name = "All"
   #   tag = "*"
-  
+
   # [[content.filter_button]]
   #   name = "Deep Learning"
   #   tag = "Deep Learning"
-  
+
   # [[content.filter_button]]
   #   name = "Other"
   #   tag = "Demo"
@@ -53,35 +53,79 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
-  # color = "navy"
-  
+   color = "white"
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
+  # text_color_light = false
+
 [advanced]
- # Custom CSS. 
+ # Custom CSS.
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 
-# Commenting this section out. This can be used if we want a shorter description. 
+# Commenting this section out. This can be used if we want a shorter description.
 # The Synthetic Biology Open Language (SBOL) has been developed as a standard to support the specification and exchange of biological design information in synthetic biology, following an open community process involving both wet bench scientists and dry scientific modelers and software developers, across academia, industry, and other institutions.
 
 +++
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: absolute;
+            bottom: 0;
+            margin-bottom: -12cm;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 10px 0;
+        }
+        .image-container a {
+            margin: 0 0px;
+            text-decoration: none;
+        }
+        .image-container img {
+            width: 250px; /* Adjust the size as needed */
+            height: 375px; /* Ensure the images are similarly sized */
+            border: 0px solid #ccc;
+            border-radius: 0px;
+            transition: transform 0.2s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="biologist.png" alt="I'm a biologist" style="width: 30%; max-width: 400px; margin: 10px;">
-  <img src="developer_d.png" alt="I'm a developer" style="width: 30%; max-width: 400px; margin: 10px;">
-  <img src="community.png" alt="I'm a stakeholder" style="width: 30%; max-width: 400px; margin: 10px;">
-</div>
+
+<body>
+  <div class="clearfix">
+  </div>
+  <div class="image-container">
+    <a href="https://sbolstandard.org/visual-about">
+        <img src="biologist.png" alt="I'm a biologist">
+    </a>
+    <a href="https://sbolstandard.org/visual-about">
+         <img src="developer.png" alt="I'm a developer">
+    </a>
+    <a href="https://sbolstandard.org/visual-about">
+         <img src="community.png" alt="I'm a stakeholder">
+    </a>
+  </div>
+</body>
+</html>
