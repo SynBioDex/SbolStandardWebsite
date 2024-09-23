@@ -117,7 +117,7 @@ subtitle = ""
   <div class="clearfix">
   </div>
   <div class="image-container">
-    <a href="https://sbolstandard.org/visual-about">
+    <a href="/biologist/">
         <img src="biologist.png" alt="I'm a biologist">
     </a>
     <a href="https://sbolstandard.org/visual-about">
