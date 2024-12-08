@@ -76,11 +76,12 @@ SBOL Editors are elected by a community vote, following the process below. Edito
 
 * Lukas Buecherl, Utah State University
 * Felipe Buson, University of Bristol
-* Tom Mitchell, Raytheon BBN Technologies
+* Erik Kubaczka, Technical University of Darmstadt
 * Georgie Hau Sørensen, University of Bristol
 * Carolus Vitalis, University of Colorado
 
 Previous SBOL Editors (including their affiliation when they were editors): 
+* Tom Mitchell (Raytheon BBN Technologies)
 * Gonzalo Vidal Peña (Newcastle University)
 * James Scott-Brown (University of Oxford)
 * Prashant Vaidyananthan (Microsoft Research)
