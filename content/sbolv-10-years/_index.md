@@ -6,8 +6,11 @@ subtitle: 10 Years of Standardized Genetic Design Diagrams
 #   2 = Compact  
 #   3 = Card  
 #   4 = Citation  
-view: 3  
-  
+view: 1
+hideDate: true
+cascade:
+  _build:
+    list: never
 # Optional header image (relative to `static/img/` folder).  
 header:  
   caption: ""  
@@ -27,6 +30,8 @@ For each manuscript, we:
 - **Assessed SBOL Visual Compatibility:** Identified which figures could be considered as SBOL Visual images.
 - **Checked Compliance:** Determined whether SBOL Visual complaint figures followed the SBOL Visual standard
 - **Checked Best Practices:** Determined whether SBOL Visual complaint figures followed recommended SBOL Visual best practices.
+
+We have also listed the [guidelines we followed while evaluating the figures.](guidelines)
 
 ### Explore the Data by Year
 We have created dedicated pages that summarize our findings for each year. These pages include:

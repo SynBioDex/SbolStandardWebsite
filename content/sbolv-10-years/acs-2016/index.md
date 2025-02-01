@@ -7,6 +7,7 @@ title: 2016 ACS Synthetic Biology Issues
 #   3 = Card  
 #   4 = Citation  
 view: 3  
+date: 2025-02-01  
   
 # Optional header image (relative to `static/img/` folder).  
 header:  
