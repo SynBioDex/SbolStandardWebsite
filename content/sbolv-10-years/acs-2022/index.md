@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic Biology in Chimeric Antigen Receptor T (CAR T) Cell Engineering|3|3|:star:|
 |Advances in Approaches to Study Chromatin-Mediated Epigenetic Memory|1|0||
@@ -60,7 +60,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Combating Infectious Diseases with Synthetic Biology|2|0||
 |Construction of Synthetic Microbial Ecosystems and the Regulation of Population Proportion|2|0||
@@ -88,7 +88,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic Genetic Reversible Feynman Gate in a Single E. coli Cell and Its Application in Bacterial to Mammalian Cell Information Transfer|2|1||
 |Improving the Robustness of Engineered Bacteria to Nutrient Stress Using Programmed Proteolysis|1|1|:star:|
@@ -112,7 +112,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Designing Biological Circuits: From Principles to Applications|1|1|:star:|
 |Bioorthogonal Chemical Epigenetic Modifiers Enable Dose-Dependent CRISPR Targeted Gene Activation in Mammalian Cells|2|1||
@@ -128,7 +128,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic Translational Regulation by Protein-Binding RNA Origami Scaffolds|4|4|:star:|
 |DeepTESR: A Deep Learning Framework to Predict the Degree of Translational Elongation Short Ramp for Gene Expression Control|1|1|:star:|
@@ -144,7 +144,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Transcription-Associated Fluorescence-Activated Droplet Sorting for Di-rhamnolipid Hyperproducers|1|1|:star:|
 |Temporal Expression of Transcription Factor ID2 Improves Natural Killer Cell Differentiation from Human Pluripotent Stem Cells|1|0||
@@ -157,7 +157,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |The Growth Dependent Design Constraints of Transcription-Factor-Based Metabolite Biosensors|5|4||
 |Optimal LentiCRISPR-Based System for Sequential CRISPR/Cas9 Screens|1|0||
@@ -172,7 +172,7 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Standardization of Synthetic Biology Tools and Assembly Methods for Saccharomyces cerevisiae and Emerging Yeast Species|6|5||
 |PeroxiHUB: A Modular Cell-Free Biosensing Platform Using H2O2 as Signal Integrator|2|0||
@@ -196,7 +196,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Overcoming Leak Sensitivity in CRISPRi Circuits Using Antisense RNA Sequestration and Regulatory Feedback|4|4|:star:|
 |Malarial Antibody Detection with an Engineered Yeast Agglutination Assay|1|1|:star:|
@@ -216,7 +216,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Intestinal Engineered Probiotics as Living Therapeutics: Chassis Selection, Colonization Enhancement, Gene Circuit Design, and Biocontainment|4|1||
 |Interaction between the Anchoring Domain of A-Kinase Anchoring Proteins and the Dimerization and Docking Domain of Protein Kinase A: A Potent Tool for Synthetic Biology|1|0||
@@ -242,7 +242,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineered Spore-Forming Bacillus as a Microbial Vessel for Long-Term DNA Data Storage|2|0||
 |Harnessing Escherichia coli’s Native Machinery for Detection of Vitamin C (Ascorbate) Deficiency|2|0||
@@ -260,7 +260,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Ribosome Stalling of N-Linked Glycoproteins in Cell-Free Extracts|1|1|:star:|
 |Robotic Construction and Screening of Lanthipeptide Variant Libraries in Escherichia coli|2|2|:star:|

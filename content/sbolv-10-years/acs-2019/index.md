@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Designing Spatially Distributed Gene Regulatory Networks To Elicit Contrasting Patterns|1|0||
 |Machine Learning of Designed Translational Control Allows Predictive Pathway Optimization in Escherichia coli|2|2|:star:|
@@ -34,7 +34,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Riboswitch Signal Amplification by Controlling Plasmid Copy Number|2|2|:star:|
 |Building Microbial Hosts for Heterologous Production of N-Methylpyrrolinium|2|0||
@@ -44,7 +44,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Characterizing Transcriptional Interference between Converging Genes in Bacteria|4|4|:star:|
 |Construction of a Nonnatural C60 Carotenoid Biosynthetic Pathway|5|5|:star:|
@@ -56,7 +56,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Developing Riboswitch-Mediated Gene Regulatory Controls in Thermophilic Bacteria|2|1||
 |Spatiotemporal Gene Repression System in the Heterocyst-Forming Multicellular Cyanobacterium Anabaena sp. PCC 7120|2|2|:star:|
@@ -69,7 +69,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Core Catalysis of the Reductive Glycine Pathway Demonstrated in Yeast|1|0||
 |Endocytosing Escherichia coli as a Whole-Cell Biocatalyst of Fatty Acids|2|0||
@@ -78,7 +78,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Design and Evaluation of Synthetic Terminators for Regulating Mammalian Cell Transgene Expression|1|0||
 |Guiding Biomolecular Interactions in Cells Using de Novo Protein–Protein Interfaces|5|0||
@@ -93,7 +93,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |An Automated Biomodel Selection System (BMSS) for Gene Circuit Designs|3|3|:star:|
 |SBOL-OWL: An Ontological Approach for Formal and Semantic Representation of Synthetic Biology Information|4|4|:star:|
@@ -105,7 +105,7 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic, Context-Dependent Microbial Consortium of Predator and Prey|2|2|:star:|
 |Inducible Gene Switches with Memory in Human T Cells for Cellular Immunotherapy|4|4|:star:|
@@ -115,7 +115,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Development of a Vanillate Biosensor for the Vanillin Biosynthesis Pathway in E. coli|2|1||
 |A Model for the Spatiotemporal Design of Gene Regulatory Circuits|2|2|:star:|
@@ -127,7 +127,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Low-Burden Biological Feedback Controllers for Near-Perfect Adaptation|1|1|:star:|
 |Amelioration of Diabetes in a Murine Model upon Transplantation of Pancreatic β-Cells with Optogenetic Control of Cyclic Adenosine Monophosphate|1|1|:star:|
@@ -143,14 +143,14 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Model-Driven Engineering of N-Linked Glycosylation in Chinese Hamster Ovary Cells|2|2|:star:|
 |In Vitro Transcriptional Regulation via Nucleic-Acid-Based Transcription Factors|4|2||
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Advancing CRISPR-Based Programmable Platforms beyond Genome Editing in Mammalian Cells|1|0||
 |Detecting Changes in the Caenorhabditis elegans Intestinal Environment Using an Engineered Bacterial Biosensor|1|1|:star:|

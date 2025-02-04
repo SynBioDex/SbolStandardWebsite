@@ -25,20 +25,20 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Taking Control over Control: Use of Product Sensing in Single Cells to Remove Flux Control at Key Enzymes in Biosynthesis Pathways|1|1|:star:|
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Bi-HAC Vector System toward Gene and Cell Therapy|3|0||
 |Engineered DNA Sequence Syntax Inspector|2|2|:star:|
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Using Synthetic Biological Parts and Microbioreactors to Explore the Protein Expression Characteristics of Escherichia coli|1|1|:star:|
 |Improving the Gene-Regulation Ability of Small RNAs by Scaffold Engineering in Escherichia coli|2|2|:star:|
@@ -46,7 +46,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering Multicellular Logic in Bacteria with Metabolic Wires|2|2|:star:|
 |Evolved Quorum Sensing Regulator, LsrR, for Altered Switching Functions|1|0||
@@ -56,20 +56,20 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Optimization of a Yeast RNA Interference System for Controlling Gene Expression and Enabling Rapid Metabolic Engineering|1|1|:star:|
 |MicroRNA-Based Single-Gene Circuits Buffer Protein Synthesis Rates against Perturbations|2|0||
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Gene Position More Strongly Influences Cell-Free Protein Expression from Operons than T7 Transcriptional Promoter Strength|2|2|:star:|
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |PR-PR: Cross-Platform Laboratory Automation System|2|2|:star:|
 |Optimal Part and Module Selection for Synthetic Gene Circuit Design Automation|2|1||
@@ -77,21 +77,21 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |General Applicability of Synthetic Gene-Overexpression for Cell-Type Ratio Control via Reprogramming|1|0||
 |Framework for Engineering Finite State Machines in Gene Regulatory Networks|3|1||
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Development of an Artificial Calcium-Dependent Transcription Factor To Detect Sustained Intracellular Calcium Elevation|1|0||
 |Rule-Based Design of Synthetic Transcription Factors in Eukaryotes|1|0||
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Near-infrared Light Responsive Synthetic c-di-GMP Module for Optogenetic Applications|3|3|:star:|
 |Refactoring and Optimization of Light-Switchable Escherichia coli Two-Component Systems|2|1||
@@ -99,7 +99,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Systematic Transfer of Prokaryotic Sensors and Circuits to Mammalian Cells|3|3|:star:|
 |Specific Gene Repression by CRISPRi System Transferred through Bacterial Conjugation|1|0||
