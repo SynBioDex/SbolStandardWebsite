@@ -28,8 +28,8 @@ For each manuscript, we:
 - **Reviewed the Main Manuscript:** Focused on the published figures.
 - **Counted the Figures:** Recorded the total number of images per paper.
 - **Assessed SBOL Visual Compatibility:** Identified which figures could be considered as SBOL Visual images.
-- **Checked Compliance:** Determined whether SBOL Visual complaint figures followed the SBOL Visual standard
-- **Checked Best Practices:** Determined whether SBOL Visual complaint figures followed recommended SBOL Visual best practices.
+- **Checked Compliance:** Determined whether SBOL Visual compliant figures followed the SBOL Visual standard
+- **Checked Best Practices:** Determined whether SBOL Visual compliant figures followed recommended SBOL Visual best practices.
 
 We have also listed the [guidelines we followed while evaluating the figures.](guidelines)
 

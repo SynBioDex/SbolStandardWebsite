@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Point-of-Use Detection of Environmental Fluoride via a Cell-Free Riboswitch-Based Biosensor|3|0||
 |Design of Mammalian ON-Riboswitches Based on Tandemly Fused Aptamer and Ribozyme|1|1|:star:|
@@ -40,7 +40,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |High-Resolution Scanning of Optimal Biosensor Reporter Promoters in Yeast|3|1||
 |Light-Inducible Recombinases for Bacterial Optogenetics|2|0||
@@ -58,7 +58,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Site-Specific Post-translational Surface Modification of Adeno-Associated Virus Vectors Using Leucine Zippers|1|1|:star:|
 |Adenosine Triphosphate and Carbon Efficient Route to Second Generation Biofuel Isopentanol|1|0||
@@ -73,7 +73,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |A New Biosensor for Stilbenes and a Cannabinoid Enabled by Genome Mining of a Transcriptional Regulator|3|1||
 |Balancing Cell Populations Endowed with a Synthetic Toggle Switch via Adaptive Pulsatile Feedback Control|1|0||
@@ -85,7 +85,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Multiplex Generation, Tracking, and Functional Screening of Substitution Mutants Using a CRISPR/Retron System|3|3|:star:|
 |A Synthetic Genetic Circuit Enables Precise Quantification of Direct Repeat Deletion in Bacteria|2|0||
@@ -98,7 +98,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Microbial Synthesis of Human-Hormone Melatonin at Gram Scales|1|0||
 |Comprehensive Analysis of Genomic Safe Harbors as Target Sites for Stable Expression of the Heterologous Gene in HEK293 Cells|2|0||
@@ -114,7 +114,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Assessment of Robustness to Temperature in a Negative Feedback Loop and a Feedforward Loop|2|0||
 |Purification of an Intact Human Protein Overexpressed from Its Endogenous Locus via Direct Genome Engineering|1|0||
@@ -135,7 +135,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Applications of CRISPR in a Microbial Cell Factory: From Genome Reconstruction to Metabolic Network Reprogramming|3|0||
 |FlopR: An Open Source Software Package for Calibration and Normalization of Plate Reader and Flow Cytometry Data|1|1|:star:|
@@ -147,7 +147,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |In Vivo Feedback Control of an Antithetic Molecular-Titration Motif in Escherichia coli Using Microfluidics|1|1|:star:|
 |Construction of Fully Segregated Genomic Libraries in Polyploid Organisms Such as Synechocystis sp. PCC 6803|2|0||
@@ -161,7 +161,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Multidimensional Characterization of Parts Enhances Modeling Accuracy in Genetic Circuits|3|0||
 |Integrative Biosynthetic Gene Cluster Mining to Optimize a Metabolic Pathway to Efficiently Produce l-Homophenylalanine in Escherichia coli|3|0||
@@ -177,7 +177,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Living Therapeutics: The Next Frontier of Precision Medicine|2|2|:star:|
 |A Logic NAND Gate for Controlling Gene Expression in a Circadian Rhythm in Cyanobacteria|3|3|:star:|

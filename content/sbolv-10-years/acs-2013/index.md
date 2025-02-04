@@ -25,20 +25,20 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthesizing Biomolecule-Based Boolean Logic Gates|3|3|:star:|
 |Self-Assembly of Synthetic Metabolons through Synthetic Protein Scaffolds: One-Step Purification, Co-immobilization, and Substrate Channeling|2|2|:star:|
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Tuning Primary Metabolism for Heterologous Pathway Productivity|1|0||
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Dynamic Modeling of Cellular Populations within iBioSim|1|0||
 |AutoBioCAD: Full Biodesign Automation of Genetic Circuits|2|2|:star:|
@@ -47,19 +47,19 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Pigeon: A Design Visualizer for Synthetic Biology|1|1|:star:|
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic Biology of Antimicrobial Discovery|1|1|:star:|
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic Gene Circuit-Mediated Monitoring of Endogenous Metabolites: Identification of GAL11 as a Novel Multicopy Enhancer of S-Adenosylmethionine Level in Yeast|3|3|:star:|
 |Retroactivity Controls the Temporal Dynamics of Gene Transcription|1|0||
@@ -67,14 +67,14 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Randomized BioBrick Assembly: A Novel DNA Assembly Method for Randomizing and Optimizing Genetic Circuits and Metabolic Pathways|5|5|:star:|
 |Visualization of Evolutionary Stability Dynamics and Competitive Fitness of Escherichia coli Engineered with Randomized Multigene Circuits|2|2|:star:|
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Tuning Response Curves for Synthetic Biology|3|0||
 |Engineering the esaR Promoter for Tunable Quorum Sensing-Dependent Gene Expression|1|0||
@@ -84,7 +84,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Discovery of Cryptic Polyketide Metabolites from Dermatophytes Using Heterologous Expression in Aspergillus nidulans|2|2|:star:|
 |Sequence, Cloning, and Analysis of the Fluvirucin B1 Polyketide Synthase from Actinomadura vulgaris|1|1|:star:|
@@ -94,7 +94,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Artificial Conversion of the Mating-Type of Saccharomyces cerevisiae without Autopolyploidization|4|0||
 |Cell Polarity-Driven Instability Generates Self-Organized, Fractal Patterning of Cell Layers|1|0||

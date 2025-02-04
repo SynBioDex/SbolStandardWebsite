@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Statistical Design of Experiments for Synthetic Biology|1|1|:star:|
 |Fine-Tuning Multi-Gene Clusters via Well-Characterized Gene Expression Regulatory Elements: Case Study of the Arginine Synthesis Pathway in C. glutamicum|3|1||
@@ -44,7 +44,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Promiscuous Installation of d-Amino Acids in Gene-Encoded Peptides|1|1|:star:|
 |Biosynthesis of Diverse Type II Polyketide Core Structures in Streptomyces coelicolor M1152|3|3|:star:|
@@ -57,7 +57,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Expanding the Potential of Mammalian Genome Engineering via Targeted DNA Integration|1|0||
 |Small Antisense DNA-Based Gene Silencing Enables Cell-Free Bacteriophage Manipulation and Genome Replication|2|2|:star:|
@@ -72,7 +72,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Membrane Augmented Cell-Free Systems: A New Frontier in Biotechnology|1|0||
 |Engineered Regulon to Enable Autonomous Azide Ion Biosensing, Recombinant Protein Production, and in Vivo Glycoengineering|4|0||
@@ -90,7 +90,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Transcription-Factor-based Biosensor Engineering for Applications in Synthetic Biology|4|0||
 |Engineered Microbial Routes for Human Milk Oligosaccharides Synthesis|1|0||
@@ -109,7 +109,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |A Tail Fiber Engineering Platform for Improved Bacterial Transduction-Based Diagnostic Reagents|2|2|:star:|
 |Precise Regulation of Cas9-Mediated Genome Engineering by Anti-CRISPR-Based Inducible CRISPR Controllers|1|0||
@@ -129,7 +129,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Multilayer Genetic Circuits for Dynamic Regulation of Metabolic Pathways|3|2||
 |A Biosensor for Detection of Indole Metabolites|1|1|:star:|
@@ -142,7 +142,7 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Genetically Encoding Ultrastable Virus-like Particles Encapsulating Functional DNA Nanostructures in Living Bacteria|2|0||
 |Localized Proteolysis for the Construction of Intracellular Asymmetry in Escherichia coli|3|3|:star:|
@@ -163,7 +163,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Functionalizing Cell-Free Systems with CRISPR-Associated Proteins: Application to RNA-Based Circuit Engineering|7|0||
 |High-Titer Production of Olivetolic Acid and Analogs in Engineered Fungal Host Using a Nonplant Biosynthetic Pathway|1|1|:star:|
@@ -181,7 +181,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Shaping Liposomes by Cell-Free Expressed Bacterial Microtubules|1|1|:star:|
 |Efficient Production of 2′-Fucosyllactose from l-Fucose via Self-Assembling Multienzyme Complexes in Engineered Escherichia coli|1|1|:star:|
@@ -200,7 +200,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Toward the Heterologous Biosynthesis of Plant Natural Products: Gene Discovery and Characterization|1|1|:star:|
 |Engineering Wired Life: Synthetic Biology for Electroactive Bacteria|3|3|:star:|
@@ -224,7 +224,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Artificial Self-assembling Nanocompartment for Organizing Metabolic Pathways in Yeast|2|2|:star:|
 |The ProUSER2.0 Toolbox: Genetic Parts and Highly Customizable Plasmids for Synthetic Biology in Bacillus subtilis|1|0||

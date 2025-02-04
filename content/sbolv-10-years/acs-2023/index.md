@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering the Biosynthesis of Late-Stage Vinblastine Precursors Precondylocarpine Acetate, Catharanthine, Tabersonine in Nicotiana benthamiana|3|0||
 |Continuous Directed Evolution of a Feedback-Resistant Arabidopsis Arogenate Dehydratase in Plantized Escherichia coli|1|0||
@@ -42,7 +42,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Circular Guide RNA for Improved Stability and CRISPR-Cas9 Editing Efficiency in Vitro and in Bacteria|1|0||
 |A Dueling-Competent Signal-Sensing Module Guides Precise Delivery of Cargo Proteins into Target Cells by Engineered Pseudomonas aeruginosa|1|0||
@@ -58,7 +58,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |A Biological OR(XNOR) Logic Gate Couples Carbon Source and Transgene Expression Switching in a Komagataella phaffii (Pichia pastoris) Strain Co-producing Process-Enhancing Lipase and a Virus-like Particle (VLP) Vaccine|1|1|:star:|
 |Optical Control of Cell Signaling with Red/Far-Red Light-Responsive Optogenetic Tools in Caenorhabditis elegans|1|0||
@@ -75,7 +75,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Directed Evolution of Aerotolerance in Sulfide-Dependent Thiazole Synthases|1|1|:star:|
 |Marine Biofilm Engineered to Produce Current in Response to Small Molecules|3|3|:star:|
@@ -92,7 +92,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Sourcing Phage-Encoded Terminators Using ONT-cappable-seq for SynBio Applications in Pseudomonas|1|1|:star:|
 |TFBMiner: A User-Friendly Command Line Tool for the Rapid Mining of Transcription Factor-Based Biosensors|1|1|:star:|
@@ -102,7 +102,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering Outer Membrane Vesicles to Increase Extracellular Electron Transfer of Shewanella oneidensis|3|0||
 |Cell-Free Biosensing Genetic Circuit Coupled with Ribozyme Cleavage Reaction for Rapid and Sensitive Detection of Small Molecules|2|2|:star:|
@@ -115,7 +115,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Construction and Applications of Mammalian Cell-Based DNA-Encoded Peptide/Protein Libraries|3|0||
 |Application of CRISPR in Filamentous Fungi and Macrofungi: From Component Function to Development Potentiality|2|0||
@@ -133,7 +133,7 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Noise Minimization in Cell-Free Gene Expression|3|3|:star:|
 |Plasmid Copy Number Engineering Accelerates Fungal Polyketide Discovery upon Unnatural Polyketide Biosynthesis|2|0||
@@ -148,7 +148,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Dual Input-Controlled Synthetic mRNA Circuit for Bidirectional Protein Expression Regulation|3|0||
 |Tailored Synthetic sRNAs Dynamically Tune Multilayer Genetic Circuits|3|0||
@@ -163,7 +163,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Signal Amplification for Cell-Free Biosensors, an Analog-to-Digital Converter|3|3|:star:|
 |Comprehensive Screening of a Light-Inducible Split Cre Recombinase with Domain Insertion Profiling|1|1|:star:|
@@ -180,7 +180,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Module-Based Polyketide Synthase Engineering for de Novo Polyketide Biosynthesis|2|2|:star:|
 |Investigating and Modeling the Factors That Affect Genetic Circuit Performance|1|1|:star:|
@@ -195,7 +195,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Automated Platform for the Plasmid Construction Process|1|0||
 |Tunable Dynamics in a Multistrain Transcriptional Pulse Generator|1|1|:star:|

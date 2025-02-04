@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Metabolic Engineering toward Sustainable Production of Nylon-6|1|1|:star:|
 |Orthogonal Modular Gene Repression in Escherichia coli Using Engineered CRISPR/Cas9|4|0||
@@ -33,13 +33,13 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Slowing Translation between Protein Domains by Increasing Affinity between mRNAs and the Ribosomal Anti-Shine–Dalgarno Sequence Improves Solubility|1|0||
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Multiple Gene Repression in Cyanobacteria Using CRISPRi|1|1|:star:|
 |Assays To Detect the Formation of Triphosphates of Unnatural Nucleotides: Application to Escherichia coli Nucleoside Diphosphate Kinase|1|1|:star:|
@@ -48,13 +48,13 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Automatic Control of Gene Expression in Mammalian Cells|1|0||
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Improving Synthetic Biology Communication: Recommended Practices for Visual Depiction and Digital Submission of Genetic Designs|1|1|:star:|
 |Genotype Specification Language|1|1|:star:|
@@ -65,7 +65,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Two Distinct Cyclodipeptide Synthases from a Marine Actinomycete Catalyze Biosynthesis of the Same Diketopiperazine Natural Product|1|1|:star:|
 |Optical Control of Peroxisomal Trafficking|1|0||
@@ -81,14 +81,14 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Using RNA as Molecular Code for Programming Cellular Function|2|2|:star:|
 |VisBOL: Web-Based Tools for Synthetic Biology Design Visualization|2|2|:star:|
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Programming Surface Chemistry with Engineered Cells|1|1|:star:|
 |Quorum Sensing Communication Modules for Microbial Consortia|3|2||
@@ -96,7 +96,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Mammalian Synthetic Biology: Time for Big MACs|2|2|:star:|
 |EcoFlex: A Multifunctional MoClo Kit for E. coli Synthetic Biology|2|0||
@@ -107,7 +107,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Construction and Characterization of a Synthetic MicroRNA Cluster for Multiplex RNA Interference in Mammalian Cells|4|0||
 |A Cell–Cell Communication-Based Screening System for Novel Microbes with Target Enzyme Activities|1|1|:star:|
@@ -121,7 +121,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |The Geobacillus Plasmid Set: A Modular Toolkit for Thermophile Engineering|1|1|:star:|
 |Combinatorial Pairwise Assembly Efficiently Generates High Affinity Binders and Enables a “Mix-and-Read” Detection Scheme|1|0||

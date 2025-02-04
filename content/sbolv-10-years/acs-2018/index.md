@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Multiplexed CRISPR/Cas9 Genome Editing and Gene Regulation Using Csy4 in Saccharomyces cerevisiae|3|0||
 |Design and Selection of a Synthetic Feedback Loop for Optimizing Biofuel Tolerance|2|0||
@@ -39,7 +39,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Part by Part: Synthetic Biology Parts Used in Solventogenic Clostridia|2|2|:star:|
 |Gene-Mediated Chemical Communication in Synthetic Protocell Communities|1|1|:star:|
@@ -64,7 +64,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Labeling RNAs in Live Cells Using Malachite Green Aptamer Scaffolds as Fluorescent Probes|3|3|:star:|
 |Directed Evolution of Membrane Transport Using Synthetic Selections|1|1|:star:|
@@ -78,7 +78,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering a Dual Small Molecule Gated ZAP70 Switch in T Cells|1|1|:star:|
 |Cell-Free Optogenetic Gene Expression System|2|2|:star:|
@@ -90,7 +90,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering the Ultrasensitive Transcription Factors by Fusing a Modular Oligomerization Domain|1|1|:star:|
 |Mathematical Modeling of RNA-Based Architectures for Closed Loop Control of Gene Expression|1|0||
@@ -104,7 +104,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering a Functional Small RNA Negative Autoregulation Network with Model-Guided Design|2|0||
 |An Engineered Device for Indoleacetic Acid Production under Quorum Sensing Signals Enables Cupriavidus pinatubonensis JMP134 To Stimulate Plant Growth|1|1|:star:|
@@ -113,7 +113,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Rationalizing Context-Dependent Performance of Dynamic RNA Regulatory Devices|2|2|:star:|
 |Mutually Orthogonal DNA Replication Systems In Vivo|3|0||
@@ -121,7 +121,7 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Predicting Transcriptional Output of Synthetic Multi-input Promoters|3|0||
 |Promoter Engineering for Enhanced P(3HB-co-4HB) Production by Halomonas bluephagenesis|2|0||
@@ -130,7 +130,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Human Artificial Chromosome with Regulated Centromere: A Tool for Genome and Cancer Studies|6|1||
 |A Biosensor Strategy for E. coli Based on Ligand-Dependent Stabilization|1|0||
@@ -147,7 +147,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |A Genetically Encoded Protein Polymer for Uranyl Binding and Extraction Based on the SpyTag–SpyCatcher Chemistry|1|1|:star:|
 |A Genetically Encoded Biosensor for Monitoring Isoprene Production in Engineered Escherichia coli|3|1||
@@ -156,7 +156,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Rational Control of Calcium Carbonate Precipitation by Engineered Escherichia coli|1|0||
 |Transcription Driven by Reversible Photocontrol of Hyperstable G-Quadruplexes|1|0||
@@ -170,7 +170,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Selective Enrichment of Slow-Growing Bacteria in a Metabolism-Wide CRISPRi Library with a TIMER Protein|1|1|:star:|
 |Cell-Based Biosensor with Dual Signal Outputs for Simultaneous Quantification of Phenylacetic Acid and Phenylethylamine|1|0||

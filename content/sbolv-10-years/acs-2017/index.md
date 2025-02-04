@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Rapid and Inexpensive Evaluation of Nonstandard Amino Acid Incorporation in Escherichia coli|1|1|:star:|
 |Designing Synthetic Flexible Gene Regulation Networks Using RNA Devices in Cyanobacteria|1|1|:star:|
@@ -34,7 +34,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Discovery of a Phosphonoacetic Acid Derived Natural Product by Pathway Refactoring|1|0||
 |Direct Combinatorial Pathway Optimization|1|0||
@@ -46,7 +46,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Standardized Markerless Gene Integration for Pathway Engineering in Yarrowia lipolytica|1|0||
 |Introduction of Premature Stop Codons as an Evolutionary Strategy To Rescue Signaling Network Function|2|0||
@@ -56,7 +56,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering a Thermostable Keto Acid Decarboxylase Using Directed Evolution and Computationally Directed Protein Design|1|0||
 |Quantitative Tracking of Combinatorially Engineered Populations with Multiplexed Binary Assemblies|1|0||
@@ -64,7 +64,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |AGOS: A Plug-and-Play Method for the Assembly of Artificial Gene Operons into Functional Biosynthetic Gene Clusters|3|3|:star:|
 |Efficient Genome Editing of a Facultative Thermophile Using Mesophilic spCas9|2|1||
@@ -73,7 +73,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering Iron Responses in Mammalian Cells by Signal-Induced Protein Proximity|3|0||
 |Recursive DNA Assembly Using Protected Oligonucleotide Duplex Assisted Cloning (PODAC)|2|2|:star:|
@@ -89,7 +89,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |DNAplotlib: Programmable Visualization of Genetic Designs and Associated Data|5|5|:star:|
 |SBOLDesigner 2: An Intuitive Tool for Structural Genetic Design|3|3|:star:|
@@ -107,7 +107,7 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Amplifying Riboswitch Signal Output Using Cellular Wiring|2|2|:star:|
 |Rational Design of an Ultrasensitive Quorum-Sensing Switch|1|1|:star:|
@@ -119,7 +119,7 @@ header:
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Engineering a Native Inducible Expression System in Shewanella oneidensis to Control Extracellular Electron Transfer|2|2|:star:|
 |Multiplex Genome Editing by Natural Transformation (MuGENT) for Synthetic Biology in Vibrio natriegens|2|2|:star:|
@@ -128,7 +128,7 @@ header:
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Developing a Genetically Encoded, Cross-Species Biosensor for Detecting Ammonium and Regulating Biosynthesis of Cyanophycin|2|2|:star:|
 |Rapid and Programmable Protein Mutagenesis Using Plasmid Recombineering|2|2|:star:|
@@ -142,7 +142,7 @@ header:
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |The Timing of Transcriptional Regulation in Synthetic Gene Circuits|3|0||
 |A Tug-of-War Mechanism for Pattern Formation in a Genetic Network|2|0||
@@ -155,7 +155,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Production of Functional Anti-Ebola Antibodies in Pichia pastoris|1|0||
 |Managing the SOS Response for Enhanced CRISPR-Cas-Based Recombineering in E. coli through Transient Inhibition of Host RecA Activity|1|0||

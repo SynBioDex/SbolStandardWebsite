@@ -25,7 +25,7 @@ header:
 
 ## January
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Model-Driven Engineering of Gene Expression from RNA Replicons|1|0||
 |Proposed Data Model for the Next Version of the Synthetic Biology Open Language|4|4|:star:|
@@ -33,7 +33,7 @@ header:
 
 ## February
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |A Synthetic Anhydrotetracycline-Controllable Gene Expression System in Ralstonia eutropha H16|4|4|:star:|
 |Noise Propagation in Synthetic Gene Circuits for Metabolic Control|1|0||
@@ -42,7 +42,7 @@ header:
 
 ## March
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |RADOM, an Efficient In Vivo Method for Assembling Designed DNA Fragments up to 10 kb Long in Saccharomyces cerevisiae|4|0||
 |Avoidance of Truncated Proteins from Unintended Ribosome Binding Sites within Heterologous Protein Coding Sequences|1|0||
@@ -52,7 +52,7 @@ header:
 
 ## April
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Rapid Evaluation of Tyrosine Kinase Activity of Membrane-Integrated Human Epidermal Growth Factor Receptor Using the Yeast Gγ Recruitment System|1|0||
 |A Set of Versatile Brick Vectors and Promoters for the Assembly, Expression, and Integration of Synthetic Operons in Methylobacterium extorquens AM1 and Other Alphaproteobacteria|1|0||
@@ -61,7 +61,7 @@ header:
 
 ## May
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Rapidly Characterizing the Fast Dynamics of RNA Genetic Circuitry with Cell-Free Transcription–Translation (TX-TL) Systems|6|6|:star:|
 |Synthetic Tunable Amplifying Buffer Circuit in E. coli|2|0||
@@ -70,7 +70,7 @@ header:
 
 ## June
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Accurate Predictions of Genetic Circuit Behavior from Part Characterization and Modular Composition|4|0||
 |Expansion of Bisindole Biosynthetic Pathways by Combinatorial Construction|1|0||
@@ -78,7 +78,7 @@ header:
 
 ## July
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |BASIC: A New Biopart Assembly Standard for Idempotent Cloning Provides Accurate, Single-Tier DNA Assembly for Synthetic Biology|1|1|:star:|
 |Rationally Designed MicroRNA-Based Genetic Classifiers Target Specific Neurons in the Brain|1|0||
@@ -86,27 +86,27 @@ header:
 
 ## August
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Generating Systems Biology Markup Language Models from the Synthetic Biology Open Language|3|3|:star:|
 |Genome Calligrapher: A Web Tool for Refactoring Bacterial Genome Sequences for de Novo DNA Synthesis|1|0||
 
 ## September
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Enhanced Protein Production in Escherichia coli by Optimization of Cloning Scars at the Vector–Coding Sequence Junction|1|0||
 |Regulation of Bacterial Gene Expression by Protease-Alleviated Spatial Sequestration (PASS)|4|0||
 
 ## October
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Enzymatic Menthol Production: One-Pot Approach Using Engineered Escherichia coli|1|0||
 
 ## November
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Genome Engineering of the 2,3-Butanediol Biosynthetic Pathway for Tight Regulation in Cyanobacteria|5|4||
 |A Barcoding Strategy Enabling Higher-Throughput Library Screening by Microscopy|1|0||
@@ -114,7 +114,7 @@ header:
 
 ## December
 
-|Article|No. of SBOL Visual complaint images|No. of SBOL Visual images following Best practices||
+|Article|No. of SBOL Visual compliant images|No. of SBOL Visual images following Best practices||
 | :---: | :---: | :---: | :---: |
 |Synthetic Auxotrophs with Ligand-Dependent Essential Genes for a BL21(DE3) Biosafety Strain|1|0||
 |Development of a Synthetic Malonyl-CoA Sensor in Saccharomyces cerevisiae for Intracellular Metabolite Monitoring and Genetic Screening|1|0||
