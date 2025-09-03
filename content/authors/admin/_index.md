@@ -80,6 +80,22 @@ user_groups:
 - Visitors
 ---
 
+<!-- Main SBOL homepage buttons -->
+<div style="display: flex; justify-content: center; gap: 40px; margin: 40px 0;">
+  <a href="/biologist/" style="text-align: center;">
+    <img src="/media/welcome/sbol_biologist.png" alt="SBOL for Biologists" style="width: 300px; max-width: 100%; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+    <div style="margin-top: 12px; font-weight: bold; font-size: 1.2em;">For Biologists</div>
+  </a>
+  <a href="/developer/" style="text-align: center;">
+    <img src="/media/welcome/sbol_developer.png" alt="SBOL for Developers" style="width: 300px; max-width: 100%; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+    <div style="margin-top: 12px; font-weight: bold; font-size: 1.2em;">For Developers</div>
+  </a>
+  <a href="/join/" style="text-align: center;">
+    <img src="/media/welcome/sbol_join.png" alt="Join SBOL" style="width: 300px; max-width: 100%; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+    <div style="margin-top: 12px; font-weight: bold; font-size: 1.2em;">Join the Community</div>
+  </a>
+</div>
+
 
 Welcome to the <b>Synthetic Biology Open Language (SBOL)</b> community portal! 
 

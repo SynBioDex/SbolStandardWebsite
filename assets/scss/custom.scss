@@ -1,6 +1,76 @@
-
 $sbol-green: #8cc63f;
 
 .universal-wrapper{
   text-align: justify;
 }
+
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nacelle';
+  src: url('/fonts/Nacelle-HeavyItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Nacelle', Arial, Helvetica, sans-serif;
+}
+
+/* Make all text use Nacelle */
+h1, h2, h3, h4, h5, h6,
+.navbar, .navbar-brand, .nav-link, .dropdown-item {
+  font-family: 'Nacelle', Arial, Helvetica, sans-serif !important;
+}
+
+/* Optional, keep font weight consistent in headings */
+h1, h2 { font-weight: 700; }
+h3, h4 { font-weight: 400; }
