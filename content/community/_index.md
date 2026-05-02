@@ -17,8 +17,39 @@ header:
 
 The SBOL community works actively on the SBOL data model and visual standard, participates in online discussions, and meets semi-annually.  We represent over 170+ members from 17 different countries, 42 institutions, and 28 different industries. Many of our members are also actively involved in other standards communities, like the Systems Biology Markup Language (SBML) and Systems Biology Graphical Notation (SBGN).
 
+---
 
-To join our growing community, contact the SBOL Editors [here](https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU/edit).
+### Join the Conversation
+
+All are welcome in the SBOL community — whether you are a researcher, developer, student, or industry practitioner. Our Slack workspace is the best place to ask questions, share ideas, and connect with others working on synthetic biology standards.
+
+<a href="https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg" target="_blank" rel="noopener" class="btn btn-primary">Join the SBOL Slack &rarr;</a>
+
+You can also join the official mailing list by contacting the SBOL Editors [here](https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU/edit).
+
+---
+
+### The Big Three Events
+
+The SBOL community participates actively in three major annual gatherings for computational systems and synthetic biology:
+
+- **HARMONY** — Hackathon on Resources for Modeling in Biology. A working meeting focused on interoperability and tool development across standards communities including SBOL, SBML, and SBGN.
+- **COMBINE** — Computational Modeling in Biology Network. The broader standards community meeting, bringing together developers and researchers from multiple standards efforts.
+- **IWBDA** — International Workshop on Bio-Design Automation. A dedicated workshop on the design and automation of biological systems, where SBOL plays a central role.
+
+[View upcoming and past events &rarr;](/event/)
+
+---
+
+### People & Governance
+
+SBOL is governed by an open community process with elected Editors and Chairs who oversee specification development and community decisions.
+
+- [Learn about SBOL Governance &rarr;](/community-governance/)
+
+Editors manage the specification process, while Chairs facilitate community meetings and decision-making. All members are encouraged to participate in votes and working groups.
+
+---
 
 ### Members
 

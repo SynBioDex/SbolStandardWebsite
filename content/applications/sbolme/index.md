@@ -3,6 +3,8 @@ title: SBOLme
 summary: An open-access repository of SBOL 2-compliant biochemical parts for a wide range of metabolic engineering applications.
 tags: ["Knowledge Management",  "SBOL2 Export"]
 date: "2020-06-30T00:00:00Z"
+audience: "developer"
+status: "active"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

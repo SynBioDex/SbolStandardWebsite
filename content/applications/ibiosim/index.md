@@ -3,6 +3,8 @@ title: iBioSim
 summary: iBioSim has been developed for the modeling, analysis, and design of genetic circuits.
 tags: ["Circuit Design", "Modeling", "Visualization", "SBOL Visual", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
 date: "2020-06-30T00:00:00Z"
+audience: "developer"
+status: "active"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

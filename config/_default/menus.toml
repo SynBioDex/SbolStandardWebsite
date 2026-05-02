@@ -5,108 +5,110 @@
 
 [[main]]
   name = "Home"
-  url = "#about"
+  url = "/"
   weight = 10
 
 [[main]]
-  name = "SBOL Data Model"
-  url = "/DataModel"
+  name = "Learn"
+  url = "/DataModel-about"
   weight = 20
-  identifier = "dom-id"
+  identifier = "learn-id"
 
 [[main]]
-  name = "About SBOL"
+  name = "SBOL Data"
   url = "/DataModel-about"
   weight = 5
-  parent = "dom-id"
+  parent = "learn-id"
 
 [[main]]
-  name = "Data Model Specification"
-  url = "/DataModel-Specification"
+  name = "SBOL Visual"
+  url = "/visual-about"
   weight = 10
-  parent = "dom-id"
+  parent = "learn-id"
+
+[[main]]
+  name = "Papers"
+  url = "/publication"
+  weight = 15
+  parent = "learn-id"
+
+[[main]]
+  name = "Visual Gallery"
+  url = "/visual-examples"
+  weight = 20
+  parent = "learn-id"
+
+[[main]]
+  name = "SBOL 2 GPT"
+  url = "https://chatgpt.com/g/g-dcSB4tQIA-sbol-2"
+  weight = 25
+  parent = "learn-id"
+  [main.params]
+    external = true
+
+[[main]]
+  name = "SBOL 3 GPT"
+  url = "https://chatgpt.com/g/g-FcRCPqKq6-sbol-3"
+  weight = 30
+  parent = "learn-id"
+  [main.params]
+    external = true
+
+[[main]]
+  name = "For Biologists"
+  url = "/biologist"
+  weight = 30
+  identifier = "biologist-id"
+
+[[main]]
+  name = "Tools"
+  url = "#applications"
+  weight = 5
+  parent = "biologist-id"
+
+[[main]]
+  name = "Visual Gallery"
+  url = "/visual-examples"
+  weight = 10
+  parent = "biologist-id"
+
+[[main]]
+  name = "10 Years of SBOL Visual"
+  url = "/sbolv-10-years"
+  weight = 15
+  parent = "biologist-id"
+
+[[main]]
+  name = "For Developers"
+  url = "/developer"
+  weight = 40
+  identifier = "developer-id"
+
+[[main]]
+  name = "Latest Specs"
+  url = "/DataModel-Specification"
+  weight = 5
+  parent = "developer-id"
 
 [[main]]
   name = "Libraries"
   url = "/libraries"
+  weight = 10
+  parent = "developer-id"
+
+[[main]]
+  name = "Data Examples"
+  url = "/DataModel-Examples"
   weight = 15
-  parent = "dom-id"
-
-[[main]]
-  name = "SBOL Ontology"
-  url = "/ontology"
-  weight = 20
-  parent = "dom-id"
-
-[[main]]
-  name = "Converter"
-  url = "https://converter.sbolstandard.org/"
-  weight = 25
-  parent = "dom-id"
+  parent = "developer-id"
 
 [[main]]
   name = "Validator"
   url = "https://validator.sbolstandard.org/"
-  weight = 30
-  parent = "dom-id"
-
-[[main]]
-  name = "Examples"
-  url = "/DataModel-Examples"
-  weight = 35
-  parent = "dom-id"
-
-[[main]]
-  name = "SBOL Visual"
-  url = "/visual"
-  weight = 25
-  identifier = "visual-id"
-
-[[main]]
-  name = "About SBOL Visual"
-  url = "/visual-about"
-  weight = 5
-  parent = "visual-id"
-
-[[main]]
-  name = "Visual Specification"
-  url = "/visual-specification"
-  weight = 10
-  parent = "visual-id"
-
-[[main]]
-  name = "Glyphs"
-  url = "/visual-glyphs"
-  weight = 15
-  parent = "visual-id"
-
-[[main]]
-  name = "SBOL Visual Ontology"
-  url = "/sbol-visual-ontology"
   weight = 20
-  parent = "visual-id"
-
-[[main]]
-  name = "Examples from papers"
-  url = "/visual-examples"
-  weight = 25
-  parent = "visual-id"
-
-[[main]]
-  name = "Examples from specification"
-  url = "/visual-spec-examples"
-  weight = 25
-  parent = "visual-id"
-  
-[[main]]
-  name = "Applications"
-  url = "#applications"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "/publication"
-  weight = 40
+  parent = "developer-id"
+  [main.params]
+    external = true
 
 [[main]]
   name = "Community"
@@ -115,22 +117,24 @@
   identifier = "community-id"
 
 [[main]]
-  name = "About"
+  name = "Get Involved"
   url = "/community"
   weight = 5
   parent = "community-id"
 
 [[main]]
-  name = "Meetings"
-  url = "/community-meetings"
+  name = "Events"
+  url = "/event"
   weight = 10
   parent = "community-id"
 
 [[main]]
-  name = "Outreach"
-  url = "/community-outreach"
+  name = "Join Slack"
+  url = "https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg"
   weight = 15
   parent = "community-id"
+  [main.params]
+    external = true
 
 [[main]]
   name = "Governance"
@@ -139,61 +143,53 @@
   parent = "community-id"
 
 [[main]]
-  name = "SBOL Industrial Consortium"
+  name = "Industrial"
   url = "/sbol-industrial"
-  weight = 25
-  parent = "community-id"
-
-[[main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 55
-
-[[main]]
-  name = "Help"
-  url = "/faq"
   weight = 60
-  identifier = "help-id"
 
 [[main]]
-  name = "FAQ"
-  url = "/faq"
-  weight = 62
-  parent = "help-id"
-
-[[main]]
-  name = "StackExchange"
-  url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
-  weight = 64
-  parent = "help-id"
+  name = "Blog & Podcast"
+  url = "/post"
+  weight = 70
 
 [[main]]
   name = "About"
   url = "/about"
-  weight = 70
+  weight = 80
   identifier = "about-id"
+
+[[main]]
+  name = "FAQ"
+  url = "/faq"
+  weight = 5
+  parent = "about-id"
+
+[[main]]
+  name = "StackExchange"
+  url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
+  weight = 10
+  parent = "about-id"
+  [main.params]
+    external = true
+
+[[main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 15
+  parent = "about-id"
 
 [[main]]
   name = "View Source"
   url = "https://github.com/SynBioDex/SbolStandardWebsite"
-  weight = 75
+  weight = 20
   parent = "about-id"
-
-[[main]]
-  name = "Community Media"
-  url = "https://github.com/SynBioDex/Community-Media"
-  weight = 80
-  parent = "about-id"  
+  [main.params]
+    external = true
 
 [[main]]
   name = "Report an Issue"
   url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 85
+  weight = 25
   parent = "about-id"
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+  [main.params]
+    external = true

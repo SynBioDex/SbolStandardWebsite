@@ -3,6 +3,8 @@ title: Pigeon Visualizer
 summary: A tool for creating SBOL Visual diagrams from a concise textual representation.
 tags: ["Visualization", "SBOL Visual"]
 date: "2020-06-30T00:00:00Z"
+audience: "biologist"
+status: "legacy"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

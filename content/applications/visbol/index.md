@@ -3,6 +3,8 @@ title: VisBOL
 summary: A JavaScript software library to visualize DNA features from SBOL2 documents using the SBOL Visual standard.
 tags: ["Visualization", "SBOL Visual",  "SBOL2 Import"]
 date: "2020-06-30T00:00:00Z"
+audience: "biologist"
+status: "active"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

@@ -3,6 +3,8 @@ title: SBOL Validator/Converter
 summary: A simple, easy-to-use software tool that allows for conversion between SBOL/GenBank/FASTA files using the Synthetic Biology Open Language (SBOL) 2.0 data model.
 tags: ["Knowledge Management", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
 date: "2020-06-30T00:00:00Z"
+audience: "developer"
+status: "active"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

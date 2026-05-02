@@ -3,6 +3,8 @@ title: SBOLCanvas
 summary: A web application for creation and editing of genetic constructs using the SBOL data and visual standard.
 tags: ["Knowledge Management", "Visualization", "SBOL Visual", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
 date: "2022-06-08T00:00:00Z"
+audience: "biologist"
+status: "active"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
