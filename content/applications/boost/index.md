@@ -1,7 +1,7 @@
 ---
 title: BOOST
 summary: A platform of tools to design DNA sequences for manufacturing
-tags: ["Sequence Design", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

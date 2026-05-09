@@ -1,7 +1,7 @@
 ---
 title: Virtual Parts Repository
 summary: A repository of modular models of biological components.
-tags: ["Knowledge Management", "Circuit Design", "Modeling", "SBOL Visual", "SBOL1 Import", "SBOL1 Export", "SBOL2 Export"]
+tags: ["Design", "Analysis & Modeling"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

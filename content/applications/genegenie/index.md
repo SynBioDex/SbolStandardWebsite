@@ -1,7 +1,7 @@
 ---
 title: GeneGenie
 summary: GeneGenie supports the design and self-assembly of synthetic genes and constructs.
-tags: ["Sequence Design", "SBOL1 Export"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

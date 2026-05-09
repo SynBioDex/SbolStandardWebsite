@@ -1,7 +1,7 @@
 ---
 title: GenoCAD
 summary: A rule-based DNA design tool.
-tags: ["Knowledge Management", "Sequence Design", "Circuit Design", "SBOL Visual", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

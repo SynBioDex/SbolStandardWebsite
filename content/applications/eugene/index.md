@@ -1,7 +1,7 @@
 ---
 title: Eugene
 summary: A textual specification language for the rule-based design of synthetic biological systems, devices, parts, and DNA sequences.
-tags: ["Sequence Design", "Circuit Design", "Visualization", "SBOL Visual", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

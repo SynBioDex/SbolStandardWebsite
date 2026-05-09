@@ -50,7 +50,7 @@ social:
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: slack
   icon_pack: fab
-  link: https://join.slack.com/t/sbol-standard/shared_invite/zt-1xjsvsiy8-gFM3dAAju~JpBQDswDWHYg
+  link: https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg
 - icon: github
   icon_pack: fab
   link: https://github.com/SynBioDex
@@ -80,37 +80,4 @@ user_groups:
 - Visitors
 ---
 
-<!-- Main SBOL homepage buttons -->
-<div style="display: flex; justify-content: center; gap: 40px; margin: 40px 0;">
-  <a href="/biologist/" style="text-align: center;">
-    <img src="/media/welcome/sbol_biologist.png" alt="SBOL for Biologists" style="width: 300px; max-width: 100%; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-    <div style="margin-top: 12px; font-weight: bold; font-size: 1.2em;">For Biologists</div>
-  </a>
-  <a href="/developer/" style="text-align: center;">
-    <img src="/media/welcome/sbol_developer.png" alt="SBOL for Developers" style="width: 300px; max-width: 100%; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-    <div style="margin-top: 12px; font-weight: bold; font-size: 1.2em;">For Developers</div>
-  </a>
-  <a href="/join/" style="text-align: center;">
-    <img src="/media/welcome/sbol_join.png" alt="Join SBOL" style="width: 300px; max-width: 100%; border-radius: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-    <div style="margin-top: 12px; font-weight: bold; font-size: 1.2em;">Join the Community</div>
-  </a>
-</div>
-
-
-Welcome to the <b>Synthetic Biology Open Language (SBOL)</b> community portal! 
-
-SBOL is a free and open-source standard for the representation of biological designs. The SBOL standard was developed by the synthetic biology community to create a standardized format for the electronic exchange of information on the structural and functional aspects of biological designs.
-
-SBOL was designed for everyone in synthetic biology!
-
-{{< icon name="info-circle" pack="fas" >}} If you are new to SBOL and would like to learn more, checkout the [SBOL section](#sbol)!
-
-{{< icon name="dna" pack="fas" >}} If you would like to use SBOL to create diagrams to visualize your biological designs, you can learn more from the [SBOL Visual section](#visual).
-
-{{< icon name="laptop" pack="fas" >}} If you are a developer, check out all the [libraries](#libraries) created by the SBOL community!
-
-{{< icon name="flask" pack="fas" >}} If you would like to use SBOL without writing any code, you may be interested in the tools and [applications](#applications) developed by the SBOL community!
-
-{{< icon name="file" pack="fas" >}} You can find the latest [SBOL and SBOL visual specifications here](#specifications). We've also included an [exhaustive list of publications](/publication/) that either use SBOL or support SBOL.
-
-{{< icon name="industry" pack="fas" >}} SBOL is also used in the industry! If you are working in the industry and would like learn about how SBOL could support your applications you can join the [SBOL Industrial Consortium](/sbol-industrial/)!
+SBOL is a free and open-source standard for the representation of biological designs, developed by an open community of synthetic biologists, software engineers, and industry professionals.

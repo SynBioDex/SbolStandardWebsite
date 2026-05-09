@@ -1,7 +1,7 @@
 ---
 title: TinkerCell
 summary: A widely used open source network design and simulation application tool for synthetic biology
-tags: ["Circuit Design", "Modeling", "Visualization", "SBOL Visual", "SBOL1 Import", "SBOL1 Export"]
+tags: ["Design", "Analysis & Modeling"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

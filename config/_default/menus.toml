@@ -1,199 +1,145 @@
 # Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
 
 [[main]]
   name = "Home"
-  url = "#about"
+  url = "/"
   weight = 10
 
 [[main]]
-  name = "SBOL Data Model"
-  url = "/DataModel"
+  name = "Learn SBOL"
   weight = 20
-  identifier = "dom-id"
+  identifier = "learn-id"
 
 [[main]]
-  name = "About SBOL"
-  url = "/DataModel-about"
-  weight = 5
-  parent = "dom-id"
+  name = "What is SBOL?"
+  url = "/datamodel-about/"
+  parent = "learn-id"
+  weight = 1
+
+[[main]]
+  name = "What is SBOL Visual?"
+  url = "/visual-about/"
+  parent = "learn-id"
+  weight = 2
+
+[[main]]
+  name = "FAQ"
+  url = "/faq/"
+  parent = "learn-id"
+  weight = 3
+
+[[main]]
+  name = "Blog"
+  url = "/post/"
+  parent = "learn-id"
+  weight = 4
+
+[[main]]
+  name = "Specifications"
+  weight = 30
+  identifier = "spec-id"
 
 [[main]]
   name = "Data Model Specification"
-  url = "/DataModel-Specification"
-  weight = 10
-  parent = "dom-id"
+  url = "/DataModel-Specification/"
+  parent = "spec-id"
+  weight = 1
+
+[[main]]
+  name = "Visual Specification"
+  url = "/visual-specification/"
+  parent = "spec-id"
+  weight = 2
+
+[[main]]
+  name = "Ontology"
+  url = "/ontology/"
+  parent = "spec-id"
+  weight = 3
+
+[[main]]
+  name = "Examples"
+  url = "/DataModel-Examples/"
+  parent = "spec-id"
+  weight = 4
+
+[[main]]
+  name = "Tools & Resources"
+  weight = 40
+  identifier = "tools-id"
+
+[[main]]
+  name = "Applications"
+  url = "/applications/"
+  parent = "tools-id"
+  weight = 1
 
 [[main]]
   name = "Libraries"
-  url = "/libraries"
-  weight = 15
-  parent = "dom-id"
-
-[[main]]
-  name = "SBOL Ontology"
-  url = "/ontology"
-  weight = 20
-  parent = "dom-id"
+  url = "/libraries/"
+  parent = "tools-id"
+  weight = 2
 
 [[main]]
   name = "Converter"
   url = "https://converter.sbolstandard.org/"
-  weight = 25
-  parent = "dom-id"
+  parent = "tools-id"
+  weight = 3
 
 [[main]]
   name = "Validator"
   url = "https://validator.sbolstandard.org/"
-  weight = 30
-  parent = "dom-id"
+  parent = "tools-id"
+  weight = 4
 
 [[main]]
-  name = "Examples"
-  url = "/DataModel-Examples"
-  weight = 35
-  parent = "dom-id"
-
-[[main]]
-  name = "SBOL Visual"
-  url = "/visual"
-  weight = 25
-  identifier = "visual-id"
-
-[[main]]
-  name = "About SBOL Visual"
-  url = "/visual-about"
+  name = "AI Resources"
+  url = "/ai-resources/"
+  parent = "tools-id"
   weight = 5
-  parent = "visual-id"
-
-[[main]]
-  name = "Visual Specification"
-  url = "/visual-specification"
-  weight = 10
-  parent = "visual-id"
-
-[[main]]
-  name = "Glyphs"
-  url = "/visual-glyphs"
-  weight = 15
-  parent = "visual-id"
-
-[[main]]
-  name = "SBOL Visual Ontology"
-  url = "/sbol-visual-ontology"
-  weight = 20
-  parent = "visual-id"
-
-[[main]]
-  name = "Examples from papers"
-  url = "/visual-examples"
-  weight = 25
-  parent = "visual-id"
-
-[[main]]
-  name = "Examples from specification"
-  url = "/visual-spec-examples"
-  weight = 25
-  parent = "visual-id"
-  
-[[main]]
-  name = "Applications"
-  url = "#applications"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "/publication"
-  weight = 40
 
 [[main]]
   name = "Community"
-  url = "/community"
   weight = 50
   identifier = "community-id"
 
 [[main]]
-  name = "About"
-  url = "/community"
-  weight = 5
+  name = "About the Community"
+  url = "/community/"
   parent = "community-id"
+  weight = 1
+
+[[main]]
+  name = "Leadership"
+  url = "/community-leadership/"
+  parent = "community-id"
+  weight = 2
+
+[[main]]
+  name = "How to Join"
+  url = "/join/"
+  parent = "community-id"
+  weight = 3
 
 [[main]]
   name = "Meetings"
-  url = "/community-meetings"
-  weight = 10
+  url = "/community-meetings/"
   parent = "community-id"
+  weight = 4
 
 [[main]]
-  name = "Outreach"
-  url = "/community-outreach"
-  weight = 15
+  name = "Industrial Consortium"
+  url = "/sbol-industrial/"
   parent = "community-id"
+  weight = 5
 
 [[main]]
   name = "Governance"
-  url = "/community-governance"
-  weight = 20
+  url = "/community-governance/"
   parent = "community-id"
+  weight = 6
 
 [[main]]
-  name = "SBOL Industrial Consortium"
-  url = "/sbol-industrial"
-  weight = 25
-  parent = "community-id"
-
-[[main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 55
-
-[[main]]
-  name = "Help"
-  url = "/faq"
+  name = "Publications"
+  url = "/publication/"
   weight = 60
-  identifier = "help-id"
-
-[[main]]
-  name = "FAQ"
-  url = "/faq"
-  weight = 62
-  parent = "help-id"
-
-[[main]]
-  name = "StackExchange"
-  url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
-  weight = 64
-  parent = "help-id"
-
-[[main]]
-  name = "About"
-  url = "/about"
-  weight = 70
-  identifier = "about-id"
-
-[[main]]
-  name = "View Source"
-  url = "https://github.com/SynBioDex/SbolStandardWebsite"
-  weight = 75
-  parent = "about-id"
-
-[[main]]
-  name = "Community Media"
-  url = "https://github.com/SynBioDex/Community-Media"
-  weight = 80
-  parent = "about-id"  
-
-[[main]]
-  name = "Report an Issue"
-  url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 85
-  parent = "about-id"
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70

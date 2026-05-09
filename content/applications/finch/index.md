@@ -1,7 +1,7 @@
 ---
 title: Finch
 summary: Rule-based generation of constructs
-tags: ["Knowledge Management", "Sequence Design", "Circuit Design", "Visualization", "SBOL Visual", "SBOL2 Export"]
+tags: ["Design", "Visualization"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

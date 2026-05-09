@@ -1,0 +1,13 @@
+{{ $name := .Get "name" }}
+{{ $platform := .Get "platform" }}
+{{ $description := .Get "description" }}
+{{ $url := .Get "url" }}
+<div class="media align-items-start mb-4 p-3" style="border-radius: 0.5rem; background: #f8f9fa; border-left: 3px solid var(--primary, #1565c0);">
+  <div class="media-body">
+    <h5 class="mt-0 mb-1">
+      <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ $name }}</a>
+      <span class="badge badge-secondary" style="font-size: 0.7rem; vertical-align: middle; margin-left: 0.4rem;">{{ $platform }}</span>
+    </h5>
+    <p class="text-muted mb-0" style="font-size: 0.95rem;">{{ $description }}</p>
+  </div>
+</div>

@@ -1,7 +1,7 @@
 ---
 title: Graphviz
 summary: a package of open-source tools initiated by AT&T Labs Research for drawing graphs specified in DOT language scripts. 
-tags: ["Visualization", "SBOL Visual"]
+tags: ["Visualization"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

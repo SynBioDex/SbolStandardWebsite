@@ -1,0 +1,17 @@
+{{ $icon := .Get "icon" }}
+{{ $title := .Get "title" }}
+{{ $description := .Get "description" }}
+{{ $url := .Get "url" }}
+{{ $cta := .Get "cta_text" | default "Get Started" }}
+<div class="col-md-4 col-sm-6 mb-4">
+  <div class="card h-100 text-center shadow-sm" style="border-radius: 0.75rem; border-top: 3px solid var(--primary, #1565c0);">
+    <div class="card-body d-flex flex-column p-4">
+      <div class="mb-3" style="font-size: 2.5rem; color: var(--primary, #1565c0);">
+        <i class="fas fa-{{ $icon }}"></i>
+      </div>
+      <h3 class="card-title h5 font-weight-bold mb-2">{{ $title }}</h3>
+      <p class="card-text text-muted mb-4" style="flex-grow: 1;">{{ $description }}</p>
+      <a href="{{ $url }}" class="btn btn-outline-primary align-self-center">{{ $cta }}</a>
+    </div>
+  </div>
+</div>

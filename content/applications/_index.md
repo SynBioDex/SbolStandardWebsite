@@ -1,21 +1,21 @@
 ---
-title: Applications
+title: SBOL Tools & Applications
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 5
+view: 3
 
-# Optional header image (relative to `static/img/` folder).
 header:
   caption: ""
   image: ""
 ---
 
-If you are a synthetic biologist, you may not be aware that there are already many software tools available that support different aspects of the synthetic biology workflow, such as optimizing DNA assembly or simulating gene networks.  Each of the software tools listed here supports exchange of genetic designs in the SBOL file format (SBOL core) or supports display of genetic designs using standard SBOL Visual glyphs.
+Over 30 software tools support SBOL across the full synthetic biology workflow. Browse by category or view all tools below.
 
-{{< figure width="600px" library="true" src="SBOL_2_demo_workflow_chris.png" title="" lightbox="true" >}}
+| Category | Description |
+|---|---|
+| **Design** | Graphical editors, CAD tools, and languages for creating genetic constructs and circuits |
+| **Visualization** | Tools for rendering SBOL Visual diagrams and annotated sequence figures |
+| **Repositories** | Shared registries and data platforms for storing and sharing biological designs |
+| **Analysis & Modeling** | Simulation, optimization, and computational analysis of genetic circuits |
+| **Conversion & Validation** | Convert between SBOL and other formats, or validate SBOL documents |
 
-If you would like us to feature your application here, please fill out this [survey](https://docs.google.com/forms/d/e/1FAIpQLScOTJLCoTniVPrMh88eg74Eaubh1bFMjncbyG6yt8q4cFLQ-Q/viewform).
+If you would like to feature your application here, please fill out this [survey](https://docs.google.com/forms/d/e/1FAIpQLScOTJLCoTniVPrMh88eg74Eaubh1bFMjncbyG6yt8q4cFLQ-Q/viewform).

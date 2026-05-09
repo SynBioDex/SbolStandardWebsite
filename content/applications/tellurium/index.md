@@ -1,7 +1,7 @@
 ---
 title: Tellurium
 summary: A Python environment based on spyder2 IDE, designed for systems and synthetic biology simulations.
-tags: ["Sequence Design", "Circuit Design", "Modeling", "SBOL Visual", "SBOL1 Import", "SBOL1 Export"]
+tags: ["Analysis & Modeling"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

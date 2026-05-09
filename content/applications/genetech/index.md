@@ -1,7 +1,7 @@
 ---
 title: GeneTech
 summary: A tool which allows a user to generate genetic logic circuits only by specifying the logical function desired to be achieved in a living cell.
-tags: ["Circuit Design", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

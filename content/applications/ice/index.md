@@ -1,7 +1,7 @@
 ---
 title: ICE
 summary: Physical and Informatic repository and associated tools for plant seeds, microbial strains, DNA and protein sequences.
-tags: ["Knowledge Management", "Sequence Design", "Visualization", "SBOL Visual", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Repositories"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

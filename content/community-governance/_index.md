@@ -123,7 +123,7 @@ The SBOL Steering Committee mailing list is [sbol-steering@googlegroups.com](mai
 
 The SBOL current chair:
 
-**Prashant Vaidyanathan (April, 2023-), Oxford Biomedica**
+**Prashant Vaidyanathan (April 2023–present), Microsoft**
 
 Previous Chairs:
 

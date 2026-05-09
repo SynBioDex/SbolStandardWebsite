@@ -1,7 +1,7 @@
 ---
 title: Cello
 summary: A tool for Genetic circuit design automation
-tags: ["Circuit Design", "Modeling", "SBOL Visual", "SBOL2 Export"]
+tags: ["Design", "Analysis & Modeling"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
