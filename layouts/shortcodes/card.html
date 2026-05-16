@@ -1,0 +1,10 @@
+{{- $title := .Get "title" -}}
+{{- $image := .Get "image" -}}
+{{- $link  := .Get "link"  -}}
+
+<a href="{{ $link }}" class="jc-card">
+  <div class="jc-card-img-wrap">
+    <img src="{{ $image }}" alt="{{ $title }}" loading="lazy">
+  </div>
+  <div class="jc-card-label">{{ $title }}</div>
+</a>
