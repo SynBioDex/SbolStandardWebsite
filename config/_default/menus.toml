@@ -109,6 +109,11 @@
   weight = 40
 
 [[main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 45
+
+[[main]]
   name = "Community"
   url = "/community"
   weight = 50

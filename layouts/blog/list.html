@@ -1,0 +1,67 @@
+{{ define "main" }}
+
+{{/* ── Hero header ── */}}
+<div class="bl-hero">
+  <div class="bl-hero-inner">
+    <span class="bl-hero-label">Community</span>
+    <h1 class="bl-hero-title">SBOL Blog</h1>
+    <p class="bl-hero-sub">Insights, tutorials, and perspectives from the synthetic biology community.</p>
+  </div>
+</div>
+
+<div class="universal-wrapper bl-wrapper">
+
+  {{ $pages := .Pages }}
+  {{ $top   := first 1 $pages }}
+  {{ $rest  := after 1 $pages }}
+
+  {{/* ── Featured / lead post ── */}}
+  {{ range $top }}
+  {{ $resource := (.Resources.ByType "image").GetMatch "*featured*" }}
+  <a href="{{ .Permalink }}" class="bl-lead{{ if not $resource }} bl-lead--no-img{{ end }}">
+    {{ if $resource }}
+    {{ $img := $resource.Fill "900x520 Smart" }}
+    <div class="bl-lead-img">
+      <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="bl-lead-body">
+      {{ with .Params.tags }}
+      <div class="bl-tags">{{ range first 3 . }}<span class="bl-tag">{{ . }}</span>{{ end }}</div>
+      {{ end }}
+      <h2 class="bl-lead-title">{{ .Title }}</h2>
+      <p class="bl-lead-date">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ with .Params.summary }}<p class="bl-lead-summary">{{ . }}</p>{{ end }}
+      <span class="bl-cta">Read article →</span>
+    </div>
+  </a>
+  {{ end }}
+
+  {{/* ── Card grid ── */}}
+  {{ if $rest }}
+  <div class="bl-grid">
+    {{ range $rest }}
+    {{ $resource := (.Resources.ByType "image").GetMatch "*featured*" }}
+    <a href="{{ .Permalink }}" class="bl-card">
+      {{ if $resource }}
+      {{ $img := $resource.Fill "600x360 Smart" }}
+      <div class="bl-card-img">
+        <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+      </div>
+      {{ end }}
+      <div class="bl-card-body">
+        {{ with .Params.tags }}
+        <div class="bl-tags">{{ range first 2 . }}<span class="bl-tag">{{ . }}</span>{{ end }}</div>
+        {{ end }}
+        <h3 class="bl-card-title">{{ .Title }}</h3>
+        <p class="bl-card-date">{{ .Date.Format "Jan 2, 2006" }}</p>
+        {{ with .Params.summary }}<p class="bl-card-summary">{{ . | plainify | truncate 130 "…" }}</p>{{ end }}
+        <span class="bl-cta">Read more →</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}

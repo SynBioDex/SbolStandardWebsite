@@ -74,3 +74,251 @@ h1, h2, h3, h4, h5, h6,
 /* Optional, keep font weight consistent in headings */
 h1, h2 { font-weight: 700; }
 h3, h4 { font-weight: 400; }
+
+// ── Blog list page ────────────────────────────────────────────────────────────
+
+.bl-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2b2b2b 100%);
+  padding: 5rem 1.5rem 4.5rem;
+  text-align: center;
+}
+
+.bl-hero-inner {
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+.bl-hero-label {
+  display: inline-block;
+  background: $sbol-green;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.85rem;
+  border-radius: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.bl-hero-title {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.bl-hero-sub {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.bl-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+// Tag pills (shared by lead and cards)
+.bl-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.bl-tag {
+  background: rgba(140, 198, 63, 0.13);
+  color: #5a8a1a;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2rem;
+}
+
+// Read more / CTA link
+.bl-cta {
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: $sbol-green;
+  margin-top: 0.25rem;
+  text-decoration: none;
+}
+
+// ── Lead / featured post ──────────────────────────────────────────────────────
+
+.bl-lead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.09);
+  overflow: hidden;
+  margin-bottom: 3.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.22s ease, transform 0.22s ease;
+
+  &:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.14);
+    transform: translateY(-3px);
+    text-decoration: none;
+    color: inherit;
+
+    .bl-lead-img img { transform: scale(1.04); }
+    .bl-cta { text-decoration: underline; }
+  }
+}
+
+.bl-lead-img {
+  overflow: hidden;
+  min-height: 340px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.38s ease;
+  }
+}
+
+.bl-lead--no-img {
+  grid-template-columns: 1fr;
+
+  .bl-lead-body {
+    max-width: 680px;
+  }
+}
+
+.bl-lead-body {
+  padding: 2.75rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bl-lead-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1e1e1e;
+  margin: 0 0 0.4rem;
+}
+
+.bl-lead-date {
+  font-size: 0.8rem;
+  color: #bbb;
+  margin-bottom: 0.85rem;
+}
+
+.bl-lead-summary {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+// ── Card grid ─────────────────────────────────────────────────────────────────
+
+.bl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 2rem;
+}
+
+.bl-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.13);
+    transform: translateY(-4px);
+    text-decoration: none;
+    color: inherit;
+
+    .bl-card-img img { transform: scale(1.05); }
+    .bl-cta { text-decoration: underline; }
+  }
+}
+
+.bl-card-img {
+  height: 200px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.38s ease;
+  }
+}
+
+.bl-card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.bl-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #1e1e1e;
+  margin: 0.25rem 0 0.3rem;
+}
+
+.bl-card-date {
+  font-size: 0.76rem;
+  color: #bbb;
+  margin-bottom: 0.6rem;
+}
+
+.bl-card-summary {
+  font-size: 0.88rem;
+  color: #666;
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: 0.9rem;
+}
+
+// ── Responsive ────────────────────────────────────────────────────────────────
+
+@media (max-width: 860px) {
+  .bl-lead {
+    grid-template-columns: 1fr;
+  }
+
+  .bl-lead-img {
+    min-height: 220px;
+  }
+
+  .bl-lead-placeholder {
+    min-height: 220px;
+  }
+
+  .bl-hero-title {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .bl-hero-title { font-size: 2rem; }
+  .bl-lead-body  { padding: 1.75rem; }
+  .bl-grid       { grid-template-columns: 1fr; }
+}
