@@ -138,6 +138,12 @@
   parent = "community-id"
 
 [[main]]
+  name = "Leadership"
+  url = "/community-leadership"
+  weight = 18
+  parent = "community-id"
+
+[[main]]
   name = "Governance"
   url = "/community-governance"
   weight = 20
