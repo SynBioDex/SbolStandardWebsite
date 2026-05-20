@@ -97,7 +97,7 @@
   url = "/visual-spec-examples"
   weight = 25
   parent = "visual-id"
-  
+
 [[main]]
   name = "Applications"
   url = "#applications"
@@ -155,56 +155,34 @@
   weight = 25
   parent = "community-id"
 
-[[main]]
-  name = "Contact"
+# Footer Links
+
+[[footer]]
+  name = "Contact Us"
   url = "/contact"
-  weight = 55
+  weight = 10
 
-[[main]]
-  name = "Help"
-  url = "/faq"
-  weight = 60
-  identifier = "help-id"
-
-[[main]]
+[[footer]]
   name = "FAQ"
   url = "/faq"
-  weight = 62
-  parent = "help-id"
+  weight = 20
 
-[[main]]
-  name = "StackExchange"
+[[footer]]
+  name = "Stack Exchange"
   url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
-  weight = 64
-  parent = "help-id"
+  weight = 30
 
-[[main]]
-  name = "About"
-  url = "/about"
-  weight = 70
-  identifier = "about-id"
-
-[[main]]
+[[footer]]
   name = "View Source"
   url = "https://github.com/SynBioDex/SbolStandardWebsite"
-  weight = 75
-  parent = "about-id"
+  weight = 40
 
-[[main]]
+[[footer]]
   name = "Community Media"
   url = "https://github.com/SynBioDex/Community-Media"
-  weight = 80
-  parent = "about-id"  
+  weight = 50
 
-[[main]]
+[[footer]]
   name = "Report an Issue"
   url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 85
-  parent = "about-id"
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+  weight = 60

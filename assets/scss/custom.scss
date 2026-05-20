@@ -75,6 +75,27 @@ h1, h2, h3, h4, h5, h6,
 h1, h2 { font-weight: 700; }
 h3, h4 { font-weight: 400; }
 
+// ── Footer links ─────────────────────────────────────────────────────────────
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1.75rem;
+  margin-bottom: 0.5rem;
+
+  a {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    &:hover { color: $sbol-green; }
+  }
+}
+
 // ── Blog list page ────────────────────────────────────────────────────────────
 
 .bl-hero {

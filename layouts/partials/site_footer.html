@@ -1,1 +1,12 @@
-<footer class="site-footer"><p class="powered-by"></p><p class="powered-by copyright-license-text">© 2025 SBOL. This webpage is under liscense <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a></p></footer>
+<footer class="site-footer">
+  {{ if site.Menus.footer }}
+  <p class="footer-links">
+    {{ range site.Menus.footer }}
+    <a href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener" {{ end }}>{{ .Name }}</a>
+    {{ end }}
+  </p>
+  {{ end }}
+  <p class="powered-by copyright-license-text">© 2026 SBOL. This webpage is under license <a
+      href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND
+      4.0</a></p>
+</footer>
