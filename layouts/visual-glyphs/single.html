@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="article-container pt-3">
+  <h1>{{ .Title }}</h1>
+  <div class="article-style">
+    {{ .Content }}
+  </div>
+
+  <div class="glyph-grid">
+    {{ range (.Resources.ByType "image").Match "gallery/*" }}
+    {{ $name := path.Base .Name }}
+    {{ $name  = strings.TrimSuffix ".png" $name }}
+    {{ $name  = strings.TrimSuffix ".svg" $name }}
+    {{ $name  = replace $name "-" " " }}
+    <a href="{{ .RelPermalink }}" download class="glyph-card" title="{{ $name }}">
+      <img src="{{ .RelPermalink }}" alt="{{ $name }}">
+      <span>{{ $name }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
