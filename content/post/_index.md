@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: Announcements
 
 # View.
 #   1 = List

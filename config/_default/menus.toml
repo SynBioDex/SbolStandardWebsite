@@ -3,10 +3,6 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
 
 [[main]]
   name = "SBOL Data Model"
@@ -36,18 +32,6 @@
   name = "SBOL Ontology"
   url = "/ontology"
   weight = 20
-  parent = "dom-id"
-
-[[main]]
-  name = "Converter"
-  url = "https://converter.sbolstandard.org/"
-  weight = 25
-  parent = "dom-id"
-
-[[main]]
-  name = "Validator"
-  url = "https://validator.sbolstandard.org/"
-  weight = 30
   parent = "dom-id"
 
 [[main]]
@@ -93,15 +77,34 @@
   parent = "visual-id"
 
 [[main]]
-  name = "Examples from specification"
-  url = "/visual-spec-examples"
-  weight = 25
+  name = "10 Years of SBOL Visual"
+  url = "/sbolv-10-years"
+  weight = 30
   parent = "visual-id"
+
+[[main]]
+  name = "Ecosystem"
+  url = "/ecosystem"
+  weight = 30
+  identifier = "ecosystem-id"
 
 [[main]]
   name = "Applications"
   url = "#applications"
-  weight = 30
+  weight = 5
+  parent = "ecosystem-id"
+
+ [[main]]
+  name = "Converter"
+  url = "https://converter.sbolstandard.org/"
+  weight = 10
+  parent = "ecosystem-id"
+
+[[main]]
+  name = "Validator"
+  url = "https://validator.sbolstandard.org/"
+  weight = 15
+  parent = "ecosystem-id" 
 
 [[main]]
   name = "Publications"
@@ -109,9 +112,24 @@
   weight = 40
 
 [[main]]
+  name = "News"
+  url = "/news"
+  weight = 45
+  identifier = "news-id"
+
+[[main]]
+  name = "Announcements"
+  url = "/post"
+  weight = 5
+  parent = "news-id"
+
+[[main]]
   name = "Blog"
   url = "/blog"
-  weight = 45
+  weight = 10
+  parent = "news-id"
+
+
 
 [[main]]
   name = "Community"

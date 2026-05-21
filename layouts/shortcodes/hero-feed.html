@@ -109,6 +109,25 @@
   font-size: 0.88rem;
   color: #aaa;
 }
+.hf-card-type {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2rem;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+.hf-card-type--blog {
+  background: rgba(140, 198, 63, 0.15);
+  color: #5a8a1a;
+}
+.hf-card-type--announcement {
+  background: rgba(52, 73, 94, 0.1);
+  color: #34495e;
+}
 
 @media (max-width: 768px) {
   .hf-wrap { flex-direction: column; gap: 2rem; }
@@ -137,14 +156,23 @@
   <div class="hf-right">
     <p class="hf-feed-heading">What's Happening</p>
 
-    {{ $posts := where site.RegularPages "Section" "post" }}
-    {{ $posts  = sort $posts ".Date" "desc" }}
-    {{ $recent := first 2 $posts }}
+    {{ $announcements := where site.RegularPages "Section" "post" }}
+    {{ $blog          := where site.RegularPages "Section" "blog" }}
+    {{ $all           := $announcements | append $blog }}
+    {{ $all            = sort $all ".Date" "desc" }}
+    {{ $recent        := first 2 $all }}
 
     {{ if $recent }}
       {{ range $recent }}
       <div class="hf-card">
-        <div class="hf-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+        <div class="hf-card-date">
+          {{ if eq .Section "blog" }}
+            <span class="hf-card-type hf-card-type--blog">Blog</span>
+          {{ else }}
+            <span class="hf-card-type hf-card-type--announcement">Announcement</span>
+          {{ end }}
+          {{ .Date.Format "Jan 2, 2006" }}
+        </div>
         <div class="hf-card-title">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </div>
