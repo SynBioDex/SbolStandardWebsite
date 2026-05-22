@@ -1,7 +1,7 @@
 ---
 title: j5
 summary: DNA assembly design automation
-tags: ["Sequence Design", "Modeling", "SBOL Visual", "SBOL1 Import", "SBOL1 Export"]
+tags: ["Design", "Simulation"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

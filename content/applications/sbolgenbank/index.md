@@ -1,7 +1,7 @@
 ---
 title: SBOL <-> Genbank Converter
 summary: Loss-less interconversion of SBOL v1.1 and GenBank
-tags: ["SBOL1 Import", "SBOL1 Export"]
+tags: ["Converter"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

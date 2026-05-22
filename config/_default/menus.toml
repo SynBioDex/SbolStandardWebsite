@@ -90,7 +90,7 @@
 
 [[main]]
   name = "Applications"
-  url = "#applications"
+  url = "/applications"
   weight = 5
   parent = "ecosystem-id"
 
