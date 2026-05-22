@@ -107,8 +107,7 @@
       {{ if not $url }}{{ $url = .Params.external_link }}{{ end }}
       <div class="app-dep-card">
         <span class="app-dep-name">
-          {{ if $url }}<a href="{{ $url }}" target="_blank" rel="noopener">{{ .Title }}</a>{{ else }}{{ .Title }}{{ end
-          }}
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
         </span>
         <span class="app-dep-badge">Legacy</span>
         <p class="app-dep-summary">{{ .Summary | plainify | truncate 100 "…" }}</p>

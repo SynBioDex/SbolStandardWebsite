@@ -3,6 +3,7 @@ title: Finch
 summary: Rule-based generation of constructs
 tags: ["Design", "Visualization", "Repository"]
 date: "2020-06-30T00:00:00Z"
+active: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
