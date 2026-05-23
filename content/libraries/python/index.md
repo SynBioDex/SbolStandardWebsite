@@ -3,6 +3,7 @@ title: Python
 summary: Python interfaces and implementations for SBOL
 tags:
 - Libraries
+sbol_version: 3
 date: "2022-02-15T16:30:18Z"
 
 # Optional external URL for project (replaces project detail page).

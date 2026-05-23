@@ -691,3 +691,358 @@ h3, h4 { font-weight: 400; }
   .app-grid       { grid-template-columns: 1fr; }
   .app-deprecated-grid { grid-template-columns: 1fr; }
 }
+
+// ── Libraries page ────────────────────────────────────────────────────────────
+
+.lib-hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2b2b2b 100%);
+  padding: 5rem 1.5rem 4.5rem;
+  text-align: center;
+}
+
+.lib-hero-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.lib-hero-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.lib-hero-sub {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.lib-hero-btns {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.lib-btn-outline-white {
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+
+  &:hover { border-color: #fff; background: rgba(255,255,255,0.08); color: #fff; text-decoration: none; }
+}
+
+// ── Tab bar ───────────────────────────────────────────────────────────────────
+
+.lib-tabs-bar {
+  border-bottom: 2px solid #e8e8e8;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.lib-tabs-wrap {
+  display: flex;
+  gap: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.lib-tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 1rem 1.5rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #888;
+  cursor: pointer;
+  margin-bottom: -2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  font-family: 'Nacelle', Arial, Helvetica, sans-serif;
+
+  &:hover { color: #333; }
+
+  &.active {
+    color: $sbol-green;
+    border-bottom-color: $sbol-green;
+  }
+}
+
+// ── Panel ─────────────────────────────────────────────────────────────────────
+
+.lib-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.lib-panel--hidden {
+  display: none;
+}
+
+// ── Section header ────────────────────────────────────────────────────────────
+
+.lib-section-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.lib-section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin: 0 0 0.3rem;
+}
+
+.lib-section-sub {
+  font-size: 0.88rem;
+  color: #888;
+  margin: 0;
+}
+
+.lib-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.7rem;
+  border-radius: 2rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.lib-badge--active {
+  background: rgba(140, 198, 63, 0.15);
+  color: #4a7a10;
+  border: 1px solid rgba(140, 198, 63, 0.4);
+}
+
+// ── Primary Library cards (large, 2-col) ──────────────────────────────────────
+
+.lib-primary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.lib-primary-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.75rem 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  transition: box-shadow 0.18s ease, transform 0.18s ease;
+
+  &:hover {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+}
+
+.lib-primary-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lib-primary-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.lib-primary-summary {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.65;
+  margin: 0;
+  flex: 1;
+}
+
+.lib-primary-actions {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.lib-btn-dark {
+  background: #1e1e1e;
+  color: #fff !important;
+  border: 1px solid #1e1e1e;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+
+  &:hover { background: #333; text-decoration: none; }
+}
+
+.lib-btn-outline {
+  background: transparent;
+  color: #333 !important;
+  border: 1px solid #ccc;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease;
+
+  &:hover { border-color: $sbol-green; color: $sbol-green !important; text-decoration: none; }
+}
+
+// ── SBOL 2 card grid (smaller) ────────────────────────────────────────────────
+
+.lib-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.lib-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 1.25rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: box-shadow 0.18s ease;
+
+  &:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+}
+
+.lib-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lib-card-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.lib-card-summary {
+  font-size: 0.84rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+.lib-card-actions {
+  margin-top: 0.25rem;
+}
+
+.lib-cta {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: $sbol-green;
+  text-decoration: none;
+
+  &:hover { text-decoration: underline; }
+}
+
+// ── External link icon ────────────────────────────────────────────────────────
+
+.lib-ext-link {
+  color: #bbb;
+  display: flex;
+  transition: color 0.15s ease;
+
+  &:hover { color: $sbol-green; }
+}
+
+// ── Developer Resources ───────────────────────────────────────────────────────
+
+.lib-devres {
+  margin-top: 3.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid #e8e8e8;
+}
+
+.lib-devres-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.lib-devres-card {
+  background: #f8f8f8;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lib-devres-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin: 0;
+}
+
+.lib-devres-desc {
+  font-size: 0.86rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+.lib-devres-cta {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: $sbol-green;
+  text-decoration: none;
+  margin-top: 0.25rem;
+
+  &:hover { text-decoration: underline; }
+}
+
+// ── Responsive ────────────────────────────────────────────────────────────────
+
+@media (max-width: 860px) {
+  .lib-hero-title      { font-size: 2.4rem; }
+  .lib-section-header  { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 560px) {
+  .lib-hero-title      { font-size: 2rem; }
+  .lib-primary-grid    { grid-template-columns: 1fr; }
+  .lib-grid            { grid-template-columns: 1fr; }
+  .lib-devres-grid     { grid-template-columns: 1fr; }
+}
