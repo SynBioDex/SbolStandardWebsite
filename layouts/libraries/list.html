@@ -5,13 +5,13 @@
   <div class="lib-hero-inner">
     <h1 class="lib-hero-title">{{ .Title }}</h1>
     <p class="lib-hero-sub">{{ .Params.subtitle }}</p>
-    <div class="lib-hero-btns">
+    <!--<div class="lib-hero-btns">
       {{ range $i, $tab := .Params.tabs }}
       <a href="#" class="btn {{ if eq $i 0 }}btn-primary{{ else }}btn-outline-secondary{{ end }} lib-hero-btn js-tab-btn" data-target="panel-{{ $tab.id }}">
         Explore {{ $tab.label }}
       </a>
       {{ end }}
-    </div>
+    </div>-->
   </div>
 </div>
 
@@ -32,12 +32,12 @@
   {{/* Filter pages for this version */}}
   {{ $tabPages := slice }}
   {{ range $.Pages }}
-    {{ if in .Params.sbol_versions $tabID }}
-      {{ $tabPages = $tabPages | append . }}
-    {{ end }}
+  {{ if in .Params.sbol_versions $tabID }}
+  {{ $tabPages = $tabPages | append . }}
+  {{ end }}
   {{ end }}
 
-  {{ $primary   := where $tabPages "Params.lib_category" "primary" }}
+  {{ $primary := where $tabPages "Params.lib_category" "primary" }}
   {{ $libraries := where $tabPages "Params.lib_category" "library" }}
   {{ $resources := where $tabPages "Params.lib_category" "resource" }}
 
@@ -55,17 +55,22 @@
     <div class="lib-primary-grid">
       {{ range . }}
       {{ $github := "" }}
-      {{ $docs   := "" }}
+      {{ $docs := "" }}
       {{ range .Params.links }}
-        {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
-        {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
+      {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
+      {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
       {{ end }}
       <div class="lib-primary-card">
         <div class="lib-primary-card-header">
           <span class="lib-primary-name">{{ .Title }}</span>
           {{ with $github }}
           <a href="{{ . }}" target="_blank" rel="noopener" class="lib-ext-link" title="GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
           </a>
           {{ end }}
         </div>
@@ -95,17 +100,22 @@
     <div class="lib-grid">
       {{ range . }}
       {{ $github := "" }}
-      {{ $docs   := "" }}
+      {{ $docs := "" }}
       {{ range .Params.links }}
-        {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
-        {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
+      {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
+      {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
       {{ end }}
       <div class="lib-card">
         <div class="lib-card-header">
           <span class="lib-card-name">{{ .Title }}</span>
           {{ with $github }}
           <a href="{{ . }}" target="_blank" rel="noopener" class="lib-ext-link" title="GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
           </a>
           {{ end }}
         </div>
@@ -136,7 +146,7 @@
         {{ range . }}
         {{ $github := "" }}
         {{ range .Params.links }}
-          {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
+        {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
         {{ end }}
         <div class="lib-devres-card">
           <p class="lib-devres-name">{{ .Title }}</p>
@@ -156,33 +166,33 @@
 </div>{{/* /universal-wrapper */}}
 
 <script>
-(function () {
-  var tabs   = document.querySelectorAll('.lib-tab');
-  var panels = document.querySelectorAll('.lib-panel');
+  (function () {
+    var tabs = document.querySelectorAll('.lib-tab');
+    var panels = document.querySelectorAll('.lib-panel');
 
-  function activateTab(targetID) {
-    tabs.forEach(function (t) { t.classList.remove('active'); });
-    panels.forEach(function (p) { p.classList.add('lib-panel--hidden'); });
-    var matchTab = document.querySelector('.lib-tab[data-target="' + targetID + '"]');
-    var matchPanel = document.getElementById(targetID);
-    if (matchTab)  matchTab.classList.add('active');
-    if (matchPanel) matchPanel.classList.remove('lib-panel--hidden');
-  }
+    function activateTab(targetID) {
+      tabs.forEach(function (t) { t.classList.remove('active'); });
+      panels.forEach(function (p) { p.classList.add('lib-panel--hidden'); });
+      var matchTab = document.querySelector('.lib-tab[data-target="' + targetID + '"]');
+      var matchPanel = document.getElementById(targetID);
+      if (matchTab) matchTab.classList.add('active');
+      if (matchPanel) matchPanel.classList.remove('lib-panel--hidden');
+    }
 
-  tabs.forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      activateTab(tab.getAttribute('data-target'));
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        activateTab(tab.getAttribute('data-target'));
+      });
     });
-  });
 
-  document.querySelectorAll('.js-tab-btn').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      activateTab(btn.getAttribute('data-target'));
-      document.querySelector('.lib-tabs-bar').scrollIntoView({ behavior: 'smooth' });
+    document.querySelectorAll('.js-tab-btn').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        activateTab(btn.getAttribute('data-target'));
+        document.querySelector('.lib-tabs-bar').scrollIntoView({ behavior: 'smooth' });
+      });
     });
-  });
-})();
+  })();
 </script>
 
 {{ end }}

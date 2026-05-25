@@ -11,4 +11,4 @@ links:
   url: https://github.com/SynBioDex/SBOL-utilities
 ---
 
-SBOL Utilities provides command-line tools for converting between GenBank, FASTA, and SBOL formats, as well as structural validation of SBOL documents.
+A developer toolkit for SBOL 2 and SBOL 3 providing format conversion between Excel, GenBank, FASTA, and SBOL, alongside validation and utility functions for working with SBOL documents.

@@ -4,7 +4,7 @@ summary: Core C/C++ interfaces and implementations for SBOL
 tags:
 - Libraries
 sbol_versions: ["2"]
-lib_category: primary
+lib_category: library
 date: "2018-01-01T00:00:01Z"
 
 # Optional external URL for project (replaces project detail page).
