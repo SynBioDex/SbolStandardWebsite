@@ -34,7 +34,7 @@ links:
   url: docs/libsbolj_install.pdf
 - icon: code
   icon_pack: fas
-  name: Release (v 2.4.0)
+  name: Release
   url: https://github.com/SynBioDex/libSBOLj/releases
 - icon: bug
   icon_pack: fas

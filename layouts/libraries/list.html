@@ -105,9 +105,9 @@
       {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
       {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
       {{ end }}
-      <div class="lib-card">
-        <div class="lib-card-header">
-          <span class="lib-card-name">{{ .Title }}</span>
+      <div class="lib-primary-card">
+        <div class="lib-primary-card-header">
+          <span class="lib-primary-name">{{ .Title }}</span>
           {{ with $github }}
           <a href="{{ . }}" target="_blank" rel="noopener" class="lib-ext-link" title="GitHub">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
@@ -119,14 +119,15 @@
           </a>
           {{ end }}
         </div>
-        <p class="lib-card-summary">{{ .Summary | plainify }}</p>
-        <div class="lib-card-actions">
+        <p class="lib-primary-summary">{{ .Summary | plainify }}</p>
+        <div class="lib-primary-actions">
           {{ with $docs }}
-          <a href="{{ . }}" target="_blank" rel="noopener" class="lib-cta">Documentation →</a>
+          <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-sm lib-btn-dark">Documentation</a>
           {{ end }}
-          {{ if not $docs }}
-          <a href="{{ .Permalink }}" class="lib-cta">More Info →</a>
+          {{ with $github }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-sm lib-btn-outline">GitHub</a>
           {{ end }}
+          <a href="{{ .Permalink }}" class="btn btn-sm lib-btn-outline">More Info</a>
         </div>
       </div>
       {{ end }}

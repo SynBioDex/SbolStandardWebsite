@@ -1,6 +1,6 @@
 ---
-title: F#
-summary: F# libraries for SBOL
+title: fSBOL
+summary: F# libraries for SBOL 2
 tags:
 - Libraries
 sbol_versions: ["2"]

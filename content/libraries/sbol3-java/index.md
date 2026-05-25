@@ -70,6 +70,3 @@ N-Triples, and JSON-LD graph formats. The library also provides a
 higher-level API to abstract commonly used methods and a validator to
 programmatically validate SBOL documents or individual entities.
 
-
-# Older Versions
-- [libSBOLj for SBOL2](sbol2)

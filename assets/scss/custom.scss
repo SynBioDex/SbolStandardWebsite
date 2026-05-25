@@ -921,12 +921,12 @@ h3, h4 { font-weight: 400; }
   &:hover { border-color: $sbol-green; color: $sbol-green !important; text-decoration: none; }
 }
 
-// ── SBOL 2 card grid (smaller) ────────────────────────────────────────────────
+// ── Other Libraries grid ──────────────────────────────────────────────────────
 
 .lib-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
 }
 
 .lib-card {
