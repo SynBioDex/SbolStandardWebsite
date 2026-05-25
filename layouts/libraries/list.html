@@ -1,17 +1,16 @@
 {{ define "main" }}
 
-{{/* ── Split pages by SBOL version ── */}}
-{{ $sbol3 := where .Pages "Params.sbol_version" 3 }}
-{{ $sbol2 := where .Pages "Params.sbol_version" 2 }}
-
 {{/* ── Hero ── */}}
 <div class="lib-hero">
   <div class="lib-hero-inner">
     <h1 class="lib-hero-title">{{ .Title }}</h1>
     <p class="lib-hero-sub">{{ .Params.subtitle }}</p>
     <div class="lib-hero-btns">
-      <a href="#sbol3" class="btn btn-primary lib-hero-btn" id="heroSbol3Btn">Explore SBOL 3</a>
-      <a href="#developer-resources" class="btn btn-outline lib-hero-btn">Developer Resources</a>
+      {{ range $i, $tab := .Params.tabs }}
+      <a href="#" class="btn {{ if eq $i 0 }}btn-primary{{ else }}btn-outline-secondary{{ end }} lib-hero-btn js-tab-btn" data-target="panel-{{ $tab.id }}">
+        Explore {{ $tab.label }}
+      </a>
+      {{ end }}
     </div>
   </div>
 </div>
@@ -19,46 +18,54 @@
 {{/* ── Tab bar ── */}}
 <div class="lib-tabs-bar">
   <div class="universal-wrapper lib-tabs-wrap">
-    <button class="lib-tab active" data-target="panel-sbol3">SBOL 3</button>
-    <button class="lib-tab" data-target="panel-sbol2">SBOL 2</button>
+    {{ range $i, $tab := .Params.tabs }}
+    <button class="lib-tab{{ if eq $i 0 }} active{{ end }}" data-target="panel-{{ $tab.id }}">{{ $tab.label }}</button>
+    {{ end }}
   </div>
 </div>
 
 <div class="universal-wrapper lib-wrapper">
 
-  {{/* ════════════════ SBOL 3 panel ════════════════ */}}
-  <div class="lib-panel" id="panel-sbol3">
+  {{ range $i, $tab := $.Params.tabs }}
+  {{ $tabID := $tab.id }}
+
+  {{/* Filter pages for this version */}}
+  {{ $tabPages := slice }}
+  {{ range $.Pages }}
+    {{ if in .Params.sbol_versions $tabID }}
+      {{ $tabPages = $tabPages | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ $primary   := where $tabPages "Params.lib_category" "primary" }}
+  {{ $libraries := where $tabPages "Params.lib_category" "library" }}
+  {{ $resources := where $tabPages "Params.lib_category" "resource" }}
+
+  <div class="lib-panel{{ if ne $i 0 }} lib-panel--hidden{{ end }}" id="panel-{{ $tabID }}">
 
     {{/* ── Primary Libraries ── */}}
-    {{ with $sbol3 }}
+    {{ with $primary }}
     <div class="lib-section-header">
       <div>
         <h2 class="lib-section-title">Primary Libraries</h2>
-        <p class="lib-section-sub">Actively maintained core implementations for modern synthetic biology workflows.</p>
+        <p class="lib-section-sub">Actively maintained core implementations.</p>
       </div>
-      <span class="lib-badge lib-badge--active">Active Development</span>
+      {{ if eq $tabID "3" }}<span class="lib-badge lib-badge--active">Active Development</span>{{ end }}
     </div>
-
     <div class="lib-primary-grid">
       {{ range . }}
       {{ $github := "" }}
-      {{ $docs := "" }}
+      {{ $docs   := "" }}
       {{ range .Params.links }}
-      {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
-      {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
+        {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
+        {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
       {{ end }}
-
       <div class="lib-primary-card">
         <div class="lib-primary-card-header">
           <span class="lib-primary-name">{{ .Title }}</span>
           {{ with $github }}
           <a href="{{ . }}" target="_blank" rel="noopener" class="lib-ext-link" title="GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-              <polyline points="15 3 21 3 21 9" />
-              <line x1="10" y1="14" x2="21" y2="3" />
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
           {{ end }}
         </div>
@@ -77,56 +84,28 @@
     </div>
     {{ end }}
 
-    {{/* ── Developer Resources ── */}}
-    {{ with .Params.developer_resources }}
-    <div class="lib-devres" id="developer-resources">
-      <h2 class="lib-section-title">Developer Resources</h2>
-      <p class="lib-section-sub">Resources and libraries to accelerate your work with SBOL.</p>
-      <div class="lib-devres-grid">
-        {{ range . }}
-        <div class="lib-devres-card">
-          <p class="lib-devres-name">{{ .name }}</p>
-          <p class="lib-devres-desc">{{ .description }}</p>
-          <a href="{{ .url }}" target="_blank" rel="noopener" class="lib-devres-cta">{{ .cta }} →</a>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    {{ end }}
-
-  </div>{{/* /panel-sbol3 */}}
-
-  {{/* ════════════════ SBOL 2 panel ════════════════ */}}
-  <div class="lib-panel lib-panel--hidden" id="panel-sbol2">
-
-    <div class="lib-section-header">
+    {{/* ── Other Libraries ── */}}
+    {{ with $libraries }}
+    <div class="lib-section-header lib-section-header--spaced">
       <div>
-        <h2 class="lib-section-title">SBOL 2 Libraries</h2>
-        <p class="lib-section-sub">The following libraries provide support for SBOL 2 and continue to be used across the
-          community.</p>
+        <h2 class="lib-section-title">Other Libraries</h2>
+        <p class="lib-section-sub">Additional language implementations.</p>
       </div>
     </div>
-
     <div class="lib-grid">
-      {{ range $sbol2 }}
+      {{ range . }}
       {{ $github := "" }}
-      {{ $docs := "" }}
+      {{ $docs   := "" }}
       {{ range .Params.links }}
-      {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
-      {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
+        {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
+        {{ if or (in .name "Documentation") (in .name "API") (eq .icon "edge") }}{{ $docs = .url }}{{ end }}
       {{ end }}
-
       <div class="lib-card">
         <div class="lib-card-header">
           <span class="lib-card-name">{{ .Title }}</span>
           {{ with $github }}
           <a href="{{ . }}" target="_blank" rel="noopener" class="lib-ext-link" title="GitHub">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-              <polyline points="15 3 21 3 21 9" />
-              <line x1="10" y1="14" x2="21" y2="3" />
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </a>
           {{ end }}
         </div>
@@ -142,41 +121,68 @@
       </div>
       {{ end }}
     </div>
+    {{ end }}
 
-  </div>{{/* /panel-sbol2 */}}
+    {{/* ── Developer Resources ── */}}
+    {{ with $resources }}
+    <div class="lib-devres">
+      <div class="lib-section-header lib-section-header--spaced">
+        <div>
+          <h2 class="lib-section-title">Developer Resources</h2>
+          <p class="lib-section-sub">Tools and notebooks to accelerate your work with SBOL.</p>
+        </div>
+      </div>
+      <div class="lib-devres-grid">
+        {{ range . }}
+        {{ $github := "" }}
+        {{ range .Params.links }}
+          {{ if or (eq .name "Github") (eq .icon "github") }}{{ $github = .url }}{{ end }}
+        {{ end }}
+        <div class="lib-devres-card">
+          <p class="lib-devres-name">{{ .Title }}</p>
+          <p class="lib-devres-desc">{{ .Summary | plainify }}</p>
+          {{ with $github }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="lib-devres-cta">Explore on GitHub →</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+
+  </div>{{/* /lib-panel */}}
+  {{ end }}{{/* /range tabs */}}
 
 </div>{{/* /universal-wrapper */}}
 
 <script>
-  (function () {
-    var tabs = document.querySelectorAll('.lib-tab');
-    var panels = document.querySelectorAll('.lib-panel');
+(function () {
+  var tabs   = document.querySelectorAll('.lib-tab');
+  var panels = document.querySelectorAll('.lib-panel');
 
-    tabs.forEach(function (tab) {
-      tab.addEventListener('click', function () {
-        tabs.forEach(function (t) { t.classList.remove('active'); });
-        panels.forEach(function (p) { p.classList.add('lib-panel--hidden'); });
-        tab.classList.add('active');
-        var target = document.getElementById(tab.getAttribute('data-target'));
-        if (target) target.classList.remove('lib-panel--hidden');
-      });
+  function activateTab(targetID) {
+    tabs.forEach(function (t) { t.classList.remove('active'); });
+    panels.forEach(function (p) { p.classList.add('lib-panel--hidden'); });
+    var matchTab = document.querySelector('.lib-tab[data-target="' + targetID + '"]');
+    var matchPanel = document.getElementById(targetID);
+    if (matchTab)  matchTab.classList.add('active');
+    if (matchPanel) matchPanel.classList.remove('lib-panel--hidden');
+  }
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      activateTab(tab.getAttribute('data-target'));
     });
+  });
 
-    // "Explore SBOL 3" hero button — smooth scroll + activate tab
-    var heroBtn = document.getElementById('heroSbol3Btn');
-    if (heroBtn) {
-      heroBtn.addEventListener('click', function (e) {
-        e.preventDefault();
-        tabs.forEach(function (t) { t.classList.remove('active'); });
-        panels.forEach(function (p) { p.classList.add('lib-panel--hidden'); });
-        var t3 = document.querySelector('[data-target="panel-sbol3"]');
-        var p3 = document.getElementById('panel-sbol3');
-        if (t3) t3.classList.add('active');
-        if (p3) p3.classList.remove('lib-panel--hidden');
-        document.querySelector('.lib-tabs-bar').scrollIntoView({ behavior: 'smooth' });
-      });
-    }
-  })();
+  document.querySelectorAll('.js-tab-btn').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      activateTab(btn.getAttribute('data-target'));
+      document.querySelector('.lib-tabs-bar').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+})();
 </script>
 
 {{ end }}

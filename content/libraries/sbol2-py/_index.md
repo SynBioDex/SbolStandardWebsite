@@ -1,6 +1,9 @@
 ---
 title: pySBOL2
 summary: Python interfaces and implementations for SBOL 2
+sbol_versions:
+- "2"
+lib_category: primary
 tags:
 - Libraries/Python
 date: "2018-01-01T00:00:04Z"

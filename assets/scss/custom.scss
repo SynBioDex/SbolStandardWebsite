@@ -800,6 +800,8 @@ h3, h4 { font-weight: 400; }
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 1.75rem;
+
+  &--spaced { margin-top: 3rem; }
 }
 
 .lib-section-title {

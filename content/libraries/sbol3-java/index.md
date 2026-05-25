@@ -3,7 +3,8 @@ title: Java
 summary: Java interfaces and implementations for SBOL
 tags:
 - Libraries
-sbol_version: 3
+sbol_versions: ["3"]
+lib_category: primary
 date: "2023-05-10T00:00:02Z"
 
 # Optional external URL for project (replaces project detail page).
