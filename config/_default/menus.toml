@@ -23,12 +23,6 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Libraries"
-  url = "/libraries"
-  weight = 15
-  parent = "dom-id"
-
-[[main]]
   name = "SBOL Ontology"
   url = "/ontology"
   weight = 20
@@ -91,25 +85,25 @@
 [[main]]
   name = "Libraries"
   url = "/libraries"
-  weight = 1
+  weight = 5
   parent = "ecosystem-id"
 
 [[main]]
   name = "Applications"
   url = "/applications"
-  weight = 5
+  weight = 10
   parent = "ecosystem-id"
 
  [[main]]
   name = "Converter"
   url = "https://converter.sbolstandard.org/"
-  weight = 10
+  weight = 15
   parent = "ecosystem-id"
 
 [[main]]
   name = "Validator"
   url = "https://validator.sbolstandard.org/"
-  weight = 15
+  weight = 20
   parent = "ecosystem-id" 
 
 [[main]]
