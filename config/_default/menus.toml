@@ -71,6 +71,12 @@
   parent = "visual-id"
 
 [[main]]
+  name = "Gallery"
+  url = "/visual-gallery"
+  weight = 27
+  parent = "visual-id"
+
+[[main]]
   name = "10 Years of SBOL Visual"
   url = "/sbolv-10-years"
   weight = 30
