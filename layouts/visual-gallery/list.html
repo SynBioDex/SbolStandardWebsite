@@ -73,7 +73,7 @@
       <div class="vg-card-meta">
         <span class="vg-card-title">{{ $page.Title }}</span>
         <span class="vg-card-byline">
-          {{ $credit }}{{ with $year }} &middot; {{ . }}{{ end }}
+          {{ $credit }}{{ with $year }} &middot; {{ . }}{{ end }}{{ with $journal }} &middot; <em>{{ . }}</em>{{ end }}
         </span>
       </div>
     </button>
