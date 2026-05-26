@@ -20,6 +20,7 @@
 {{ $btn1_link := .Get "btn1_link" }}
 {{ $btn2_text := .Get "btn2_text" }}
 {{ $btn2_link := .Get "btn2_link" }}
+{{ $btn2_icon := .Get "btn2_icon" }}
 
 <style>
 .hf-wrap {
@@ -147,7 +148,7 @@
         <a href="{{ $btn1_link }}" class="btn btn-primary btn-lg">{{ . }}</a>
       {{ end }}
       {{ with $btn2_text }}
-        <a href="{{ $btn2_link }}" class="btn btn-outline-primary btn-lg">{{ . }}</a>
+        <a href="{{ $btn2_link }}" class="btn btn-outline-primary btn-lg" target="_blank" rel="noopener">{{ with $btn2_icon }}<i class="{{ . }}" style="margin-right:0.45em"></i>{{ end }}{{ . }}</a>
       {{ end }}
     </div>
   </div>

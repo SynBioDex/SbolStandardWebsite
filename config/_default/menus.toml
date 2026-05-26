@@ -113,6 +113,12 @@
   parent = "ecosystem-id" 
 
 [[main]]
+  name = "GitHub"
+  url = "https://github.com/SynBioDex/"
+  weight = 25
+  parent = "ecosystem-id" 
+
+[[main]]
   name = "Publications"
   url = "/publication"
   weight = 40
@@ -149,23 +155,26 @@
   weight = 5
   parent = "community-id"
 
-[[main]]
-  name = "Meetings"
-  url = "/community-meetings"
-  weight = 10
-  parent = "community-id"
-
-[[main]]
-  name = "Outreach"
-  url = "/community-outreach"
-  weight = 15
-  parent = "community-id"
 
 [[main]]
   name = "Leadership"
   url = "/community-leadership"
-  weight = 18
+  weight = 10
   parent = "community-id"
+
+[[main]]
+  name = "Meetings & Outreach"
+  url = "/community-meetings"
+  weight = 12
+  parent = "community-id"
+
+#[[main]]
+#  name = "Outreach"
+#  url = "/community-outreach"
+#  weight = 15
+#  parent = "community-id"
+
+
 
 [[main]]
   name = "Governance"

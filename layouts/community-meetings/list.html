@@ -1,0 +1,379 @@
+{{ define "main" }}
+
+{{ $now := now }}
+{{ $meetings     := .Params.meetings      | default slice }}
+{{ $outreach     := .Params.outreach      | default slice }}
+{{ $connectLinks := .Params.connect_links | default slice }}
+{{ $connectText  := .Params.connect_text  | default "" }}
+{{ $heroBtnText  := .Params.hero_btn_text | default "Join the Community" }}
+{{ $heroBtnIcon  := .Params.hero_btn_icon | default "" }}
+{{ $heroBtnUrl   := .Params.hero_btn_url  | default "" }}
+
+{{/* ── Split meetings: upcoming vs archive ── */}}
+{{ $upcoming := slice }}
+{{ $past     := slice }}
+{{ range $meetings }}
+  {{ $d := "" }}
+  {{ with .date }}{{ $d = time . }}{{ end }}
+  {{ if and $d (ge $d $now) }}
+    {{ $upcoming = $upcoming | append . }}
+  {{ else }}
+    {{ $past = $past | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* ── Hero ── */}}
+<div class="cm-hero">
+  <div class="cm-hero-inner">
+    <h1 class="cm-hero-title">{{ .Title }}</h1>
+    <p class="cm-hero-sub">{{ .Params.subtitle }}</p>
+    {{ with $heroBtnUrl }}
+    <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary cm-hero-btn">
+      {{ with $heroBtnIcon }}<i class="{{ . }}" style="margin-right:0.45em"></i>{{ end }}{{ $heroBtnText }}
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="universal-wrapper cm-wrapper">
+
+  {{/* ── Workshops & Conferences ── */}}
+  <section class="cm-section">
+    <h2 class="cm-section-title">Workshops &amp; Conferences</h2>
+
+    <div class="cm-tabs" role="tablist" aria-label="Meeting filter">
+      <button class="cm-tab cm-tab-active" role="tab" aria-selected="true"
+              aria-controls="panel-upcoming" data-tab="upcoming">
+        Upcoming
+        {{ if $upcoming }}<span class="cm-tab-count">{{ len $upcoming }}</span>{{ end }}
+      </button>
+      <button class="cm-tab" role="tab" aria-selected="false"
+              aria-controls="panel-archive" data-tab="archive">
+        Archive
+        {{ if $past }}<span class="cm-tab-count">{{ len $past }}</span>{{ end }}
+      </button>
+    </div>
+
+    <div class="cm-tab-panel" id="panel-upcoming" role="tabpanel">
+      {{ if $upcoming }}
+      <table class="cm-table">
+        <thead><tr><th>Event</th><th>Date</th><th>Location</th><th>Resources</th></tr></thead>
+        <tbody>
+          {{ range $upcoming }}
+          <tr>
+            <td>
+              <span class="cm-badge cm-badge-{{ .type | lower | replaceRE `\s+` `-` }}">{{ .type }}</span>
+              {{ if .url }}<a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+              {{ else }}{{ .name }}{{ end }}
+            </td>
+            <td class="cm-date">{{ .date_display }}</td>
+            <td class="cm-loc">{{ .location }}</td>
+            <td>{{ with .slides_url }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary cm-res-btn">Slides</a>{{ end }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+      {{ else }}
+      <p class="cm-empty">No upcoming events scheduled — check back soon.</p>
+      {{ end }}
+    </div>
+
+    <div class="cm-tab-panel cm-hidden" id="panel-archive" role="tabpanel">
+      {{ if $past }}
+      <table class="cm-table">
+        <thead><tr><th>Event</th><th>Date</th><th>Location</th><th>Resources</th></tr></thead>
+        <tbody>
+          {{ range $past }}
+          <tr>
+            <td>
+              <span class="cm-badge cm-badge-{{ .type | lower | replaceRE `\s+` `-` }}">{{ .type }}</span>
+              {{ if .url }}<a href="{{ .url }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+              {{ else }}{{ .name }}{{ end }}
+            </td>
+            <td class="cm-date">{{ .date_display }}</td>
+            <td class="cm-loc">{{ .location }}</td>
+            <td>{{ with .slides_url }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary cm-res-btn">Slides</a>{{ end }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* ── Outreach & Education ── */}}
+  <section class="cm-section">
+    <h2 class="cm-section-title">Outreach &amp; Education</h2>
+    <div class="cm-outreach-grid">
+      {{ range $outreach }}
+      <div class="cm-outreach-card">
+        <span class="cm-badge cm-badge-{{ .type | lower | replaceRE `\s+` `-` }}">{{ .type }}</span>
+        {{ if .url }}
+        <a href="{{ .url }}" class="cm-outreach-name"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+        {{ else }}
+        <span class="cm-outreach-name">{{ .name }}</span>
+        {{ end }}
+        <span class="cm-outreach-meta">{{ .date_display }}{{ with .location }} &middot; {{ . }}{{ end }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+
+</div>{{/* /universal-wrapper */}}
+
+{{/* ── Stay Connected ── */}}
+{{ if $connectLinks }}
+<div class="cm-connect">
+  <div class="universal-wrapper cm-connect-inner">
+    <h2 class="cm-connect-title">Stay Connected</h2>
+    {{ with $connectText }}<p class="cm-connect-text">{{ . }}</p>{{ end }}
+    <div class="cm-connect-grid">
+      {{ range $connectLinks }}
+      <a href="{{ .url }}" class="cm-connect-card"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>
+        <span class="cm-connect-name">{{ with .icon }}<i class="{{ . }} cm-connect-icon"></i> {{ end }}{{ .name }}</span>
+        <span class="cm-connect-desc">{{ .description }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+<style>
+/* ── Hero ── */
+.cm-hero {
+  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.cm-hero-inner { max-width: 760px; margin: 0 auto; }
+.cm-hero-title { font-size: 2.4rem; font-weight: 800; margin-bottom: 0.75rem; color: #1a1a1a; }
+.cm-hero-sub   { font-size: 1.05rem; color: #555; line-height: 1.65; margin-bottom: 1.5rem; }
+.cm-hero-btn   { margin-top: 0.25rem; }
+
+/* ── Page wrapper ── */
+.cm-wrapper { padding-top: 3rem; padding-bottom: 3rem; }
+.cm-section  { margin-bottom: 3.5rem; }
+.cm-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* ── Tabs ── */
+.cm-tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.cm-tab {
+  appearance: none;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 0.55rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.cm-tab:hover         { color: #333; }
+.cm-tab-active        { color: var(--primary, #8cc63f); border-bottom-color: var(--primary, #8cc63f); }
+.cm-tab-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  min-width: 1.3em;
+  height: 1.3em;
+  padding: 0 0.3em;
+  color: #555;
+}
+.cm-tab-active .cm-tab-count { background: #d4edbc; color: #3a6e00; }
+.cm-hidden { display: none !important; }
+
+/* ── Table ── */
+.cm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.cm-table thead tr {
+  background: #f7f9f5;
+  border-bottom: 2px solid #e0e0e0;
+}
+.cm-table th {
+  padding: 0.65rem 0.9rem;
+  font-weight: 700;
+  text-align: left;
+  color: #444;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.cm-table td {
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: middle;
+}
+.cm-table tr:last-child td { border-bottom: none; }
+.cm-table tr:hover td      { background: #fafcf8; }
+.cm-date { white-space: nowrap; color: #666; }
+.cm-loc  { color: #555; }
+.cm-res-btn { white-space: nowrap; font-size: 0.75rem; padding: 0.2rem 0.55rem; }
+.cm-empty { color: #888; font-style: italic; padding: 1rem 0; }
+
+/* ── Badges ── */
+.cm-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 0.18em 0.55em;
+  border-radius: 4px;
+  margin-right: 0.4em;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.cm-badge-combine       { background: #dbeafe; color: #1e40af; }
+.cm-badge-harmony       { background: #ede9fe; color: #6d28d9; }
+.cm-badge-sbol-workshop { background: #dcfce7; color: #166534; }
+.cm-badge-iwbda         { background: #fef3c7; color: #92400e; }
+.cm-badge-seed          { background: #fce7f3; color: #9d174d; }
+.cm-badge-workshop      { background: #e0f2fe; color: #075985; }
+.cm-badge-seminar       { background: #f3f4f6; color: #374151; }
+.cm-badge-conference    { background: #fff7ed; color: #9a3412; }
+.cm-badge-synbio-conf   { background: #ecfdf5; color: #065f46; }
+
+/* ── Outreach grid ── */
+.cm-outreach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.cm-outreach-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.cm-outreach-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+.cm-outreach-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #1a1a1a;
+  line-height: 1.3;
+  text-decoration: none;
+}
+a.cm-outreach-name:hover { color: var(--primary, #8cc63f); text-decoration: underline; }
+.cm-outreach-meta { font-size: 0.76rem; color: #888; }
+
+/* ── Stay Connected ── */
+.cm-connect {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 3.5rem 1.5rem;
+}
+.cm-connect-inner { max-width: 860px; margin: 0 auto; }
+.cm-connect-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+.cm-connect-text {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.65;
+  margin-bottom: 2rem;
+  max-width: 640px;
+}
+.cm-connect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+.cm-connect-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s;
+}
+.cm-connect-card:hover {
+  background: rgba(255,255,255,0.13);
+  border-color: rgba(140,198,63,0.5);
+}
+.cm-connect-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #fff;
+}
+.cm-connect-icon { font-size: 1rem; opacity: 0.9; }
+.cm-connect-desc {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.55);
+}
+
+@media (max-width: 640px) {
+  .cm-hero-title { font-size: 1.8rem; }
+  .cm-outreach-grid { grid-template-columns: 1fr 1fr; }
+  .cm-connect-grid  { grid-template-columns: 1fr 1fr; }
+  .cm-table { font-size: 0.8rem; }
+  .cm-table th, .cm-table td { padding: 0.5rem 0.6rem; }
+}
+@media (max-width: 420px) {
+  .cm-outreach-grid { grid-template-columns: 1fr; }
+  .cm-connect-grid  { grid-template-columns: 1fr; }
+}
+</style>
+
+<script>
+(function () {
+  var tabs   = document.querySelectorAll('.cm-tab');
+  var panels = document.querySelectorAll('.cm-tab-panel');
+
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var target = tab.dataset.tab;
+
+      tabs.forEach(function (t) {
+        t.classList.toggle('cm-tab-active', t === tab);
+        t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
+      });
+
+      panels.forEach(function (panel) {
+        var show = panel.id === 'panel-' + target;
+        panel.classList.toggle('cm-hidden', !show);
+      });
+    });
+  });
+})();
+</script>
+
+{{ end }}
