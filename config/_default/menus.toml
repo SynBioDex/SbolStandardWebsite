@@ -116,7 +116,13 @@
   name = "GitHub"
   url = "https://github.com/SynBioDex/"
   weight = 25
-  parent = "ecosystem-id" 
+  parent = "ecosystem-id"
+
+[[main]]
+  name = "GenAI Tools"
+  url = "/genai-tools"
+  weight = 30
+  parent = "ecosystem-id"
 
 [[main]]
   name = "Publications"
