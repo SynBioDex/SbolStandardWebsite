@@ -12,10 +12,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: edge
-  icon_pack: fab
-  name: Link
-  url: http://dnaplotlib.org/
+#- icon: edge
+#  icon_pack: fab
+#  name: Link
+#  url: http://dnaplotlib.org/
 - icon: github
   icon_pack: fab
   name: Source Code

@@ -3,6 +3,7 @@ title: GenoCAD
 summary: A rule-based DNA design tool.
 tags: ["Design", "Repository"]
 date: "2020-06-30T00:00:00Z"
+active: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

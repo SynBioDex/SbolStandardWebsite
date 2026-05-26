@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the SBOL Blog"
 date: 2026-05-17
-authors: ["admin"]
+authors: ["prashant-vaidyanathan"]
 tags: ["synthetic biology", "SBOL", "community"]
 summary: "Introducing the new SBOL community blog — a space for developers, researchers, and users to share insights, tutorials, and updates from across the synthetic biology community."
 featured: false

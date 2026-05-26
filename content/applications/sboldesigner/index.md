@@ -34,8 +34,8 @@ SBOLDesigner 2.1 is a simple, biologist-friendly CAD software tool for creating 
 
 | | |
 | ---| ---|
-| Contact Person | Doug Densmore |
-| Organization(s) | Boston University |
+| Contact Person | Chris Myers |
+| Organization(s) | University of Colorado, Boulder |
 | Programming Language | Java/HTML/JS/CSS |
 | OS/Platform | Web |
 | Availability | Open-Source |

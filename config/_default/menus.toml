@@ -64,11 +64,11 @@
   weight = 20
   parent = "visual-id"
 
-[[main]]
-  name = "Examples from papers"
-  url = "/visual-examples"
-  weight = 25
-  parent = "visual-id"
+#[[main]]
+#  name = "Examples from papers"
+#  url = "/visual-examples"
+#  weight = 25
+#  parent = "visual-id"
 
 [[main]]
   name = "Gallery"
