@@ -22,6 +22,12 @@ connect_links:
   
 
 meetings:
+  - name: "COMBINE 2026"
+    type: "COMBINE"
+    date: "2026-09-07"
+    date_display: "Sep 2026"
+    location: "Keele University, UK"
+    url: "https://co.mbine.org/author/combine-2026/"
   - name: "COMBINE 2024"
     type: "COMBINE"
     date: "2024-09-01"

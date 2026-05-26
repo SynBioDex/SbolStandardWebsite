@@ -1,6 +1,6 @@
 ---
 title: Chris Myers
-role: "Former SBOL Chair (2019–2023)"
+role: "SBOL Chair (2019–2023)"
 weight: 20
 organizations:
   - name: University of Colorado, Boulder

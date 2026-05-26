@@ -10,6 +10,6 @@ title = ""
 [design]
   show_social = true
   show_interests = false
-  show_role = true
+  show_role = false
   show_organizations = true
 +++
