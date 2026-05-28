@@ -1,0 +1,244 @@
+{{ define "main" }}
+
+{{ $p := .Params }}
+
+{{/* ── Hero ── */}}
+<div class="bio-hero">
+  <div class="bio-hero-inner">
+    <h1 class="bio-hero-title">{{ .Title }}</h1>
+    <p class="bio-hero-sub">{{ $p.subtitle }}</p>
+  </div>
+</div>
+
+<div class="universal-wrapper bio-wrapper">
+
+  {{/* ── Benefits ── */}}
+  {{ with $p.benefits }}
+  <div class="bio-benefits">
+    {{ range . }}
+    <div class="bio-benefit-card">
+      <div class="bio-benefit-icon"><i class="{{ .icon }}"></i></div>
+      <h3 class="bio-benefit-title">{{ .title }}</h3>
+      <p class="bio-benefit-desc">{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* ── Tools ── */}}
+  {{ range $p.tools }}
+  {{ $img := $.Resources.GetMatch .image }}
+  <div class="bio-tool{{ if .flip }} bio-tool--flip{{ end }}">
+    <div class="bio-tool-img-wrap">
+      {{ with $img }}
+      <img src="{{ .RelPermalink }}" alt="" class="bio-tool-img">
+      {{ end }}
+    </div>
+    <div class="bio-tool-text">
+      <h2 class="bio-tool-name">{{ .name }}</h2>
+      <p class="bio-tool-desc">{{ .description }}</p>
+      <ul class="bio-tool-bullets">
+        {{ range .bullets }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      <a href="{{ .url }}" target="_blank" rel="noopener" class="btn btn-primary bio-tool-btn">{{ .cta_text }}</a>
+    </div>
+  </div>
+  {{ end }}
+
+</div>{{/* /universal-wrapper */}}
+
+{{/* ── Visual Language ── */}}
+{{ with $p.glyphs_title }}
+<div class="bio-glyphs">
+  <div class="universal-wrapper bio-glyphs-inner">
+    <h2 class="bio-glyphs-title">{{ . }}</h2>
+    <p class="bio-glyphs-desc">{{ $p.glyphs_description }}</p>
+    <div class="bio-glyphs-cards">
+      {{ with $p.glyphs_url }}
+      <a href="{{ . }}" class="bio-glyphs-card">
+        <i class="fas fa-th-large bio-glyphs-card-icon"></i>
+        <span class="bio-glyphs-card-label">Browse the Glyphs</span>
+        <span class="bio-glyphs-card-sub">Full glyph library</span>
+      </a>
+      {{ end }}
+      {{ with $p.glyphs_gallery_url }}
+      <a href="{{ . }}" class="bio-glyphs-card">
+        <i class="fas fa-images bio-glyphs-card-icon"></i>
+        <span class="bio-glyphs-card-label">View the Gallery</span>
+        <span class="bio-glyphs-card-sub">Diagrams from published papers</span>
+      </a>
+      {{ end }}
+      {{ with $p.glyphs_history_url }}
+      <a href="{{ . }}" class="bio-glyphs-card">
+        <i class="fas fa-history bio-glyphs-card-icon"></i>
+        <span class="bio-glyphs-card-label">10 Years of SBOL Visual</span>
+        <span class="bio-glyphs-card-sub">How the standard evolved</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{/* ── GenAI tools ── */}}
+{{ with $p.genai_title }}
+<div class="universal-wrapper bio-genai-wrap">
+  <div class="bio-genai">
+    <div class="bio-genai-icon"><i class="fas fa-robot"></i></div>
+    <div class="bio-genai-text">
+      <h2 class="bio-genai-title">{{ . }}</h2>
+      <p class="bio-genai-desc">{{ $p.genai_description }}</p>
+    </div>
+    {{ with $p.genai_url }}
+    <a href="{{ . }}" class="btn btn-outline-primary bio-genai-btn">Explore AI Tools</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<style>
+/* ── Hero ── */
+.bio-hero {
+  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.bio-hero-inner { max-width: 720px; margin: 0 auto; }
+.bio-hero-title { font-size: 2.4rem; font-weight: 800; margin-bottom: 0.75rem; color: #1a1a1a; }
+.bio-hero-sub   { font-size: 1.1rem; color: #555; line-height: 1.65; }
+
+/* ── Wrapper ── */
+.bio-wrapper { padding-top: 3.5rem; padding-bottom: 1rem; }
+
+/* ── Benefits ── */
+.bio-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+.bio-benefit-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 1.6rem 1.4rem;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.bio-benefit-icon {
+  font-size: 1.6rem;
+  color: var(--primary, #8cc63f);
+  margin-bottom: 0.75rem;
+}
+.bio-benefit-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+.bio-benefit-desc { font-size: 0.88rem; color: #555; line-height: 1.6; margin: 0; }
+
+/* ── Tool rows ── */
+.bio-tool {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 4.5rem;
+}
+.bio-tool--flip .bio-tool-img-wrap { order: 2; }
+.bio-tool--flip .bio-tool-text     { order: 1; }
+
+.bio-tool-img-wrap {
+  background: #f5f7f3;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.bio-tool-img { width: 100%; height: auto; display: block; border-radius: 6px; }
+
+.bio-tool-name { font-size: 1.5rem; font-weight: 800; color: #1a1a1a; margin-bottom: 0.6rem; }
+.bio-tool-desc { font-size: 0.95rem; color: #555; line-height: 1.65; margin-bottom: 1rem; }
+.bio-tool-bullets {
+  padding-left: 1.1rem;
+  margin-bottom: 1.4rem;
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.bio-tool-btn { align-self: flex-start; }
+
+/* ── Visual Language (dark) ── */
+.bio-glyphs {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 3.5rem 1.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.bio-glyphs-inner { max-width: 860px; margin: 0 auto; }
+.bio-glyphs-title { font-size: 1.6rem; font-weight: 800; color: #fff; margin-bottom: 0.75rem; }
+.bio-glyphs-desc  { font-size: 0.95rem; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 2rem; }
+.bio-glyphs-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.bio-glyphs-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 10px;
+  padding: 1.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.bio-glyphs-card:hover {
+  background: rgba(140,198,63,0.15);
+  border-color: rgba(140,198,63,0.5);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+.bio-glyphs-card-icon { font-size: 1.6rem; color: var(--primary, #8cc63f); margin-bottom: 0.35rem; }
+.bio-glyphs-card-label { font-weight: 700; font-size: 0.95rem; color: #fff; }
+.bio-glyphs-card-sub   { font-size: 0.78rem; color: rgba(255,255,255,0.55); }
+
+/* ── GenAI strip ── */
+.bio-genai-wrap { padding-bottom: 4rem; }
+.bio-genai {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #f7f9f5;
+  border: 1px solid #e0e8d8;
+  border-radius: 10px;
+  padding: 1.6rem 2rem;
+}
+.bio-genai-icon {
+  font-size: 1.8rem;
+  color: var(--primary, #8cc63f);
+  flex-shrink: 0;
+}
+.bio-genai-text { flex: 1; }
+.bio-genai-title { font-size: 1rem; font-weight: 700; color: #1a1a1a; margin-bottom: 0.25rem; }
+.bio-genai-desc  { font-size: 0.88rem; color: #555; line-height: 1.6; margin: 0; }
+.bio-genai-btn   { white-space: nowrap; flex-shrink: 0; }
+
+@media (max-width: 768px) {
+  .bio-hero-title   { font-size: 1.8rem; }
+  .bio-tool         { grid-template-columns: 1fr; gap: 1.5rem; }
+  .bio-tool--flip .bio-tool-img-wrap,
+  .bio-tool--flip .bio-tool-text { order: unset; }
+  .bio-glyphs-cards { grid-template-columns: 1fr; }
+  .bio-genai        { flex-direction: column; text-align: center; }
+}
+</style>
+
+{{ end }}
