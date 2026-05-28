@@ -1,0 +1,73 @@
+---
+title: "SBOL for Developers"
+subtitle: "A precise data model, official libraries in multiple languages, and an active open-source community. Everything you need to build SBOL-native tools."
+
+benefits:
+  - icon: "fas fa-book"
+    title: "Formal Specification"
+    description: "A rigorously defined data model backed by an OWL ontology - unambiguous enough to implement against with confidence."
+  - icon: "fas fa-code"
+    title: "Multi-language Libraries"
+    description: "Official implementations in Python, Java, JavaScript, C++, and more - pick the one that fits your stack."
+  - icon: "fas fa-plug"
+    title: "Open Toolchain"
+    description: "Validator, converter, and repository APIs ready to integrate into your pipeline or application."
+
+libraries_title: "Libraries"
+libraries_description: "The SBOL community maintains official libraries across multiple languages. Whether you are working in Python, Java, JavaScript, C++, or F#, there is a library ready for your stack. All libraries implement the SBOL Core data model and are open-source."
+libraries_url: "/libraries"
+libraries_languages:
+  - "Python"
+  - "Java"
+  - "JavaScript"
+  - "C++"
+  - "F#"
+
+spec_title: "The Specification"
+spec_description: "Everything a developer needs to implement SBOL correctly - the full data model, class definitions, validation rules, and the underlying OWL ontology."
+spec_links:
+  - label: "Data Model Specification"
+    description: "Full class definitions and validation rules"
+    icon: "fas fa-file-alt"
+    url: "/DataModel-Specification"
+  - label: "Visual Specification"
+    description: "Standard for diagrammatic representation of designs"
+    icon: "fas fa-pencil-ruler"
+    url: "/visual-specification"
+  - label: "SBOL Ontology"
+    description: "OWL ontology for semantic interoperability"
+    icon: "fas fa-project-diagram"
+    url: "/ontology"
+
+toolchain_title: "Toolchain"
+toolchain_description: "Production-ready tools you can integrate directly into your application or pipeline."
+toolchain_links:
+  - label: "Validator"
+    description: "Check SBOL documents for compliance"
+    icon: "fas fa-check-circle"
+    url: "https://validator.sbolstandard.org/"
+  - label: "Converter"
+    description: "Convert between SBOL 2, SBOL 3, and GenBank"
+    icon: "fas fa-exchange-alt"
+    url: "https://converter.sbolstandard.org/"
+  - label: "SynBioHub"
+    description: "Repository with a REST API for programmatic access"
+    icon: "fas fa-database"
+    url: "https://synbiohub.org"
+
+genai_title: "Understand the Spec Faster with AI"
+genai_description: "Our SBOL GPT assistants are trained on the SBOL 2 and SBOL 3 specifications and their primary Python libraries. Use them to explore edge cases, understand class relationships, or get quick answers while you implement."
+genai_url: "/genai-tools"
+
+contribute_title: "Get Involved"
+contribute_description: "SBOL is developed entirely in the open. Browse the source, file issues, propose enhancements via SEPs, or join the conversation on the mailing list."
+contribute_links:
+  - label: "GitHub"
+    description: "Source code, SEPs, and issue tracking"
+    icon: "fab fa-github"
+    url: "https://github.com/SynBioDex"
+  - label: "Mailing List"
+    description: "Developer discussions and announcements"
+    icon: "fas fa-envelope"
+    url: "https://groups.google.com/g/sbol-dev"
+---

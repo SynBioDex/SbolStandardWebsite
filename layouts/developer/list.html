@@ -1,0 +1,231 @@
+{{ define "main" }}
+
+{{ $p := .Params }}
+
+{{/* ── Hero ── */}}
+<div class="dev-hero">
+  <div class="dev-hero-inner">
+    <h1 class="dev-hero-title">{{ .Title }}</h1>
+    <p class="dev-hero-sub">{{ $p.subtitle }}</p>
+  </div>
+</div>
+
+<div class="universal-wrapper dev-wrapper">
+
+  {{/* ── Benefits ── */}}
+  {{ with $p.benefits }}
+  <div class="dev-benefits">
+    {{ range . }}
+    <div class="dev-benefit">
+      <div class="dev-benefit-icon"><i class="{{ .icon }}"></i></div>
+      <h3 class="dev-benefit-title">{{ .title }}</h3>
+      <p class="dev-benefit-desc">{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* ── Libraries ── */}}
+  {{ with $p.libraries_title }}
+  <section class="dev-section">
+    <div class="dev-section-text">
+      <h2 class="dev-section-title">{{ . }}</h2>
+      <p class="dev-section-desc">{{ $p.libraries_description }}</p>
+      <a href="{{ $p.libraries_url }}" class="btn btn-primary dev-section-btn">Browse All Libraries</a>
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── Specification ── */}}
+  {{ with $p.spec_title }}
+  <section class="dev-section">
+    <h2 class="dev-section-title">{{ . }}</h2>
+    <p class="dev-section-desc">{{ $p.spec_description }}</p>
+    <div class="dev-ref-cards">
+      {{ range $p.spec_links }}
+      <a href="{{ .url }}" class="dev-ref-card">
+        <i class="{{ .icon }} dev-ref-icon"></i>
+        <span class="dev-ref-label">{{ .label }}</span>
+        <span class="dev-ref-desc">{{ .description }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── Toolchain ── */}}
+  {{ with $p.toolchain_title }}
+  <section class="dev-section">
+    <h2 class="dev-section-title">{{ . }}</h2>
+    <p class="dev-section-desc">{{ $p.toolchain_description }}</p>
+    <div class="dev-ref-cards">
+      {{ range $p.toolchain_links }}
+      <a href="{{ .url }}" class="dev-ref-card"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>
+        <i class="{{ .icon }} dev-ref-icon"></i>
+        <span class="dev-ref-label">{{ .label }}</span>
+        <span class="dev-ref-desc">{{ .description }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</div>{{/* /universal-wrapper */}}
+
+{{/* ── GenAI ── */}}
+{{ with $p.genai_title }}
+<div class="dev-genai">
+  <div class="universal-wrapper dev-genai-inner">
+    <div class="dev-genai-icon"><i class="fas fa-robot"></i></div>
+    <div class="dev-genai-text">
+      <h2 class="dev-genai-title">{{ . }}</h2>
+      <p class="dev-genai-desc">{{ $p.genai_description }}</p>
+    </div>
+    {{ with $p.genai_url }}
+    <a href="{{ . }}" class="btn btn-primary dev-genai-btn">Explore AI Tools</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{/* ── Contribute ── */}}
+{{ with $p.contribute_title }}
+<div class="dev-contribute">
+  <div class="universal-wrapper dev-contribute-inner">
+    <h2 class="dev-contribute-title">{{ . }}</h2>
+    <p class="dev-contribute-desc">{{ $p.contribute_description }}</p>
+    <div class="dev-contribute-cards">
+      {{ range $p.contribute_links }}
+      <a href="{{ .url }}" class="dev-contribute-card"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>
+        <i class="{{ .icon }} dev-contribute-card-icon"></i>
+        <span class="dev-contribute-card-label">{{ .label }}</span>
+        <span class="dev-contribute-card-desc">{{ .description }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+<style>
+/* ── Hero ── */
+.dev-hero {
+  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.dev-hero-inner { max-width: 720px; margin: 0 auto; }
+.dev-hero-title { font-size: 2.4rem; font-weight: 800; margin-bottom: 0.75rem; color: #1a1a1a; }
+.dev-hero-sub   { font-size: 1.1rem; color: #555; line-height: 1.65; }
+
+/* ── Wrapper ── */
+.dev-wrapper { padding-top: 3.5rem; padding-bottom: 1rem; }
+
+/* ── Benefits ── */
+.dev-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+.dev-benefit        { padding: 1rem 1.4rem; text-align: center; }
+.dev-benefit-icon   { font-size: 1.6rem; color: var(--primary, #8cc63f); margin-bottom: 0.75rem; }
+.dev-benefit-title  { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a1a; }
+.dev-benefit-desc   { font-size: 0.88rem; color: #555; line-height: 1.6; margin: 0; }
+
+/* ── Sections ── */
+.dev-section        { margin-bottom: 4rem; }
+.dev-section-title  { font-size: 1.4rem; font-weight: 800; color: #1a1a1a; margin-bottom: 0.6rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e8e8e8; }
+.dev-section-desc   { font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1.4rem; max-width: 720px; }
+.dev-section-btn    { margin-top: 1.2rem; }
+
+/* ── Reference / toolchain cards ── */
+.dev-ref-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.dev-ref-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 1.3rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.dev-ref-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+  border-color: var(--primary, #8cc63f);
+  text-decoration: none;
+  color: inherit;
+}
+.dev-ref-icon  { font-size: 1.3rem; color: var(--primary, #8cc63f); margin-bottom: 0.3rem; }
+.dev-ref-label { font-weight: 700; font-size: 0.95rem; color: #1a1a1a; text-align: left; min-height: 2.6em; display: block; line-height: 1.3; }
+.dev-ref-desc  { font-size: 0.8rem; color: #777; line-height: 1.4; text-align: left; }
+
+/* ── GenAI strip ── */
+.dev-genai { background: #f7f9f5; border-top: 1px solid #e0e8d8; border-bottom: 1px solid #e0e8d8; padding: 2.5rem 1.5rem; margin-bottom: 0; }
+.dev-genai-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.dev-genai-icon  { font-size: 1.8rem; color: var(--primary, #8cc63f); flex-shrink: 0; }
+.dev-genai-text  { flex: 1; }
+.dev-genai-title { font-size: 1rem; font-weight: 700; color: #1a1a1a; margin-bottom: 0.25rem; }
+.dev-genai-desc  { font-size: 0.88rem; color: #555; line-height: 1.6; margin: 0; }
+.dev-genai-btn   { white-space: nowrap; flex-shrink: 0; }
+
+/* ── Contribute (dark) ── */
+.dev-contribute {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 3.5rem 1.5rem;
+}
+.dev-contribute-inner { max-width: 860px; margin: 0 auto; }
+.dev-contribute-title { font-size: 1.6rem; font-weight: 800; color: #fff; margin-bottom: 0.75rem; }
+.dev-contribute-desc  { font-size: 0.95rem; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 2rem; }
+.dev-contribute-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.dev-contribute-card {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 10px;
+  padding: 1.4rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, transform 0.15s;
+}
+.dev-contribute-card:hover {
+  background: rgba(140,198,63,0.15);
+  border-color: rgba(140,198,63,0.5);
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+.dev-contribute-card-icon  { font-size: 1.4rem; color: var(--primary, #8cc63f); margin-bottom: 0.2rem; }
+.dev-contribute-card-label { font-weight: 700; font-size: 0.95rem; color: #fff; text-align: left; }
+.dev-contribute-card-desc  { font-size: 0.8rem; color: rgba(255,255,255,0.55); text-align: left; }
+
+@media (max-width: 768px) {
+  .dev-hero-title  { font-size: 1.8rem; }
+  .dev-genai-inner { flex-direction: column; text-align: center; }
+  .dev-ref-cards   { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .dev-ref-cards          { grid-template-columns: 1fr; }
+  .dev-contribute-cards   { grid-template-columns: 1fr; }
+}
+</style>
+
+{{ end }}

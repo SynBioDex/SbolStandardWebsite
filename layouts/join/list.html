@@ -1,0 +1,266 @@
+{{ define "main" }}
+
+{{ $p := .Params }}
+
+{{/* ── Hero ── */}}
+<div class="join-hero">
+  <div class="join-hero-inner">
+    <h1 class="join-hero-title">{{ .Title }}</h1>
+    <p class="join-hero-sub">{{ $p.subtitle }}</p>
+  </div>
+</div>
+
+<div class="universal-wrapper join-wrapper">
+
+  {{/* ── Reasons ── */}}
+  {{ with $p.reasons }}
+  <div class="join-reasons">
+    {{ range . }}
+    <div class="join-reason">
+      <div class="join-reason-icon"><i class="{{ .icon }}"></i></div>
+      <h3 class="join-reason-title">{{ .title }}</h3>
+      <p class="join-reason-desc">{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* ── Stats ── */}}
+  {{ with $p.stats }}
+  <div class="join-stats-wrap">
+    <div class="join-stats">
+      {{ range . }}
+      <div class="join-stat">
+        <span class="join-stat-number">{{ .number }}</span>
+        <span class="join-stat-label">{{ .label }}</span>
+      </div>
+      {{ end }}
+    </div>
+    {{ with $p.stats_note }}
+    <p class="join-stats-note">{{ . }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* ── Connect ── */}}
+  {{ with $p.connect_title }}
+  <section class="join-section">
+    <h2 class="join-section-title">{{ . }}</h2>
+    <div class="join-connect-grid">
+      {{ range $p.connect_links }}
+      <a href="{{ .url }}" class="join-connect-card"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>
+        <i class="{{ .icon }} join-connect-icon"></i>
+        <span class="join-connect-label">{{ .label }}</span>
+        <span class="join-connect-desc">{{ .description }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── Meetings ── */}}
+  {{ with $p.meetings_title }}
+  <section class="join-section join-meetings">
+    <div class="join-meetings-text">
+      <h2 class="join-section-title">{{ . }}</h2>
+      <p class="join-meetings-desc">{{ $p.meetings_description }}</p>
+      {{ with $p.meetings_url }}
+      <a href="{{ . }}" class="btn btn-primary">View Meetings &amp; Outreach</a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── Structure ── */}}
+  {{ with $p.structure_title }}
+  <section class="join-section">
+    <h2 class="join-section-title">{{ . }}</h2>
+    <p class="join-structure-desc">{{ $p.structure_description }}</p>
+    <div class="join-structure-cards">
+      {{ range $p.structure_links }}
+      <a href="{{ .url }}" class="join-structure-card">
+        <i class="{{ .icon }} join-structure-icon"></i>
+        <span class="join-structure-label">{{ .label }}</span>
+        <span class="join-structure-desc">{{ .description }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</div>{{/* /universal-wrapper */}}
+
+{{/* ── CTA ── */}}
+{{ with $p.cta_title }}
+<div class="join-cta">
+  <div class="join-cta-inner">
+    <h2 class="join-cta-title">{{ . }}</h2>
+    <p class="join-cta-desc">{{ $p.cta_description }}</p>
+    {{ with $p.cta_btn_url }}
+    <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary btn-lg join-cta-btn">{{ $p.cta_btn_text }}</a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<style>
+/* ── Hero ── */
+.join-hero {
+  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.join-hero-inner { max-width: 720px; margin: 0 auto; }
+.join-hero-title { font-size: 2.4rem; font-weight: 800; margin-bottom: 0.75rem; color: #1a1a1a; }
+.join-hero-sub   { font-size: 1.1rem; color: #555; line-height: 1.65; }
+
+/* ── Wrapper ── */
+.join-wrapper { padding-top: 3.5rem; padding-bottom: 1rem; }
+
+/* ── Reasons ── */
+.join-reasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+.join-reason        { padding: 1rem 1.4rem; text-align: center; }
+.join-reason-icon   { font-size: 1.6rem; color: var(--primary, #8cc63f); margin-bottom: 0.75rem; }
+.join-reason-title  { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: #1a1a1a; }
+.join-reason-desc   { font-size: 0.88rem; color: #555; line-height: 1.6; margin: 0; text-align: center; }
+
+/* ── Stats ── */
+.join-stats-wrap {
+  background: #f7f9f5;
+  border: 1px solid #e0e8d8;
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.join-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.join-stat { display: flex; flex-direction: column; align-items: center; gap: 0.2rem; }
+.join-stat-number {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: var(--primary, #8cc63f);
+  line-height: 1;
+}
+.join-stat-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.join-stats-note {
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ── Sections ── */
+.join-section       { margin-bottom: 4rem; }
+.join-section-title { font-size: 1.4rem; font-weight: 800; color: #1a1a1a; margin-bottom: 0.6rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e8e8e8; }
+
+/* ── Connect grid ── */
+.join-connect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.join-connect-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 1.3rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.join-connect-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+  border-color: var(--primary, #8cc63f);
+  text-decoration: none;
+  color: inherit;
+}
+.join-connect-icon  { font-size: 1.3rem; color: var(--primary, #8cc63f); margin-bottom: 0.3rem; }
+.join-connect-label { font-weight: 700; font-size: 0.95rem; color: #1a1a1a; text-align: left; }
+.join-connect-desc  { font-size: 0.8rem; color: #777; line-height: 1.4; text-align: left; }
+
+/* ── Meetings ── */
+.join-meetings      { background: #f7f9f5; border-radius: 12px; padding: 2rem 2rem; border: 1px solid #e0e8d8; }
+.join-meetings-desc { font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1.2rem; max-width: 640px; }
+
+/* ── Structure ── */
+.join-structure-desc  { font-size: 0.95rem; color: #555; line-height: 1.7; margin-bottom: 1.2rem; }
+.join-structure-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.join-structure-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 1.3rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s, transform 0.15s, border-color 0.15s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.join-structure-card:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+  border-color: var(--primary, #8cc63f);
+  text-decoration: none;
+  color: inherit;
+}
+.join-structure-icon  { font-size: 1.3rem; color: var(--primary, #8cc63f); margin-bottom: 0.3rem; }
+.join-structure-label { font-weight: 700; font-size: 0.95rem; color: #1a1a1a; text-align: left; }
+.join-structure-desc  { font-size: 0.8rem; color: #777; line-height: 1.4; text-align: left; }
+
+/* ── CTA ── */
+.join-cta {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+.join-cta-inner  { max-width: 600px; margin: 0 auto; text-align: center; }
+.join-cta-title  { font-size: 1.8rem; font-weight: 800; color: #fff; margin-bottom: 0.75rem; }
+.join-cta-desc   { font-size: 1rem; color: rgba(255,255,255,0.72); line-height: 1.7; margin-bottom: 2rem; text-align: center !important; }
+.join-cta-btn    { padding: 0.8rem 2.5rem; font-size: 1rem; }
+
+@media (max-width: 768px) {
+  .join-hero-title { font-size: 1.8rem; }
+  .join-stats      { grid-template-columns: repeat(2, 1fr); }
+  .join-connect-grid    { grid-template-columns: 1fr 1fr; }
+  .join-structure-cards { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .join-stats           { grid-template-columns: repeat(2, 1fr); }
+  .join-connect-grid    { grid-template-columns: 1fr; }
+  .join-structure-cards { grid-template-columns: 1fr; }
+}
+</style>
+
+{{ end }}

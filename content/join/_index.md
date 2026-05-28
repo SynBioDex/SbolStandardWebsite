@@ -1,0 +1,71 @@
+---
+title: "Join the SBOL Community"
+subtitle: "SBOL is built by the community, for the community. Whether you contribute code, attend workshops, or simply stay informed - there is a place for you."
+
+reasons:
+  - icon: "fas fa-pen-nib"
+    title: "Shape the Standard"
+    description: "SEPs (SBOL Enhancement Proposals) and working groups are open to all. Your use case and feedback directly influence the next version."
+  - icon: "fas fa-globe"
+    title: "Connect Globally"
+    description: "Researchers from academia, industry, and government across 17 countries working together on a shared language for biology."
+  - icon: "fas fa-lock-open"
+    title: "Open by Default"
+    description: "All discussions happen in public. No gatekeeping, no membership fee - just a shared commitment to better science."
+
+stats:
+  - number: "170+"
+    label: "Members"
+  - number: "17"
+    label: "Countries"
+  - number: "42"
+    label: "Institutions"
+  - number: "28"
+    label: "Industries"
+
+stats_note: "Our members are also active in related standards communities including the Systems Biology Markup Language (SBML) and Systems Biology Graphical Notation (SBGN)."
+
+connect_title: "Ways to Get Involved"
+connect_links:
+  - label: "Join us on Slack"
+    description: "Chat with the community in real time"
+    icon: "fab fa-slack"
+    url: "https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg"
+  - label: "Mailing List"
+    description: "Stay informed on announcements and discussions"
+    icon: "fas fa-envelope"
+    url: "https://groups.google.com/g/sbol-announce"
+  - label: "GitHub"
+    description: "Contribute code, file issues, and propose SEPs"
+    icon: "fab fa-github"
+    url: "https://github.com/SynBioDex"
+  - label: "Formal Membership"
+    description: "Fill in our form to officially join the community"
+    icon: "fas fa-user-plus"
+    url: "https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU/edit"
+
+meetings_title: "Attend a Meeting"
+meetings_description: "The SBOL community meets semi-annually at COMBINE and HARMONY workshops, and engages the broader synthetic biology community at conferences worldwide. All meetings are open to attend."
+meetings_url: "/community-meetings"
+
+structure_title: "How We Are Organised"
+structure_description: "SBOL is governed by a steering committee of elected members and managed by a chair and editors who oversee the standard."
+structure_links:
+  - label: "Leadership"
+    description: "Chair, editors, and steering committee"
+    icon: "fas fa-users"
+    url: "/community-leadership"
+  - label: "Governance"
+    description: "How decisions are made"
+    icon: "fas fa-balance-scale"
+    url: "/community-governance"
+  - label: "SBOL Industrial Consortium"
+    description: "Industry participation in the standard"
+    icon: "fas fa-industry"
+    url: "/sbol-industrial"
+
+cta_title: "Ready to Join?"
+cta_description: "Fill in our membership form and we will be in touch. No obligations - just a way for us to know you are part of the community."
+cta_btn_text: "Join the Community"
+cta_btn_url: "https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU/edit"
+---
