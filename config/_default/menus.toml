@@ -156,16 +156,9 @@
   identifier = "community-id"
 
 [[main]]
-  name = "About"
-  url = "/community"
-  weight = 5
-  parent = "community-id"
-
-
-[[main]]
   name = "Leadership"
   url = "/community-leadership"
-  weight = 10
+  weight = 5
   parent = "community-id"
 
 [[main]]
