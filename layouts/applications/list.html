@@ -4,9 +4,9 @@
 {{ $active := where .Pages "Params.active" "!=" false }}
 {{ $deprecated := where .Pages "Params.active" false }}
 
-{{/* ── Unique tag set from active pages ── */}}
+{{/* ── Unique tag set from all pages ── */}}
 {{ $tags := slice }}
-{{ range $active }}
+{{ range .Pages }}
 {{ range .Params.tags }}
 {{ $tags = $tags | append . }}
 {{ end }}
@@ -100,12 +100,12 @@
     </p>
     <!--<p class="app-deprecated-sub">These tools are no longer actively maintained but are preserved here for reference.
     </p>-->
-    <div class="app-deprecated-grid">
+    <div class="app-deprecated-grid" id="appDepGrid">
       {{ range . }}
       {{ $url := "" }}
       {{ with .Params.links }}{{ $url = (index . 0).url }}{{ end }}
       {{ if not $url }}{{ $url = .Params.external_link }}{{ end }}
-      <div class="app-dep-card">
+      <div class="app-dep-card" data-tags="{{ delimit .Params.tags " ," }}">
         <span class="app-dep-name">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
         </span>
@@ -126,22 +126,29 @@
 
 <script>
   (function () {
-    var btns = document.querySelectorAll('#appFilters .app-filter-btn');
-    var cards = document.querySelectorAll('#appGrid .app-card:not(.app-card--cta)');
+    var btns        = document.querySelectorAll('#appFilters .app-filter-btn');
+    var activeCards = document.querySelectorAll('#appGrid .app-card:not(.app-card--cta)');
+    var depCards    = document.querySelectorAll('#appDepGrid .app-dep-card');
+    var depSection  = document.querySelector('.app-deprecated');
+
+    function filterCards(cards, tag) {
+      var anyVisible = false;
+      cards.forEach(function (card) {
+        var show = tag === 'all' || card.getAttribute('data-tags').split(',').map(function(t){ return t.trim(); }).indexOf(tag) !== -1;
+        card.style.display = show ? '' : 'none';
+        if (show) anyVisible = true;
+      });
+      return anyVisible;
+    }
 
     btns.forEach(function (btn) {
       btn.addEventListener('click', function () {
         btns.forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
         var tag = btn.getAttribute('data-tag');
-        cards.forEach(function (card) {
-          if (tag === 'all') {
-            card.style.display = '';
-          } else {
-            var tags = card.getAttribute('data-tags').split(',');
-            card.style.display = tags.indexOf(tag) !== -1 ? '' : 'none';
-          }
-        });
+        filterCards(activeCards, tag);
+        var depVisible = filterCards(depCards, tag);
+        if (depSection) depSection.style.display = depVisible ? '' : 'none';
       });
     });
   })();
