@@ -18,32 +18,7 @@ Feel free to contribute by making a Pull Request. One of the SBOL Editors will r
 You can also contribute by [creating an issue](https://github.com/SynBioDex/SbolStandardWebsite/issues/new/choose).
 
  
-
-### Adding a Publication
-
-To add a publication, create a new directory within [`content/publication`](https://github.com/SynBioDex/SbolStandardWebsite/tree/master/content/publication), and add two files:
-
-* `cite.bib`, containing a citation [in BibTeX format](https://en.wikipedia.org/wiki/BibTeX)
-* `index.md`, a markdown file containing details of the paper in a YAML metadata block
-
-You can use one of the existing publications as a template.
-
-
-### Adding a Tool
-
-To add a software application or tool, create a new directory within [`content/applications`](https://github.com/SynBioDex/SbolStandardWebsite/tree/master/content/applications), and add an `index.md` file containing a description of the tool with details in a YAML metadata block.
-
-
-### Adding a community member
-
-To add a community member to the list on the [community page](https://sbolstandard.org/community/), edit the file [`contents/community/_index.md`](https://github.com/SynBioDex/SbolStandardWebsite/blob/master/content/community/_index.md)
-
-
-### Adding a community event
-
-To add a community event to the list on the [Community Meetings page](https://sbolstandard.org/community-meetings/), edit the file [`content/community-meetings/_index.md`](https://github.com/SynBioDex/SbolStandardWebsite/blob/master/content/community-meetings/_index.md)
-
-Materials for community events (such as slides or example files) are stored in the separate [SynBioDex/Community-Media repository](https://github.com/SynBioDex/Community-Media)
+Please check the [Contributing guide](CONTRIBUTING.md) for more information.
 
 
 ## Building the site locally

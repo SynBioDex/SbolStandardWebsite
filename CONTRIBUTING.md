@@ -16,7 +16,7 @@ Installing Hugo and running the site locally allows you to preview changes befor
 ## How to Submit a Change
 
 1. **Fork** the repository on GitHub.
-2. **Create a branch** for your change (e.g. `add-pysbol4-library`).
+2. **Create a branch** for your change (e.g. `add-pysbol-library`).
 3. **Edit or add files** following the relevant guide below.
 4. **Open a Pull Request** against `master`. An editor will review and merge it.
 
