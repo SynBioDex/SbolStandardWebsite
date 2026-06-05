@@ -5,5 +5,5 @@ organizations:
   - name: National Institute of Standards and Technology
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---

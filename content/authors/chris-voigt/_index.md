@@ -5,5 +5,5 @@ organizations:
   - name: Massachusetts Institute of Technology
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---

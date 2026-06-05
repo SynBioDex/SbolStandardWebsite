@@ -5,7 +5,7 @@ weight = 40
 title = ""
 
 [content]
-  user_groups = ["Advisory Board"]
+  user_groups = ["Past Advisory Board Members"]
 
 [design]
   show_social = true

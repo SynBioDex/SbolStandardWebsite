@@ -5,5 +5,5 @@ organizations:
   - name: I2SysBio
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---

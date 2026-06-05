@@ -5,5 +5,5 @@ organizations:
   - name: iGEM Foundation
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---

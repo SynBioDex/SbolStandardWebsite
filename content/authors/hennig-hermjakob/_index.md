@@ -5,5 +5,5 @@ organizations:
   - name: EMBL-EBI
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---

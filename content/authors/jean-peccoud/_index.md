@@ -5,5 +5,5 @@ organizations:
   - name: Colorado State University
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---

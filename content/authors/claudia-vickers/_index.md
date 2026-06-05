@@ -5,5 +5,5 @@ organizations:
   - name: University of Queensland
     url: ""
 user_groups:
-  - Advisory Board
+  - Past Advisory Board Members
 ---
