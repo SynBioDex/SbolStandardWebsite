@@ -181,10 +181,16 @@
   weight = 20
   parent = "community-id"
 
+#[[main]]
+#  name = "SBOL Industrial Consortium"
+#  url = "/sbol-industrial"
+#  weight = 25
+#  parent = "community-id"
+
 [[main]]
-  name = "SBOL Industrial Consortium"
-  url = "/sbol-industrial"
-  weight = 25
+  name = "Sponsor SBOL"
+  url = "/sponsor-sbol"
+  weight = 30
   parent = "community-id"
 
 # Footer Links
