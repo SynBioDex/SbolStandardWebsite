@@ -102,18 +102,68 @@
   </section>
 
   {{/* ── Outreach & Education ── */}}
+  {{ $outreachUpcoming := slice }}
+  {{ $outreachPast     := slice }}
+  {{ range $outreach }}
+    {{ $d := "" }}
+    {{ with .date }}{{ $d = time . }}{{ end }}
+    {{ if and $d (ge $d $now) }}
+      {{ $outreachUpcoming = $outreachUpcoming | append . }}
+    {{ else }}
+      {{ $outreachPast = $outreachPast | append . }}
+    {{ end }}
+  {{ end }}
+
   <section class="cm-section">
     <h2 class="cm-section-title">Outreach &amp; Education</h2>
-    <div class="cm-outreach-grid">
-      {{ range $outreach }}
-      <div class="cm-outreach-card">
-        <span class="cm-badge cm-badge-{{ .type | lower | replaceRE `\s+` `-` }}">{{ .type }}</span>
-        {{ if .url }}
-        <a href="{{ .url }}" class="cm-outreach-name"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
-        {{ else }}
-        <span class="cm-outreach-name">{{ .name }}</span>
+
+    <div class="cm-tabs" role="tablist" aria-label="Outreach filter">
+      <button class="cm-tab cm-tab-active" role="tab" aria-selected="true"
+              aria-controls="panel-outreach-upcoming" data-tab="outreach-upcoming">
+        Upcoming
+        {{ if $outreachUpcoming }}<span class="cm-tab-count">{{ len $outreachUpcoming }}</span>{{ end }}
+      </button>
+      <button class="cm-tab" role="tab" aria-selected="false"
+              aria-controls="panel-outreach-archive" data-tab="outreach-archive">
+        Archive
+        {{ if $outreachPast }}<span class="cm-tab-count">{{ len $outreachPast }}</span>{{ end }}
+      </button>
+    </div>
+
+    <div class="cm-tab-panel" id="panel-outreach-upcoming" role="tabpanel">
+      {{ if $outreachUpcoming }}
+      <div class="cm-outreach-grid">
+        {{ range $outreachUpcoming }}
+        <div class="cm-outreach-card">
+          <span class="cm-badge cm-badge-{{ .type | lower | replaceRE `\s+` `-` }}">{{ .type }}</span>
+          {{ if .url }}
+          <a href="{{ .url }}" class="cm-outreach-name"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+          {{ else }}
+          <span class="cm-outreach-name">{{ .name }}</span>
+          {{ end }}
+          <span class="cm-outreach-meta">{{ .date_display }}{{ with .location }} &middot; {{ . }}{{ end }}</span>
+        </div>
         {{ end }}
-        <span class="cm-outreach-meta">{{ .date_display }}{{ with .location }} &middot; {{ . }}{{ end }}</span>
+      </div>
+      {{ else }}
+      <p class="cm-empty">No upcoming outreach events scheduled — check back soon.</p>
+      {{ end }}
+    </div>
+
+    <div class="cm-tab-panel cm-hidden" id="panel-outreach-archive" role="tabpanel">
+      {{ if $outreachPast }}
+      <div class="cm-outreach-grid">
+        {{ range $outreachPast }}
+        <div class="cm-outreach-card">
+          <span class="cm-badge cm-badge-{{ .type | lower | replaceRE `\s+` `-` }}">{{ .type }}</span>
+          {{ if .url }}
+          <a href="{{ .url }}" class="cm-outreach-name"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+          {{ else }}
+          <span class="cm-outreach-name">{{ .name }}</span>
+          {{ end }}
+          <span class="cm-outreach-meta">{{ .date_display }}{{ with .location }} &middot; {{ . }}{{ end }}</span>
+        </div>
+        {{ end }}
       </div>
       {{ end }}
     </div>
@@ -355,21 +405,19 @@ a.cm-outreach-name:hover { color: var(--primary, #8cc63f); text-decoration: unde
 
 <script>
 (function () {
-  var tabs   = document.querySelectorAll('.cm-tab');
-  var panels = document.querySelectorAll('.cm-tab-panel');
-
-  tabs.forEach(function (tab) {
+  document.querySelectorAll('.cm-tab').forEach(function (tab) {
     tab.addEventListener('click', function () {
-      var target = tab.dataset.tab;
+      var tablist = tab.closest('.cm-tabs');
+      var section = tablist.closest('section') || tablist.parentElement;
+      var panelId = tab.getAttribute('aria-controls');
 
-      tabs.forEach(function (t) {
+      tablist.querySelectorAll('.cm-tab').forEach(function (t) {
         t.classList.toggle('cm-tab-active', t === tab);
         t.setAttribute('aria-selected', t === tab ? 'true' : 'false');
       });
 
-      panels.forEach(function (panel) {
-        var show = panel.id === 'panel-' + target;
-        panel.classList.toggle('cm-hidden', !show);
+      section.querySelectorAll('.cm-tab-panel').forEach(function (panel) {
+        panel.classList.toggle('cm-hidden', panel.id !== panelId);
       });
     });
   });
