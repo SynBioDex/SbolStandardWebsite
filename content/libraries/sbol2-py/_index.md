@@ -1,5 +1,5 @@
 ---
-title: pySBOL2
+title: Python
 summary: Python interfaces and implementations for SBOL 2
 sbol_versions:
 - "2"

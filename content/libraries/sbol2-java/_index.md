@@ -1,5 +1,5 @@
 ---
-title: libSBOLj
+title: Java
 summary: Java interfaces and implementations for SBOL2
 sbol_versions:
 - "2"

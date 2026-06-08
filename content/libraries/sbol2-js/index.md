@@ -4,7 +4,7 @@ summary: Core JavaScript  interfaces and implementations for SBOL
 tags:
 - Libraries
 sbol_versions: ["2"]
-lib_category: library
+lib_category: primary
 date: "2018-01-01T00:00:03Z"
 
 # Optional external URL for project (replaces project detail page).
