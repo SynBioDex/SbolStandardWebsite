@@ -1,5 +1,5 @@
 ---
-title: fSBOL
+title: F Sharp
 summary: F# libraries for SBOL 2
 tags:
 - Libraries
