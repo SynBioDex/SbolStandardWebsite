@@ -1,7 +1,7 @@
 ---
 title: DNAplotlib
 summary: DNAplotlib enables highly customizable visualization of individual genetic constructs and libraries of design variants. It can be thought of in many ways as matplotlib for genetic diagrams.
-tags: ["Visualization", "SBOL Visual", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Visualization"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -12,10 +12,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: edge
-  icon_pack: fab
-  name: Link
-  url: http://dnaplotlib.org/
+#- icon: edge
+#  icon_pack: fab
+#  name: Link
+#  url: http://dnaplotlib.org/
 - icon: github
   icon_pack: fab
   name: Source Code

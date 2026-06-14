@@ -1,0 +1,296 @@
+{{ define "main" }}
+
+{{ $submitURL := .Params.submit_url | default "" }}
+
+{{/* ── Hero ── */}}
+<div class="vg-hero">
+  <div class="vg-hero-inner">
+    <h1 class="vg-hero-title">{{ .Title }}</h1>
+    <p class="vg-hero-sub">{{ .Params.subtitle }}</p>
+    {{ with $submitURL }}
+    <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary vg-submit-btn">
+      Recommend an Image
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="universal-wrapper vg-wrapper">
+
+  {{/* ── Image grid ── */}}
+  <div class="vg-grid">
+    {{ range .Pages }}
+    {{ $page := . }}
+    {{ $img := .Resources.GetMatch "*.{jpg,jpeg,png,gif,webp,svg}" }}
+
+    {{/* Initialise from front matter */}}
+    {{ $credit  := $page.Params.credit  | default "" }}
+    {{ $year    := printf "%v" ($page.Params.year | default "") }}
+    {{ $journal := $page.Params.publication | default "" }}
+    {{ $doi     := $page.Params.doi | default "" }}
+    {{ $pubUrl  := $page.Params.publication_url | default "" }}
+
+    {{/*
+      Parse cite.bib using readFile (bypasses Hugo Markdown renderer).
+      No ^ anchor in patterns: leading whitespace survives Go template trim.
+    */}}
+    {{ with $page.File }}
+      {{ $bibRaw := readFile (printf "content/%scite.bib" .Dir) }}
+      {{ if $bibRaw }}
+        {{ range (split $bibRaw "\n") }}
+          {{ if findRE `(?i)author\s*=\s*\{` . }}
+            {{ $credit = . | replaceRE `(?i).*author\s*=\s*\{(.+)\}.*` "$1" | replaceRE ` and others$` "" }}
+          {{ end }}
+          {{ if findRE `(?i)\byear\s*=\s*\{` . }}
+            {{ $year = . | replaceRE `(?i).*\byear\s*=\s*\{(\d{4})\}.*` "$1" }}
+          {{ end }}
+          {{ if findRE `(?i)\bjournal\s*=\s*\{` . }}
+            {{ $journal = . | replaceRE `(?i).*\bjournal\s*=\s*\{(.+)\}.*` "$1" }}
+          {{ end }}
+          {{ if findRE `(?i)\bdoi\s*=\s*\{` . }}
+            {{ $doi = . | replaceRE `(?i).*\bdoi\s*=\s*\{(.+)\}.*` "$1" }}
+          {{ end }}
+        {{ end }}
+        {{ if $page.Params.doi }}{{ $doi = $page.Params.doi }}{{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $img }}
+    <button
+      class="vg-card"
+      data-fullsrc="{{ .RelPermalink }}"
+      data-title="{{ $page.Title }}"
+      data-authors="{{ $credit }}"
+      data-year="{{ $year }}"
+      data-publication="{{ $journal }}"
+      data-doi="{{ $doi }}"
+      data-pub-url="{{ $pubUrl }}"
+      data-caption="{{ $page.Content | plainify }}"
+    >
+      <div class="vg-card-img-wrap">
+        <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}" loading="lazy">
+      </div>
+      <div class="vg-card-meta">
+        <span class="vg-card-title">{{ $page.Title }}</span>
+        <span class="vg-card-byline">
+          {{ $credit }}{{ with $year }} &middot; {{ . }}{{ end }}{{ with $journal }} &middot; <em>{{ . }}</em>{{ end }}
+        </span>
+      </div>
+    </button>
+    {{ end }}
+    {{ end }}
+  </div>
+
+</div>{{/* /universal-wrapper */}}
+
+{{/* ── Lightbox (native <dialog>) ── */}}
+<dialog id="vg-lightbox" class="vg-lightbox" aria-modal="true" aria-label="Image viewer">
+  <div class="vg-lb-wrap">
+    <button class="vg-lb-close" id="vg-lb-close" aria-label="Close viewer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <div class="vg-lb-img-wrap">
+      <img id="vg-lb-img" src="" alt="">
+    </div>
+    <div class="vg-lb-info">
+      <h2 class="vg-lb-title" id="vg-lb-title"></h2>
+      <p class="vg-lb-byline" id="vg-lb-byline"></p>
+      <p class="vg-lb-caption" id="vg-lb-caption"></p>
+      <div class="vg-lb-links" id="vg-lb-links"></div>
+    </div>
+  </div>
+</dialog>
+
+<style>
+.vg-hero {
+  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.vg-hero-inner { max-width: 720px; margin: 0 auto; }
+.vg-hero-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
+}
+.vg-hero-sub {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+.vg-submit-btn { margin-top: 0.25rem; }
+.vg-wrapper { padding-top: 2.5rem; padding-bottom: 4rem; }
+.vg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.vg-card {
+  appearance: none;
+  -webkit-appearance: none;
+  font: inherit;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.vg-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.11);
+}
+.vg-card:focus-visible {
+  outline: 3px solid var(--primary, #8cc63f);
+  outline-offset: 2px;
+}
+.vg-card-img-wrap {
+  height: 220px;
+  background: #f5f7f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+.vg-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 0.75rem;
+}
+.vg-card-meta {
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.vg-card-title {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: #222;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-clamp: 2;
+}
+.vg-card-byline { font-size: 0.76rem; color: #999; }
+.vg-lightbox {
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+  width: min(880px, 94vw);
+  max-height: 92vh;
+  overflow: hidden;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.4);
+}
+.vg-lightbox::backdrop { background: rgba(0,0,0,0.84); }
+.vg-lb-wrap {
+  display: flex;
+  flex-direction: column;
+  max-height: 92vh;
+  overflow-y: auto;
+  position: relative;
+}
+.vg-lb-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 10;
+  background: rgba(0,0,0,0.55);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+.vg-lb-close:hover { background: rgba(0,0,0,0.85); }
+.vg-lb-img-wrap {
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.vg-lb-img-wrap img {
+  max-width: 100%;
+  max-height: 62vh;
+  object-fit: contain;
+  display: block;
+}
+.vg-lb-info { padding: 1.4rem 1.6rem 1.6rem; background: #fff; }
+.vg-lb-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.3rem; color: #1a1a1a; }
+.vg-lb-byline { font-size: 0.84rem; color: #666; margin-bottom: 0.5rem; }
+.vg-lb-caption { font-size: 0.88rem; color: #444; line-height: 1.6; margin-bottom: 0.9rem; }
+.vg-lb-links { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
+@media (max-width: 640px) {
+  .vg-hero-title { font-size: 1.8rem; }
+  .vg-grid { grid-template-columns: 1fr; }
+  .vg-lightbox { width: 98vw; border-radius: 6px; }
+  .vg-lb-info { padding: 1rem; }
+}
+</style>
+
+<script>
+(function () {
+  var dialog = document.getElementById('vg-lightbox');
+  if (!dialog || !dialog.showModal) return;
+  var lbImg     = document.getElementById('vg-lb-img');
+  var lbTitle   = document.getElementById('vg-lb-title');
+  var lbByline  = document.getElementById('vg-lb-byline');
+  var lbCaption = document.getElementById('vg-lb-caption');
+  var lbLinks   = document.getElementById('vg-lb-links');
+
+  document.querySelectorAll('.vg-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      var d = card.dataset;
+      lbImg.src = d.fullsrc;
+      lbImg.alt = d.title;
+      lbTitle.textContent = d.title;
+      var parts = [];
+      if (d.authors)     parts.push(d.authors);
+      if (d.year)        parts.push(d.year);
+      if (d.publication) parts.push(d.publication);
+      lbByline.textContent = parts.join(' · ');
+      if (d.caption && d.caption.trim()) {
+        lbCaption.textContent = d.caption;
+        lbCaption.style.display = '';
+      } else {
+        lbCaption.style.display = 'none';
+      }
+      var html = '';
+      if (d.pubUrl) html += '<a href="' + d.pubUrl + '" target="_blank" rel="noopener" class="btn btn-sm btn-primary">View Publication</a>';
+      if (d.doi)    html += '<a href="https://doi.org/' + d.doi + '" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary">DOI: ' + d.doi + '</a>';
+      lbLinks.innerHTML = html;
+      dialog.showModal();
+    });
+  });
+
+  document.getElementById('vg-lb-close').addEventListener('click', function () { dialog.close(); });
+
+  dialog.addEventListener('click', function (e) {
+    var r = dialog.getBoundingClientRect();
+    if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dialog.close();
+  });
+})();
+</script>
+
+{{ end }}

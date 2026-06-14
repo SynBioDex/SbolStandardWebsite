@@ -1,8 +1,9 @@
 ---
 title: Proto BioCompiler
 summary: Proto BioCompiler generates optimized genetic regulatory network designs from specifications written in a high-level programming language, producing both SBOL specifications, visualization, and ODE models.
-tags: ["Circuit Design", "Modeling", "Visualization", "SBOL Visual"]
+tags: ["Design", "Simulation", "Visualization"]
 date: "2020-06-30T00:00:00Z"
+active: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

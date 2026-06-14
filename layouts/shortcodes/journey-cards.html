@@ -1,0 +1,64 @@
+{{- /*
+  journey-cards: Responsive 3-column card grid container.
+  Use with nested {{< card >}} shortcodes.
+  Embed once per page — the <style> block is not deduplicated.
+*/ -}}
+
+<style>
+.jc-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+.jc-card {
+  flex: 1 1 240px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.jc-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.11);
+}
+.jc-card-img-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.jc-card-img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.jc-card:hover .jc-card-img-wrap img {
+  transform: scale(1.04);
+}
+.jc-card-label {
+  padding: 0.9rem 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--primary, #8cc63f);
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 640px) {
+  .jc-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+<div class="jc-grid">
+  {{ .Inner }}
+</div>

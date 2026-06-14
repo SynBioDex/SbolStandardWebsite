@@ -1,7 +1,7 @@
 ---
 title: Parts & Pools
 summary: A graphical, drag and drop design of synthetic gene circuit with Standard Biological Parts.
-tags: ["Circuit Design","Modeling"]
+tags: ["Design", "Simulation"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

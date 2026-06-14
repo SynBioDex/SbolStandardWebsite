@@ -1,7 +1,7 @@
 ---
 title: MoSeC
 summary: Automated derivation of genetic circuit designs from computational models.
-tags: ["Sequence Design", "Circuit Design", "Visualization","SBOL1 Export"]
+tags: ["Design", "Visualization"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

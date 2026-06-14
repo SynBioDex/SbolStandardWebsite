@@ -1,0 +1,337 @@
+{{ define "main" }}
+
+{{ $benefits     := .Params.benefits      | default slice }}
+{{ $pastSponsors := .Params.past_sponsors | default slice }}
+{{ $bdacURL      := .Params.bdac_url      | default "https://bio-design-automation.org" }}
+
+{{/* ── Hero ── */}}
+<div class="sp-hero">
+  <div class="sp-hero-inner">
+    <h1 class="sp-hero-title">{{ .Title }}</h1>
+    <p class="sp-hero-sub">{{ .Params.subtitle }}</p>
+    <a href="{{ $bdacURL }}" target="_blank" rel="noopener" class="btn btn-primary sp-hero-btn">
+      Support via BDAC
+    </a>
+  </div>
+</div>
+
+<div class="universal-wrapper sp-wrapper">
+
+  {{/* ── About SBOL ── */}}
+  <section class="sp-section">
+    <h2 class="sp-section-title">SBOL is open and community-powered</h2>
+    <div class="sp-about-grid">
+      <div class="sp-about-card">
+        <i class="fas fa-dna sp-about-icon"></i>
+        <h3>An international standard</h3>
+        <p>SBOL is the globally recognized data standard for synthetic biology, used by researchers and engineers across academia and industry to share and exchange biological designs.</p>
+      </div>
+      <div class="sp-about-card">
+        <i class="fas fa-hands-helping sp-about-icon"></i>
+        <h3>Volunteer-driven</h3>
+        <p>The SBOL community is a volunteer organization. There are no membership fees and participation is open to all. The standard remains free and open by design.</p>
+      </div>
+      <div class="sp-about-card">
+        <i class="fas fa-broadcast-tower sp-about-icon"></i>
+        <h3>Staying visible takes effort</h3>
+        <p>Keeping SBOL present at conferences, active in publications, and relevant to tool developers requires sustained organizational support from the broader community.</p>
+      </div>
+    </div>
+  </section>
+
+  {{/* ── How it works ── */}}
+  <section class="sp-section">
+    <h2 class="sp-section-title">How sponsorship works</h2>
+    <p class="sp-how-intro">Sponsorship for SBOL flows through the <a href="{{ $bdacURL }}" target="_blank" rel="noopener">Bio-Design Automation Consortium (BDAC)</a>. BDAC is the umbrella organization for the biodesign automation community, and supporting BDAC is supporting SBOL.</p>
+    <div class="sp-steps">
+      <div class="sp-step">
+        <div class="sp-step-num">1</div>
+        <div class="sp-step-body">
+          <h4>Contact BDAC</h4>
+          <p>Reach out to the Bio-Design Automation Consortium to discuss supporting the community.</p>
+        </div>
+      </div>
+      <div class="sp-step-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></div>
+      <div class="sp-step">
+        <div class="sp-step-num">2</div>
+        <div class="sp-step-body">
+          <h4>Fund the consortium</h4>
+          <p>Your contribution supports the BDAC community, including SBOL standards development, tooling, and outreach.</p>
+        </div>
+      </div>
+      <div class="sp-step-arrow" aria-hidden="true"><i class="fas fa-arrow-right"></i></div>
+      <div class="sp-step">
+        <div class="sp-step-num">3</div>
+        <div class="sp-step-body">
+          <h4>SBOL recognizes your support</h4>
+          <p>BDAC sponsors receive acknowledgment across SBOL's presentations, website, and community communications.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{/* ── Benefits ── */}}
+  {{ with $benefits }}
+  <section class="sp-section">
+    <h2 class="sp-section-title">What your support means for SBOL</h2>
+    <div class="sp-benefits-grid">
+      {{ range . }}
+      <div class="sp-benefit-card">
+        <div class="sp-benefit-icon"><i class="{{ .icon }}"></i></div>
+        <h3 class="sp-benefit-title">{{ .title }}</h3>
+        <p class="sp-benefit-body">{{ .body }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ── Past Sponsors ── */}}
+  {{ with $pastSponsors }}
+  <section class="sp-section">
+    <h2 class="sp-section-title">Organizations that have supported SBOL</h2>
+    <p class="sp-past-intro">These organizations previously supported SBOL through the SBOL Industrial Consortium. We are grateful for their contributions to the community.</p>
+    <div class="sp-logos-grid">
+      {{ range . }}
+      <div class="sp-logo-item">
+        <img src="/media/industrial/{{ .logo }}" alt="{{ .name }}" loading="lazy" title="{{ .name }}">
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</div>{{/* /universal-wrapper */}}
+
+{{/* ── CTA ── */}}
+<div class="sp-cta">
+  <div class="universal-wrapper sp-cta-inner">
+    <h2 class="sp-cta-title">Interested in supporting SBOL?</h2>
+    <p class="sp-cta-text">Get in touch with BDAC to learn how your organization can help sustain the synthetic biology open language standard.</p>
+    <a href="{{ $bdacURL }}" target="_blank" rel="noopener" class="btn sp-cta-btn">
+      Visit BDAC &nbsp;<i class="fas fa-external-link-alt" style="font-size:0.82em;"></i>
+    </a>
+  </div>
+</div>
+
+<style>
+/* ── Hero ── */
+.sp-hero {
+  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.sp-hero-inner { max-width: 720px; margin: 0 auto; }
+.sp-hero-title { font-size: 2.4rem; font-weight: 800; margin-bottom: 0.75rem; color: #1a1a1a; }
+.sp-hero-sub   { font-size: 1.05rem; color: #555; line-height: 1.65; margin-bottom: 1.75rem; }
+
+/* ── Wrapper ── */
+.sp-wrapper { padding-top: 3rem; padding-bottom: 3rem; text-align: left; }
+
+/* ── Sections ── */
+.sp-section { margin-bottom: 3.5rem; }
+.sp-section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* ── About grid ── */
+.sp-about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+.sp-about-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.sp-about-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.75rem 0 0.5rem;
+  color: #1a1a1a;
+}
+.sp-about-card p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  text-align: left;
+}
+.sp-about-icon {
+  font-size: 1.5rem;
+  color: var(--primary, #8cc63f);
+}
+
+/* ── How it works ── */
+.sp-how-intro {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+.sp-how-intro a { color: var(--primary, #8cc63f); }
+.sp-how-intro a:hover { text-decoration: underline; }
+
+.sp-steps {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.sp-step {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.sp-step-num {
+  flex-shrink: 0;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  background: var(--primary, #8cc63f);
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.15rem;
+}
+.sp-step-body h4 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  color: #1a1a1a;
+}
+.sp-step-body p {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.55;
+  margin: 0;
+}
+.sp-step-arrow {
+  color: #bbb;
+  font-size: 1.1rem;
+  padding-top: 0.55rem;
+  flex-shrink: 0;
+}
+
+/* ── Benefits grid ── */
+.sp-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+.sp-benefit-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-top: 3px solid var(--primary, #8cc63f);
+  border-radius: 8px;
+  padding: 1.4rem 1.3rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: box-shadow 0.15s, transform 0.15s;
+}
+.sp-benefit-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+.sp-benefit-icon {
+  font-size: 1.4rem;
+  color: var(--primary, #8cc63f);
+  margin-bottom: 0.75rem;
+}
+.sp-benefit-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 0.5rem;
+}
+.sp-benefit-body {
+  font-size: 0.84rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Past sponsors ── */
+.sp-past-intro {
+  font-size: 0.92rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+.sp-logos-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem 2.5rem;
+}
+.sp-logo-item img {
+  max-height: 52px;
+  max-width: 160px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.55);
+  transition: filter 0.2s;
+}
+.sp-logo-item img:hover {
+  filter: grayscale(0%) opacity(1);
+}
+
+/* ── CTA ── */
+.sp-cta {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+.sp-cta-inner { max-width: 640px; margin: 0 auto; }
+.sp-cta-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+.sp-cta-text {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+.sp-cta-btn {
+  background: var(--primary, #8cc63f);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+.sp-cta-btn:hover { opacity: 0.88; color: #fff; text-decoration: none; }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .sp-hero-title { font-size: 1.8rem; }
+  .sp-steps { flex-direction: column; }
+  .sp-step-arrow { display: none; }
+  .sp-about-grid  { grid-template-columns: 1fr; }
+  .sp-benefits-grid { grid-template-columns: 1fr 1fr; }
+  .sp-logos-grid { gap: 1.25rem 1.5rem; }
+}
+@media (max-width: 420px) {
+  .sp-benefits-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+{{ end }}

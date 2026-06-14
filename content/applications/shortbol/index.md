@@ -1,8 +1,9 @@
 ---
 title: ShortBOL
 summary: A shorthand language for SBOL
-tags: ["Sequence Design","Circuit Design","SBOL2 Export"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
+active: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

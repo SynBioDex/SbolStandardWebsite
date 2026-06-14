@@ -1,7 +1,7 @@
 ---
 title: Pigeon Visualizer
 summary: A tool for creating SBOL Visual diagrams from a concise textual representation.
-tags: ["Visualization", "SBOL Visual"]
+tags: ["Visualization"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

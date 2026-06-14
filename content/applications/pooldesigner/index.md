@@ -1,7 +1,7 @@
 ---
 title: Pool Designer
 summary: Designing Multiplexed Pools for Assembling Library Constructs
-tags: ["Sequence Design", "SBOL Visual", "SBOL1 Import", "SBOL2 Import"]
+tags: ["Design"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

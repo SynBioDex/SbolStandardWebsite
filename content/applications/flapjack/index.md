@@ -1,7 +1,7 @@
 ---
 title: Flapjack
 summary: Flapjack is a data management and analysis app for genetic circuit characterization to store, share, mix, analyze and plot your SynBio data
-tags: ["Knowledge management", "Modeling", "Visualization", "SBOL2", "SBOL3"]
+tags: ["Simulation", "Visualization", "Repository"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

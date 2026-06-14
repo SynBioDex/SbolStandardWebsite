@@ -3,10 +3,6 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]
-  name = "Home"
-  url = "#about"
-  weight = 10
 
 [[main]]
   name = "SBOL Data Model"
@@ -27,27 +23,9 @@
   parent = "dom-id"
 
 [[main]]
-  name = "Libraries"
-  url = "/libraries"
-  weight = 15
-  parent = "dom-id"
-
-[[main]]
   name = "SBOL Ontology"
   url = "/ontology"
   weight = 20
-  parent = "dom-id"
-
-[[main]]
-  name = "Converter"
-  url = "https://converter.sbolstandard.org/"
-  weight = 25
-  parent = "dom-id"
-
-[[main]]
-  name = "Validator"
-  url = "https://validator.sbolstandard.org/"
-  weight = 30
   parent = "dom-id"
 
 [[main]]
@@ -86,27 +64,90 @@
   weight = 20
   parent = "visual-id"
 
+#[[main]]
+#  name = "Examples from papers"
+#  url = "/visual-examples"
+#  weight = 25
+#  parent = "visual-id"
+
 [[main]]
-  name = "Examples from papers"
-  url = "/visual-examples"
-  weight = 25
+  name = "Gallery"
+  url = "/visual-gallery"
+  weight = 27
   parent = "visual-id"
 
 [[main]]
-  name = "Examples from specification"
-  url = "/visual-spec-examples"
-  weight = 25
+  name = "10 Years of SBOL Visual"
+  url = "/sbolv-10-years"
+  weight = 30
   parent = "visual-id"
-  
+
+[[main]]
+  name = "Ecosystem"
+  url = "/ecosystem"
+  weight = 30
+  identifier = "ecosystem-id"
+
+[[main]]
+  name = "Libraries"
+  url = "/libraries"
+  weight = 5
+  parent = "ecosystem-id"
+
 [[main]]
   name = "Applications"
-  url = "#applications"
+  url = "/applications"
+  weight = 10
+  parent = "ecosystem-id"
+
+ [[main]]
+  name = "Converter"
+  url = "https://converter.sbolstandard.org/"
+  weight = 15
+  parent = "ecosystem-id"
+
+[[main]]
+  name = "Validator"
+  url = "https://validator.sbolstandard.org/"
+  weight = 20
+  parent = "ecosystem-id" 
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/SynBioDex/"
+  weight = 25
+  parent = "ecosystem-id"
+
+[[main]]
+  name = "GenAI Tools"
+  url = "/genai-tools"
   weight = 30
+  parent = "ecosystem-id"
 
 [[main]]
   name = "Publications"
   url = "/publication"
   weight = 40
+
+[[main]]
+  name = "News"
+  url = "/news"
+  weight = 45
+  identifier = "news-id"
+
+[[main]]
+  name = "Announcements"
+  url = "/post"
+  weight = 5
+  parent = "news-id"
+
+[[main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 10
+  parent = "news-id"
+
+
 
 [[main]]
   name = "Community"
@@ -115,22 +156,24 @@
   identifier = "community-id"
 
 [[main]]
-  name = "About"
-  url = "/community"
+  name = "Leadership"
+  url = "/community-leadership"
   weight = 5
   parent = "community-id"
 
 [[main]]
-  name = "Meetings"
+  name = "Meetings & Outreach"
   url = "/community-meetings"
-  weight = 10
+  weight = 12
   parent = "community-id"
 
-[[main]]
-  name = "Outreach"
-  url = "/community-outreach"
-  weight = 15
-  parent = "community-id"
+#[[main]]
+#  name = "Outreach"
+#  url = "/community-outreach"
+#  weight = 15
+#  parent = "community-id"
+
+
 
 [[main]]
   name = "Governance"
@@ -138,62 +181,46 @@
   weight = 20
   parent = "community-id"
 
+#[[main]]
+#  name = "SBOL Industrial Consortium"
+#  url = "/sbol-industrial"
+#  weight = 25
+#  parent = "community-id"
+
 [[main]]
-  name = "SBOL Industrial Consortium"
-  url = "/sbol-industrial"
-  weight = 25
+  name = "Sponsor SBOL"
+  url = "/sponsor-sbol"
+  weight = 30
   parent = "community-id"
 
-[[main]]
-  name = "Contact"
+# Footer Links
+
+[[footer]]
+  name = "Contact Us"
   url = "/contact"
-  weight = 55
+  weight = 10
 
-[[main]]
-  name = "Help"
-  url = "/faq"
-  weight = 60
-  identifier = "help-id"
-
-[[main]]
+[[footer]]
   name = "FAQ"
   url = "/faq"
-  weight = 62
-  parent = "help-id"
+  weight = 20
 
-[[main]]
-  name = "StackExchange"
+[[footer]]
+  name = "Stack Exchange"
   url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
-  weight = 64
-  parent = "help-id"
+  weight = 30
 
-[[main]]
-  name = "About"
-  url = "/about"
-  weight = 70
-  identifier = "about-id"
-
-[[main]]
+[[footer]]
   name = "View Source"
   url = "https://github.com/SynBioDex/SbolStandardWebsite"
-  weight = 75
-  parent = "about-id"
+  weight = 40
 
-[[main]]
+[[footer]]
   name = "Community Media"
   url = "https://github.com/SynBioDex/Community-Media"
-  weight = 80
-  parent = "about-id"  
+  weight = 50
 
-[[main]]
+[[footer]]
   name = "Report an Issue"
   url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 85
-  parent = "about-id"
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+  weight = 60

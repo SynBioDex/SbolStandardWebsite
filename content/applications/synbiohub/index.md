@@ -1,7 +1,7 @@
 ---
 title: SynBioHub
 summary: A registry for storing and sharing genetic circuit designs using the SBOL2 standard
-tags: ["Knowledge Management","Visualization", "SBOL Visual", "SBOL1 Import", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Repository", "Visualization"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

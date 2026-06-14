@@ -1,8 +1,9 @@
 ---
 title: Pinecone
 summary: Serotiny’s web-based protein design software aimed at researchers doing R&D for therapeutics, materials, as well as those in basic research.
-tags: ["Knowledge Management", "Sequence Design", "SBOL Visual", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Design", "Repository"]
 date: "2020-06-30T00:00:00Z"
+active: false
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

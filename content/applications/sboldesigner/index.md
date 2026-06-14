@@ -1,7 +1,7 @@
 ---
 title: SBOLDesigner
 summary: A simple, biologist-friendly CAD software tool for creating and manipulating the sequences of genetic constructs using SBOL
-tags: ["Knowledge Management", "Sequence Design", "Visualization", "SBOL Visual", "SBOL1 Import", "SBOL1 Export", "SBOL2 Import", "SBOL2 Export"]
+tags: ["Design", "Visualization", "Repository"]
 date: "2020-06-30T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -34,8 +34,8 @@ SBOLDesigner 2.1 is a simple, biologist-friendly CAD software tool for creating 
 
 | | |
 | ---| ---|
-| Contact Person | Doug Densmore |
-| Organization(s) | Boston University |
+| Contact Person | Chris Myers |
+| Organization(s) | University of Colorado, Boulder |
 | Programming Language | Java/HTML/JS/CSS |
 | OS/Platform | Web |
 | Availability | Open-Source |

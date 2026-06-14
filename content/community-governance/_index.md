@@ -72,41 +72,7 @@ The SBOL Editors shall hold weekly meetings to coordinate their execution of the
 
 The SBOL Editors mailing list is [sbol-editors@googlegroups.com](mailto:sbol-editors@googlegroups.com). Editorial communications should generally use this list to preserve records and aid organization. To preserve organizational memory, former editors are kept on the mailing list until they choose to remove themselves.
 
-SBOL Editors are elected by a community vote, following the process below. Editors serve initially for a two-year term, and upon unanimous approval of the editors and chair, an editor's term can be extended for an additional third year. After completing their term as editor, a person may not run for editor again for at least one year. To maximize continuity, editors' terms should be de-synchronized. There are 5 editorial positions, currently held by:
-
-* Lukas Buecherl, Utah State University
-* Felipe Buson, University of Bristol
-* Erik Kubaczka, Technical University of Darmstadt
-* Georgie Hau Sørensen, University of Bristol
-* Carolus Vitalis, University of Colorado
-
-Previous SBOL Editors (including their affiliation when they were editors): 
-* Tom Mitchell (Raytheon BBN Technologies)
-* Gonzalo Vidal Peña (Newcastle University)
-* James Scott-Brown (University of Oxford)
-* Prashant Vaidyananthan (Microsoft Research)
-* Pedro Fontanarrosa (University of Utah)
-* Hasan Baig (University of Connecticut)
-* Vishwesh Kulkarni (University of Warwick)
-* Zach Palchik (Zymergen)
-* Curtis Madsen (Sandia National Labs)
-* Nicholas Roehner (BBN Technologies)
-* Angel Goñi Moreno (Newcastle University)
-* Umesh P (Kerala Technological University)
-* Tramy Nguyen (University of Utah)
-* James McLaughlin (Newcastle University)
-* Robert Sidney Cox (Kobe University)
-* Raik Grunberg (University of Montreal)
-* Jacob Beal (BBN Technologies)
-* Bryan Bartley (University of Washington)
-* Kevin Clancy (ThermoFisher)
-* Michal Galdzicki (University of Washington)
-* Goksel Misirli (Newcastle University)
-* Ernst Oberortner (Boston University)
-* Matthew Pocock, (Newcastle University)
-* Jacqueline Quinn (Google)
-* Cesar Rodriguez (Autodesk)
-* Mandy Wilson (Virginia Bioinformatics Institute).
+SBOL Editors are elected by a community vote, following the process below. Editors serve initially for a two-year term, and upon unanimous approval of the editors and chair, an editor's term can be extended for an additional third year. After completing their term as editor, a person may not run for editor again for at least one year. To maximize continuity, editors' terms should be de-synchronized. There are 5 editorial positions. For the current list of editors, see the [Community Leadership](/community-leadership/) page.
 
 ## SBOL Chair and Steering Committee
 The positions of SBOL Chair and Steering Committee are a means for organizing strategic planning and coordination amongst PI-level members of the SBOL community.
@@ -121,48 +87,7 @@ The SBOL Steering Committee shall hold monthly meetings to coordinate around str
 
 The SBOL Steering Committee mailing list is [sbol-steering@googlegroups.com](mailto:sbol-steering@googlegroups.com). Communications should generally use this list to preserve records and aid organization. To preserve organizational memory, former chairs and members are kept on the mailing list until they choose to remove themselves.
 
-The SBOL current chair:
-
-**Prashant Vaidyanathan (April, 2023-), Oxford Biomedica**
-
-Previous Chairs:
-
-* Chris Myers (2019-2023), University of Colorado, Boulder
-* Anil Wipat (2015-2019), Newcastle University
-* Herbert Sauro (2010-2015), University of Washington, Seattle
-
-The SBOL Steering Committee is currently (listed alphabetically):
-
-* Jacob Beal, Raytheon BBN Technologies
-* Thomas Gorochowski, University of Bristol
-* Goksel Misirli, Keele University
-* Chris Myers, University of Colorado, Boulder
-
-Past SBOL Steering Committee Members (listed alphabetically):
-* Kevin Clancy, Synthetic Genomics, Inc.
-* Ernst Oberortner, Takara Bio, USA
-* Timothy Rudge, Newcastle University, UK
-* Herbert Sauro, University of Washington
-* Anil Wipat, Newcastle University, UK
-
-The SBOL chair has also organized an international advisory panel comprising a range of experts in standards and synthetic biology. The panel will provide an external perspective for SBOL, with advice on how SBOL can grow to meet the needs of the wider community.
-
-The SBOL Advisory Board is currently (listed alphabetically):
-
-* Dr. Traci Haddock, iGEM Foundation
-* Dr. Hennig Hermajakob, EMBL-EBI
-* Prof. Jean Peccoud, Colorado State University
-* Prof. Manuel Porcar Miralles, I2SysBio
-* Dr. Elizabeth Strychalski, National Institute of Standards and Technology
-* Prof. Claudia Vickers, University of Queensland
-* Prof. Chris Voigt, Massachusetts Institute of Technology
-
-
-Past SBOL Advisory Board Members (listed alphabetically):
-* Prof. Matthew Chang, National University of Singapore
-* Prof. Richard Kitney, Imperial College London
-* Prof. Victor de Lorenzo, Centro Nacional de Biotecnologia-CSIC
-* Dr. Sarah Munro, US National Institute of Standards and Technology / Stanford University
+For the current Chair, Steering Committee, and Advisory Board, see the [Community Leadership](/community-leadership/) page.
 
 ## SBOL Industrial Consortium
 The SBOL Industrial Consortium is a pre-competitive organization of companies (or similar non-company organizations) investing in the SBOL community.
@@ -192,7 +117,7 @@ Candidates are elected by plurality.
 
 5. SBOL Editors may extend the voting period by up to an additional 5 working days when they feel that an insufficient number of votes have been obtained.
 
-6. SBOL Editors tally and call the vote. First vote will be judged by a 67% majority to indicate “rough consensus”.
+6. SBOL Editors tally and call the vote. First vote will be judged by a 67% majority to indicate "rough consensus".
     1. If rough consensus is not reached, discussion of 3 working days is to follow. SEP authors can modify or withdraw their proposal during that time.
     2. The reasons for decisions must be recorded with the results of the vote.
     3. Any second followup vote will be ruled by 50% majority and will be treated as the decision.
@@ -201,20 +126,20 @@ Candidates are elected by plurality.
 #### Voting form must:
 
 1. State clearly the SEP number and title being voted on and provide a link to this SEP.
-2. State the eligibility criteria for voting, “All members of the SBOL Developers Group are eligible to vote.”
+2. State the eligibility criteria for voting, "All members of the SBOL Developers Group are eligible to vote."
 3. Provide the following options for the vote:
     * accept — vote to accept the SEP
     * reject — vote to reject the SEP
     * abstain — no opinion, abstain votes will not be counted when determining majorities
-    * defer / table for further discussion — keep the SEP in draft stage so that it can be again put to a vote after further discussion and amendment (in contrast to “abstain” this vote will be counted when determining majorities).
+    * defer / table for further discussion — keep the SEP in draft stage so that it can be again put to a vote after further discussion and amendment (in contrast to "abstain" this vote will be counted when determining majorities).
 
 #### Ground-rules for moderating discussions in SBOL breakout sessions
 
 1. No interruptions; signal to moderator that you wish to speak.  If  a person goes on too long, however, the moderator may ask them to give the next person a turn to speak.
 2. Moderator maintains a queue of speakers, calling on each in turn.
-3. Pause periodically for “step back” and explicitly invite comments by less-heard voices, possibly specifically inviting individual people.  Spend at least 30 seconds waiting before continuing.
+3. Pause periodically for "step back" and explicitly invite comments by less-heard voices, possibly specifically inviting individual people.  Spend at least 30 seconds waiting before continuing.
 4. Speaking about people or value judgements promotes conflict rather than constructive discussion.  Instead, speak about ideas and facts in terms of specific concerns and consequences.
-    * e.g., “You are wrong” is problematic for communication because it is about people (“you”) and value judgements (“wrong”).  It will tend to promote rather than resolve conflict.
-    * Instead: “I am concerned that proposal X will have negative consequence Y.”
+    * e.g., "You are wrong" is problematic for communication because it is about people ("you") and value judgements ("wrong").  It will tend to promote rather than resolve conflict.
+    * Instead: "I am concerned that proposal X will have negative consequence Y."
 5. Heated conversation suppresses sharing of legitimate concerns.  If discussion is getting heated, it should be paused, the emotional concern acknowledged, and restarted with a cooler tone.
 6. Side issues should be recorded to revisit later if they become a significant distraction.

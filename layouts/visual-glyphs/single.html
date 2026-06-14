@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="article-container pt-3">
+  <h1>{{ .Title }}</h1>
+  <div class="article-style">
+    {{ .Content }}
+  </div>
+
+  {{ range site.Data.glyphs.groups }}
+  <h2 class="glyph-group-title">{{ .name }}</h2>
+  <div class="glyph-grid">
+    {{ $resources := $.Resources.ByType "image" }}
+    {{ range .glyphs }}
+    {{ $file := .file }}
+    {{ $name := .name }}
+    {{ $img := $resources.GetMatch (printf "gallery/%s" $file) }}
+    {{ with $img }}
+    <a href="{{ .RelPermalink }}" download class="glyph-card" title="{{ $name }}">
+      <img src="{{ .RelPermalink }}" alt="{{ $name }}">
+      <span>{{ $name }}</span>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}
