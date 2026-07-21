@@ -10,7 +10,7 @@ tags:
   - Community
 ---
 
-![[images/SBOLinside_Banner.png]]
+![[SBOLinside_Banner.png]]
 
 Next to the day-to-day editorial work for SBOL, we have been working on something special for you as the SBOL community. 
 We asked, how can we provide insights to SBOL and its organization and additionally allow the community to follow our current work. 
