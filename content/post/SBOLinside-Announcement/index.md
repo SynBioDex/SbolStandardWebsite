@@ -12,7 +12,7 @@ tags:
 
 {{< figure src="SBOLinside_Banner.png" title="" lightbox="true" >}}
 
-Next to the day-to-day editorial work for SBOL, we have been working on something special for you as the SBOL community. 
+Alongside our day-to-day editorial work, we have been developing something special for the SBOL community.
 We asked ourselves: how can we offer deeper insights into SBOL and our organisation while making it easier for the community to follow our ongoing work? 
 Our answer is **SBOLinside**.
 
