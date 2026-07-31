@@ -21,4 +21,4 @@ The format will include interviews with people from SBOL like the Steering Commi
 Besides, we will present what we are currently working on and how the community can engage to support the Synthetic Biology Open Language (SBOL). 
 The episodes of SBOLinside will be released on our [YouTube channel](https://www.youtube.com/@syntheticbiologyopenlangua6204) and announced on [LinkedIn](https://www.linkedin.com/company/sbol/) and our [blog](https://sbolstandard.org/blog/).
 
-You want to learn about a particular aspect of SBOL? Reach out to us and we will be happy to consider your topic for an episode.
+Is there a specific aspect of SBOL you would love to learn more about? Reach out to us and we will be happy to consider your topic for a future episode.
