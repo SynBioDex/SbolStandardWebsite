@@ -10,7 +10,7 @@ tags:
   - Community
 ---
 
-![[SBOLinside_Banner.png]]
+{{< figure src="SBOLinside_Banner.png" title="" lightbox="true" >}}
 
 Next to the day-to-day editorial work for SBOL, we have been working on something special for you as the SBOL community. 
 We asked, how can we provide insights to SBOL and its organization and additionally allow the community to follow our current work. 
