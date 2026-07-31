@@ -1,5 +1,5 @@
 ---
-title: "SBOLinside goes online"
+title: "Introducing SBOLinside: Our New Video Podcast"
 date: 2026-07-21
 summary: >
   We proudly announce SBOLinside, our first Videopodcast format in which we present insights to SBOL and SBOL Visual.
