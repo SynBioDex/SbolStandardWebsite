@@ -7,7 +7,20 @@
 sbol validate design.ttl
 &lt;/code>&lt;/pre>
 &lt;p>Start with the &lt;a href="https://github.com/SynBioDex/sbol-rs/blob/master/docs/crate-guide.md" target="_blank" rel="noopener">crate guide&lt;/a> for the SDK architecture and document lifecycle. The repository also provides detailed guides to &lt;a href="https://github.com/SynBioDex/sbol-rs/blob/master/docs/validation.md" target="_blank" rel="noopener">validation&lt;/a>, &lt;a href="https://github.com/SynBioDex/sbol-rs/blob/master/docs/rdf-io.md" target="_blank" rel="noopener">RDF I/O&lt;/a>, and &lt;a href="https://github.com/SynBioDex/sbol-rs/blob/master/docs/conversion.md" target="_blank" rel="noopener">SBOL 2–3 conversion&lt;/a>.&lt;/p>
-&lt;p>sbol-rs is freely available under the MIT or Apache 2.0 license.&lt;/p></description></item><item><title>IWBDA 2026</title><link>/event/2026/iwbda/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>/event/2026/iwbda/</guid><description>&lt;h2 id="location-university-of-colorado-boulder-boulder-co-usa">Location: University of Colorado Boulder, Boulder, CO, USA&lt;/h2>
+&lt;p>sbol-rs is freely available under the MIT or Apache 2.0 license.&lt;/p></description></item><item><title>Introducing SBOLinside: Our New Video Podcast</title><link>/post/sbolinside-announcement/</link><pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate><guid>/post/sbolinside-announcement/</guid><description>
+&lt;figure >
+&lt;a data-fancybox="" href="./post/sbolinside-announcement/SBOLinside_Banner_hu7ecdc7ff3fc8230ef8c42e13715ef633_257580_2000x2000_fit_lanczos_3.png" >
+&lt;img data-src="./post/sbolinside-announcement/SBOLinside_Banner_hu7ecdc7ff3fc8230ef8c42e13715ef633_257580_2000x2000_fit_lanczos_3.png" class="lazyload" alt="" width="1920" height="1080">
+&lt;/a>
+&lt;/figure>
+&lt;p>Alongside our day-to-day editorial work, we have been developing something special for the SBOL community.
+We asked ourselves: how can we offer deeper insights into SBOL and our organisation while making it easier for the community to follow our ongoing work?
+Our answer is &lt;strong>SBOLinside&lt;/strong>.&lt;/p>
+&lt;p>SBOLinside is a video podcast format specifically focusing on providing inside stories from our work on SBOL and our organization.
+The series will feature interviews with key figures driving the standard forward, including members of the Steering Committee, the Editors, the Chair, and many more.
+We will also present what we are currently working on and share ways on how you can actively engage with and support the Synthetic Biology Open Language (SBOL).
+The episodes of SBOLinside will be released on our &lt;a href="https://www.youtube.com/@syntheticbiologyopenlangua6204" target="_blank" rel="noopener">YouTube channel&lt;/a> and announced on &lt;a href="https://www.linkedin.com/company/sbol/" target="_blank" rel="noopener">LinkedIn&lt;/a> and our &lt;a href="https://sbolstandard.org/blog/" target="_blank" rel="noopener">blog&lt;/a>.&lt;/p>
+&lt;p>Is there a specific aspect of SBOL you would love to learn more about? Reach out to us and we will be happy to consider your topic for a future episode.&lt;/p></description></item><item><title>IWBDA 2026</title><link>/event/2026/iwbda/</link><pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate><guid>/event/2026/iwbda/</guid><description>&lt;h2 id="location-university-of-colorado-boulder-boulder-co-usa">Location: University of Colorado Boulder, Boulder, CO, USA&lt;/h2>
 &lt;h2 id="dates-june-13-8211-20-2026">Dates: June 13 – 20, 2026&lt;/h2>
 &lt;p>Tutorials: June 13–14  |  Main Workshop: June 18–20&lt;/p>
 &lt;h2 id="link-httpswwwiwbdaconforg">Link: &lt;a href="https://www.iwbdaconf.org" target="_blank" rel="noopener">https://www.iwbdaconf.org&lt;/a>&lt;/h2></description></item><item><title>Welcome to the SBOL Blog</title><link>/blog/welcome-to-sbol-blog/</link><pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate><guid>/blog/welcome-to-sbol-blog/</guid><description>&lt;p>Welcome to the SBOL community blog. This is a space for developers, researchers, and users of the Synthetic Biology Open Language to share insights, tutorials, tools, and perspectives.&lt;/p>
