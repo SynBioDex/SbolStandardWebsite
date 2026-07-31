@@ -17,7 +17,7 @@ We asked ourselves: how can we offer deeper insights into SBOL and our organisat
 Our answer is **SBOLinside**.
 
 SBOLinside is a video podcast format specifically focusing on providing inside stories from our work on SBOL and our organization. 
-The format will include interviews with people from SBOL like the Steering Committee, the SBOL Chair, the Editors and many more. 
+The series will feature interviews with key figures driving the standard forward, including members of the Steering Committee, the Editors, the Chair, and many more.
 Besides, we will present what we are currently working on and how the community can engage to support the Synthetic Biology Open Language (SBOL). 
 The episodes of SBOLinside will be released on our [YouTube channel](https://www.youtube.com/@syntheticbiologyopenlangua6204) and announced on [LinkedIn](https://www.linkedin.com/company/sbol/) and our [blog](https://sbolstandard.org/blog/).
 
