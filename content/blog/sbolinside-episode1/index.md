@@ -20,12 +20,12 @@ For our inaugural episode, host **Eric Kubaczka** sits down with **Prof. Herbert
 
 Here is a brief sneak peek of what to expect in this episode:
 
-* **The Spark:** Prof. Herbert takes us back to the early 2000s, when groundbreaking papers like the *repressillator* and *bistable switch* proved that biological systems could be built from design.
+* **The Spark:** Herbert takes us back to the early 2000s, when groundbreaking papers like the *repressillator* and *bistable switch* proved that biological systems could be built from design.
 
-* **From PoBoL to SBOL:** Learn how the standard was originally named **PoBoL**, short for Provisional BioBrick Language, and picked partly because it sounds like the Welsh word for people, before it became **SBOL**.
+* **From PoBoL to SBOL:** Learn how the standard was originally named **PoBoL**, short for Provisional BioBrick Language and picked partly because it sounds like the Welsh word for people, before Prof. Drew Endy suggested the name **SBOL**.
 * **The first workshop:** Hear how a crucial Microsoft grant funded the very first workshop in Seattle, bringing together 40 enthusiastic young scientists to thrash out what would become the first SBOL draft.
-* **The vision:** Prof. Herbert explains his original vision for SBOL-inspired by his hobby of building electronic circuits. He envisioned a future where a biologist could design a genetic circuit on a computer (CAD) using SBOL, send it to a company, and receive the physical culture or plasmid in the mail a week later.
-* **Hurdles & Triumphs:** Prof. Herbert candidly discusses the early challenges of standard funding in the US and the importance of giving young scientists responsibility to build long-term project stability.
+* **The vision:** Herbert explains his original vision for SBOL-inspired by his hobby of building electronic circuits. He envisioned a future where a biologist could design a genetic circuit on a computer (CAD) using SBOL, send it to a company, and receive the physical culture or plasmid in the mail a week later.
+* **Hurdles & Triumphs:** Herbert candidly discusses the early challenges of standard funding in the US and the importance of giving young scientists responsibility to build long-term project stability.
 
 ## Watch Now!
 
