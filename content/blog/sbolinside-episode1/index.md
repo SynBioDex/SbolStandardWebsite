@@ -16,7 +16,7 @@ We are incredibly excited to announce that the very first episode of our brand-n
 
 ## Episode 1: How Did SBOL Start?
 
-For our inaugural episode, host **Eric Kubaczka** sits down with **Prof. Herbert Sauro** from the University of Washington. As the first chair of SBOL and one of the leading forces in its creation, Herbert shares the fascinating origin story of the standard.
+For our inaugural episode, host **Erik Kubaczka** sits down with **Prof. Herbert Sauro** from the University of Washington. As the first chair of SBOL and one of the leading forces in its creation, Herbert shares the fascinating origin story of the standard.
 
 Here is a brief sneak peek of what to expect in this episode:
 
