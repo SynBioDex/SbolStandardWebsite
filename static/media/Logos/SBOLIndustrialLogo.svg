@@ -72,7 +72,7 @@
          width="1" />
     </mask>
     <style
-       id="style913">.cls-1{fill:#232323;}.cls-2{fill:#98c255;}.cls-3{fill:none;}.cls-4{fill:#fff;}</style>
+       id="style913">.cls-1{fill:#232323;}.cls-2{fill:#98c255;}.cls-3{fill:none;}.cls-4{fill:#fff;}@media(prefers-color-scheme:dark){.cls-1{fill:#f8f8f2;}}</style>
     <filter
        inkscape:collect="always"
        id="filter3194">

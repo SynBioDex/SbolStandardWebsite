@@ -8,10 +8,6 @@
 #navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link:hover, #navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link:focus, .dark #navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link:hover { background: var(--sbol-green-hover); color: #000 !important; text-decoration: none; }
 .dark #navbar-main .dropdown-menu { background: var(--sbol-card); }
 .dark #navbar-main .dropdown-item { color: var(--sbol-ink-2); }
-// Dark theme: the wordmark's dark letters would vanish, so swap in the light-lettered variant.
-.dark .navbar-brand { background: url('/images/logo-dark.svg') no-repeat left center; background-size: auto 32px; }
-.dark .navbar-brand img { visibility: hidden; }
-@media (max-width: 991.98px) { .dark .navbar-brand { background-size: auto 26px; background-position: center; } }
 
 
 // Navbar treatment. Set $sbol-navbar in custom.scss.

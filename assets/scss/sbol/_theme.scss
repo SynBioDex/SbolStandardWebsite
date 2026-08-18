@@ -32,10 +32,11 @@ html.sbol-switching *, html.sbol-switching *::before, html.sbol-switching *::aft
 .embed-responsive, .article-style .video, .article-style iframe { border-radius: var(--sbol-radius); overflow: hidden; }
 
 // Publication and talk lists (theme templates + our li_card): consistent vertical rhythm, theme buttons as secondary buttons
-// Every list of cards keeps the same vertical rhythm, whichever template emits it (publications, pages widget, cite shortcode).
-.sbol-card--pub + .sbol-card--pub, .isotope-item .sbol-card--pub, .pub-list-item { margin-bottom: 0; }
+// Every list of cards keeps the same vertical rhythm, whichever template emits it (publications, pages widget,
+// cite shortcode, author and tag pages). Isotope positions its own wrappers, so the gap goes on the wrapper there.
 .sbol-card--pub { margin-bottom: var(--sbol-space-3); }
-.sbol-card--pub:last-child { margin-bottom: 0; }
+#container-publications .isotope-item { margin-bottom: var(--sbol-space-3); }
+#container-publications .isotope-item .sbol-card--pub { margin-bottom: 0; }
 #container-publications { margin-top: var(--sbol-space-3); }
 .sbol-card--pub .sbol-card__plain { display: flex; flex-direction: column; gap: .35rem; }
 .sbol-card--pub .sbol-card__title { font-size: 1.15rem; }
@@ -68,8 +69,11 @@ html.sbol-switching *, html.sbol-switching *::before, html.sbol-switching *::aft
 }
 .article-style details[open] > summary::before, .sbol-page__body details[open] > summary::before { transform: rotate(45deg); }
 .article-style details[open] > summary, .sbol-page__body details[open] > summary { border-bottom: 1px solid var(--sbol-rule-2); }
-.article-style details > *:not(summary), .sbol-page__body details > *:not(summary) { margin-left: 1.1rem; margin-right: 1.1rem; }
-.article-style details > *:not(summary):last-child, .sbol-page__body details > *:not(summary):last-child { margin-bottom: .9rem; }
+.article-style details, .sbol-page__body details { padding: 0 1.1rem; }
+.article-style details[open], .sbol-page__body details[open] { padding-bottom: .9rem; }
+.article-style details > summary, .sbol-page__body details > summary { margin: 0 -1.1rem; }
+.article-style details > *:not(summary), .sbol-page__body details > *:not(summary) { margin-left: 0; margin-right: 0; }
+.article-style details > *:not(summary):first-of-type, .sbol-page__body details > *:not(summary):first-of-type { margin-top: .9rem; }
 @media (prefers-reduced-motion: reduce) { .article-style details > summary::before { transition: none; } }
 
 // Detail pages: featured images are contained, rounded and aligned with the text column
@@ -80,3 +84,10 @@ html.sbol-switching *, html.sbol-switching *::before, html.sbol-switching *::aft
   .article-header { text-align: left; }
   .article-metadata, .article-date { display: none; }
 }
+
+// Content images (markdown `![]()`, figure shortcode): never taller than a screenful, rounded, aligned with the text column
+.article-style img, .sbol-page__body img { max-width: 100%; height: auto; border-radius: var(--sbol-radius); }
+// Only images without an explicit size get the height cap; a width attribute (figure shortcode) always wins.
+.article-style img:not([width]), .sbol-page__body img:not([width]) { max-height: 460px; width: auto; }
+.article-style figure, .sbol-page__body figure { margin: var(--sbol-space-3) 0; }
+.article-style figure figcaption, .sbol-page__body figure figcaption { font-size: .86rem; color: var(--sbol-ink-3); margin-top: .5rem; }

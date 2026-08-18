@@ -86,8 +86,9 @@
 // Nested radius rule: image 8px, sitting 4px inside a 12px card, so both corners share the same center in light and dark.
 .sbol-card--figure .sbol-card__figure { display: block; width: 100%; padding: 4px 4px 0; overflow: hidden; }
 .sbol-card--figure .sbol-card__figure img { display: block; width: 100%; height: auto; border-radius: var(--sbol-radius-img); }
-.sbol-card--figure .sbol-card__figure--contain { height: 220px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid var(--sbol-rule-2); }
-.sbol-card--figure .sbol-card__figure--contain img { width: 100%; height: 100%; object-fit: contain; padding: .75rem; border-radius: var(--sbol-radius-img); }
+// Contained artwork (gallery figures, logos): the image is letterboxed, so the rounded surface belongs to the panel behind it.
+.sbol-card--figure .sbol-card__figure--contain { height: 220px; display: flex; align-items: center; justify-content: center; background: var(--sbol-paper-2); border-radius: var(--sbol-radius-img); }
+.sbol-card--figure .sbol-card__figure--contain img { width: auto; height: auto; max-width: calc(100% - 1.5rem); max-height: calc(100% - 1.5rem); object-fit: contain; border-radius: var(--sbol-radius-img); }
 .sbol-card--figure .sbol-card__body { padding: .9rem 1rem 1rem; display: flex; flex-direction: column; gap: .25rem; }
 .sbol-card--figure .sbol-card__label { padding: .9rem 1rem; font-weight: 700; font-size: 1rem; color: var(--sbol-green-ink); text-align: center; }
 .sbol-card--glyph { align-items: center; text-align: center; padding: 1.1rem .6rem .7rem; gap: .5rem; background: var(--sbol-paper-2); }

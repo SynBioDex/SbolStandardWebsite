@@ -32,7 +32,9 @@ code, pre code { color: var(--sbol-ink-2); background: var(--sbol-code-bg); }
 .sbol-hero + .universal-wrapper { padding-top: var(--sbol-space-4); }
 .sbol-hero + .universal-wrapper > .sbol-features:first-child { margin-top: var(--sbol-space-2); }
 .sbol-hero + .universal-wrapper > .sbol-tabs:first-child, .sbol-hero + .universal-wrapper > .sbol-filters:first-child { margin-top: 0; }
-.universal-wrapper:last-child { padding-bottom: var(--sbol-space-5); }
+// Pages end with air unless a full-bleed band closes them. `:last-of-type` so a trailing <dialog> (gallery lightbox) does not defeat it.
+.page-body .universal-wrapper:last-of-type { padding-bottom: var(--sbol-space-5); }
+.page-body .sbol-band:last-of-type + .universal-wrapper { padding-bottom: 0; }
 .sbol-section__title { font-size: 1.6rem; font-weight: 700; color: var(--sbol-ink); margin: 0 0 .35rem; padding-bottom: .5rem; border-bottom: 1px solid var(--sbol-rule); }
 .sbol-section__desc { color: var(--sbol-ink-3); font-size: .98rem; line-height: 1.7; margin: .5rem 0 1.25rem; max-width: 70ch; }
 .sbol-label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--sbol-muted); }
