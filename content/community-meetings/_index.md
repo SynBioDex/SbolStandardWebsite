@@ -1,9 +1,10 @@
 ---
 title: Meetings & Outreach
 subtitle: "The SBOL community meets approximately every six months at COMBINE and HARMONY workshops, and actively engages the broader synthetic biology community at conferences worldwide."
-hero_btn_text: "Join us on Slack"
-hero_btn_icon: "fab fa-slack"
-hero_btn_url: "https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg"
+hero_buttons:
+  - text: "Join us on Slack"
+    icon: "fab fa-slack"
+    url: "https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg"
 
 connect_text: "SBOL is open-source and thrives on active participation. Contribute code, join working groups, or simply stay informed."
 connect_links:
@@ -412,4 +413,5 @@ outreach:
     date_display: ""
     location: "University of Washington, Seattle, WA, USA"
     url: "/event/2018/soundbiolab/"
+summary: "The SBOL community meets approximately every six months at COMBINE and HARMONY workshops, and actively engages the broader synthetic biology community at conferences worldwide."
 ---

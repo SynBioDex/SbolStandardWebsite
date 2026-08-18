@@ -2,6 +2,9 @@
 title: SBOL Visual Glyphs
 type: visual-glyphs
 layout: single
+subtitle: "Every glyph in the current SBOL Visual release, grouped by category. Click a glyph to download it."
+subnav: visual
+summary: "Every glyph in the current SBOL Visual release, grouped by category. Click a glyph to download it."
 ---
 
 SBOL Visual is built off of the latest [specification release]({{< relref "visual-specification" >}}).

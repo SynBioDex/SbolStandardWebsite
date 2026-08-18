@@ -23,6 +23,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Newcastle University"
+  language: "Java"
+  platform: "Linux, Mac, Windows"
+  availability: "Free for all users"
 ---
 
 

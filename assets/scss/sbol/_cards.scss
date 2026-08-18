@@ -1,0 +1,130 @@
+// Cards, feature grids, callouts, bands, split rows, stats, steps, logos: the shared building blocks.
+%sbol-card-surface {
+  background: var(--sbol-card); border: 1px solid var(--sbol-card-border); border-radius: var(--sbol-radius); box-shadow: none;
+}
+// The one hover accent for interactive surfaces: the border turns brand green and the title turns green ink. No shadow, no motion.
+%sbol-hoverable {
+  transition: border-color .12s ease, background-color .12s ease;
+  &:hover, &:focus-visible { border-color: var(--sbol-green); background: var(--sbol-green-tint); }
+  &:hover .sbol-card__title, &:focus-visible .sbol-card__title, &:hover .sbol-lead__title, &:hover .jc-card-label { color: var(--sbol-green-ink); }
+}
+.sbol-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.sbol-cards--wide { grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 1.5rem; }
+.sbol-cards--narrow { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+.sbol-card {
+  @extend %sbol-card-surface;
+  display: flex; flex-direction: column; gap: .35rem; padding: 1.25rem 1.3rem; color: inherit; text-decoration: none;
+  &:hover { text-decoration: none; color: inherit; }
+  &.is-link { @extend %sbol-hoverable; }
+}
+.sbol-card__icon { color: var(--sbol-green); font-size: 1.35rem; margin-bottom: .3rem; }
+.sbol-card__title { font-size: 1rem; font-weight: 700; color: var(--sbol-ink); margin: 0; line-height: 1.3; }
+.sbol-card__title a { color: inherit; text-decoration: none; &:hover { color: var(--sbol-green-ink); } }
+.sbol-card__desc { font-size: .86rem; color: var(--sbol-ink-3); line-height: 1.6; margin: 0; flex: 1; }
+.sbol-card__meta { font-size: .78rem; color: var(--sbol-muted); }
+.sbol-card__actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .6rem; }
+.sbol-card__header { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.sbol-card__ext { color: var(--sbol-muted); font-size: .85rem; }
+.sbol-card--muted { background: var(--sbol-paper-2); opacity: .9; }
+.sbol-card--cta { border: 2px dashed var(--sbol-card-border); background: var(--sbol-paper-2); align-items: center; text-align: center; justify-content: center; }
+
+// Feature grid: icon, title, description, centered (benefits, reasons)
+.sbol-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: var(--sbol-space-4) var(--sbol-space-3); margin: var(--sbol-space-4) 0 var(--sbol-space-5); text-align: center; }
+.sbol-feature__icon { color: var(--sbol-green); font-size: 1.6rem; margin-bottom: .6rem; }
+.sbol-feature__title { font-size: 1.02rem; font-weight: 700; color: var(--sbol-ink); margin: 0 0 .35rem; }
+.sbol-feature__desc { font-size: .9rem; color: var(--sbol-ink-3); line-height: 1.6; margin: 0; }
+
+// Callout: inline tinted box with icon, text and a button (GenAI prompts)
+.sbol-callout {
+  display: flex; align-items: center; gap: 1.25rem; background: var(--sbol-green-tint); border: 1px solid var(--sbol-band-border);
+  border-radius: var(--sbol-radius); padding: 1.4rem 1.6rem; margin: 2rem 0;
+  &__icon { color: var(--sbol-green); font-size: 1.8rem; flex-shrink: 0; }
+  &__text { flex: 1; }
+  &__title { font-size: 1.02rem; font-weight: 700; color: var(--sbol-ink); margin: 0 0 .25rem; }
+  &__desc { font-size: .9rem; color: var(--sbol-ink-3); line-height: 1.6; margin: 0; }
+  @media (max-width: 640px) { flex-direction: column; align-items: flex-start; }
+}
+
+// Band: full-bleed light section (closing calls to action). One per page at most.
+.sbol-band { background: var(--sbol-band); border-top: 1px solid var(--sbol-band-border); padding: var(--sbol-space-5) var(--sbol-space-3); margin-top: var(--sbol-space-5); margin-bottom: 0; }
+.sbol-band__inner { max-width: var(--sbol-container); margin: 0 auto; padding: 0 var(--sbol-gutter); }
+.sbol-band__inner--center { text-align: center; max-width: 760px; }
+.sbol-band__title { font-size: 1.6rem; font-weight: 800; color: var(--sbol-ink); margin: 0 0 .5rem; }
+.sbol-band__desc { font-size: .98rem; color: var(--sbol-ink-3); line-height: 1.7; margin: 0 0 1.5rem; }
+
+// Split row: image beside text, alternating (tool spotlights)
+.sbol-split { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; margin: 3.5rem 0; }
+.sbol-split--flip .sbol-split__media { order: 2; }
+.sbol-split__media img { width: 100%; height: auto; border-radius: var(--sbol-radius-img); border: 1px solid var(--sbol-card-border); }
+.sbol-split__title { font-size: 1.4rem; font-weight: 800; margin: 0 0 .5rem; }
+.sbol-split__desc { color: var(--sbol-ink-2); line-height: 1.65; }
+.sbol-split ul { padding-left: 1.2rem; color: var(--sbol-ink-2); }
+@media (max-width: 760px) { .sbol-split { grid-template-columns: 1fr; gap: 1.5rem; } .sbol-split--flip .sbol-split__media { order: 0; } }
+
+// Stats
+.sbol-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1.5rem; text-align: center; background: var(--sbol-green-tint); border: 1px solid var(--sbol-band-border); border-radius: var(--sbol-radius); padding: 2rem 1.5rem 1.5rem; margin: 2.5rem 0; }
+.sbol-stat__number { display: block; font-size: 2.2rem; font-weight: 900; color: var(--sbol-green-ink); line-height: 1; }
+.sbol-stat__label { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--sbol-ink-3); margin-top: .35rem; }
+.sbol-stats__note { grid-column: 1 / -1; font-size: .88rem; color: var(--sbol-ink-3); margin: 0; max-width: 60ch; justify-self: center; }
+
+// Numbered steps
+.sbol-steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+.sbol-step { display: flex; gap: .9rem; align-items: flex-start; }
+.sbol-step__num { flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%; background: var(--sbol-green); color: #000; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.sbol-step h4 { font-size: 1rem; margin: .3rem 0 .3rem; }
+.sbol-step p { font-size: .88rem; color: var(--sbol-ink-3); line-height: 1.6; margin: 0; }
+
+// Logo grid
+.sbol-logos { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 1.5rem 2rem; align-items: center; margin: 1.5rem 0; }
+.sbol-logos img { max-width: 100%; max-height: 48px; width: auto; filter: grayscale(1); opacity: .75; transition: filter .15s, opacity .15s; }
+.sbol-logos img:hover { filter: none; opacity: 1; }
+.dark .sbol-logos img { filter: grayscale(1) invert(1); }
+
+// Card variants used across pages (all share %sbol-card-surface and the one hover accent)
+.sbol-card--compact { padding: .9rem 1rem; gap: .25rem; }
+.sbol-card--figure { padding: 0; overflow: hidden; align-items: stretch; }
+// Nested radius rule: image 8px, sitting 4px inside a 12px card, so both corners share the same center in light and dark.
+.sbol-card--figure .sbol-card__figure { display: block; width: 100%; padding: 4px 4px 0; overflow: hidden; }
+.sbol-card--figure .sbol-card__figure img { display: block; width: 100%; height: auto; border-radius: var(--sbol-radius-img); }
+.sbol-card--figure .sbol-card__figure--contain { height: 220px; display: flex; align-items: center; justify-content: center; border-bottom: 1px solid var(--sbol-rule-2); }
+.sbol-card--figure .sbol-card__figure--contain img { width: 100%; height: 100%; object-fit: contain; padding: .75rem; border-radius: var(--sbol-radius-img); }
+.sbol-card--figure .sbol-card__body { padding: .9rem 1rem 1rem; display: flex; flex-direction: column; gap: .25rem; }
+.sbol-card--figure .sbol-card__label { padding: .9rem 1rem; font-weight: 700; font-size: 1rem; color: var(--sbol-green-ink); text-align: center; }
+.sbol-card--glyph { align-items: center; text-align: center; padding: 1.1rem .6rem .7rem; gap: .5rem; background: var(--sbol-paper-2); }
+.sbol-card--glyph img { width: 64px; height: 64px; object-fit: contain; }
+.sbol-card--glyph span { font-size: .72rem; color: var(--sbol-ink-3); line-height: 1.3; }
+.dark .sbol-card--glyph img { background: #fff; border-radius: var(--sbol-radius-sm); padding: 4px; }
+.sbol-card--accent { border-left: 5px solid var(--sbol-green); padding: 1.6rem 1.8rem; gap: .5rem; }
+.sbol-card--accent .sbol-card__head { display: flex; align-items: center; gap: .8rem; flex-wrap: wrap; }
+.sbol-card--accent .sbol-card__headline { font-size: 1.5rem; font-weight: 800; margin: 0; }
+.sbol-card--accent .sbol-card__summary { color: var(--sbol-ink-2); line-height: 1.65; margin: 0; max-width: 80ch; }
+// Cards whose title carries the primary link: the whole surface is clickable and takes the shared hover accent.
+// Nested links (authors, PDF/Cite/DOI buttons, figure) stay above the overlay.
+.sbol-card--linked {
+  position: relative;
+  transition: border-color .12s ease, background-color .12s ease;
+  &:hover, &:focus-within { border-color: var(--sbol-green); background: var(--sbol-green-tint); }
+  &:hover .sbol-card__title, &:focus-within .sbol-card__title, &:hover .sbol-card__title a { color: var(--sbol-green-ink); }
+  .sbol-card__title > a::after { content: ""; position: absolute; inset: 0; }
+  .sbol-card__actions, .sbol-card__figure, .sbol-card__meta a, .sbol-card__ext { position: relative; z-index: 1; }
+}
+
+button.sbol-card { appearance: none; -webkit-appearance: none; font: inherit; text-align: left; cursor: pointer; }
+button.sbol-card:focus-visible { outline: 3px solid var(--sbol-focus); outline-offset: 2px; }
+
+// Lead card (post lists): image beside text
+.sbol-lead {
+  @extend %sbol-card-surface; @extend %sbol-hoverable;
+  display: grid; grid-template-columns: 1fr 1fr; overflow: hidden; margin: var(--sbol-space-4) 0 2.5rem; text-decoration: none; color: inherit;
+  &:hover { text-decoration: none; color: inherit; }
+  &--no-img { grid-template-columns: 1fr; }
+}
+.sbol-lead__img { overflow: hidden; min-height: 300px; padding: 4px; img { width: 100%; height: 100%; object-fit: cover; display: block; border-radius: var(--sbol-radius-img); } }
+.sbol-lead__body { padding: 2.25rem; display: flex; flex-direction: column; justify-content: center; gap: .4rem; }
+.sbol-lead__title { font-size: 1.6rem; font-weight: 700; line-height: 1.25; margin: .25rem 0 0; color: var(--sbol-ink); }
+.sbol-lead__summary { font-size: 1rem; color: var(--sbol-ink-3); line-height: 1.7; margin: .25rem 0 .75rem; }
+@media (max-width: 860px) { .sbol-lead { grid-template-columns: 1fr; } .sbol-lead__img { min-height: 200px; } .sbol-lead__body { padding: 1.5rem; } }
+.sbol-card--row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .9rem; align-items: start; padding: 1rem 1.25rem; }
+.sbol-card--row .sbol-card__rowicon { color: var(--sbol-green-ink); font-size: 1rem; margin-top: .2rem; }
+.sbol-card--row .sbol-card__title { font-size: 1.02rem; }
+.sbol-cardlist { display: flex; flex-direction: column; }

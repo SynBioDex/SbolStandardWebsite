@@ -9,3 +9,5 @@ public/
 
 CLAUDE.md
 .claude/
+# Editor local history
+.history/

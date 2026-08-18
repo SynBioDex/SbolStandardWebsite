@@ -1,5 +1,5 @@
 ---
-title:
+title: SBOL Industrial Consortium
 
 # View.
 #   1 = List
@@ -12,6 +12,9 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "The pre-competitive non-profit that supports SBOL adoption in industry."
+layout: sbol-page
+summary: "The pre-competitive non-profit that supports SBOL adoption in industry."
 ---
 
 {{< figure src="SBOLIndustrialLogo.png" title="" lightbox="true" >}}

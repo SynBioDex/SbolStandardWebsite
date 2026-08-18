@@ -1,0 +1,8 @@
+{{- define "main" -}}
+{{/* Fallback list (taxonomy terms: tags, categories, publication types): shared hero + card list. */}}
+{{ partial "sbol/hero.html" . }}
+{{ with .Content }}<div class="universal-wrapper sbol-page"><div class="article-style sbol-page__body">{{ . }}</div></div>{{ end }}
+{{ $paginator := .Paginate .Data.Pages }}
+{{ partial "sbol/card-list.html" (dict "pages" $paginator.Pages "empty" "Nothing tagged here yet.") }}
+<div class="universal-wrapper">{{ partial "pagination.html" . }}</div>
+{{- end -}}

@@ -2,9 +2,9 @@
 {{- $image := .Get "image" -}}
 {{- $link  := .Get "link"  -}}
 
-<a href="{{ $link }}" class="jc-card">
-  <div class="jc-card-img-wrap">
-    <img src="{{ $image }}" alt="{{ $title }}" loading="lazy">
+<a href="{{ $link }}" class="sbol-card sbol-card--figure is-link">
+  <div class="sbol-card__figure">
+    <img src="{{ $image }}" alt="{{ $title }}" width="1280" height="1920" loading="lazy" decoding="async">
   </div>
-  <div class="jc-card-label">{{ $title }}</div>
+  <div class="sbol-card__label">{{ $title }}</div>
 </a>

@@ -31,6 +31,12 @@ url_video: "https://www.youtube.com/watch?v=SLn_SkL7vkQ&feature=youtu.be"
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Boston University"
+  language: "Java/HTML/JS/CSS"
+  platform: "Web"
+  availability: "Open-Source"
+  license: "BSD 2-Clause"
 ---
 
 Cello is a framework that describes what is essentially a programming language to design computational circuits in living cells. The circuits generated on plasmids expressed in Escherichia coli required careful insulation from their genetic context, but primarily functioned as specified. The circuits could, for example, regulate cellular functions in response to multiple environmental signals. Such a strategy can facilitate the development of more complex circuits by genetic engineering.

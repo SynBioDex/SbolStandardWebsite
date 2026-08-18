@@ -27,6 +27,12 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Lawrence Berkeley National Lab"
+  language: "Java"
+  platform: "Web"
+  availability: "Open-Source"
+  license: "BSD"
 ---
 
 

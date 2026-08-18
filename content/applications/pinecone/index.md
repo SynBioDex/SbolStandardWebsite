@@ -25,6 +25,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Serotiny"
+  language: "JavaScript"
+  platform: "Web"
+  availability: "Free for all users"
 ---
 
 Pinecone is Serotiny’s web-based protein design software aimed at researchers doing R&D for therapeutics, materials, as well as those in basic research. Serotiny optimized Pinecone for designing protein constructs by focusing on functional protein domains as the basic unit of design.

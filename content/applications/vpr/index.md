@@ -23,6 +23,10 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Newcastle University"
+  language: "Java"
+  platform: "Linux/Web"
 ---
 
 A repository of modular models of biological components. These models are reusable and composable, and facilitate model-driven design of biological systems.

@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "sbol/hero.html" . }}
+<div class="universal-wrapper sbol-page{{ if .Params.toc }} sbol-page--toc{{ end }}">
+  {{ if .Params.toc }}
+  <aside class="sbol-toc" aria-label="On this page"><p class="sbol-label">On this page</p><nav>{{ .TableOfContents }}</nav></aside>
+  {{ end }}
+  <div class="article-style sbol-page__body">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

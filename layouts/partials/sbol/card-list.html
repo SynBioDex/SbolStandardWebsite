@@ -1,0 +1,11 @@
+{{/* A list of pages rendered with the shared card component. Params: pages, empty (message). */}}
+{{ $pages := .pages }}
+<div class="universal-wrapper sbol-page">
+  {{ if $pages }}
+  <div class="sbol-cardlist">
+    {{ range $pages }}{{ partial "li_card" . }}{{ end }}
+  </div>
+  {{ else }}
+  <p class="sbol-empty">{{ .empty | default "Nothing here yet." }}</p>
+  {{ end }}
+</div>

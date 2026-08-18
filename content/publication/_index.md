@@ -12,4 +12,6 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Papers that define SBOL, extend it, or describe the tools that use it. Filter by type or year, or search by title and author."
+summary: "Papers that define SBOL, extend it, or describe the tools that use it."
 ---

@@ -1,0 +1,44 @@
+{{/* Specification landing: current-version card, then a table of every version. Version pages provide version, date, specification, citation. */}}
+{{ $versions := .Pages.ByDate.Reverse }}
+{{ $current := index $versions 0 }}
+{{ $issues := .Params.issues_url }}
+<div class="universal-wrapper">
+  {{ with $current }}
+  <div class="sbol-card sbol-card--accent">
+    <div class="sbol-card__head">
+      <span class="sbol-badge sbol-badge--current">Current version</span>
+      <span class="sbol-card__meta">Published {{ .Date.Format "January 2, 2006" }}</span>
+    </div>
+    <h2 class="sbol-card__headline">{{ .Title }}</h2>
+    <p class="sbol-card__summary">{{ .Summary | plainify | htmlUnescape | truncate 260 "…" }}</p>
+    <div class="sbol-card__actions">
+      {{ with .Params.specification }}<a href="{{ . | relURL }}" class="sbol-btn" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i>Specification (PDF)</a>{{ end }}
+      {{ with .Params.citation }}<a href="{{ . }}" class="sbol-btn sbol-btn--secondary" target="_blank" rel="noopener"><i class="fas fa-pen-fancy" aria-hidden="true"></i>Cite</a>{{ end }}
+      <a href="{{ .RelPermalink }}" class="sbol-btn sbol-btn--secondary">What changed</a>
+      {{ with $issues }}<a href="{{ . }}" class="sbol-btn sbol-btn--secondary" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i>Report an issue</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <section class="sbol-section">
+    <h2 class="sbol-section__title">All versions</h2>
+    <div class="sbol-tablewrap">
+      <table class="sbol-table">
+        <thead><tr><th>Version</th><th>Date</th><th>Status</th><th>Summary</th><th>Specification</th><th>Citation</th></tr></thead>
+        <tbody>
+          {{ range $i, $v := $versions }}
+          <tr{{ if eq $i 0 }} class="is-current"{{ end }}>
+            <td><a href="{{ .RelPermalink }}"><strong>{{ .Params.version }}</strong></a></td>
+            <td class="nowrap">{{ .Date.Format "Jan 2, 2006" }}</td>
+            <td>{{ if eq $i 0 }}<span class="sbol-badge sbol-badge--current">Current</span>{{ else }}<span class="sbol-badge sbol-badge--superseded">Superseded</span>{{ end }}</td>
+            <td>{{ .Summary | plainify | htmlUnescape | truncate 110 "…" }} <a href="{{ .RelPermalink }}" class="sbol-link-more">More</a></td>
+            <td>{{ with .Params.specification }}<a href="{{ . | relURL }}" target="_blank" rel="noopener">PDF</a>{{ end }}</td>
+            <td>{{ with .Params.citation }}<a href="{{ . }}" target="_blank" rel="noopener">Cite</a>{{ end }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {{ with .Content }}<div class="article-style sbol-page__body">{{ . }}</div>{{ end }}
+</div>

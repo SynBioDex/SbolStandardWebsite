@@ -31,6 +31,12 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "[Synthetic Biology Knowledge System](http://web.synbioks.org)"
+  language: "HTML/Java/TypeScript"
+  platform: "Web"
+  availability: "Open-Source"
+  license: "Apache 2.0"
 ---
 
 [SBOLCanvas](https://sbolcanvas.org/) is a web application for

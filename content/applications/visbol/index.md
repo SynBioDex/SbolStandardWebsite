@@ -32,6 +32,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Newcastle University"
+  language: "JavaScript"
+  platform: "Lin/Mac/Win/Web"
+  availability: "Open-Source"
+  license: "BSD 2-Clause"
 ---
 
 VisBOL is a JavaScript software library to visualize DNA features from SBOL2 documents using the SBOL Visual standard. A Web interface is also provided to enable end-user access to generate diagrams for presentations and publications.

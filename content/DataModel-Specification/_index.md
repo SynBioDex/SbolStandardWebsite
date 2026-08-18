@@ -1,5 +1,8 @@
 ---
 title: SBOL Data Model Specification
+subtitle: "The formal data model for exchanging genetic designs between software tools. The current release is the reference for every SBOL library and validator."
+subnav: datamodel
+issues_url: https://github.com/SynBioDex/SBOL-specification/issues
 
 # View.
 #   1 = List
@@ -12,12 +15,10 @@ view: 3
 header:
   caption: ""
   image: ""
+cascade:
+  share: false
+  profile: false
+summary: "The formal data model for exchanging genetic designs between software tools. The current release is the reference for every SBOL library and validator."
 ---
 
-[Report an Issue with the Current SBOL Specification](https://github.com/SynBioDex/SBOL-specification/issues)
-<!--
-
-The body of this page is filled in with the `version-X.Y.Z.md` pages
-in this directory using the template found at `/layouts/DataModel-Specification`
-
--->
+<!-- Version rows come from the version-X.Y.Z.md pages in this directory, rendered by layouts/DataModel-Specification/list.html -->

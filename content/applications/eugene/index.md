@@ -35,6 +35,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Boston University"
+  language: "Java"
+  platform: "Linux, Mac, Windows, Web"
+  availability: "Open-Source"
+  license: "CC BY-SA 4.0"
 ---
 
 Eugene is a textual specification language for the rule-based design of synthetic biological systems, devices, parts, and DNA sequences.

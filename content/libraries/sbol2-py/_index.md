@@ -58,7 +58,7 @@ pySBOL2 provides Python interfaces and their implementation for Synthetic Biolog
 
 
 
-The repository of the latest version of pySBOL3 library can be accessed [here](https://github.com/SynBioDex/pySBOL3).
+The latest version lives in the [pySBOL3 repository](https://github.com/SynBioDex/pySBOL3).
 
 
 

@@ -9,7 +9,6 @@
     btn2_text   — secondary button label
     btn2_link   — secondary button URL
 
-  Note: Contains an embedded <style> block. Use this shortcode once per page
   to avoid duplicating styles.
 */ -}}
 
@@ -22,119 +21,6 @@
 {{ $btn2_link := .Get "btn2_link" }}
 {{ $btn2_icon := .Get "btn2_icon" }}
 
-<style>
-.hf-wrap {
-  display: flex;
-  gap: 3rem;
-  align-items: flex-start;
-  padding: 0.5rem 0;
-}
-.hf-left  { flex: 1 1 55%; }
-.hf-right { flex: 1 1 40%; }
-
-.hf-badge {
-  display: inline-block;
-  background: var(--primary, #8cc63f);
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  padding: 0.25rem 0.8rem;
-  border-radius: 2rem;
-  margin-bottom: 1.1rem;
-}
-.hf-title {
-  font-size: 2.6rem;
-  font-weight: 800;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-.hf-subtitle {
-  font-size: 1.1rem;
-  color: #555;
-  line-height: 1.65;
-  margin-bottom: 1.75rem;
-}
-.hf-buttons {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-/* Right column — feed */
-.hf-feed-heading {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--primary, #8cc63f);
-  border-bottom: 2px solid var(--primary, #8cc63f);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.1rem;
-}
-.hf-card {
-  padding: 0.9rem 1rem;
-  border: 1px solid #e5e5e5;
-  border-radius: 6px;
-  margin-bottom: 0.75rem;
-  background: #fff;
-  transition: box-shadow 0.18s ease;
-}
-.hf-card:hover {
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.08);
-}
-.hf-card-date {
-  font-size: 0.72rem;
-  color: #aaa;
-  margin-bottom: 0.25rem;
-}
-.hf-card-title {
-  font-weight: 600;
-  font-size: 0.95rem;
-  margin-bottom: 0.35rem;
-}
-.hf-card-title a {
-  color: inherit;
-  text-decoration: none;
-}
-.hf-card-title a:hover {
-  color: var(--primary, #8cc63f);
-}
-.hf-card-summary {
-  font-size: 0.84rem;
-  color: #666;
-  line-height: 1.5;
-}
-.hf-empty {
-  font-size: 0.88rem;
-  color: #aaa;
-}
-.hf-card-type {
-  display: inline-block;
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  padding: 0.1rem 0.5rem;
-  border-radius: 2rem;
-  margin-right: 0.4rem;
-  vertical-align: middle;
-}
-.hf-card-type--blog {
-  background: rgba(140, 198, 63, 0.15);
-  color: #5a8a1a;
-}
-.hf-card-type--announcement {
-  background: rgba(52, 73, 94, 0.1);
-  color: #34495e;
-}
-
-@media (max-width: 768px) {
-  .hf-wrap { flex-direction: column; gap: 2rem; }
-  .hf-title { font-size: 2rem; }
-}
-</style>
 
 <div class="hf-wrap">
 
@@ -145,10 +31,10 @@
     <p class="hf-subtitle">{{ $subtitle }}</p>
     <div class="hf-buttons">
       {{ with $btn1_text }}
-        <a href="{{ $btn1_link }}" class="btn btn-primary btn-lg">{{ . }}</a>
+        <a href="{{ $btn1_link }}" class="sbol-btn sbol-btn--lg">{{ . }}</a>
       {{ end }}
       {{ with $btn2_text }}
-        <a href="{{ $btn2_link }}" class="btn btn-outline-primary btn-lg" target="_blank" rel="noopener">{{ with $btn2_icon }}<i class="{{ . }}" style="margin-right:0.45em"></i>{{ end }}{{ . }}</a>
+        <a href="{{ $btn2_link }}" class="sbol-btn sbol-btn--secondary sbol-btn--lg" target="_blank" rel="noopener">{{ with $btn2_icon }}<i class="{{ . }}" style="margin-right:0.45em"></i>{{ end }}{{ . }}</a>
       {{ end }}
     </div>
   </div>
@@ -165,22 +51,20 @@
 
     {{ if $recent }}
       {{ range $recent }}
-      <div class="hf-card">
-        <div class="hf-card-date">
+      <a class="sbol-card sbol-card--compact is-link" href="{{ .Permalink }}">
+        <div class="sbol-card__meta">
           {{ if eq .Section "blog" }}
-            <span class="hf-card-type hf-card-type--blog">Blog</span>
+            <span class="sbol-badge sbol-badge--blog">Blog</span>
           {{ else }}
-            <span class="hf-card-type hf-card-type--announcement">Announcement</span>
+            <span class="sbol-badge sbol-badge--announcement">Announcement</span>
           {{ end }}
           {{ .Date.Format "Jan 2, 2006" }}
         </div>
-        <div class="hf-card-title">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </div>
+        <div class="sbol-card__title">{{ .Title }}</div>
         {{ with .Summary }}
-        <div class="hf-card-summary">{{ . | plainify | truncate 120 "…" }}</div>
+        <div class="sbol-card__desc">{{ . | plainify | htmlUnescape | truncate 120 "…" }}</div>
         {{ end }}
-      </div>
+      </a>
       {{ end }}
     {{ else }}
       <p class="hf-empty">No posts yet — check back soon.</p>

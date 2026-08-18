@@ -26,6 +26,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "University of Washington"
+  language: "C/C++"
+  platform: "Linux, Mac, Windows"
+  availability: "Open-Source"
+  license: "BSD"
 ---
 
 Tellurium is a Python environment based on spyder2 IDE, designed for systems and synthetic biology simulations. It combines a number of existing libraries, including libRoadRunner, libAntimony, and phraSED-ML, alongside with standards support through libSBML, libSEDML, and pySBOL. Additionally, other Python packages such as matplotlib and NumPy are used to provide extra analysis, optimization, and plotting capabilities.

@@ -12,6 +12,10 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "How the SBOL community is organized, who decides what, and how proposals become part of the standard."
+layout: sbol-page
+toc: true
+summary: "How the SBOL community is organized, who decides what, and how proposals become part of the standard."
 ---
 
 SBOL is being developed by a collegial volunteer organization, which runs primarily by rough consensus. As an organization, the SBOL development community holds the following values:

@@ -23,6 +23,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Berkeley Lab"
+  language: "Perl"
+  platform: "Web"
+  availability: "Free for all users"
 ---
 
 

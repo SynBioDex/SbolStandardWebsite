@@ -1,0 +1,13 @@
+{{- define "main" -}}
+{{/* Author page: shared hero (name, role and affiliation as subtitle), then their pages as cards. */}}
+{{ $pages := where .Pages ".IsNode" false }}
+{{ $bits := slice }}
+{{ with .Params.role }}{{ $bits = $bits | append . }}{{ end }}
+{{ range .Params.organizations }}{{ with .name }}{{ $bits = $bits | append . }}{{ end }}{{ end }}
+{{ $ctx := dict "Title" .Title "Params" (dict "subtitle" (delimit $bits " · ")) "RelPermalink" .RelPermalink }}
+{{ partial "sbol/hero.html" $ctx }}
+{{ with $pages }}
+<div class="universal-wrapper sbol-page"><h2 class="sbol-section__title">Publications and posts</h2></div>
+{{ end }}
+{{ partial "sbol/card-list.html" (dict "pages" $pages "empty" "No publications or posts yet.") }}
+{{- end -}}

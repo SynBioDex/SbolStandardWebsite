@@ -75,4 +75,5 @@ contribute_links:
     description: "Developer discussions and announcements"
     icon: "fas fa-envelope"
     url: "https://groups.google.com/g/sbol-dev"
+summary: "A precise data model, official libraries in multiple languages, and an active open-source community. Everything you need to build SBOL-native tools."
 ---

@@ -1,0 +1,18 @@
+# Section sub-navigation rendered by partials/sbol/hero.html when a page sets `subnav: <key>`.
+datamodel:
+  section: SBOL Data Model
+  items:
+    - { name: About, url: /datamodel/ }
+    - { name: Specification, url: /datamodel-specification/ }
+    - { name: Ontology, url: /ontology/ }
+    - { name: Examples, url: /datamodel-examples/ }
+visual:
+  section: SBOL Visual
+  items:
+    - { name: About, url: /visual/ }
+    - { name: Specification, url: /visual-specification/ }
+    - { name: Glyphs, url: /visual-glyphs/ }
+    - { name: Ontology, url: /sbol-visual-ontology/ }
+    - { name: Gallery, url: /visual-gallery/ }
+    - { name: Examples, url: /visual-examples/ }
+    - { name: 10 Years, url: /sbolv-10-years/ }

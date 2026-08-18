@@ -42,7 +42,7 @@ property on each class. Another enhancement is the generalization of
 the CombinatorialDeriviation class to allow direct use of Features and
 Measures. Next, the Participation class now allow Interactions to be
 participants to describe higher-order interactions. Another change is
-the use of Sequence Ontology}terms for Feature orientation. Finally,
+the use of Sequence Ontology terms for Feature orientation. Finally,
 this version of SBOL has generalized from using Unique Reference
 Identifiers (URIs) to Internationalized Resource Identifiers (IRIs) to
 support international character sets.

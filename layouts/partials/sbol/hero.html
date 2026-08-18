@@ -1,0 +1,31 @@
+{{/* Section hero. Front matter: subtitle, hero_eyebrow, hero_meta, hero_buttons [{text,url,icon,style}], subnav (key in data/subnav.yaml). */}}
+{{ $p := .Params }}
+{{ $subnav := dict }}
+{{ with $p.subnav }}{{ $subnav = index site.Data.subnav . | default dict }}{{ end }}
+{{ $title := .Title }}
+{{ if not $title }}{{ with $subnav.section }}{{ $title = . }}{{ end }}{{ end }}
+{{ $current := strings.TrimSuffix "/" .RelPermalink }}
+<div class="sbol-hero{{ if $subnav.items }} sbol-hero--with-subnav{{ end }}">
+  <div class="sbol-hero__inner">
+    {{ with $p.hero_eyebrow }}<span class="sbol-hero__eyebrow">{{ . }}</span>{{ end }}
+    <h1 class="sbol-hero__title">{{ $title }}</h1>
+    {{ with $p.subtitle }}<p class="sbol-hero__sub">{{ . | markdownify }}</p>{{ end }}
+    {{ with $p.hero_meta }}<p class="sbol-hero__meta">{{ . | markdownify }}</p>{{ end }}
+    {{ with $p.hero_buttons }}
+    <div class="sbol-hero__actions">
+      {{ range . }}
+      <a href="{{ .url }}" class="sbol-btn{{ if eq .style "secondary" }} sbol-btn--secondary{{ end }}"{{ if hasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ with .icon }}<i class="{{ . }}" aria-hidden="true"></i>{{ end }}{{ .text }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ with $subnav.items }}
+  <nav class="sbol-subnav" aria-label="{{ $subnav.section }} sections">
+    {{ range . }}
+    {{ $u := strings.TrimSuffix "/" .url }}
+    {{ $active := or (eq $current $u) (and (ne $u "") (hasPrefix $current (printf "%s/" $u))) }}
+    <a href="{{ .url | relURL }}"{{ if $active }} class="active" aria-current="page"{{ end }}>{{ .name }}</a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</div>

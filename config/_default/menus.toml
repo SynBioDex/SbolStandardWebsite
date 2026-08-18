@@ -1,226 +1,176 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
-
-[[main]]
-  name = "SBOL Data Model"
-  url = "/DataModel"
-  weight = 20
-  identifier = "dom-id"
+# Navigation
+# Data Model and Visual are direct links to their landing pages; each landing page and its
+# sibling pages carry a tab bar (see data/subnav.yaml). Only Ecosystem, News and Community open
+# dropdowns. `main_right` renders at the right end of the bar (theme feature) and is styled as a button.
 
 [[main]]
-  name = "About SBOL"
-  url = "/DataModel-about"
-  weight = 5
-  parent = "dom-id"
-
-[[main]]
-  name = "Data Model Specification"
-  url = "/DataModel-Specification"
+  name = "Data Model"
+  url = "/datamodel/"
   weight = 10
-  parent = "dom-id"
-
 [[main]]
-  name = "SBOL Ontology"
-  url = "/ontology"
+  name = "Visual"
+  url = "/visual/"
   weight = 20
-  parent = "dom-id"
-
-[[main]]
-  name = "Examples"
-  url = "/DataModel-Examples"
-  weight = 35
-  parent = "dom-id"
-
-[[main]]
-  name = "SBOL Visual"
-  url = "/visual"
-  weight = 25
-  identifier = "visual-id"
-
-[[main]]
-  name = "About SBOL Visual"
-  url = "/visual-about"
-  weight = 5
-  parent = "visual-id"
-
-[[main]]
-  name = "Visual Specification"
-  url = "/visual-specification"
-  weight = 10
-  parent = "visual-id"
-
-[[main]]
-  name = "Glyphs"
-  url = "/visual-glyphs"
-  weight = 15
-  parent = "visual-id"
-
-[[main]]
-  name = "SBOL Visual Ontology"
-  url = "/sbol-visual-ontology"
-  weight = 20
-  parent = "visual-id"
-
-#[[main]]
-#  name = "Examples from papers"
-#  url = "/visual-examples"
-#  weight = 25
-#  parent = "visual-id"
-
-[[main]]
-  name = "Gallery"
-  url = "/visual-gallery"
-  weight = 27
-  parent = "visual-id"
-
-[[main]]
-  name = "10 Years of SBOL Visual"
-  url = "/sbolv-10-years"
-  weight = 30
-  parent = "visual-id"
 
 [[main]]
   name = "Ecosystem"
-  url = "/ecosystem"
+  url = "/ecosystem/"
   weight = 30
   identifier = "ecosystem-id"
-
 [[main]]
   name = "Libraries"
-  url = "/libraries"
+  url = "/libraries/"
   weight = 5
   parent = "ecosystem-id"
-
+  post = "Official implementations in Python, Java, Rust, JavaScript and C++"
 [[main]]
   name = "Applications"
-  url = "/applications"
+  url = "/applications/"
   weight = 10
   parent = "ecosystem-id"
-
- [[main]]
-  name = "Converter"
-  url = "https://converter.sbolstandard.org/"
+  post = "Tools that read, write, design and visualize SBOL"
+[[main]]
+  name = "GenAI Tools"
+  url = "/genai-tools/"
   weight = 15
   parent = "ecosystem-id"
-
+  post = "Assistants trained on the SBOL 2 and 3 specifications"
+[[main]]
+  name = "Converter"
+  url = "https://converter.sbolstandard.org/"
+  weight = 20
+  parent = "ecosystem-id"
+  post = "Convert between SBOL 2, SBOL 3 and GenBank"
 [[main]]
   name = "Validator"
   url = "https://validator.sbolstandard.org/"
-  weight = 20
-  parent = "ecosystem-id" 
-
+  weight = 25
+  parent = "ecosystem-id"
+  post = "Check that a document is valid SBOL"
 [[main]]
   name = "GitHub"
   url = "https://github.com/SynBioDex/"
-  weight = 25
-  parent = "ecosystem-id"
-
-[[main]]
-  name = "GenAI Tools"
-  url = "/genai-tools"
   weight = 30
   parent = "ecosystem-id"
-
+  post = "The SynBioDex organization: specs, libraries, tools"
 [[main]]
   name = "Publications"
-  url = "/publication"
+  url = "/publication/"
   weight = 40
 
 [[main]]
   name = "News"
-  url = "/news"
+  url = "/news/"
   weight = 45
   identifier = "news-id"
-
 [[main]]
   name = "Announcements"
-  url = "/post"
+  url = "/post/"
   weight = 5
   parent = "news-id"
-
+  post = "Releases, calls, and meeting news"
 [[main]]
   name = "Blog"
-  url = "/blog"
+  url = "/blog/"
   weight = 10
   parent = "news-id"
-
-
-
+  post = "Long-form posts and the SBOLinside video series"
 [[main]]
   name = "Community"
-  url = "/community"
+  url = "/community/"
   weight = 50
   identifier = "community-id"
-
 [[main]]
   name = "Leadership"
-  url = "/community-leadership"
+  url = "/community-leadership/"
   weight = 5
   parent = "community-id"
-
+  post = "Chair, editors, steering committee"
 [[main]]
   name = "Meetings & Outreach"
-  url = "/community-meetings"
+  url = "/community-meetings/"
   weight = 12
   parent = "community-id"
-
-#[[main]]
-#  name = "Outreach"
-#  url = "/community-outreach"
-#  weight = 15
-#  parent = "community-id"
-
-
-
+  post = "COMBINE, HARMONY, workshops and outreach"
 [[main]]
   name = "Governance"
-  url = "/community-governance"
+  url = "/community-governance/"
   weight = 20
   parent = "community-id"
-
-#[[main]]
-#  name = "SBOL Industrial Consortium"
-#  url = "/sbol-industrial"
-#  weight = 25
-#  parent = "community-id"
-
+  post = "How the community is organized and decides"
 [[main]]
   name = "Sponsor SBOL"
-  url = "/sponsor-sbol"
+  url = "/sponsor-sbol/"
   weight = 30
   parent = "community-id"
+  post = "Support the standard through BDAC"
 
-# Footer Links
-
-[[footer]]
-  name = "Contact Us"
-  url = "/contact"
+[[main_right]]
+  name = "Join SBOL"
+  url = "/join/"
   weight = 10
 
-[[footer]]
+# Footer: three columns that complement the navigation (nothing here repeats a menu entry).
+[[footer_help]]
   name = "FAQ"
-  url = "/faq"
+  url = "/faq/"
+  weight = 10
+[[footer_help]]
+  name = "Contact"
+  url = "/contact/"
   weight = 20
-
-[[footer]]
+[[footer_help]]
   name = "Stack Exchange"
   url = "https://bioinformatics.stackexchange.com/questions/tagged/sbol"
   weight = 30
-
-[[footer]]
-  name = "View Source"
-  url = "https://github.com/SynBioDex/SbolStandardWebsite"
+[[footer_help]]
+  name = "Announcements list"
+  url = "https://groups.google.com/g/sbol-announce"
   weight = 40
+[[footer_help]]
+  name = "Slack"
+  url = "https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg"
+  weight = 50
 
-[[footer]]
+[[footer_contribute]]
+  name = "Report a website issue"
+  url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
+  weight = 10
+[[footer_contribute]]
+  name = "View source"
+  url = "https://github.com/SynBioDex/SbolStandardWebsite"
+  weight = 20
+[[footer_contribute]]
+  name = "Propose an enhancement (SEP)"
+  url = "https://github.com/SynBioDex/SEPs"
+  weight = 30
+[[footer_contribute]]
+  name = "Submit a tool"
+  url = "https://github.com/SynBioDex/SbolStandardWebsite/issues/new"
+  weight = 40
+[[footer_contribute]]
   name = "Community Media"
   url = "https://github.com/SynBioDex/Community-Media"
   weight = 50
 
-[[footer]]
-  name = "Report an Issue"
-  url = "https://github.com/SynBioDex/SbolStandardWebsite/issues"
-  weight = 60
+[[footer_connect]]
+  name = "GitHub"
+  url = "https://github.com/SynBioDex"
+  weight = 10
+  pre = "github"
+[[footer_connect]]
+  name = "YouTube"
+  url = "https://www.youtube.com/@syntheticbiologyopenlangua6204"
+  weight = 20
+  pre = "youtube"
+[[footer_connect]]
+  name = "X (Twitter)"
+  url = "https://twitter.com/sbolstandard"
+  weight = 30
+  pre = "twitter"
+[[footer_connect]]
+  name = "Slack"
+  url = "https://join.slack.com/t/sbol-standard/shared_invite/zt-1ukcka8b8-Z4QoyiE_LwwoRBw2DzheSg"
+  weight = 40
+  pre = "slack"
+  post = "Support the standard through BDAC"

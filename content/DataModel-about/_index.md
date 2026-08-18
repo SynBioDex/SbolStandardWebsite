@@ -1,5 +1,5 @@
 ---
-title:
+title: SBOL Data Model
 
 # View.
 #   1 = List
@@ -13,12 +13,21 @@ header:
   caption: ""
   image: ""
 
-# Provide a short alias (See GitHub #135)
+subtitle: "The data model for representing and exchanging genetic designs between software tools, with libraries in Python, Java, Rust, JavaScript and C++."
+url: /datamodel/
 aliases:
-    - /datamodel/
+  - /datamodel-about/
+layout: sbol-page
+subnav: datamodel
+toc: true
+hero_buttons:
+  - text: Read the specification
+    url: /datamodel-specification/
+  - text: Get a library
+    url: /libraries/
+    style: secondary
+summary: "The data model for representing and exchanging genetic designs between software tools, with libraries in Python, Java, Rust, JavaScript and C++."
 ---
-
-{{< figure width="600px" library="true" src="Logos/SBOLlogo.svg" title="" lightbox="true" >}}
 
 ### Purpose
 
@@ -34,12 +43,12 @@ The SBOL data standard is a data exchange representation for synthetic biology d
 
 SBOL Data is used as a data exchange format to represent genetic designs and its functional interaction.
 This will allow information to be exchanged between software tools, maintain the integrity of the data, and ensure reproducibility of designs.
-To get an idea on how the data model has been used in software tools, view all of the [SBOL Data model tools]({{< relref "applications" >}}) that have been reported to us.
-Also take a look at sample papers that have been published online for the SBOL data model, featuring the SBOL data model, and software tools supporting the SBOL data model [here]({{< relref "publication" >}}).
+To get an idea on how the data model has been used in software tools, browse the [applications that support SBOL]({{< relref "applications" >}}).
+The [publications list]({{< relref "publication" >}}) collects the papers that define the data model, feature it, or describe tools that support it.
 
-### Download SBOL Data Library
+### Libraries
 
-We support the SBOL Data models in the following formats: **C/C++**, **Java**, **Javascript**, and **Python**. You can download the SBOL data model [here]({{< relref "libraries" >}}).
+Official libraries implement the data model in **Python**, **Java**, **Rust**, **JavaScript**, and **C/C++**; pick one on the [libraries page]({{< relref "libraries" >}}).
 
 ### Proposing a New Feature to the SBOL Data Model
 
@@ -47,8 +56,8 @@ To propose a new feature to SBOL, a standard procedure must be followed.
 
 1. Submit a [new issue](https://github.com/SynBioDex/SBOL-specification/issues) on the SBOL Github repository.
 2. Create a SBOL Enhancement Proposal (SEP)
-    * A detailed description about what is an SEP, how to create an SEP, and how to submit an SEP can be found [here](https://github.com/SynBioDex/SEPs/issues/1).
-    * A template of what a general SEP should look like can be found [here](https://raw.githubusercontent.com/SynBioDex/SEPs/master/sep_002_template.md).
+    * Read [what an SEP is and how to submit one](https://github.com/SynBioDex/SEPs/issues/1).
+    * Start from the [SEP template](https://raw.githubusercontent.com/SynBioDex/SEPs/master/sep_002_template.md).
     * For further assistance, please contact the [SBOL Editors](mailto:sbol-editors@googlegroups.com).
 3. The community will discuss on the proposed SEP through the GitHub issue created for the corresponding SEP.
 4. When the community has reached a consensus for the proposed SEP, voting will then be initiated to determine if the SEP will get accepted into the new release of SBOL.

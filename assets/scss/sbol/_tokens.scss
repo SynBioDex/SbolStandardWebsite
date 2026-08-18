@@ -1,0 +1,74 @@
+// Design tokens. Light values on :root, dark values under body.dark (the theme's toggle class).
+// Components read only these variables; page files add no literal colors.
+:root {
+  --sbol-green: #8cc63f;         // fills, rules, badges, primary button; never body text
+  --sbol-green-ink: #3f6b0d;     // links and green text, 6.9:1 on white
+  --sbol-green-tint: #eef5df;
+  --sbol-hero-a: #f0f7e8;
+  --sbol-hero-b: #e8f4d9;
+  --sbol-band: #f7f9f5;          // light full-bleed band (replaces the former navy band)
+  --sbol-band-border: #e0e8d8;
+  --sbol-paper: #ffffff;
+  --sbol-paper-2: #f8f8f8;
+  --sbol-card: #ffffff;
+  --sbol-card-border: #e5e7eb;
+  --sbol-ink: #1a1a1a;
+  --sbol-ink-2: #444444;
+  --sbol-ink-3: #666666;         // 5.7:1
+  --sbol-muted: #6b7280;         // dates, captions, 4.8:1
+  --sbol-rule: #e5e7eb;
+  --sbol-rule-2: #eeeeee;
+  --sbol-code-bg: #f1f3ec;
+  --sbol-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+  --sbol-shadow-hover: 0 6px 24px rgba(0, 0, 0, .09);
+  --sbol-focus: #8cc63f;
+  // Shape: two radii only. Everything rectangular (cards, panels, buttons, inputs, images, menus, tables) uses the card radius; badges and filters are pills.
+  // The three names stay so a future change stays central; today they resolve to the same value.
+  --sbol-radius: 12px;
+  --sbol-radius-img: var(--sbol-radius);
+  --sbol-radius-sm: var(--sbol-radius);
+  --sbol-radius-pill: 999px;
+  // Layout: one container rule for navbar, content, bands, panels and footer
+  --sbol-container: 1200px;
+  --sbol-gutter: 15px;
+  // Hover accents (no shadow, no motion): cards outline in green, primary buttons darken one step
+  --sbol-green-hover: #7db536;
+  --sbol-space-2: 1rem;
+  --sbol-space-3: 1.5rem;
+  --sbol-space-4: 2rem;
+  --sbol-space-5: 3rem;
+  // Semantic badge set (five hues), tint and ink pairs, all inks >= 4.5:1 on their tint
+  --sbol-badge-blue-bg: #e6eefc;   --sbol-badge-blue-ink: #1d4ed8;
+  --sbol-badge-purple-bg: #ede9fe; --sbol-badge-purple-ink: #5b21b6;
+  --sbol-badge-orange-bg: #fdeedd; --sbol-badge-orange-ink: #9a3412;
+  --sbol-badge-green-bg: #e8f2d5;  --sbol-badge-green-ink: #3f6b0d;
+  --sbol-badge-slate-bg: #e9ebef;  --sbol-badge-slate-ink: #374151;
+}
+body.dark {
+  --sbol-green: #8cc63f;
+  --sbol-green-hover: #9ed35a;
+  --sbol-green-ink: #b7dc7a;
+  --sbol-green-tint: #2c3a22;
+  --sbol-hero-a: #2b3a22;
+  --sbol-hero-b: #232f1c;
+  --sbol-band: #2b2e3a;
+  --sbol-band-border: #3b3f4f;
+  --sbol-paper: #282a36;
+  --sbol-paper-2: #23252f;
+  --sbol-card: #2f3140;
+  --sbol-card-border: #44475a;
+  --sbol-ink: #f8f8f2;
+  --sbol-ink-2: #d9dbe4;
+  --sbol-ink-3: #b3b6c6;
+  --sbol-muted: #9a9db0;
+  --sbol-rule: #44475a;
+  --sbol-rule-2: #383b4a;
+  --sbol-code-bg: #1f212b;
+  --sbol-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+  --sbol-shadow-hover: 0 8px 24px rgba(0, 0, 0, .5);
+  --sbol-badge-blue-bg: #1e2a4a;   --sbol-badge-blue-ink: #a9c4ff;
+  --sbol-badge-purple-bg: #2c2347; --sbol-badge-purple-ink: #c9b8ff;
+  --sbol-badge-orange-bg: #402a1a; --sbol-badge-orange-ink: #f4b183;
+  --sbol-badge-green-bg: #26361a;  --sbol-badge-green-ink: #b7dc7a;
+  --sbol-badge-slate-bg: #33364a;  --sbol-badge-slate-ink: #cfd3e0;
+}

@@ -32,6 +32,10 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Newcastle University, Turing Ate My Hamster Ltd"
+  language: "Scala"
+  platform: "Linux/Mac/Win/Web"
 ---
 
 

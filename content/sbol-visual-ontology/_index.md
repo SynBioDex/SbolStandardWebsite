@@ -12,9 +12,13 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Terms that define SBOL Visual glyphs and their relationships, for tools that reason about diagrams."
+layout: sbol-page
+subnav: visual
+summary: "Terms that define SBOL Visual glyphs and their relationships, for tools that reason about diagrams."
 ---
 
-The SBOL Visual Ontology (SBOL-VO) provides a set of controlled terms to describe visual glyphs for genetic circuit designs. The terms are organised based on their descriptions in community-edited [Markdown](https://github.com/SynBioDex/SBOL-visual/tree/master/Glyphs) files. Terms are defined for recommended and alternative glyphs in addition to terms to represent generic glyphs. SBOL-VO consists of the following items.
+The SBOL Visual Ontology (SBOL-VO) provides a set of controlled terms to describe visual glyphs for genetic circuit designs. The terms are organized based on their descriptions in community-edited [Markdown](https://github.com/SynBioDex/SBOL-visual/tree/master/Glyphs) files. Terms are defined for recommended and alternative glyphs in addition to terms to represent generic glyphs. SBOL-VO consists of the following items.
 
 * **Terms for glyphs** to represent
     * DNA sequence features (e.g. "[CDSGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#CDSGlyph)", "[AptamerGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AptamerGlyph)", "[AssemblyScarGlyph](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AssemblyScarGlyph)" and "[AssemblyScarGlyphAlternative](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.html#AssemblyScarGlyphAlternative)" )
@@ -34,7 +38,7 @@ The ontology can also be viewed after downloading and opening in an ontology edi
 
 ### Download
 
-SBOL-VO is available as an RDF file. Click [here](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.rdf) to download the ontology (**please note** that your browser may not allow direct downloads. If it does not, please copy and paste the following link on a new tab: http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.rdf ).
+SBOL-VO is available as an RDF file: [download the ontology](http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.rdf) (**please note** that your browser may not allow direct downloads. If it does not, please copy and paste the following link on a new tab: http://synbiodex.github.io/sbol-visual-ontology/sbol-vo.rdf ).
 
 ### Computational access: The SBOL-VO web service (SBOL-VOWS)
 

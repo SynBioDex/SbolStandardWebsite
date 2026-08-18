@@ -12,6 +12,9 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Reach the SBOL editors and the community."
+layout: sbol-page
+summary: "Reach the SBOL editors and the community."
 ---
 
 The [sbol-announce](mailto:sbol-announce@googlegroups.com), [sbol-users](mailto:sbol-users@googlegroups.com), [sbol-dev](mailto:sbol-dev@googlegroups.com), and [sbol-visual](mailto:sbol-visual@googlegroups.com) are mailing lists open to all members of the SBOL community to post discussions and ask questions about SBOL. These mailing lists are moderated by the SBOL Editors. If the discussions and comments become inappropriate, the SBOL editors reserve the right to disallow future posting to be made by the community until further notice.

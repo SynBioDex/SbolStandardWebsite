@@ -10,11 +10,8 @@ subtitle = ""
 [design]
   columns = "1"
 
-[design.background]
-  color = "white"
-
 [design.spacing]
-  padding = ["20px", "0", "20px", "0"]
+  padding = ["40px", "0", "10px", "0"]
 
 [advanced]
   css_class = ""

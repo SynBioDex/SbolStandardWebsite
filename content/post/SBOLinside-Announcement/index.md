@@ -13,7 +13,7 @@ tags:
 {{< figure src="SBOLinside_Banner.png" title="" lightbox="true" >}}
 
 Alongside our day-to-day editorial work, we have been developing something special for the SBOL community.
-We asked ourselves: how can we offer deeper insights into SBOL and our organisation while making it easier for the community to follow our ongoing work? 
+We asked ourselves: how can we offer deeper insights into SBOL and our organization while making it easier for the community to follow our ongoing work? 
 Our answer is **SBOLinside**.
 
 SBOLinside is a video podcast format specifically focusing on providing inside stories from our work on SBOL and our organization. 

@@ -22,147 +22,124 @@ A conference where the COMBINE community come together to present their work and
 
 **Monday, August 18th**
 
-<table style="width:100%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [14:30PM &#8211; 15:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Synthetic_Biology.pdf">Developing Standards in Synthetic Biology: the needs for a broad new engineering discipline</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Herbert Sauro
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [14:30PM &#8211; 15:00PM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Synthetic_Biology.pdf">Developing Standards in Synthetic Biology: the needs for a broad new engineering discipline</a>
+</td>
+<td>
+Herbert Sauro
+</td>
+</tr>
 </table>
 
 ****  
 **Tuesday, August 19th**
 
-<table style="width:100%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [12:00PM &#8211; 12:30PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Synthetic%20Biology%20Open%20Language%20Visual%20graphical%20notation%20for%20forward%20engineering%20of%20biology.pdf">Synthetic Biology Open Language Visual: graphical notation for forward engineering of biology</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Jackie Quinn
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [16:00PM &#8211; 16:30PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL Visual 2.0
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Jackie Quinn
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [12:00PM &#8211; 12:30PM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Synthetic%20Biology%20Open%20Language%20Visual%20graphical%20notation%20for%20forward%20engineering%20of%20biology.pdf">Synthetic Biology Open Language Visual: graphical notation for forward engineering of biology</a>
+</td>
+<td>
+Jackie Quinn
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [16:00PM &#8211; 16:30PM GMT]
+</td>
+<td>
+&nbsp; SBOL Visual 2.0
+</td>
+<td>
+Jackie Quinn
+</td>
+</tr>
 </table>
 
 ****  
 **Wednesday, August 20th**
 
-<table style="width:100%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [09:00AM &#8211; 09:30PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Generating%20SBML%20models%20from%20SBOL.pdf">Generating SBML models from SBOL</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Nicholas Roehner
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [09:00AM &#8211; 09:30PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; Vector NTI Express Designer as a demonstration of SBOL interoperability with COMBINE standards
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Kevin Clancy
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [10:00AM &#8211; 10:30AM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/sbol-stack.pdf">SBOL Stack: The One-stop-shop to Storing and Publishing SBOL Data</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Curtis Madsen
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [14:00PM &#8211; 14:30PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL 2.0 Hierarchical Composition
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Nicholas Roehner
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [16:00PM &#8211; 17:30PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL 2.0 Interactions and Other Issues
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Nicholas Roehner
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [09:00AM &#8211; 09:30PM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/Generating%20SBML%20models%20from%20SBOL.pdf">Generating SBML models from SBOL</a>
+</td>
+<td>
+Nicholas Roehner
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [09:00AM &#8211; 09:30PM GMT]
+</td>
+<td>
+&nbsp; Vector NTI Express Designer as a demonstration of SBOL interoperability with COMBINE standards
+</td>
+<td>
+Kevin Clancy
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [10:00AM &#8211; 10:30AM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/COMBINE/sbol-stack.pdf">SBOL Stack: The One-stop-shop to Storing and Publishing SBOL Data</a>
+</td>
+<td>
+Curtis Madsen
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [14:00PM &#8211; 14:30PM GMT]
+</td>
+<td>
+&nbsp; SBOL 2.0 Hierarchical Composition
+</td>
+<td>
+Nicholas Roehner
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [16:00PM &#8211; 17:30PM GMT]
+</td>
+<td>
+&nbsp; SBOL 2.0 Interactions and Other Issues
+</td>
+<td>
+Nicholas Roehner
+</td>
+</tr>
 </table>
 
 ****  
 **Friday, August 22nd**
 
-<table style="width:100%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; [16:00PM &#8211; 17:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL 2.0 finalization
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Nicholas Roehner
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [16:00PM &#8211; 17:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL 2.0 finalization
+</td>
+<td>
+Nicholas Roehner
+</td>
+</tr>
 </table>
 
 ****

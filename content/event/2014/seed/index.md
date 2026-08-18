@@ -20,15 +20,15 @@ A synthetic biology conference that brings together synthetic biologist from ind
 
 ## SBOL Talk:
 
-<table style="width:90%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; Nicholas Roehner
-    </td>
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SEED/roehner_seed_2014_slides.pdf">A Proposed Data Model for the Next Version of the Synthetic Biology Open Language</a>
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; Nicholas Roehner
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2014/SEED/roehner_seed_2014_slides.pdf">A Proposed Data Model for the Next Version of the Synthetic Biology Open Language</a>
+</td>
+</tr>
 </table>
 
 ****

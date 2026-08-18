@@ -1,12 +1,21 @@
-<footer class="site-footer">
-  {{ if site.Menus.footer }}
-  <p class="footer-links">
-    {{ range site.Menus.footer }}
-    <a href="{{ .URL }}" {{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener" {{ end }}>{{ .Name }}</a>
-    {{ end }}
-  </p>
-  {{ end }}
-  <p class="powered-by copyright-license-text">© 2026 SBOL. This webpage is under license <a
-      href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND
-      4.0</a></p>
+<footer class="site-footer sbol-footer">
+  <div class="sbol-footer__inner">
+    <div class="sbol-footer__cols">
+      <div>
+        <p class="sbol-footer__heading">Get help</p>
+        <ul>{{ range site.Menus.footer_help }}<li><a href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>{{ end }}</ul>
+      </div>
+      <div>
+        <p class="sbol-footer__heading">Contribute</p>
+        <ul>{{ range site.Menus.footer_contribute }}<li><a href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener"{{ end }}>{{ .Name }}</a></li>{{ end }}</ul>
+      </div>
+      <div class="sbol-footer__connect">
+        <p class="sbol-footer__heading">Connect</p>
+        <ul>{{ range site.Menus.footer_connect }}<li><a href="{{ .URL }}" target="_blank" rel="noopener">{{ with .Pre }}<i class="fab fa-{{ . }}" aria-hidden="true"></i>{{ end }}{{ .Name }}</a></li>{{ end }}</ul>
+      </div>
+    </div>
+    <div class="sbol-footer__bottom">
+      <span>&copy; {{ now.Year }} SBOL. Content is licensed <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="license noopener noreferrer" target="_blank">CC BY-NC-ND 4.0</a>.</span>
+    </div>
+  </div>
 </footer>

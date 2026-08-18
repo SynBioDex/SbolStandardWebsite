@@ -22,18 +22,18 @@ An international synthetic biology conference.
 
 **Friday, July 13th &#8211; 1**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:30%;">
-      &nbsp; [08:30AM &#8211; 10:00AM SGT]
-    </td>
-    <td style="border-color:#fff">
-      &nbsp; Foundational Engineering
-    </td>
-    <td style="border-color:#fff;text-align: right;">
-      Anil Wipat
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [08:30AM &#8211; 10:00AM SGT]
+</td>
+<td>
+&nbsp; Foundational Engineering
+</td>
+<td>
+Anil Wipat
+</td>
+</tr>
 </table>
 
 ****

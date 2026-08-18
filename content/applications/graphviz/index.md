@@ -23,6 +23,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Graphviz Community"
+  language: "C"
+  platform: "Linux, Mac, Windows"
+  availability: "Open-Source"
+  license: "Eclipse Public License - v 1.0"
 ---
 
 Graphviz (short for Graph Visualization Software) is a package of open-source tools initiated by AT&T Labs Research for drawing graphs specified in DOT language scripts. It also provides libraries for software applications to use the tools. Graphviz is free software licensed under the Eclipse Public License. Graphviz includes SBOL visual symbols in its set of node shapes, and has edge shapes compatible with proposed regulatory arc shapes.

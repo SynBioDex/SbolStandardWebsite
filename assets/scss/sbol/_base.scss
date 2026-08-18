@@ -1,0 +1,53 @@
+// Base: type, links, code, spacing. Heading scale: h1 2.4rem/800, h2 1.6rem/700, h3 1.15rem/700, label .72rem/700.
+$sbol-font: 'Nacelle', Arial, Helvetica, sans-serif;
+
+body { font-family: $sbol-font; color: var(--sbol-ink); }
+h1, h2, h3, h4, h5, h6, .navbar, .navbar-brand, .nav-link, .dropdown-item { font-family: $sbol-font !important; }
+h1, h2 { font-weight: 700; }
+h3, h4 { font-weight: 700; }
+.article-style h1, .universal-wrapper > h1 { font-size: 2.4rem; font-weight: 800; }
+.article-style h2 { font-size: 1.6rem; font-weight: 700; margin-top: 2.25rem; }
+.article-style h3 { font-size: 1.15rem; font-weight: 700; margin-top: 1.5rem; }
+.article-style p, .article-style li { line-height: 1.7; }
+
+a { color: var(--sbol-green-ink); transition: none; }
+.article-title a, h3.article-title a:hover { transition: none; }
+a:hover { color: var(--sbol-green-ink); text-decoration: underline; }
+.dark a { color: var(--sbol-green-ink); transition: none; }
+.article-title a, h3.article-title a:hover { transition: none; }
+.text-muted, .article-metadata, .article-date { color: var(--sbol-muted) !important; }
+code, pre code { color: var(--sbol-ink-2); background: var(--sbol-code-bg); }
+.dark code { color: var(--sbol-ink-2); }
+.universal-wrapper h1 { text-align: center; }
+
+// One container rule at every width: fluid up to --sbol-container with --sbol-gutter on each side. Applies to the page wrapper,
+// the theme's Bootstrap containers (navbar, homepage widgets), article pages, bands, panels and the footer.
+.universal-wrapper, #navbar-main > .container, .home-section .container, .page-header .container, .search-results > .container {
+  width: 100%; max-width: var(--sbol-container) !important; margin-left: auto; margin-right: auto; padding-left: var(--sbol-gutter); padding-right: var(--sbol-gutter);
+}
+
+// Shared layout helpers
+.sbol-section { margin: var(--sbol-space-5) 0; }
+// Rhythm: content starts 2rem below a hero; pages end with 3rem of air unless a band closes them.
+.sbol-hero + .universal-wrapper { padding-top: var(--sbol-space-4); }
+.sbol-hero + .universal-wrapper > .sbol-features:first-child { margin-top: var(--sbol-space-2); }
+.sbol-hero + .universal-wrapper > .sbol-tabs:first-child, .sbol-hero + .universal-wrapper > .sbol-filters:first-child { margin-top: 0; }
+.universal-wrapper:last-child { padding-bottom: var(--sbol-space-5); }
+.sbol-section__title { font-size: 1.6rem; font-weight: 700; color: var(--sbol-ink); margin: 0 0 .35rem; padding-bottom: .5rem; border-bottom: 1px solid var(--sbol-rule); }
+.sbol-section__desc { color: var(--sbol-ink-3); font-size: .98rem; line-height: 1.7; margin: .5rem 0 1.25rem; max-width: 70ch; }
+.sbol-label { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--sbol-muted); }
+.sbol-lead { font-size: 1.05rem; line-height: 1.65; color: var(--sbol-ink-2); }
+.sbol-toc { position: sticky; top: 5rem; font-size: .88rem; }
+.sbol-toc nav ul { list-style: none; padding-left: 0; }
+.sbol-toc nav ul ul { padding-left: .9rem; }
+.sbol-toc a { color: var(--sbol-ink-3); text-decoration: none; display: block; padding: .18rem 0; }
+.sbol-toc a:hover { color: var(--sbol-green-ink); }
+
+// Generic page layout (layouts/_default/sbol-page.html)
+.sbol-page { padding-top: var(--sbol-space-4); padding-bottom: var(--sbol-space-5); }
+.sbol-page__body { max-width: 78ch; margin: 0; }
+.sbol-page--toc { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 2.5rem; }
+.sbol-page--toc .sbol-page__body { margin: 0; }
+@media (max-width: 860px) { .sbol-page--toc { grid-template-columns: 1fr; } .sbol-page--toc .sbol-toc { position: static; } }
+.article-style img { max-width: 100%; height: auto; }
+.sbol-section__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; .sbol-section__title { border-bottom: 0; padding-bottom: 0; } }

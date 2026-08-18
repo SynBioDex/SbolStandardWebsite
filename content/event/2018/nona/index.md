@@ -21,31 +21,29 @@ A online software used to host academic tools.
 
 **Monday, July 17th**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; Ernst Oboerortner
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOL-NonaTalks-2016.pdf"> Synthetic Biology Open Language</a>
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; Ernst Oboerortner
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOL-NonaTalks-2016.pdf"> Synthetic Biology Open Language</a>
+</td>
+</tr>
 </table>
 
 ****  
 **Monday, July 17th**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; Michael Zhang
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOLDesignerPresentation.pdf">SBOLDesigner</a>
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; Michael Zhang
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2016/Nona/SBOLDesignerPresentation.pdf">SBOLDesigner</a>
+</td>
+</tr>
 </table>
 
 ****

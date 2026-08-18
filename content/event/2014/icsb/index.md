@@ -20,15 +20,15 @@ A conference that invites speakers from industry and academia to present their w
 
 ## SBOL Talk:
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:20%;">
-      &nbsp; Chris Myers
-    </td>
-    <td style="border-color:#fff">
-      &nbsp; The Synthetic Biology Open Language (SBOL)
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; Chris Myers
+</td>
+<td>
+&nbsp; The Synthetic Biology Open Language (SBOL)
+</td>
+</tr>
 </table>
 
 ****

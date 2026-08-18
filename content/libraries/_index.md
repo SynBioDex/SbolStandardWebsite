@@ -6,4 +6,8 @@ tabs:
   label: "SBOL 3"
 - id: "2"
   label: "SBOL 2"
+cascade:
+  share: false
+  profile: false
+summary: Community-contributed libraries implementing SBOL Core across languages and platforms.
 ---

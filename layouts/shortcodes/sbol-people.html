@@ -1,0 +1,27 @@
+{{- /* Roster of authors in a user group. Params: group (required), role (show role line, default true), social (default false), sort (weight|name). */ -}}
+{{ $group := .Get "group" }}
+{{ $showRole := ne (.Get "role") "false" }}
+{{ $showSocial := eq (.Get "social") "true" }}
+{{ $people := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice $group) }}
+{{ if eq (.Get "sort") "name" }}{{ $people = sort $people ".Title" }}{{ else }}{{ $people = sort $people ".Params.weight" }}{{ end }}
+<div class="sbol-roster">
+  {{ range $people }}
+  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{ $link := "" }}{{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}{{ $link = .RelPermalink }}{{ end }}
+  <div class="sbol-person">
+    {{ if $avatar }}
+      {{ $img := $avatar.Fill "220x220 Center" }}
+      <a href="{{ $link }}"><img class="sbol-person__photo" src="{{ $img.RelPermalink }}" alt="Portrait of {{ .Title }}" width="110" height="110" loading="lazy"></a>
+    {{ else }}
+      {{ $initials := "" }}{{ range first 2 (split .Title " ") }}{{ $initials = printf "%s%s" $initials (substr . 0 1) }}{{ end }}
+      <a href="{{ $link }}" aria-label="{{ .Title }}"><span class="sbol-avatar-initials" aria-hidden="true">{{ $initials | upper }}</span></a>
+    {{ end }}
+    <div class="sbol-person__body">
+      <a class="sbol-person__name" href="{{ $link }}">{{ .Title }}</a>
+      {{ with .Params.organizations }}{{ range . }}<span class="sbol-person__org">{{ .name }}</span>{{ end }}{{ end }}
+      {{ if and $showRole .Params.role }}<span class="sbol-person__role">{{ .Params.role | markdownify }}</span>{{ end }}
+      {{ if $showSocial }}<div class="sbol-person__social">{{ partial "social_links" . }}</div>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>

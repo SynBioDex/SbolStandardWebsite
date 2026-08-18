@@ -21,15 +21,15 @@ A EMBL-EBI event that teaches attendees the skills and knowledge in bioinformati
 
 **Monday, May 22nd**
 
-<table style="width:90%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:30%;">
-      &nbsp; Anil Wipat
-    </td>
-    <td style="border-color:#fff">
-      &nbsp; The Synthetic Biology Open Language (SBOL) and recent developments in tools and repositories
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; Anil Wipat
+</td>
+<td>
+&nbsp; The Synthetic Biology Open Language (SBOL) and recent developments in tools and repositories
+</td>
+</tr>
 </table>
 
 ****

@@ -1,19 +1,22 @@
 ---
-    title: SBOL Visual Examples from Specification
-    
-    # View.
-    #   1 = List
-    #   2 = Compact
-    #   3 = Card
-    #   4 = Citation
-    view: 3
-    
-    # Optional header image (relative to `static/img/` folder).
-    header:
-      caption: ""
-      image: ""
----
+title: "SBOL Visual specification examples"
 
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+#   4 = Citation
+view: 3
+
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: ""
+subtitle: "The diagram examples from the specification appendix, with their captions."
+layout: sbol-page
+subnav: visual
+summary: "The diagram examples from the specification appendix, with their captions."
+---
 {{< figure library="true" src="SBOLVisualSpecExamples/apdx-exa1.png" title="DNA sequence for a functional unit in which the pTet promoter and an anonymous ribosome entry site regulate expression of a coding sequence for GFP, ended by a terminator." lightbox="true" width="470" >}}
 
 {{< figure library="true" src="SBOLVisualSpecExamples/apdx-exa2.png" title="The same functional unit as in \ref{f:apdx:exa1}, with additional assembly-focused information: there is a 5' overhang before the promoter, a 3' overhand after the terminator, and an assembly scar between the promoter and the ribosome entry site left over from a prior step of assembly." lightbox="true" width="470" >}}

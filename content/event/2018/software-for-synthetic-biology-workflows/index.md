@@ -22,20 +22,18 @@ SEED is a conference where synthetic biologist from different areas of the field
 
 **Monday, June 18th**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [12:30PM &#8211; 12:50PM MST]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SBOL%20Visual%20Introduction.pptx">SBOL Visual 2.0</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Jacob Beal
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [12:30PM &#8211; 12:50PM MST]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SBOL%20Visual%20Introduction.pptx">SBOL Visual 2.0</a>
+</td>
+<td>
+Jacob Beal
+</td>
+</tr>
 </table>
 
 ### Software for Synthetic Biology Workflows Workshop Description:
@@ -80,84 +78,69 @@ Location: SEED 2018 @ JW Marriott Scottsdale Camelback Inn Resort & Spa
 
 **2:00PM &#8211; 3:30PM &#8211; Presentations to introduce the tools**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <td style="border-color:#fff">
-    &#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/Workshop-Introduction.pptx">Introduction to workflows</a> [10min]
-  </td>
-  
-  <td style="border-color:#fff;text-align: right;">
-    Jacob Beal
-  </td></tr> 
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; SBOL, its libraries, converter, and validator [10min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Jacob Beal
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/02-JBEI-ICE.pptx">JBEI ICE</a> [10min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Nathan J. Hillson
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/03-SynBioHub_SBOLDesigner_iBioSim.pdf">SynBioHub/iBioSim/SBOLDesigner</a> [20min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Tramy Nguyen
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/04-Cello.pptx">Cello</a> [10min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Shuyi Zhang
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; Operon Calculator and RBS Library Calculator [10min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Howard Salis
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/06-BOOST.pptx">BOOST</a> [10min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Ernst Oberortner
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/Test-TASBE-Flow-Analytics.pptx">TASBE</a> [10min]
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Jacob Beal
-    </td>
-  </tr>
+<table>
+<td>
+&#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/Workshop-Introduction.pptx">Introduction to workflows</a> [10min]
+</td>
+<td>
+Jacob Beal
+</td></tr>
+<tr>
+<td>
+&#9679; &nbsp; SBOL, its libraries, converter, and validator [10min]
+</td>
+<td>
+Jacob Beal
+</td>
+</tr>
+<tr>
+<td>
+&#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/02-JBEI-ICE.pptx">JBEI ICE</a> [10min]
+</td>
+<td>
+Nathan J. Hillson
+</td>
+</tr>
+<tr>
+<td>
+&#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/03-SynBioHub_SBOLDesigner_iBioSim.pdf">SynBioHub/iBioSim/SBOLDesigner</a> [20min]
+</td>
+<td>
+Tramy Nguyen
+</td>
+</tr>
+<tr>
+<td>
+&#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/04-Cello.pptx">Cello</a> [10min]
+</td>
+<td>
+Shuyi Zhang
+</td>
+</tr>
+<tr>
+<td>
+&#9679; &nbsp; Operon Calculator and RBS Library Calculator [10min]
+</td>
+<td>
+Howard Salis
+</td>
+</tr>
+<tr>
+<td>
+&#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/06-BOOST.pptx">BOOST</a> [10min]
+</td>
+<td>
+Ernst Oberortner
+</td>
+</tr>
+<tr>
+<td>
+&#9679; &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/Test-TASBE-Flow-Analytics.pptx">TASBE</a> [10min]
+</td>
+<td>
+Jacob Beal
+</td>
+</tr>
 </table>
 
 ****
@@ -166,14 +149,13 @@ Location: SEED 2018 @ JW Marriott Scottsdale Camelback Inn Resort & Spa
 ****  
 **4:00PM &#8211; 5:30PM Hands-on work with the tools**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff">
-      &#9679; &nbsp; Hands-on tools and workflows (<a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SEED_2018_Presentation_Part1.pptx">Part 1</a>)(<a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SEED_2018_Presentation_Part2.pptx">Part 2</a>)
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Kevin Clancy
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&#9679; &nbsp; Hands-on tools and workflows (<a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SEED_2018_Presentation_Part1.pptx">Part 1</a>)(<a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/SEED/SEED_2018_Presentation_Part2.pptx">Part 2</a>)
+</td>
+<td>
+Kevin Clancy
+</td>
+</tr>
 </table>

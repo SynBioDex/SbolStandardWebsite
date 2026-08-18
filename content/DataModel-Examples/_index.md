@@ -12,6 +12,10 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Example SBOL files and the publications they accompany, by version."
+layout: sbol-page
+subnav: datamodel
+summary: "Example SBOL files and the publications they accompany, by version."
 ---
 
 ### 2019 (Data Model Examples)
@@ -45,7 +49,7 @@ header:
 
 {{% staticref "zip/sb400135t_si_001.zip" "newtab" %}}Directed Acyclic Genetic Circuit examples{{% /staticref %}}
 
-Further SBOL 2.0 examples are located [here](https://github.com/SynBioDex/SBOLTestSuite). This comprehensive set of data files includes in addition to more SBOL 2.0 files, SBOL 1.1 files used to test conversion to SBOL 2.0, GenBank files used to test conversion to SBOL 2.0, and invalid SBOL 2.0 files used to test validation.
+Further SBOL 2.0 examples are in the [SBOL test suite](https://github.com/SynBioDex/SBOLTestSuite). This comprehensive set of data files includes in addition to more SBOL 2.0 files, SBOL 1.1 files used to test conversion to SBOL 2.0, GenBank files used to test conversion to SBOL 2.0, and invalid SBOL 2.0 files used to test validation.
 
 ### SBOL 1.1 Examples
 
