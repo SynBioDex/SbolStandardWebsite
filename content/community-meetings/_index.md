@@ -16,7 +16,7 @@ connect_links:
     url: "https://groups.google.com/g/sbol-announce"
   - name: "Join SBOL"
     description: "Contact our editors"
-    url: "https://docs.google.com/forms/d/12OfLZ05guthLVvdapwxHWq7JSBaTPr_O3QXIeiGDfPU/edit"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLScp8lomURs-y-8BlptY0fFgLSFIl0cKvcMkOBc_JVlEgW22Sw/viewform"
   - name: "YouTube"
     description: "View SBOL videos"
     url: "https://youtube.com/@syntheticbiologyopenlangua6204?si=j5PkGrh_-DSmbl2G"
