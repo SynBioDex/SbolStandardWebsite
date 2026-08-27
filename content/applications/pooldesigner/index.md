@@ -23,6 +23,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Biological Design Center, Boston University"
+  language: "Java/JavaScript"
+  platform: "Web"
+  availability: "Open-Source"
+  license: "BSD 3-Clause"
 ---
 The Pool Designer application is capable of analyzing a library of genetic construct variants encoded in SBOL and breaking this library down into pools of genetic parts that can be assembled into any library variant using multiplex assembly methods (see L. Woodruff et al., “Registry in a tube : multiplexed pools of retrievable parts for genetic design space exploration,” Nucl. Acids Res., 2016.).
 

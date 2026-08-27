@@ -1,70 +1,27 @@
+{{/* Publication / talk card on the shared card component. Used by the theme's list templates (view 3). */}}
 {{ $item := . }}
-
-
-{{/* Dynamic view adjusts to content type. */}}
-{{ $show_buttons := false }}
-{{ if eq $item.Type "talk" }}
-  {{ $show_buttons = true }}
-{{ else if eq $item.Type "publication" }}
-  {{ $show_buttons = true }}
-{{ end }}
-
-{{/* Get summary. */}}
+{{ $show_buttons := or (eq $item.Type "talk") (eq $item.Type "publication") }}
 {{ $summary := "" }}
-{{ if $item.Params.summary }}
-  {{ $summary = $item.Params.summary | markdownify | emojify }}
-{{ else if .Params.abstract }}
-  {{ $summary = .Params.abstract | markdownify | emojify }}
-{{ else if $item.Summary }}
-  {{ $summary = $item.Summary }}
-{{ end }}
-
-<div class="card-simple">
-
-  {{ if eq $item.Type "talk" }}
-  <div class="article-metadata">
-    {{ if $item.Params.authors }}
-    <div>
-      {{ partial "page_metadata_authors" $item }}
-    </div>
-    {{ end }}
-    <span>
-      {{ partial "functions/get_event_dates" $item }}
-    </span>
-    {{ with $item.Params.location }}
-    <span class="middot-divider"></span>
-    <span>{{ . }}</span>
-    {{ end }}
-  </div>
-  {{ else }}
-    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-  {{ end }}
-
-  {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
-  {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+{{ if $item.Params.summary }}{{ $summary = $item.Params.summary | plainify | htmlUnescape }}
+{{ else if $item.Params.abstract }}{{ $summary = $item.Params.abstract | plainify | htmlUnescape | truncate 320 "…" }}
+{{ else if $item.Summary }}{{ $summary = $item.Summary | plainify | htmlUnescape }}{{ end }}
+{{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+<div class="sbol-card sbol-card--pub sbol-card--linked{{ if $resource }} sbol-card--figure{{ end }}">
   {{ with $resource }}
-  {{ $image := $resource.Fit "600x400" }}
-  <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" class="article-banner" alt="{{ $item.Title }}">
-  </a>
-  {{end}}
-
-  <h3 class="article-title mb-1 mt-3">
-    <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
-  </h3>
-
-  {{ with $summary }}
-  <a href="{{ $item.RelPermalink }}" class="summary-link">
-    <div class="article-style">
-      <p>{{.}}</p>
+  {{ $image := .Fit "900x600" }}
+  <a class="sbol-card__figure" href="{{ $item.RelPermalink }}"><img src="{{ $image.RelPermalink }}" alt="" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy"></a>
+  {{ end }}
+  <div class="{{ if $resource }}sbol-card__body{{ else }}sbol-card__plain{{ end }}">
+    <div class="sbol-card__meta">
+      {{ if eq $item.Type "talk" }}
+        {{ if $item.Params.authors }}<span>{{ partial "page_metadata_authors" $item }}</span> <span class="middot-divider"></span>{{ end }}
+        <span>{{ partial "functions/get_event_dates" $item }}</span>{{ with $item.Params.location }} <span class="middot-divider"></span> <span>{{ . }}</span>{{ end }}
+      {{ else }}
+        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+      {{ end }}
     </div>
-  </a>
-  {{ end }}
-
-  {{ if $show_buttons }}
-  <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    <h3 class="sbol-card__title"><a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a></h3>
+    {{ with $summary }}<p class="sbol-card__desc">{{ . }}</p>{{ end }}
+    {{ if $show_buttons }}<div class="sbol-card__actions">{{ partial "page_links" (dict "page" $item "is_list" 1) }}</div>{{ end }}
   </div>
-  {{ end }}
-
 </div>

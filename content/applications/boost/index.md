@@ -23,6 +23,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "DOE Joint Genome Institute, Lawrence Berkeley National Labs"
+  language: "Java"
+  platform: "Linux/Mac/Win/Web"
+  availability: "Free for academic users"
 ---
 
 Build-OptimizatiOn Software Tools (BOOST) is a platform of tools to design DNA sequences for manufacturing. Currently, BOOST consists of three tools: (i) The "Juggler" reverse translates protein sequences into DNA sequences and codon juggles DNA sequences, (ii) The "Polisher" verifies DNA sequences against DNA synthesis constraints. In addition, the "Polisher" can modify the protein coding regions of DNA sequences in order to resolve eventual violations of DNA synthesis constraints. (iii) The "Partitioner" decomposes large DNA sequences into synthesizable building blocks with assembly-specific overlap sequences.

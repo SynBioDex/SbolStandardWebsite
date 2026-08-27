@@ -1,0 +1,22 @@
+{{/* Compact list item (view 1) on the shared card component: icon, title, metadata, page links. */}}
+{{ $item := . }}
+{{ $icon_pack := "far" }}{{ $icon := "fa-file-alt" }}
+{{ $show_authors := false }}{{ $show_buttons := false }}
+{{ $link := $item.RelPermalink }}{{ $target := "" }}
+{{ with $item.Params.external_link }}{{ $link = . }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
+{{ if eq $item.Type "post" }}{{ $icon = "fa-newspaper" }}
+{{ else if eq $item.Type "talk" }}{{ $icon = "fa-calendar-alt" }}
+{{ else if eq $item.Type "publication" }}{{ $show_authors = true }}{{ $show_buttons = true }}
+{{ else if eq $item.Type "project" }}{{ $icon_pack = "fas" }}{{ $icon = "fa-project-diagram" }}{{ $show_authors = true }}{{ $show_buttons = true }}{{ end }}
+<div class="sbol-card sbol-card--pub sbol-card--linked sbol-card--row">
+  <i class="{{ $icon_pack }} {{ $icon }} sbol-card__rowicon" aria-hidden="true"></i>
+  <div class="sbol-card__plain">
+    <h3 class="sbol-card__title"><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a></h3>
+    <div class="sbol-card__meta">
+      {{/* page_metadata already prints authors; only talks need them separately */}}
+      {{ if eq $item.Type "talk" }}{{ if $show_authors }}<div class="article-metadata">{{ partial "page_metadata_authors" $item }}</div>{{ end }}<span>{{ partial "functions/get_event_dates" $item }}</span>{{ with $item.Params.location }} <span class="middot-divider"></span> <span>{{ . }}</span>{{ end }}
+      {{ else }}{{ partial "page_metadata" (dict "page" $item "is_list" 1) }}{{ end }}
+    </div>
+    {{ if $show_buttons }}<div class="sbol-card__actions">{{ partial "page_links" (dict "page" $item "is_list" 1) }}</div>{{ end }}
+  </div>
+</div>

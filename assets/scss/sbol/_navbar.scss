@@ -1,0 +1,103 @@
+// Navbar: brand logo size, right-side call to action rendered from the main_right menu.
+.navbar-brand img { max-height: 32px; width: auto; }
+@media (max-width: 991.98px) { .navbar-brand img { max-height: 26px; } }
+#navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link {
+  background: var(--sbol-green); color: #000 !important; font-weight: 700; border-radius: var(--sbol-radius-sm);
+  padding: .45rem 1rem !important; margin: .35rem .5rem; line-height: 1.3;
+}
+#navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link:hover, #navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link:focus, .dark #navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link:hover { background: var(--sbol-green-hover); color: #000 !important; text-decoration: none; }
+.dark #navbar-main .dropdown-menu { background: var(--sbol-card); }
+.dark #navbar-main .dropdown-item { color: var(--sbol-ink-2); }
+
+
+// Navbar treatment. Set $sbol-navbar in custom.scss.
+//   "quiet"  (default): white bar, no separator at rest, hairline on scroll, full-width flush panels. From the peer study:
+//            no line at rest (W3C, Rust, MDN, Allen), hairline only on scroll (Vercel, Kubernetes), panels flush and unshadowed (W3C, MDN, Vercel).
+//   "stripe": quiet plus a 3px brand stripe on top.   "tinted": bar in the hero tint.
+$sbol-navbar: "quiet" !default;
+$sbol-nav-h: 64px;
+
+#navbar-main {
+  height: $sbol-nav-h; background: var(--sbol-paper) !important; box-shadow: none !important; border-bottom: 1px solid transparent; font-size: 15px;
+  padding-left: 0; padding-right: 0;  // the container gutter is the only horizontal offset, same as every page
+  transition: border-color .15s ease;
+  &.is-scrolled:not(.is-open) { border-bottom-color: var(--sbol-rule); }
+}
+body { margin-top: $sbol-nav-h; }
+@media (max-width: 991.98px) { #navbar-main { height: 50px; } body { margin-top: 50px; } }
+.dark #navbar-main { background: var(--sbol-paper) !important; }
+@if $sbol-navbar == "stripe" { #navbar-main { border-top: 3px solid var(--sbol-green); } }
+@if $sbol-navbar == "tinted" { #navbar-main { background: var(--sbol-hero-a) !important; } .dark #navbar-main { background: var(--sbol-paper-2) !important; } }
+
+// Items: 15px medium, darken on hover, 2px green bar at the bar's bottom edge when active or open
+#navbar-main .main-menu-item .nav-item { position: relative; }
+@media (min-width: 992px) { #navbar-main .main-menu-item .nav-item { height: $sbol-nav-h; display: flex; align-items: center; padding: 0 2px !important; flex-shrink: 0; } }
+#navbar-main .main-menu-item .nav-item .nav-link {
+  position: relative; color: var(--sbol-ink-2) !important; font-weight: 500 !important; padding: 6px 12px !important; border-radius: var(--sbol-radius-sm);
+  display: inline-flex; align-items: center; gap: .35rem; white-space: nowrap;
+  &:hover, &:focus-visible { color: var(--sbol-ink) !important; }
+  &.active { color: var(--sbol-ink) !important; }  // same weight as the rest, so the row never reflows between pages
+}
+#navbar-main .navbar-nav .nav-item, #navbar-main .navbar-nav .nav-link { white-space: nowrap; }
+#navbar-main .navbar-nav.ml-md-auto .nav-item { flex-shrink: 0; }
+// Between the desktop breakpoint and 1200px the bar is 960px wide: one type step down keeps everything on one line
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #navbar-main { font-size: 14px; }
+  #navbar-main .main-menu-item .nav-item .nav-link { padding: 6px 8px !important; }
+  #navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link { padding: .4rem .75rem !important; margin: .35rem .35rem; }
+  .navbar-brand img { max-height: 26px; }
+}
+#navbar-main .dropdown-toggle::after { display: none !important; } // Bootstrap's triangle caret; the chevron replaces it
+@media (min-width: 992px) {
+  #navbar-main .main-menu-item .nav-item .nav-link.active::before, #navbar-main .main-menu-item .nav-item.show > .nav-link::before {
+    content: ""; position: absolute; left: 12px; right: 12px; bottom: -14px; height: 2px; background: var(--sbol-green); border: 0;
+  }
+}
+#navbar-main .nav-chevron { font-size: .6em; opacity: .55; transition: transform .15s ease; }
+#navbar-main .nav-item.show .nav-chevron { transform: rotate(180deg); opacity: .9; }
+#navbar-main .main-menu-item .nav-item .nav-link .caret { display: none; }
+
+// Right side: one filled call to action, then icons
+#navbar-main .navbar-nav.ml-md-auto .nav-item .nav-link { font-size: 14px; }
+#navbar-main .nav-icons .nav-link { color: var(--sbol-ink-2) !important; }
+
+// Panels: full width, flush under the bar, no gap, no shadow, radius 0, content aligned to the page container
+@media (min-width: 992px) {
+  #navbar-main .main-menu-item .nav-item.dropdown { position: static; }
+  #navbar-main .sbol-panel {
+    position: absolute; left: 0; right: 0; top: 100%; margin: 0; padding: 0; border: 0; border-radius: 0; box-shadow: none;
+    background: var(--sbol-paper); border-bottom: 1px solid var(--sbol-rule);
+    display: block; opacity: 0; visibility: hidden; transition: opacity .1s ease, visibility .1s;
+    &.show { opacity: 1; visibility: visible; }
+    &::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; } // hover bridge
+  }
+  #navbar-main .sbol-panel__inner { max-width: var(--sbol-container); margin: 0 auto; padding: 22px var(--sbol-gutter) 28px; }
+  #navbar-main .sbol-panel__eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--sbol-muted); margin: 0 0 .9rem; }
+  #navbar-main .sbol-panel__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 300px)); gap: .25rem 2.5rem; }
+  #navbar-main .sbol-panel__item {
+    display: flex; flex-direction: column; gap: .15rem; padding: .55rem .6rem; margin: 0 -.6rem; border-radius: var(--sbol-radius-sm); white-space: normal; color: var(--sbol-ink);
+    &:hover, &:focus { background: var(--sbol-green-tint); color: var(--sbol-ink); text-decoration: none; }
+    &.active, &.dropdown-item-active { font-weight: 400; color: var(--sbol-ink) !important; }
+  }
+  #navbar-main .sbol-panel__name { font-size: 15px; font-weight: 600; line-height: 1.3; }
+  #navbar-main .sbol-panel__desc { font-size: 13px; color: var(--sbol-ink-3); line-height: 1.45; }
+  #navbar-main .sbol-panel__ext { font-size: .7em; color: var(--sbol-muted); margin-left: .2rem; }
+  @media (prefers-reduced-motion: reduce) { #navbar-main .sbol-panel, #navbar-main .nav-chevron { transition: none; } }
+}
+@media (max-width: 991.98px) {
+  #navbar-main .sbol-panel { border: 0; box-shadow: none; padding: 0 0 .5rem 1rem; }
+  #navbar-main .sbol-panel__eyebrow { display: none; }
+  #navbar-main .sbol-panel__desc { display: none; }
+  #navbar-main .sbol-panel__item { padding: .4rem 1rem; }
+}
+
+// Icon dropdowns (language selector; the theme control is disabled and the site follows the system):
+// same language as the nav panels, flush under the bar, no floating card.
+#navbar-main .nav-icons .nav-item.dropdown { position: relative; }
+#navbar-main .nav-icons .dropdown-menu {
+  left: auto; right: 0; top: 100%; margin: 0; min-width: 13rem; padding: .9rem 0 .6rem;
+  background: var(--sbol-paper); border: 1px solid var(--sbol-rule); border-top: 0; border-radius: 0; box-shadow: none;
+}
+#navbar-main .nav-icons .dropdown-item { padding: .55rem 1.15rem; font-size: .92rem; line-height: 1.4; color: var(--sbol-ink-2); }
+#navbar-main .nav-icons .dropdown-item:hover, #navbar-main .nav-icons .dropdown-item:focus { background: var(--sbol-green-tint); color: var(--sbol-green-ink); }
+#navbar-main .nav-icons .dropdown-item.dropdown-item-active { color: var(--sbol-green-ink) !important; font-weight: 700; }

@@ -18,6 +18,12 @@ image:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Raytheon BBN Technologies"
+  language: "C/C++"
+  platform: "Linux/Mac/Win/Web"
+  availability: "Open-Source"
+  license: "GPL3 with classpath exception"
 ---
 
 Proto BioCompiler generates optimized genetic regulatory network designs from specifications written in a high-level programming language, producing both SBOL specifications, visualization, and ODE models.

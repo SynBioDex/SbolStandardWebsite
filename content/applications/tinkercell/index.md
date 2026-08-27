@@ -30,6 +30,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "University of Washington"
+  language: "C/C++"
+  platform: "Linux, Mac, Windows"
+  availability: "Open-Source"
+  license: "BSD"
 ---
 
 TinkerCell is a widely used open source network design and simulation application tool for synthetic biology (tinkercell.org). The software allows synthetic biologists to design new synthetic circuits and simulate them. TinkerCell is written in C++ and runs on Windows, Mac and Linux. It uses Qt as the GUI framework. Currently TinkerCell only has very limited support for SBOL.

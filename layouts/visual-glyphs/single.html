@@ -1,27 +1,32 @@
 {{ define "main" }}
-<div class="article-container pt-3">
-  <h1>{{ .Title }}</h1>
-  <div class="article-style">
-    {{ .Content }}
-  </div>
-
+{{ partial "sbol/hero.html" . }}
+<div class="universal-wrapper sbol-page">
+  <div class="article-style sbol-page__body">{{ .Content }}</div>
   {{ range site.Data.glyphs.groups }}
-  <h2 class="glyph-group-title">{{ .name }}</h2>
+  <h2 class="sbol-section__title glyph-group-title">{{ .name }}</h2>
+  {{/* Names that repeat within a group get a variant hint from the file name, e.g. Location (rna no top). */}}
+  {{ $counts := dict }}
+  {{ range .glyphs }}{{ $counts = merge $counts (dict .name (add (index $counts .name | default 0) 1)) }}{{ end }}
   <div class="glyph-grid">
     {{ $resources := $.Resources.ByType "image" }}
     {{ range .glyphs }}
-    {{ $file := .file }}
-    {{ $name := .name }}
+    {{ $file := .file }}{{ $name := .name }}
+    {{ $variant := "" }}
+    {{ if gt (index $counts $name) 1 }}
+      {{ $stem := strings.TrimSuffix ".svg" $file }}
+      {{ $base := $name | lower | replaceRE "[^a-z0-9]+" "-" }}
+      {{ $variant = $stem | replaceRE (printf "^%s-?" $base) "" | replaceRE "-" " " }}
+      {{ if eq $variant $stem }}{{ $variant = $stem | replaceRE "-" " " }}{{ end }}
+    {{ end }}
     {{ $img := $resources.GetMatch (printf "gallery/%s" $file) }}
     {{ with $img }}
-    <a href="{{ .RelPermalink }}" download class="glyph-card" title="{{ $name }}">
-      <img src="{{ .RelPermalink }}" alt="{{ $name }}">
-      <span>{{ $name }}</span>
+    <a href="{{ .RelPermalink }}" download class="sbol-card sbol-card--glyph is-link" title="Download {{ $name }}{{ with $variant }} ({{ . }}){{ end }}">
+      <img src="{{ .RelPermalink }}" alt="{{ $name }} glyph{{ with $variant }}, {{ . }} variant{{ end }}" loading="lazy">
+      <span>{{ $name }}{{ with $variant }} <em>({{ . }})</em>{{ end }}</span>
     </a>
     {{ end }}
     {{ end }}
   </div>
   {{ end }}
-
 </div>
 {{ end }}

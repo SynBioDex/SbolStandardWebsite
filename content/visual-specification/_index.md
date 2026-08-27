@@ -1,5 +1,8 @@
 ---
 title: SBOL Visual Specification
+subtitle: "The standard set of glyphs and diagram rules for depicting genetic designs, grounded in the SBOL data model."
+subnav: visual
+issues_url: https://github.com/SynBioDex/SBOL-visual/issues
 
 # View.
 #   1 = List
@@ -12,17 +15,10 @@ view: 3
 header:
   caption: ""
   image: ""
+cascade:
+  share: false
+  profile: false
+summary: "The standard set of glyphs and diagram rules for depicting genetic designs, grounded in the SBOL data model."
 ---
 
-[Report an Issue with the Current SBOL Visual Specification](https://github.com/SynBioDex/SBOL-visual/issues)
-
-___
-
-[Glyphs]({{< relref "visual-glyphs" >}})
-
-<!--
-
-The body of this page is filled in with the `version-X.Y.Z.md` pages
-in this directory using the template found at `/layouts/visual-specification`
-
--->
+<!-- Version rows come from the version-X.Y.Z.md pages in this directory, rendered by layouts/visual-specification/list.html -->

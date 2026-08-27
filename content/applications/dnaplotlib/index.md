@@ -27,6 +27,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "University of Bristol, UK (originally Voigt Lab, MIT)"
+  language: "Python"
+  platform: "Linux, Mac, Windows"
+  availability: "Open-Source"
+  license: "MIT"
 ---
 
 

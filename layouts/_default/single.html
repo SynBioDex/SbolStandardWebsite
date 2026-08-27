@@ -1,0 +1,12 @@
+{{- define "main" -}}
+{{/* Site override: the article gets a section class so tool, library and GenAI pages can constrain their logo and hide the date. */}}
+<article class="article sbol-single sbol-single--{{ .Section | default "page" }}">
+  {{ partial "page_header" . }}
+  <div class="article-container">
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+{{- end -}}

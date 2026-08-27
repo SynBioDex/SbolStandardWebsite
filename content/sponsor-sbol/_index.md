@@ -3,6 +3,9 @@ title: Support SBOL
 subtitle: "SBOL is a free, open standard maintained by a global volunteer community. Supporting the Bio-Design Automation Consortium (BDAC) is how you help keep SBOL active, visible, and growing."
 
 bdac_url: "https://bio-design-automation.org"
+hero_buttons:
+  - text: "Support via BDAC"
+    url: "https://bio-design-automation.org"
 
 benefits:
   - icon: "fas fa-chalkboard-teacher"
@@ -33,4 +36,5 @@ past_sponsors:
     logo: "Inscripta_Brandmark-with-Tagline_R3-FINAL_RGB.png"
   - name: "Teselagen"
     logo: "Teselagen_300x150-1.png"
+summary: "SBOL is a free, open standard maintained by a global volunteer community. Supporting the Bio-Design Automation Consortium (BDAC) is how you help keep SBOL active, visible, and growing."
 ---

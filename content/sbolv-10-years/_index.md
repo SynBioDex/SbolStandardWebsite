@@ -15,6 +15,9 @@ cascade:
 header:  
   caption: ""  
   image: ""  
+layout: sbol-page
+subnav: visual
+summary: 10 Years of Standardized Genetic Design Diagrams
 ---
 
 ## Welcome to the SBOL Community’s retrospective on SBOL Visual!

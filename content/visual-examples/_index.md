@@ -12,6 +12,10 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Publications and example diagrams that show SBOL Visual in use."
+layout: sbol-page
+subnav: visual
+summary: "Publications and example diagrams that show SBOL Visual in use."
 ---
 
 ## 2020 (Visual Examples)

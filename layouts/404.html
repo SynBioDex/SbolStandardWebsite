@@ -1,0 +1,15 @@
+{{- define "main" -}}
+{{/* Site 404: shared hero, then the same destination cards the navigation panels use. */}}
+{{ $ctx := dict "Title" "Page not found" "Params" (dict "subtitle" "That page has moved or never existed. Here is where most people are heading." "hero_buttons" (slice (dict "text" "Go to the homepage" "url" "/"))) "RelPermalink" "/404.html" }}
+{{ partial "sbol/hero.html" $ctx }}
+<div class="universal-wrapper sbol-page">
+  <div class="sbol-cards">
+    <a href="/datamodel/" class="sbol-card is-link"><i class="fas fa-project-diagram sbol-card__icon" aria-hidden="true"></i><span class="sbol-card__title">SBOL Data Model</span><span class="sbol-card__desc">The standard and its specification</span></a>
+    <a href="/visual/" class="sbol-card is-link"><i class="fas fa-shapes sbol-card__icon" aria-hidden="true"></i><span class="sbol-card__title">SBOL Visual</span><span class="sbol-card__desc">Glyphs and diagram rules</span></a>
+    <a href="/libraries/" class="sbol-card is-link"><i class="fas fa-code sbol-card__icon" aria-hidden="true"></i><span class="sbol-card__title">Libraries</span><span class="sbol-card__desc">Implementations for your language</span></a>
+    <a href="/applications/" class="sbol-card is-link"><i class="fas fa-tools sbol-card__icon" aria-hidden="true"></i><span class="sbol-card__title">Applications</span><span class="sbol-card__desc">Tools that support SBOL</span></a>
+    <a href="/publication/" class="sbol-card is-link"><i class="fas fa-book sbol-card__icon" aria-hidden="true"></i><span class="sbol-card__title">Publications</span><span class="sbol-card__desc">Papers behind the standard</span></a>
+    <a href="/join/" class="sbol-card is-link"><i class="fas fa-users sbol-card__icon" aria-hidden="true"></i><span class="sbol-card__title">Join the community</span><span class="sbol-card__desc">Meetings, Slack and how to contribute</span></a>
+  </div>
+</div>
+{{- end -}}

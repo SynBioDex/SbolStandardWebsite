@@ -1,0 +1,47 @@
+{{/* Post list: lead card for the newest item, card grid for the rest. Used by /blog/ and /post/. */}}
+{{ $pages := .Pages }}
+{{ $top := first 1 $pages }}
+{{ $rest := after 1 $pages }}
+{{ $kind := .Params.list_badge | default "" }}
+<div class="universal-wrapper">
+  {{ range $top }}
+  {{ $resource := (.Resources.ByType "image").GetMatch "*featured*" }}
+  <a href="{{ .RelPermalink }}" class="sbol-lead{{ if not $resource }} sbol-lead--no-img{{ end }}">
+    {{ if $resource }}{{ $img := $resource.Fill "900x520 Smart" }}
+    <div class="sbol-lead__img"><img src="{{ $img.RelPermalink }}" alt="" width="900" height="520"></div>
+    {{ end }}
+    <div class="sbol-lead__body">
+      <div class="sbol-badges">
+        {{ with $kind }}<span class="sbol-badge sbol-badge--{{ . }}">{{ . }}</span>{{ end }}
+        {{ with .Params.tags }}{{ range first 3 . }}<span class="sbol-badge sbol-badge--green">{{ . }}</span>{{ end }}{{ end }}
+      </div>
+      <h2 class="sbol-lead__title">{{ .Title }}</h2>
+      <p class="sbol-card__meta">{{ .Date.Format "January 2, 2006" }}</p>
+      {{ with .Params.summary }}<p class="sbol-lead__summary">{{ . }}</p>{{ end }}
+      <span class="sbol-link-more">Read article &rarr;</span>
+    </div>
+  </a>
+  {{ end }}
+  {{ if $rest }}
+  <div class="sbol-cards sbol-cards--wide">
+    {{ range $rest }}
+    {{ $resource := (.Resources.ByType "image").GetMatch "*featured*" }}
+    <a href="{{ .RelPermalink }}" class="sbol-card sbol-card--figure is-link">
+      {{ if $resource }}{{ $img := $resource.Fill "600x360 Smart" }}
+      <div class="sbol-card__figure"><img src="{{ $img.RelPermalink }}" alt="" width="600" height="360" loading="lazy"></div>
+      {{ end }}
+      <div class="sbol-card__body">
+        <div class="sbol-badges">
+          {{ with $kind }}<span class="sbol-badge sbol-badge--{{ . }}">{{ . }}</span>{{ end }}
+          {{ with .Params.tags }}{{ range first 2 . }}<span class="sbol-badge sbol-badge--green">{{ . }}</span>{{ end }}{{ end }}
+        </div>
+        <h3 class="sbol-card__title">{{ .Title }}</h3>
+        <p class="sbol-card__meta">{{ .Date.Format "Jan 2, 2006" }}</p>
+        {{ with .Params.summary }}<p class="sbol-card__desc">{{ . | plainify | htmlUnescape | truncate 130 "…" }}</p>{{ end }}
+        <span class="sbol-link-more">Read more &rarr;</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

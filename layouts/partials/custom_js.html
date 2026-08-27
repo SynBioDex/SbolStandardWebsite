@@ -1,0 +1,28 @@
+<script>
+  (function () {
+    // Header: hairline only once the page has scrolled, hidden while a panel is open.
+    var nav = document.getElementById('navbar-main'); if (!nav) return;
+    var onScroll = function () { nav.classList.toggle('is-scrolled', window.scrollY > 4); };
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+    new MutationObserver(function () { nav.classList.toggle('is-open', !!nav.querySelector('.nav-item.dropdown.show')); })
+      .observe(nav, { subtree: true, attributes: true, attributeFilter: ['class'] });
+    // The theme follows the operating system: the control is hidden, so any stored choice is cleared
+    // and the system preference is applied directly (the theme re-reads this on every load).
+    try {
+      if (localStorage.getItem('wcTheme') !== '2') localStorage.setItem('wcTheme', '2');
+      var mq = window.matchMedia('(prefers-color-scheme: dark)');
+      var applySystem = function () { document.body.classList.toggle('dark', mq.matches); };
+      applySystem();
+      if (mq.addEventListener) mq.addEventListener('change', applySystem);
+    } catch (err) {}
+
+    // Suspend every transition while the theme class changes, so the light/dark swap happens in one frame.
+    var root = document.documentElement, guardTimer;
+    var guard = function () {
+      root.classList.add('sbol-switching');
+      window.clearTimeout(guardTimer);
+      guardTimer = window.setTimeout(function () { root.classList.remove('sbol-switching'); }, 250);
+    };
+    new MutationObserver(guard).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  })();
+</script>

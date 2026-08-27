@@ -18,9 +18,14 @@ image:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Harbin Institute of Technology"
+  language: "Perl/Python"
+  platform: "Linux, Mac, Windows"
+  availability: "Free for all users"
 ---
 
-Graphical, drag and drop design of synthetic gene circuit with Standard Biological Parts. Eukaryotic parts are modelled via a rule-based approach.
+Graphical, drag and drop design of synthetic gene circuit with Standard Biological Parts. Eukaryotic parts are modeled via a rule-based approach.
 
 
 | | |

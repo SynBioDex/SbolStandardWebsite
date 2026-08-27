@@ -1,0 +1,47 @@
+// Page-level arrangement only (grids, columns, the gallery lightbox). Every card, badge, button and table on these pages is a shared component.
+
+// Homepage hero with news feed (shortcode hero-feed)
+.hf-wrap { display: flex; gap: var(--sbol-space-5); align-items: flex-start; padding: .5rem 0; }
+.hf-left { flex: 1 1 55%; }
+.hf-right { flex: 1 1 40%; }
+.hf-title { font-size: 2.6rem; font-weight: 800; line-height: 1.2; margin-bottom: 1rem; text-align: left; color: var(--sbol-ink); }
+.hf-subtitle { font-size: 1.1rem; color: var(--sbol-ink-2); line-height: 1.65; margin-bottom: 1.75rem; }
+.hf-buttons { display: flex; gap: .75rem; flex-wrap: wrap; }
+.hf-feed-heading { font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--sbol-green-ink); border-bottom: 2px solid var(--sbol-green); padding-bottom: .5rem; margin-bottom: 1.1rem; }
+.hf-right .sbol-card { margin-bottom: .75rem; }
+.hf-empty { font-size: .88rem; color: var(--sbol-muted); }
+@media (max-width: 768px) { .hf-wrap { flex-direction: column; gap: var(--sbol-space-4); } .hf-title { font-size: 2rem; } }
+
+// Homepage journey cards (shortcodes journey-cards, card)
+.jc-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--sbol-space-3); margin: var(--sbol-space-2) 0; }
+@media (max-width: 760px) { .jc-grid { grid-template-columns: 1fr; } }
+
+// Applications filters
+.sbol-filters { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 var(--sbol-space-3); }
+.sbol-filter {
+  display: inline-flex; align-items: center; gap: .4rem; background: var(--sbol-paper-2); border: 1px solid var(--sbol-rule); border-radius: var(--sbol-radius-pill);
+  padding: .35rem .85rem; font-size: .82rem; font-weight: 700; color: var(--sbol-ink-3); cursor: pointer; font-family: inherit; transition: border-color .12s ease, background-color .12s ease;
+  &:hover { border-color: var(--sbol-green); color: var(--sbol-green-ink); }
+  &.active { background: var(--sbol-green); border-color: var(--sbol-green); color: #000; .sbol-tab__count { background: rgba(0,0,0,.12); color: #000; } }
+}
+
+// Glyph grid
+.glyph-group-title { margin-top: 2.5rem; }
+.glyph-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: var(--sbol-space-2); margin: var(--sbol-space-3) 0; }
+
+// Visual gallery grid and native <dialog> lightbox
+.vg-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--sbol-space-3); margin-top: var(--sbol-space-4); }
+.vg-card-title { font-weight: 700; font-size: .88rem; color: var(--sbol-ink); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.vg-card-byline { font-size: .76rem; color: var(--sbol-muted); }
+.vg-lightbox { border: 1px solid var(--sbol-rule); border-radius: var(--sbol-radius); padding: 0; width: unquote("min(880px, 94vw)"); max-height: 92vh; overflow: hidden; background: var(--sbol-card); color: var(--sbol-ink); }
+.vg-lightbox::backdrop { background: rgba(0,0,0,.84); }
+.vg-lb-wrap { display: flex; flex-direction: column; max-height: 92vh; overflow-y: auto; position: relative; }
+.vg-lb-close { position: absolute; top: .75rem; right: .75rem; z-index: 10; background: rgba(0,0,0,.55); color: #fff; border: none; border-radius: 50%; width: 38px; height: 38px; display: flex; align-items: center; justify-content: center; cursor: pointer; &:hover { background: rgba(0,0,0,.85); } }
+.vg-lb-img-wrap { background: var(--sbol-paper-2); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.vg-lb-img-wrap img { max-width: 100%; max-height: 62vh; object-fit: contain; display: block; }
+.vg-lb-info { padding: 1.4rem 1.6rem 1.6rem; }
+.vg-lb-title { font-size: 1.05rem; font-weight: 700; margin-bottom: .3rem; }
+.vg-lb-byline { font-size: .84rem; color: var(--sbol-ink-3); margin-bottom: .5rem; }
+.vg-lb-caption { font-size: .88rem; color: var(--sbol-ink-2); line-height: 1.6; margin-bottom: .9rem; }
+.vg-lb-links { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; }
+@media (max-width: 640px) { .vg-grid { grid-template-columns: 1fr; } .vg-lightbox { width: 98vw; } }

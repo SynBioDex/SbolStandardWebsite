@@ -1,0 +1,30 @@
+// One table style for the whole site, plus the tab bar used above tables and library groups.
+.sbol-tablewrap { overflow-x: auto; margin: 1.25rem 0; border: 1px solid var(--sbol-rule); border-radius: var(--sbol-radius); }
+.sbol-table, .article-style table, .universal-wrapper table:not(.sbol-plain) {
+  display: table; overflow-x: visible; width: 100%; border-collapse: collapse; font-size: .92rem; margin: 0; word-break: normal; overflow-wrap: normal;
+  thead th { font-size: .74rem; letter-spacing: .07em; text-transform: uppercase; color: var(--sbol-ink-3); background: var(--sbol-paper-2); text-align: left; padding: .65rem .8rem; border-bottom: 1px solid var(--sbol-rule); position: sticky; top: 0; }
+  td { padding: .7rem .8rem; vertical-align: top; border-bottom: 1px solid var(--sbol-rule-2); color: var(--sbol-ink-2); text-align: left; }
+  tbody tr:nth-child(even) td { background: var(--sbol-paper-2); }
+  tbody tr:hover td { background: var(--sbol-green-tint); }
+  tbody tr:last-child td { border-bottom: 0; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  td.nowrap { white-space: nowrap; }
+  tr.is-current td { background: var(--sbol-green-tint) !important; font-weight: 600; }
+}
+.article-style table { border: 1px solid var(--sbol-rule); border-radius: var(--sbol-radius); overflow: hidden; }
+// Legacy inline attributes on old event tables lose their effect
+.article-style table[style] { width: 100% !important; }
+
+// Tabs
+.sbol-tabs { display: flex; gap: 0; border-bottom: 2px solid var(--sbol-rule); margin: 0 0 1.5rem; flex-wrap: wrap; }
+.sbol-tab {
+  background: none; border: 0; border-bottom: 3px solid transparent; margin-bottom: -2px; padding: .85rem 1.2rem; font-size: .9rem; font-weight: 700;
+  color: var(--sbol-ink-3); cursor: pointer; font-family: inherit; display: inline-flex; align-items: center; gap: .45rem; text-decoration: none;
+  &:hover { color: var(--sbol-ink); text-decoration: none; }
+  &.active, &.is-active { color: var(--sbol-green-ink); border-bottom-color: var(--sbol-green); }
+}
+.sbol-tab__count { display: inline-block; background: var(--sbol-rule-2); color: var(--sbol-ink-3); font-size: .68rem; font-weight: 700; border-radius: var(--sbol-radius-pill); padding: 0 .4rem; line-height: 1.5; }
+.sbol-tab.active .sbol-tab__count { background: var(--sbol-green-tint); color: var(--sbol-green-ink); }
+.sbol-tabs--sticky { position: sticky; top: 0; z-index: 10; background: var(--sbol-paper); }
+.sbol-panel--hidden { display: none; }
+.sbol-empty { font-style: italic; color: var(--sbol-muted); margin: 1rem 0; }

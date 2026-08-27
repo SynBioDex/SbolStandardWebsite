@@ -1,0 +1,30 @@
+// One badge component, five semantic hues. Category names map to hues here and nowhere else.
+.sbol-badge {
+  display: inline-block; font-size: .66rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  padding: .18rem .58rem; border-radius: var(--sbol-radius-pill); line-height: 1.5; white-space: nowrap;
+  background: var(--sbol-badge-slate-bg); color: var(--sbol-badge-slate-ink);
+}
+.sbol-badge--blue   { background: var(--sbol-badge-blue-bg);   color: var(--sbol-badge-blue-ink); }
+.sbol-badge--purple { background: var(--sbol-badge-purple-bg); color: var(--sbol-badge-purple-ink); }
+.sbol-badge--orange { background: var(--sbol-badge-orange-bg); color: var(--sbol-badge-orange-ink); }
+.sbol-badge--green  { background: var(--sbol-badge-green-bg);  color: var(--sbol-badge-green-ink); }
+.sbol-badge--slate  { background: var(--sbol-badge-slate-bg);  color: var(--sbol-badge-slate-ink); }
+// Application categories
+.sbol-badge--design        { @extend .sbol-badge--blue; }
+.sbol-badge--simulation    { @extend .sbol-badge--purple; }
+.sbol-badge--visualization { @extend .sbol-badge--orange; }
+.sbol-badge--repository    { @extend .sbol-badge--green; }
+.sbol-badge--converter     { @extend .sbol-badge--slate; }
+// Meeting types
+.sbol-badge--combine, .sbol-badge--conference { @extend .sbol-badge--blue; }
+.sbol-badge--harmony, .sbol-badge--synbio-conf { @extend .sbol-badge--purple; }
+.sbol-badge--iwbda, .sbol-badge--seed { @extend .sbol-badge--orange; }
+.sbol-badge--sbol-workshop, .sbol-badge--workshop { @extend .sbol-badge--green; }
+.sbol-badge--seminar { @extend .sbol-badge--slate; }
+// Content types
+.sbol-badge--blog { @extend .sbol-badge--green; }
+.sbol-badge--announcement { @extend .sbol-badge--slate; }
+.sbol-badge--legacy { @extend .sbol-badge--slate; }
+.sbol-badge--current { @extend .sbol-badge--green; }
+.sbol-badge--superseded { @extend .sbol-badge--slate; }
+.sbol-badges { display: flex; flex-wrap: wrap; gap: .35rem; }

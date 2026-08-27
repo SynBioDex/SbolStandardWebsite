@@ -23,6 +23,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "University of Utah"
+  language: "Python/Java"
+  platform: "Web"
+  availability: "Open-Source"
+  license: "Apache 2.0"
 ---
 
 SBOL Validator/Converter is a simple, easy-to-use software tool that allows for conversion between SBOL/GenBank/FASTA files using the Synthetic Biology Open Language (SBOL) 2.0 data model. The motivation behind the SBOL Validator/Converter is to provide a universally-accepted tool with the capability to check the validity of files. This tool serves as a platform for developers to verify correct implementation of the SBOL data standard, authors to ensure that data is represented properly, and editors to verify SBOL compliance of all software tools and libraries. Some key features of the Validator/Converter include its ability to convert between SBOL, FASTA, and GenBank files and that the tool is web-based which promotes ease of access and allows for central maintenance of validation methods. SBOL Validator/Converter is made freely available under the Apache 2.0 license.

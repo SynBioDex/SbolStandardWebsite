@@ -27,6 +27,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Denmark Technical University, Habib University, University of Connecticut"
+  language: "Python, Java"
+  platform: "MacOS, Windows"
+  availability: "Open-source, Free for all users"
 ---
 
 

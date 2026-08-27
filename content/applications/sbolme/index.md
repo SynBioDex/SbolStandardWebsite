@@ -23,6 +23,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "KAUST"
+  language: "HTML/PHP/Python/SQL"
+  platform: "Web"
+  availability: "Free for all users"
 ---
 
 

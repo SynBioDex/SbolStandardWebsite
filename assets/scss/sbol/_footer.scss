@@ -1,0 +1,15 @@
+// Footer: three complementary columns, then license, copyright and build date.
+// The theme wraps the footer in .page-footer > .container; release it so the background runs edge to edge.
+.page-footer > .container { max-width: none !important; width: 100%; padding-left: 0; padding-right: 0; }
+.sbol-footer { background: var(--sbol-paper-2); border-top: 1px solid var(--sbol-rule); padding: var(--sbol-space-5) 0 var(--sbol-space-4); margin-top: 0; font-size: .88rem; text-align: left; }
+.sbol-footer__inner { max-width: var(--sbol-container); margin: 0 auto; padding: 0 var(--sbol-gutter); }
+.sbol-footer__cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem 3rem; }
+.sbol-footer__heading { font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--sbol-muted); margin: 0 0 .7rem; text-align: left; }
+.sbol-footer ul { list-style: none; padding: 0; margin: 0; }
+.sbol-footer li { margin: .3rem 0; }
+.sbol-footer a { color: var(--sbol-ink-2); text-decoration: none; &:hover { color: var(--sbol-green-ink); text-decoration: underline; } }
+.sbol-footer__connect a i { width: 1.2rem; color: var(--sbol-green-ink); margin-right: .35rem; }
+.sbol-footer__bottom { margin-top: var(--sbol-space-4); padding-top: var(--sbol-space-2); border-top: 1px solid var(--sbol-rule); color: var(--sbol-muted); font-size: .8rem; }
+.sbol-footer__bottom a { color: var(--sbol-green-ink); }
+// Hide the theme's default footer text if it is rendered by another partial
+.site-footer .powered-by:empty { display: none; }

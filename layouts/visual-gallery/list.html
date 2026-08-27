@@ -2,20 +2,8 @@
 
 {{ $submitURL := .Params.submit_url | default "" }}
 
-{{/* ── Hero ── */}}
-<div class="vg-hero">
-  <div class="vg-hero-inner">
-    <h1 class="vg-hero-title">{{ .Title }}</h1>
-    <p class="vg-hero-sub">{{ .Params.subtitle }}</p>
-    {{ with $submitURL }}
-    <a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary vg-submit-btn">
-      Recommend an Image
-    </a>
-    {{ end }}
-  </div>
-</div>
-
-<div class="universal-wrapper vg-wrapper">
+{{ partial "sbol/hero.html" . }}
+<div class="universal-wrapper">
 
   {{/* ── Image grid ── */}}
   <div class="vg-grid">
@@ -39,7 +27,7 @@
       {{ if $bibRaw }}
         {{ range (split $bibRaw "\n") }}
           {{ if findRE `(?i)author\s*=\s*\{` . }}
-            {{ $credit = . | replaceRE `(?i).*author\s*=\s*\{(.+)\}.*` "$1" | replaceRE ` and others$` "" }}
+            {{ $credit = . | replaceRE `(?i).*author\s*=\s*\{(.+)\}.*` "$1" | replaceRE ` and others$` "" | replaceRE ` and ` ", " }}
           {{ end }}
           {{ if findRE `(?i)\byear\s*=\s*\{` . }}
             {{ $year = . | replaceRE `(?i).*\byear\s*=\s*\{(\d{4})\}.*` "$1" }}
@@ -57,7 +45,7 @@
 
     {{ with $img }}
     <button
-      class="vg-card"
+      class="sbol-card sbol-card--figure is-link vg-card"
       data-fullsrc="{{ .RelPermalink }}"
       data-title="{{ $page.Title }}"
       data-authors="{{ $credit }}"
@@ -67,10 +55,10 @@
       data-pub-url="{{ $pubUrl }}"
       data-caption="{{ $page.Content | plainify }}"
     >
-      <div class="vg-card-img-wrap">
+      <div class="sbol-card__figure sbol-card__figure--contain">
         <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}" loading="lazy">
       </div>
-      <div class="vg-card-meta">
+      <div class="sbol-card__body">
         <span class="vg-card-title">{{ $page.Title }}</span>
         <span class="vg-card-byline">
           {{ $credit }}{{ with $year }} &middot; {{ . }}{{ end }}{{ with $journal }} &middot; <em>{{ . }}</em>{{ end }}
@@ -104,151 +92,6 @@
   </div>
 </dialog>
 
-<style>
-.vg-hero {
-  background: linear-gradient(135deg, #f0f7e8 0%, #e8f4d9 100%);
-  padding: 3.5rem 1.5rem;
-  text-align: center;
-}
-.vg-hero-inner { max-width: 720px; margin: 0 auto; }
-.vg-hero-title {
-  font-size: 2.4rem;
-  font-weight: 800;
-  margin-bottom: 0.75rem;
-  color: #1a1a1a;
-}
-.vg-hero-sub {
-  font-size: 1.05rem;
-  color: #555;
-  line-height: 1.65;
-  margin-bottom: 1.5rem;
-}
-.vg-submit-btn { margin-top: 0.25rem; }
-.vg-wrapper { padding-top: 2.5rem; padding-bottom: 4rem; }
-.vg-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-.vg-card {
-  appearance: none;
-  -webkit-appearance: none;
-  font: inherit;
-  background: #fff;
-  border: 1px solid #e8e8e8;
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
-  text-align: left;
-  padding: 0;
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-}
-.vg-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.11);
-}
-.vg-card:focus-visible {
-  outline: 3px solid var(--primary, #8cc63f);
-  outline-offset: 2px;
-}
-.vg-card-img-wrap {
-  height: 220px;
-  background: #f5f7f3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border-bottom: 1px solid #eee;
-}
-.vg-card-img-wrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  padding: 0.75rem;
-}
-.vg-card-meta {
-  padding: 0.9rem 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-.vg-card-title {
-  font-weight: 700;
-  font-size: 0.88rem;
-  color: #222;
-  line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  line-clamp: 2;
-}
-.vg-card-byline { font-size: 0.76rem; color: #999; }
-.vg-lightbox {
-  border: none;
-  border-radius: 10px;
-  padding: 0;
-  width: min(880px, 94vw);
-  max-height: 92vh;
-  overflow: hidden;
-  box-shadow: 0 24px 64px rgba(0,0,0,0.4);
-}
-.vg-lightbox::backdrop { background: rgba(0,0,0,0.84); }
-.vg-lb-wrap {
-  display: flex;
-  flex-direction: column;
-  max-height: 92vh;
-  overflow-y: auto;
-  position: relative;
-}
-.vg-lb-close {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  z-index: 10;
-  background: rgba(0,0,0,0.55);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 38px;
-  height: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background 0.15s;
-  flex-shrink: 0;
-}
-.vg-lb-close:hover { background: rgba(0,0,0,0.85); }
-.vg-lb-img-wrap {
-  background: #111;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-.vg-lb-img-wrap img {
-  max-width: 100%;
-  max-height: 62vh;
-  object-fit: contain;
-  display: block;
-}
-.vg-lb-info { padding: 1.4rem 1.6rem 1.6rem; background: #fff; }
-.vg-lb-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.3rem; color: #1a1a1a; }
-.vg-lb-byline { font-size: 0.84rem; color: #666; margin-bottom: 0.5rem; }
-.vg-lb-caption { font-size: 0.88rem; color: #444; line-height: 1.6; margin-bottom: 0.9rem; }
-.vg-lb-links { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; }
-@media (max-width: 640px) {
-  .vg-hero-title { font-size: 1.8rem; }
-  .vg-grid { grid-template-columns: 1fr; }
-  .vg-lightbox { width: 98vw; border-radius: 6px; }
-  .vg-lb-info { padding: 1rem; }
-}
-</style>
-
 <script>
 (function () {
   var dialog = document.getElementById('vg-lightbox');
@@ -277,8 +120,8 @@
         lbCaption.style.display = 'none';
       }
       var html = '';
-      if (d.pubUrl) html += '<a href="' + d.pubUrl + '" target="_blank" rel="noopener" class="btn btn-sm btn-primary">View Publication</a>';
-      if (d.doi)    html += '<a href="https://doi.org/' + d.doi + '" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary">DOI: ' + d.doi + '</a>';
+      if (d.pubUrl) html += '<a href="' + d.pubUrl + '" target="_blank" rel="noopener" class="sbol-btn sbol-btn--sm">View publication</a>';
+      if (d.doi)    html += '<a href="https://doi.org/' + d.doi + '" target="_blank" rel="noopener" class="sbol-btn sbol-btn--secondary sbol-btn--sm">DOI: ' + d.doi + '</a>';
       lbLinks.innerHTML = html;
       dialog.showModal();
     });

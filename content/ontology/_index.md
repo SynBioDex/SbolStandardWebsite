@@ -12,12 +12,16 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Controlled terms and constraints for the SBOL data model, provided as an OWL ontology with tooling for semantic reasoning."
+layout: sbol-page
+subnav: datamodel
+summary: "Controlled terms and constraints for the SBOL data model, provided as an OWL ontology with tooling for semantic reasoning."
 ---
 
-The SBOL-OWL ontology provides a set of controlled terms that are used to describe genetic circuit designs using SBOL. Terms are included for the followings.
+The SBOL-OWL ontology provides a set of controlled terms that are used to describe genetic circuit designs using SBOL. Terms are included for the following.
 
 * Descriptions of SBOL entities (e.g. [“ComponentDefinition“](https://dissys.github.io/sbol-owl/sbol-owl.html#ComponentDefinition)) that are exchanged electronically. Constraints and validation rules that are enforced on SBOL entities are also captured as part of the ontology.
-* SBOL entities (e.g. [“TopLevel“](https://dissys.github.io/sbol-owl/sbol-owl.html#TopLevel)) that are not serialised but are used to group different SBOL entities. SBOL-OWL exposes these entities to semantic reasoning tools via parent-child relationships.
+* SBOL entities (e.g. [“TopLevel“](https://dissys.github.io/sbol-owl/sbol-owl.html#TopLevel)) that are not serialized but are used to group different SBOL entities. SBOL-OWL exposes these entities to semantic reasoning tools via parent-child relationships.
 * Terms (e.g. [“inline“](https://dissys.github.io/sbol-owl/sbol-owl.html#inline)) that are used to restrict values of SBOL entities.
 * Properties (e.g. [“sequence“](https://dissys.github.io/sbol-owl/sbol-owl.html#sequence)) linking SBOL entities to accepted values.
 * Metadata terms (e.g. [“Promoter“](https://dissys.github.io/sbol-owl/sbol-owl.html#Promoter)) for commonly used descriptions of design entities. Such terms may require the use of several SBOL entities and properties.
@@ -38,7 +42,7 @@ SBOL-OWL is available in different formats.
 
 SBOL-OWL can be combined with any SBOL document to query genetic circuit designs using semantic queries. The semanticSBOL Java library has been developed to facilitate this process. The resulting files can then be submitted to existing reasoners for semantic inferencing. The library also includes methods to check the consistency of SBOL files, to execute semantic queries, and to list inconsistencies programmatically.
 
-[Click here](https://github.com/dissys/sbol-owl) to access the documentation and examples to use the library programmatically.
+See the [semanticSBOL documentation and examples](https://github.com/dissys/sbol-owl) to use the library programmatically.
 
 The semanticSBOL library can be used from the command line to merge SBOL files with the SBOL-OWL ontology.
 
@@ -54,5 +58,5 @@ Example:
 
 ### Download semanticSBOL
 
-{{% staticref "zip/semanticSBOL-1.0-SNAPSHOT-jar-with-dependencies.jar" "newtab" %}}Click here{{% /staticref %}} to download the standalone sbol-sem Java library as a single file including all the dependencies.\
-{{% staticref "zip/semanticSBOL-1.0-SNAPSHOT.jar" "newtab" %}}Click here{{% /staticref %}} to download the sbol-sem Java library only. Dependencies are not included.
+{{% staticref "zip/semanticSBOL-1.0-SNAPSHOT-jar-with-dependencies.jar" "newtab" %}}Download the standalone sbol-sem Java library{{% /staticref %}} as a single file including all the dependencies.\
+{{% staticref "zip/semanticSBOL-1.0-SNAPSHOT.jar" "newtab" %}}Download the sbol-sem Java library only{{% /staticref %}} (dependencies not included).

@@ -1,0 +1,14 @@
+// Two buttons: primary (black on brand green) and secondary (green-ink outline). Sizes: default, --lg, --sm.
+.sbol-btn, .btn-primary, .btn.btn-primary {
+  display: inline-flex; align-items: center; gap: .45rem; background: var(--sbol-green); color: #000 !important;
+  border: 1px solid var(--sbol-green); border-radius: var(--sbol-radius-sm); padding: .5rem 1.05rem; font-weight: 700; font-size: .92rem;
+  line-height: 1.3; text-decoration: none !important; transition: background-color .12s ease, border-color .12s ease;
+  &:hover, &:focus { background: var(--sbol-green-hover); border-color: var(--sbol-green-hover); color: #000 !important; }
+}
+.sbol-btn--secondary, .btn-outline-primary, .btn.btn-outline-primary {
+  background: transparent; color: var(--sbol-green-ink) !important; border: 1px solid var(--sbol-green-ink);
+  &:hover, &:focus { background: var(--sbol-green-tint); color: var(--sbol-green-ink) !important; }
+}
+.sbol-btn--lg { padding: .7rem 1.4rem; font-size: 1.02rem; }
+.sbol-btn--sm { padding: .35rem .8rem; font-size: .8rem; }
+.sbol-link-more { font-weight: 700; color: var(--sbol-green-ink); text-decoration: none; &:hover { text-decoration: underline; } }

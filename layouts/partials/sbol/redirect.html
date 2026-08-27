@@ -1,0 +1,8 @@
+{{ $to := .Params.redirect_to | default "/" }}
+<meta http-equiv="refresh" content="0; url={{ $to | relURL }}">
+<div class="universal-wrapper sbol-page">
+  <div class="article-style sbol-page__body">
+    <h1>{{ .Title }}</h1>
+    <p>This page has moved to <a href="{{ $to | relURL }}">{{ $to }}</a>.</p>
+  </div>
+</div>

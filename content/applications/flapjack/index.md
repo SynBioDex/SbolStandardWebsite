@@ -31,6 +31,12 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Newcastle University"
+  language: "Python, JavaScript"
+  platform: "Linux, MacOS, Windows, Web"
+  availability: "Open-Source"
+  license: "MIT License"
 ---
 
 Flapjack is a data management and analysis app for genetic circuit characterization to store, share, mix, analyze and plot your SynBio data.It has a database  backend, a webapp as frontend and a Python API, this allows you to access your data remotely using an intuitive user interface and be able to integrate it easily in Python workflows for automation.

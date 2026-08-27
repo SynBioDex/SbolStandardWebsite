@@ -12,6 +12,9 @@ view: 3
 header:
   caption: ""
   image: ""
+subtitle: "Answers to common questions about SBOL, its tools, and how to take part."
+layout: sbol-page
+summary: "Answers to common questions about SBOL, its tools, and how to take part."
 ---
 
 Didn't find an answer to your question? Post your question to our [sbol-dev](mailto:sbol-dev@googlegroups.com) e-mailing list.

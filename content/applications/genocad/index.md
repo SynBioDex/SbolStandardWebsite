@@ -24,6 +24,11 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "GenoFAB, LLC"
+  language: "PHP/Java/Prolog/JS"
+  platform: "Web"
+  availability: "Commercial"
 ---
 
 GenoCAD is a rule-based DNA design tool. It includes an extensive library of genetic parts derived from the annotation of common plasmids. It allows users to define domain specific languages to design expression systems for particular applications.

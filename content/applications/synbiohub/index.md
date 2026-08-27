@@ -27,6 +27,12 @@ links:
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+meta:
+  organization: "Newcastle University"
+  language: "JavaScript"
+  platform: "Linux/Mac/Win/Web"
+  availability: "Open-Source"
+  license: "BSD 2-Clause"
 ---
 
 SynBioHub is a registry for storing and sharing genetic circuit designs using the SBOL2 standard. Designs can be uploaded in SBOL or GenBank format, assigned a public link to share with collaborators and for publications, and searched using rich querying functionality.

@@ -21,159 +21,134 @@ A registration fee are applied for attendees who are attending in person. Howeve
 
 **Monday, June 18th**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [11:00AM &#8211; 12:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; Goals for meetings and future directions of SBOL
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Anil Wipat
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [02:00PM &#8211; 05:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Chris_Harmony2018.pptx">SBOL Data Model v2.2.1</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Chris Myers
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [11:00AM &#8211; 12:00PM GMT]
+</td>
+<td>
+&nbsp; Goals for meetings and future directions of SBOL
+</td>
+<td>
+Anil Wipat
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [02:00PM &#8211; 05:00PM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Chris_Harmony2018.pptx">SBOL Data Model v2.2.1</a>
+</td>
+<td>
+Chris Myers
+</td>
+</tr>
 </table>
 
 ****  
 **Tuesday, June 19th**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [09:15AM &#8211; 12:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL paper and tool hacking
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [02:00PM &#8211; 05:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Ernst_SBOL-Experimental-Data.pptx">Encoding Experimental Data</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Ernst Oberortner
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [09:15AM &#8211; 12:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL paper and tool hacking
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [02:00PM &#8211; 05:00PM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Ernst_SBOL-Experimental-Data.pptx">Encoding Experimental Data</a>
+</td>
+<td>
+Ernst Oberortner
+</td>
+</tr>
 </table>
 
 ****  
 **Wednesday, June 20th**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [09:15AM &#8211; 12:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL paper and tool hacking
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [02:00PM &#8211; 05:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Thomas_HARMONY-SBOLv.pdf">SBOL Visual v2.1</a>
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      Thomas Gorochowski
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [09:15AM &#8211; 12:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL paper and tool hacking
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [02:00PM &#8211; 05:00PM GMT]
+</td>
+<td>
+&nbsp; <a href="https://github.com/SynBioDex/Community-Media/blob/master/2018/HARMONY/Thomas_HARMONY-SBOLv.pdf">SBOL Visual v2.1</a>
+</td>
+<td>
+Thomas Gorochowski
+</td>
+</tr>
 </table>
 
 ****  
 **Thursday, June 21st**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [09:15AM &#8211; 12:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL data model v3.0
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-      James McLaughlin
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [02:00PM &#8211; 05:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL paper and tool hacking
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [09:15AM &#8211; 12:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL data model v3.0
+</td>
+<td>
+James McLaughlin
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [02:00PM &#8211; 05:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL paper and tool hacking
+</td>
+<td>
+</td>
+</tr>
 </table>
 
 ****  
 **Friday, June 22nd**
 
-<table style="width:70%;border-color:#fff;margin-bottom:0px">
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [02:00PM &#8211; 05:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL paper and tool hacking
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-    </td>
-  </tr>
-  
-  <tr>
-    <td style="border-color:#fff; width:25%;">
-      &nbsp; [02:00PM &#8211; 05:00PM GMT]
-    </td>
-    
-    <td style="border-color:#fff">
-      &nbsp; SBOL paper and tool hacking
-    </td>
-    
-    <td style="border-color:#fff;text-align: right;">
-    </td>
-  </tr>
+<table>
+<tr>
+<td>
+&nbsp; [02:00PM &#8211; 05:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL paper and tool hacking
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+&nbsp; [02:00PM &#8211; 05:00PM GMT]
+</td>
+<td>
+&nbsp; SBOL paper and tool hacking
+</td>
+<td>
+</td>
+</tr>
 </table>

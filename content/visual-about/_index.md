@@ -1,5 +1,5 @@
 ---
-title:
+title: SBOL Visual
 
 # View.
 #   1 = List
@@ -13,12 +13,23 @@ header:
   caption: ""
   image: ""
 
-# Provide a short alias (See GitHub #135)
+subtitle: "The visual language for genetic design diagrams: standard glyphs, defined semantics and best practices that tools and journals share."
+url: /visual/
 aliases:
-    - /visual/
+  - /visual-about/
+layout: sbol-page
+subnav: visual
+toc: true
+hero_buttons:
+  - text: Read the specification
+    url: /visual-specification/
+  - text: Browse the glyphs
+    url: /visual-glyphs/
+    style: secondary
+summary: "The visual language for genetic design diagrams: standard glyphs, defined semantics and best practices that tools and journals share."
 ---
 
-{{< figure width="600px" library="true" src="Logos/SBOLVisualLogo.svg" title="" lightbox="true" >}}
+{{< figure width="320px" library="true" src="Logos/SBOLVisualLogo.svg" title="" lightbox="true" >}}
 
 ### Purpose
 
@@ -26,31 +37,31 @@ People who are engineering biological organisms often find it useful to communic
 
 ### Vision
 
-In order to ground SBOL Visual with precise definitions, we reference its visual elements to data models with a well-defined semantics. SBOL Visual are defined in terms of their relation to the SBOL 2 data model, and terms in the Sequence Ontology, the Systems Biology Ontology, and BioPAX.
+In order to ground SBOL Visual with precise definitions, we reference its visual elements to data models with a well-defined semantics. SBOL Visual glyphs are defined in terms of their relation to the SBOL 2 data model, and terms in the Sequence Ontology, the Systems Biology Ontology, and BioPAX.
 
 ### Usage
 
 SBOL Visual acts as a guideline to graphically depict genetic designs and its functional interaction.
-A quick introduction can be found [here]({{< relref "visual-glyphs" >}}).  
+The [glyph library]({{< relref "visual-glyphs" >}}) is the quickest introduction.  
 
-To get an idea on how these glyphs has been used in software tools, view all of the [SBOL Visual tools]({{< relref "applications" >}}) that have been reported to us.  
+To see how tools use these glyphs, browse the [applications that support SBOL Visual]({{< relref "applications" >}}).  
 
-Also take a look at sample papers that have been published online for SBOL visual, featuring SBOL visual, and software tools supporting SBOL visual [here]({{< relref "publication" >}}).
+The [publications list]({{< relref "publication" >}}) collects the papers that define SBOL Visual, feature it, or describe tools that support it.
 
 ### Download Glyphs
 
-We support SBOL Visual glyphs in the following formats: PNG, SVG, and PDF. You can download our copy of the glyphs [here]({{< relref "visual-glyphs" >}}).
+Glyphs are available as PNG, SVG, and PDF; download them from the [glyph library]({{< relref "visual-glyphs" >}}).
 
 If you plan on creating your own glyphs, we recommend following the guidelines in the [SBOL Visual Specification]({{< relref "visual-specification" >}}) to ensure they will work well as part of an SBOL Visual diagram.
 
-### Proposing a New Feature to the SBOL Data Model
+### Proposing a New Feature to SBOL Visual
 
 To propose a new feature to SBOL visual, a standard procedure must be followed.
 
 1. Submit a [new issue](https://github.com/SynBioDex/SBOL-visual/issues) on the SBOL-visual Github repository.
 2. Create a SBOL Enhancement Proposal (SEP)
-    * A detailed description about what is an SEP, how to create an SEP, and how to submit an SEP can be found [here](https://github.com/SynBioDex/SEPs/issues/1).
-    * A template of what a general SEP should look like can be found [here](https://raw.githubusercontent.com/SynBioDex/SEPs/master/sep_002_template.md).
+    * Read [what an SEP is and how to submit one](https://github.com/SynBioDex/SEPs/issues/1).
+    * Start from the [SEP template](https://raw.githubusercontent.com/SynBioDex/SEPs/master/sep_002_template.md).
     * For further assistance, please contact the [SBOL Editors](mailto:sbol-editors@googlegroups.com).
 3. The community will discuss on the proposed SEP through the GitHub issue created for the corresponding SEP.
 4. When the community has reached a consensus for the proposed SEP, voting will then be initiated to determine if the SEP will get accepted into the new release of SBOL Visual.

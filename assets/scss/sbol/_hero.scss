@@ -1,0 +1,25 @@
+// Section hero band, shared by every list page, plus the section sub-navigation tabs.
+.sbol-hero {
+  background: linear-gradient(135deg, var(--sbol-hero-a) 0%, var(--sbol-hero-b) 100%);
+  padding: var(--sbol-space-5) var(--sbol-space-3) 2.75rem; text-align: center;
+  &--with-subnav { padding-bottom: 0; }
+}
+.sbol-hero__inner { max-width: 760px; margin: 0 auto; }
+.sbol-hero__eyebrow { display: inline-block; background: var(--sbol-green); color: #000; font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .25rem .85rem; border-radius: var(--sbol-radius-pill); margin-bottom: 1rem; }
+.sbol-hero__title { font-size: 2.4rem; font-weight: 800; line-height: 1.15; color: var(--sbol-ink); margin: 0 0 .6rem; }
+.sbol-hero__sub { font-size: 1.05rem; line-height: 1.65; color: var(--sbol-ink-2); margin: 0 auto; max-width: 62ch; }
+.sbol-hero__meta { margin-top: .75rem; font-size: .9rem; color: var(--sbol-ink-3); }
+.sbol-hero__actions { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; margin-top: 1.4rem; }
+.sbol-hero__actions.sbol-hero__actions--tabs { margin-top: 1.4rem; margin-bottom: 0; }
+@media (max-width: 560px) { .sbol-hero__title { font-size: 1.9rem; } }
+
+// Sub-navigation tabs (Data Model, Visual sections)
+.sbol-subnav { margin-top: 1.75rem; display: flex; justify-content: center; gap: 0; flex-wrap: wrap; border-bottom: 2px solid transparent; }
+.sbol-subnav a {
+  display: inline-block; padding: .8rem 1.1rem .7rem; font-size: .9rem; font-weight: 700; color: var(--sbol-ink-3);
+  text-decoration: none; border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap;
+  &:hover { color: var(--sbol-ink); text-decoration: none; }
+  &.active { color: var(--sbol-green-ink); border-bottom-color: var(--sbol-green); }
+}
+.sbol-subnav-bar { border-bottom: 1px solid var(--sbol-rule); background: var(--sbol-paper); }
+.sbol-subnav-bar .sbol-subnav { margin-top: 0; }

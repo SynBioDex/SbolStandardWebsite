@@ -14,14 +14,14 @@ header:
   caption: ""  
   image: ""  
 ---
-# Summary
+## Summary
   
 - **Total Articles Analyzed:** 80  
 - **Total Figures in All Articles:** 408  
 - **Figures Compatible with SBOL Visual:** 99 (24.26%)  
 - **Figures Compatible with SBOL Visual & Fully Compliant:** 61 (61.62%)  
 - **Figures Compatible with SBOL Visual & Following Best Practices:** 36 (36.36%)
-# Individual issues
+## Individual issues
 
 ## February
 
