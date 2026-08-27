@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://sbolstandard.org/sitemap.xml
